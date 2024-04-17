@@ -6,13 +6,11 @@ hide:
 
 <!-- ![Image title](https://dummyimage.com/500x300/eee/aaa){ align=right } -->
 
-# Welcome to **Fedecan**!
+# Welcome!
 
-We are dedicated to providing platforms for Canadians to engage in online communities through *federated* software. We are committed to providing a safe and inclusive space for all Canadians to connect and share ideas.
+We are dedicated to providing platforms for Canadians to engage in online communities through 'federated' software. We are committed to providing a safe and inclusive space for all Canadians to connect and share ideas! See below for more information on what this means, what we are working on, and how you can get involved.
 
-See below for more information on what this means, what we are working on, and how you can get involved!
-
-!!! info "Fedecan is a federally incorporated not-for-profit organization! 🍁"
+!!! info "We are a federally incorporated not-for-profit organization! 🍁"
 
 <br> <br>
 

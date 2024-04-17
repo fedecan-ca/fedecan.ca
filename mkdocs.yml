@@ -1,4 +1,4 @@
-site_name: 'Fedecan'
+site_name: 'Fedecan │ Fédécan'
 site_description: |
   Static site for fedecan.ca
 
@@ -21,6 +21,7 @@ theme:
 
   icon:
     logo: fontawesome/brands/canadian-maple-leaf
+  # logo: assets/img/fedecan-logo.png
   favicon: assets/img/canadian-maple-leaf.svg
 
   palette:
@@ -72,7 +73,6 @@ markdown_extensions:
 
 plugins:
   - glightbox
-  # - privacy
   - search
   - blog:
       blog_dir: announcements
@@ -80,10 +80,12 @@ plugins:
       categories: false
       authors: false
       pagination_per_page: 10
-  # - social:
-  #     cards_layout_options:
-  #       font_family: Noto Sans
-  #     enabled: !ENV [CI, false]
+  - group:
+      enabled: !ENV CI
+      plugins:
+        - social:
+            cards_layout_options:
+              font_family: Noto Sans
 
 extra:
   generator: false
