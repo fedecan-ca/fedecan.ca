@@ -1,1 +1,1 @@
-Repository for the fedecan.ca website.
+Repository for the fedecan.ca website

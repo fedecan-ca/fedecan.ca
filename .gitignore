@@ -1,2 +1,5 @@
 # Ignore local build output
 /site/
+
+# Ignore cache directories
+/.cache/
