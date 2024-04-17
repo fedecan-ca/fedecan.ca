@@ -6,6 +6,13 @@ site_description: |
 
 nav:
   - Home: index.md
+  - Announcements:
+    - announcements/index.md
+  - Guides:
+    - guides/fediverse.md
+    - guides/open-source.md
+    - guides/lemmy.md
+  - Contact Us: contact.md
 
 theme:
   name: material
@@ -68,12 +75,16 @@ plugins:
       archive: false
       categories: false
       authors: false
-      pagination_per_page: 5
-  # - social: 
+      pagination_per_page: 10
+  # - social:
   #     cards_layout_options:
   #       font_family: Noto Sans
   #     enabled: !ENV [CI, false]
 
-
 extra:
-  generator: false
+  generator: true
+  social:
+    - icon: simple/lemmy
+      link: https://lemmy.ca
+    - icon: fontawesome/brands/github
+      link: https://github.com/fedecan-ca
