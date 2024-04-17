@@ -21,19 +21,16 @@ theme:
 
   icon:
     logo: fontawesome/brands/canadian-maple-leaf
-  # logo: assets/img/fedecan-logo.png
   favicon: assets/img/canadian-maple-leaf.svg
 
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: red
       accent: red
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: red
       toggle:
