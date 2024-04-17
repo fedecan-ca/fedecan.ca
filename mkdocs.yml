@@ -16,10 +16,13 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
+
   icon:
     logo: fontawesome/brands/canadian-maple-leaf
   favicon: assets/img/canadian-maple-leaf.svg
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -35,6 +38,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -82,9 +86,4 @@ plugins:
   #     enabled: !ENV [CI, false]
 
 extra:
-  generator: true
-  social:
-    - icon: simple/lemmy
-      link: https://lemmy.ca
-    - icon: fontawesome/brands/github
-      link: https://github.com/fedecan-ca
+  generator: false

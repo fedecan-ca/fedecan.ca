@@ -7,8 +7,8 @@ While we have a phone number and mailing address, there may be significant delay
 
 <div style="display: flex; justify-content: space-around; width: 100%;">
     <div style="width: 50%;">
-        <h2>Lemmy Messages</h2>
-        <p><strong><a href="https://lemmy.ca/u/admin">@admin@lemmy.ca</a></strong></p>
+        <h2>Send us a message</h2>
+        <p><strong>Lemmy: </strong><a href="https://lemmy.ca/u/admin">@admin@lemmy.ca</a></p>
     </div>
     <div style="width: 50%;">
         <h2>Mailing Address</h2>
