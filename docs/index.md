@@ -8,9 +8,9 @@ hide:
 
 # Welcome!
 
-We are dedicated to providing platforms for Canadians to engage in online communities through 'federated' software. We are committed to providing a safe and inclusive space for all Canadians to connect and share ideas! See below for more information on what this means, what we are working on, and how you can get involved.
+Dedicated to providing safe and inclusive platforms, we enable Canadians to participate in online communities through federated software. See below for more information on what this means, what we are working on, and how you can get involved.
 
-!!! info "We are a federally incorporated not-for-profit organization! 🍁"
+**We're an officially registered non-profit organization in Canada! 🍁**
 
 <br> <br>
 
