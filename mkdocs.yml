@@ -69,13 +69,16 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  - glightbox
+  - glightbox:
+      skip_classes:
+        - skip-lightbox
   - search
   - blog:
       blog_dir: announcements
       archive: false
       categories: false
       authors: false
+      post_excerpt: required
       pagination_per_page: 10
   - group:
       enabled: !ENV CI
