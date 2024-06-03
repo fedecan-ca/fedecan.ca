@@ -8,7 +8,7 @@ date: 2024-02-10
   ![banner](../../assets/img/blog/banners/2024-02-10_censusResults.jpg){ .skip-lightbox }
 </figure>
 
-This data was [originally shared on Lemmy](https://lemmy.ca/post/15125231), and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!
+This data was [originally shared on Lemmy :octicons-link-external-16:](https://lemmy.ca/post/15125231){target="_blank"}, and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!
 
 <!-- more -->
 
@@ -41,6 +41,8 @@ To start off, here is a chart of the responses over time:
 
 This one is pretty self explanatory, so moving on to the actual results!
 
+<br><br>
+
 ## Section 1: Where is everyone?
 
 #### **1.1: Where are you from?**
@@ -65,6 +67,8 @@ Next we can see where the users from the rest of the world are from:
 
 Thanks for spending time on [lemmy.ca](https://lemmy.ca) everyone!
 
+<br>
+
 #### **1.2: How big is your community?**
 
 The original question included two options (rural and urban), but a handful of users (13) entered “suburban” as a custom response. That could be something to add in the future.
@@ -75,6 +79,8 @@ The original question included two options (rural and urban), but a handful of u
 
 However, what’s interesting is that our results are very similar to the proportions reported by [Statistics Canada](https://www150.statcan.gc.ca/n1/daily-quotidien/220209/g-a003-eng.htm) for the 2021 Canadian census. We had 82.8% urban, 14.7% rural, and 2.4% other, while the 2021 Canadian census reported ~82.15% urban and ~17.8% rural ([source](https://www12.statcan.gc.ca/census-recensement/2021/as-sa/98-200-x/2021002/98-200-x2021002-eng.cfm)).
 
+<br>
+
 #### **1.3: Quality of internet connection**
 
 <div class="chart-card--datawrapper">
@@ -82,6 +88,8 @@ However, what’s interesting is that our results are very similar to the propor
 </div>
 
 To help those that don’t have excellent internet, you can do small things like reducing the size of images before uploading them.
+
+<br><br>
 
 ## Section 2: Who are you?
 
@@ -94,6 +102,8 @@ There was a lot of interest in seeing the results for this question:
 </div>
 
 We can see a nice curve, with a peak around 30-39. So the average age on Lemmy is likely a bit older than other social media platforms, but there’s a good spread nonetheless.
+
+<br>
 
 #### **2.2: Ethnicity**
 
@@ -113,6 +123,8 @@ wordcloud_cli --text text.txt --imagefile wordcloud.png --prefer_horizontal 1 --
 
     For the word clouds, we used this project to generate the graphics locally: [ :simple-github: amueller/word_cloud](https://github.com/amueller/word_cloud)
 
+<br>
+
 ### **2.3: Gender identity**
 
 With this question, we can see that a large proportion of users identify as ‘Man’ (441), followed by ‘Woman’ (32), ‘Non-Binary’ (25), ‘Genderfluid’ (3), and the remaining responses were custom responses (1).
@@ -123,6 +135,8 @@ With this question, we can see that a large proportion of users identify as ‘M
 
 This is something that could use more analysis and comparison as the instance continues to grow.
 
+<br>
+
 ### **2.4: Trans experience**
 
 The question from the census was "Are you someone with trans experience (meaning your gender identity does not align with your sex assigned at birth)?". In case it is hard to see from the graph, the breakdown was ‘No’ (472 | 93.8%), ‘Yes’ (28 | 5.3%), and the rest of the responses were custom responses (4 | 0.9%).
@@ -132,6 +146,8 @@ The question from the census was "Are you someone with trans experience (meaning
 </div>
 
 You can see Canadian census data for [‘Sex at birth and gender’ here](https://www.statcan.gc.ca/en/census/census-engagement/community-supporter/sex-birth-gender).
+
+<br>
 
 ### **2.5: How do you identify?**
 
@@ -147,28 +163,33 @@ See the note at the bottom on the potential for bias or misleading results. The 
 wordcloud_cli --text text.txt --imagefile wordcloud.png --prefer_horizontal 1 --width 720 --margin 10 --height 400 --colormask colormask.jpeg --random_state 6 --relative_scaling 0.55
 ```
 
+<br>
+
 ### **2.6: Disability Status (optional)**
 
 As this was an optional question with free responses and a small number of responses overall, I opted to manually clean the results and list out details from the responses. Hopefully this is still useful while also respecting the privacy of the respondents.
 
-- “ADHD”
-- “anxiety”
-- “ASD/autism”
-- “AuDHD”
-- “bipolar disorder”
-- "BPD"
-- “colorblind (protanomaly)”
-- “depression”
-- “difficulty processing information”
-- “fibromyalgia”
-- “health decline due to age/life experiences”
-- “learning disability”
-- “neurodivergence”
-- “partial deafness”
-- “PTSD”
-- “sensory issues”
-- “struggles with mental health”
-- “vascular Ehlers-Danlos syndrome”
+??? info "See the full list of responses"
+      - “ADHD”
+      - “anxiety”
+      - “ASD/autism”
+      - “AuDHD”
+      - “bipolar disorder”
+      - "BPD"
+      - “colorblind (protanomaly)”
+      - “depression”
+      - “difficulty processing information”
+      - “fibromyalgia”
+      - “health decline due to age/life experiences”
+      - “learning disability”
+      - “neurodivergence”
+      - “partial deafness”
+      - “PTSD”
+      - “sensory issues”
+      - “struggles with mental health”
+      - “vascular Ehlers-Danlos syndrome”
+
+<br>
 
 ### **2.7: Educational Background**
 
@@ -191,6 +212,8 @@ Here are the raw counts for each of the original options:
     <div style="min-height:327px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/lI7xx/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/lI7xx/full.png" alt="" /></noscript></div>
 </div>
 
+<br>
+
 ### **2.8: Employment Status**
 
 We got a few custom responses, including ‘active duty military’, ‘disability’, etc. Those were included in the ‘other’ category, and we could add those options in the future.
@@ -199,16 +222,17 @@ We got a few custom responses, including ‘active duty military’, ‘disabili
     <div style="min-height:346px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/7m42i/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/7m42i/full.png" alt="" /></noscript></div>
 </div>
 
-The percentages are as follows:
+??? info "View the percentage breakdown"
+    - Employed Full-time: ~70.8%
+    - Employed Part-time: ~4.8%
+    - Self-Employed: ~7.1%
+    - Unemployed: ~6.7%
+    - Student: ~6.7%
+    - Homemaker: ~0.4%
+    - Retired: ~2.5%
+    - Other: ~1.0%
 
-- Employed Full-time: ~70.8%
-- Employed Part-time: ~4.8%
-- Self-Employed: ~7.1%
-- Unemployed: ~6.7%
-- Student: ~6.7%
-- Homemaker: ~0.4%
-- Retired: ~2.5%
-- Other: ~1.0%
+<br>
 
 ### **2.9: Field of Work**
 
@@ -224,7 +248,326 @@ See the note at the bottom on the potential for bias or misleading results. The 
 wordcloud_cli --text text.txt --imagefile wordcloud.png --prefer_horizontal 1 --width 720 --margin 10 --height 400 --colormask colormask.jpeg --random_state 150 --relative_scaling 0.35
 ```
 
+<br><br>
+
 ## Section 3: Instance Usage
 
-### **3.1: Number of Communities**
+### **3.1: Community Participation**
+
+The question that was asked was "Approximately how many lemmy.ca communities do you participate in?".
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:440px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ASGVQ/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ASGVQ/full.png" alt="" /></noscript></div>
+</div>
+
+<br>
+
+### **3.2: Community Moderation**
+
+The question that was asked was "If you moderate any communities on lemmy.ca, how many do you moderate?".
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:433px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/CMjX6/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/CMjX6/full.png" alt="" /></noscript></div>
+</div>
+
+In the future, this could be replaced with a number input field.
+
+<br>
+
+### **3.3: Community Requests**
+
+The question that was asked was "What community do you want to see on lemmy.ca?". Personal information was cut out and responses were split into multiple lines as appropriate. 
+
+While we will also look into these communities, you are free to (and encouraged) to look through this list and get them going 🚀
+
+??? info "See the full list of requests (77 responses)"
+     - amigurumi
+     - Analog photography
+     - anything urbanism, climate change, waste reduction/RE use etc related would be nice to have more activity
+     - Apple
+     - Birds, lots of birds
+     - Ottawa
+     - Author and book promotion help
+     - Batman
+     - DC comics
+     - bicycles
+     - binge eating disorder
+     - buildapcsales
+     - Canadian and local news
+     - Canadian Deals (software and other)
+     - Celeste community
+     - Chess
+     - Coffee
+     - Communities focued on discusison of specific video games, especially Paradox games and From The Depths
+     - fiction-writing and sharing communities
+     - dota2
+     - edmonton
+     - EMS
+     - Fibromyalgia or chronic illness communities
+     - Fine arts related
+     - First Nations-based communities
+     - French Canadian content
+     - FrugalCanada
+     - Furry
+     - gameboy verification. Those guyz were awesome and hard workers
+     - gaming sites
+     - more healthcare communities
+     - Hockey
+     - Hockey is a bit dead IMO
+     - HumansBeingBros
+     - I think you should leave
+     - Kamloops local
+     - knitting and similar things (crafts, etc.)
+     - Less with more. The main issue with federation is that there are several communities that cover the same topic. So you end up with fractured groups, or you participate in several communities that all have the same posts.
+     - Literary
+     - Loseit
+     - Maple Leafs
+     - Montreal
+     - More craft/art based communities
+     - more diverse communities
+     - movies
+     - nicevancouver
+     - Non-sided political discussion
+     - nursing
+     - personal finance canada
+     - personal finance canada
+     - plant and mineral identification communities
+     - poodles
+     - printsf
+     - privacy@lemmy.ca
+     - Quake Champions
+     - reading and/or viewing clubs, esp. for lesser known gems
+     - Reptiles!
+     - rupaulsdragrace (and variations)
+     - sasswitches
+     - Sleep apnea
+     - Snowboarding
+     - snowboarding
+     - Something link with cybersecurity and retro gaming
+     - Stocks
+     - superstonk
+     - Survivor
+     - Thoughtful conversation, although not very balanced currently.
+     - Unsolved mysteries
+     - Vancouver
+     - Vancouver
+     - Various fantasy literature ones
+     - villedequebec@lemmy.ca
+     - Wallpapers or art curation
+     - Wearable/smart_rings
+     - What is this thing
+     - witchesvspatriarchy
+     - worldnews
+
+<br>
+
+### **3.4: Time on Lemmy**
+
+The question that was asked was "On average, how much time do you spend on Lemmy each day?".
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:433px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/YLmvy/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/YLmvy/full.png" alt="" /></noscript></div>
+</div>
+
+For the 28 people that said “>21 hours”, here is a video of a baby sea otter Joey taking a snooze. While we love to have you here, feel free to use this video while you take a break and get some rest: https://www.youtube.com/watch?v=JBVT8HWEahM
+
+<br>
+
+### **3.5: Desktop vs. Mobile**
+
+The question that was asked was "How do you access Lemmy most often?".
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:430px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/yN4Cr/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/yN4Cr/full.png" alt="" /></noscript></div>
+</div>
+
+Not listed here were the following custom responses. Both of these could be added as options in the future:
+
+- 3 submissions for “Tablet”
+- 3 submissions for “Both about equally” (worded in different ways)
+
+<br>
+
+### **3.6: Desktop Interface Usage**
+
+The question that was asked was "On desktop, which interfaces do you use?". The default interface was the most popular, but each interface was preferred by some number of users.
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:289px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/IZoQp/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/IZoQp/full.png" alt="" /></noscript></div>
+</div>
+
+<br>
+
+### **3.7: Mobile OS**
+
+The question that was asked was "On mobile, which OS do you use?".
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:430px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/upvD9/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/upvD9/full.png" alt="" /></noscript></div>
+</div>
+
+Not listed here were the following custom responses. We could clarify these options in the future.
+
+- 1 submission for “GrapheneOS”
+- 1 submission for “Debian”
+- 1 submission for “None”
+
+<br>
+
+### **3.8: Mobile Interface Usage**
+
+The question that was asked was "On mobile, which app(s) do you use?". There were a few custom responses, which were included in the graph (`Avelon`, `Artic`, `Lemmios`, `Lemmur`, `Bean`.)
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:781px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GloJr/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/GloJr/full.png" alt="" /></noscript></div>
+</div>
+
+Not listed in the graph were the following custom responses. All of these could be added as options in the future.
+
+- 22 submissions for “Web Browser” (worded in different ways)
+- 4 submissions for “None”
+
+There were also comments about the lack of tablet apps, so if you’re an app developer, this could be something to take a peek at 👀
+
+<br>
+
+### **3.9: Visitors from the Fediverse**
+
+The question that was asked was "If you primarily access lemmy.ca through different Lemmy/Kbin instance, please list it below (optional)". 
+
+Thanks for stopping by 😊
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:429px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/a4yRQ/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/a4yRQ/full.png" alt="" /></noscript></div>
+</div>
+
+<br>
+
+### **3.10: Other Fediverse Services**
+
+The question that was asked was "What other Fediverse services do you use?". There were a few custom responses, which were included in the graph (`Matrix`, `Owncast`, `Hubzilla`, `Diaspora`, `GNU Social`, `Funkwhale`, `GoToSocial`, `Soapbox`, `Wordpress`, `pump.io`).
+
+
+<div class="chart-card--datawrapper">
+    <div style="min-height:1008px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/CGtGI/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/CGtGI/full.png" alt="" /></noscript></div>
+</div>
+
+<br> <br>
+
+## Section 4
+
+#### **4.1: Just Desserts**
+
+The question that was asked was "First, what’s your favourite dessert?". Wow this one took a while to go through. Here are some interesting responses I collected while cleaning (sorry if I lost yours before thinking to do this):
+
+!!! quote "Interesting responses"
+
+    > "Anything that has Reese peanut butter cups/pieces in it. Reese is love. Reese is life."
+
+    > "brownies although I just had some gingerbread men that were pretty bussin"
+
+    > "hard to say. just made some very tasty eggnog cinnamon rolls though"
+
+    > "Either jello formed from the tears of my enemies, or tiramisu. (No I don’t have enemies really, I just thought it just sounded cool.)"
+
+    > "Pie. All of the pies. Except Meringue which is the devil’s dessert topping."
+
+    > "Lemmings"
+
+    > "The Sahara (I always mix these up)"
+
+    > "chocolate-stuffed chocolate topped with chocolate with a side of chocolate paired with hot chocolate"
+
+After cleaning the data, and consolidating similar responses into a format that could easily be searched, I can confidently say that the **most popular dessert out of 527 entries was…**
+
+
+<figure class="chart-card--image" markdown>
+  ![word cloud](../../assets/img/blog/2024-02-10_censusResults/icecream.jpg)
+</figure>
+
+kind of…
+
+There were 94 entries for different flavours of ice cream, and 97 total entries for other desserts that included ice cream. This doesn’t even include the entries for things like gelato, frozen yogurt, etc. The most popular type was just `ice cream` with 54 entries, second to which was `mint chocolate chip` with 5 entries (with many other flavours having 3-4).
+
+The closest other category was `cake`, which had 42 entries not including `cheesecake`, and 96 entries that included the word `cake` (including cheesecake). The most popular type of `cake` was `chocolate cake`, with 11 entries.
+
+Another close category was `pie`, with 85 entries for different kinds of pie (not including similar foods such as tarts, crumbles, etc.). The most popular pie entries were `pie` with 17 entries, `apple pie` with 15 entries, `pumpkin pie` with 12 entries (with one specific to the Costco kind), `key lime pie` with 10 entries, `pecan pie` with 8 entries, and a few others.
+
+Some other popular desserts/categories included:
+
+- `apple` category: 25 entries
+- `brownies`: 10 entries
+- `chocolate` category: 55 entries
+- `cookies`: 15 entries
+- `crème brûlée`: 13 entries
+- `fresh fruit` category: 9 entries
+- `nanaimo bars`: 11 entries
+- `tiramisu`: 23 entries
+
+Some unique desserts included: `affogato`, `baklava`, `beaver tails`, `blondies`, `gobi`, `gajar halwa`, `mochi`, `jalebi`, `knafeh`, `malassada`, `mango sticky rice`, `natas do ceu`, `pavlova`, `saskatoon berry pie`, `pouding chômeur`, `sachertorte`, `stroopwafel`, `vacherin`, `vermicelles`, and `vinarterta`.
+
+Even a lot of the joke entries had repeats, with 4 entries along the lines of `just desserts`, 2 entries for `your mom`, 2 entries for `revenge` etc. Additionally, 19 entries did not select anything, with 8 specifying that they couldn't pick, and 3 specifying that they did not like desserts.
+
+Here is the word cloud, which unfortunately includes a bug where every entry is duplicated.
+
+<figure class="chart-card--image" markdown>
+  ![word cloud](../../assets/img/blog/2024-02-10_censusResults/4.1.bmp){: .chart-card--image-rounded}
+</figure>
+
+See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
+
+```bash
+wordcloud_cli --text text.txt --imagefile wordcloud.png --prefer_horizontal 1 --width 720 --margin 10 --height 400 --colormask colormask.jpeg --random_state 5 --relative_scaling 0.5
+```
+
+<br>
+
+#### **4.2: Other Feedback**
+
+We recieved so many kind words, thank you so much for taking the time to share them! ❤️❤️❤️
+
+In addition to that, here are some other areas with questions, comments and feedback.
+
+##### **Organization Related**
+
+- when we will start accepting donations, and many comments about wanting to donate
+- the status of the non-profit registration
+- possiblity of setting up as a co-op
+
+##### **Technical**
+
+- upgrade to 0.19 was a bit bumpy (but otherwise good)
+    - a few comments about not being able to log in since 0.19 (please try logging out and back in, it should fix it)
+- The subscribed feed is preferred, as users may not want the experience to be Canada-focused
+- (census specific): "None" should be an option as it is different from "skip"
+- a few users didn't know about the other frontends, so we could do a better job of promoting them
+
+##### **Communities and Content**
+
+- More French content / usage
+- looking for more guidance on how to grow the communities and build engagement, and other non-monetary ways to help
+- local communities could have more informal discussion, as they are currently mostly news articles
+
+Thank you everyone and stay tuned for the next census! 🎉
+
+<br><br> 
+
+## Other Notes
+
+!!! note "Potential bias / Misleading results: Word Clouds"
+
+    I had trouble with the word size variability, and I used the relative scaling option to try and make the word cloud more useful and representative while still being readable. This is based on my perception of the raw data, and while I did my best to minimize bias, I may have introduced some. If you have any suggestions for how to improve this in future years, please comment below!
+
+    People filled out the census with so much care and detail and these sections deserve nice visualizations. Word clouds are not good mediums for conveying information, so please keep all that in mind when looking at these results.
+
+
+
+
+
+
+
+
+
+
+
 
