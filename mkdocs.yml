@@ -24,9 +24,9 @@ theme:
   favicon: assets/img/canadian-maple-leaf.svg
 
   palette:
-    - scheme: default
-      primary: red
-      accent: red
+    - scheme: fedecan-light
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
