@@ -1,0 +1,22 @@
+.chart-card--datawrapper {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(61, 61, 55, 0.04);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card--image {
+    width: 90%;
+    margin: auto;
+    padding: 0px 17.6px;
+    border-radius: 30px;
+    background-color: rgba(61, 61, 55, 0.04);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card--image-rounded {
+    border-radius: 12.4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

@@ -87,5 +87,8 @@ plugins:
             cards_layout_options:
               font_family: Noto Sans
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   generator: false
