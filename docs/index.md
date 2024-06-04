@@ -6,17 +6,19 @@ hide:
 
 <!-- ![Image title](https://dummyimage.com/500x300/eee/aaa){ align=right } -->
 
-# Welcome!
-
-Dedicated to providing safe and inclusive platforms, we enable Canadians to participate in online communities through federated software. See below for more information on what this means, what we are working on, and how you can get involved.
-
-**We're an officially registered non-profit organization in Canada! 🍁**
+<div style="text-align: center; margin: 50px; 0px">
+  <h1 style="color: var(--md-primary-fg-color);">Welcome | Bienvenue</h1>
+  <p style="font-size: 1.1em; color: var(--md-default-fg-color); line-height: 1.5; margin: 20px 0;">
+    Dedicated to providing safe and inclusive platforms, we enable Canadians to participate in online communities through <b>federated software</b>.
+  </p>
+  <p style="font-size: 1.2em; color: var(--md-accent-fg-color);">
+    <strong>We're an officially registered non-profit organization in Canada! 🍁</strong>
+  </p>
+</div>
 
 <br> <br>
 
 # What are we working on?
-
-As we grow, we plan to expand our services to include other federated platforms. Below are some of the things we are currently working on!
 
 <div class="grid cards" markdown>
 
@@ -34,7 +36,7 @@ As we grow, we plan to expand our services to include other federated platforms.
 
     ---
 
-    Stay tuned for more information!
+    As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!
 
     <br>
 
@@ -46,16 +48,31 @@ As we grow, we plan to expand our services to include other federated platforms.
 
 # Want to learn more?
 
-If you would like to learn more, you can see the guide section of our website. See below for a list of guides that may be of interest to you.
+<div class="grid cards" markdown>
 
-<!-- General Guides -->
+-   :octicons-globe-24:{ .lg .middle } __What is the Fediverse? What is federation?__
 
-- [What is the **Fediverse**?](guides/fediverse.md)
-- [What is **Open Source** software, and why is it important?](guides/open-source.md)
+    ---
 
-<!-- Platform Specific Guides -->
+    The **Fediverse** is a network of websites that can all communicate with each other. Similar to email, you can have an account on one website and still interact with people on other websites. This limits the power of any single website or company, and allows for more freedom and diversity online.
 
-- [What is **Lemmy**?](guides/lemmy.md)
+    [:material-arrow-right-bottom: Read more](guides/fediverse.md)
+
+-   :octicons-tools-24:{ .lg .middle } __Why is Open Source software important?__
+
+    ---
+
+    **Open Source** software is created by a community of developers in a manner that is transparent and open to everyone. Often this allows for anyone to contribute to the software, understand how it works, and use it for free.
+
+    [:material-arrow-right-bottom: Read more](guides/open-source.md)
+
+-  :material-bookshelf:{ .lg .middle } __Discover more guides__
+
+    ---
+
+    We are working on more guides on how to use the platforms we support, how to set up your own instance, and more. Check out the guides section for more information!
+
+</div>
 
 <br> <br>
 

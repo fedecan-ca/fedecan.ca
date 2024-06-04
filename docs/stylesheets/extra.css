@@ -1,0 +1,41 @@
+[data-md-color-scheme="fedecan-light"] {
+    /* Primary colors */
+    --md-primary-fg-color: #A83232;
+    --md-primary-fg-color--light: #D64545;
+    --md-primary-fg-color--dark: #822424;
+    --md-primary-bg-color: #ffffff;
+    --md-primary-bg-color--light: #F2F2F2;
+
+    /* Accent colors */
+    --md-accent-fg-color: #A83232;
+    --md-accent-fg-color--transparent: rgba(168, 50, 50, 0.5);
+    --md-accent-bg-color: #A83232;
+    --md-accent-bg-color--light: #D64545;
+
+    /* Additional optional customizations */
+    --md-typeset-a-color: var(--md-accent-fg-color);
+    --md-typeset-mark-color: rgba(168, 50, 50, 0.2);
+}
+
+.chart-card--datawrapper {
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(61, 61, 55, 0.04);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card--image {
+	width: 90%;
+	margin: auto;
+	padding: 0px 17.6px;
+	border-radius: 30px;
+	background-color: rgba(61, 61, 55, 0.04);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card--image-rounded {
+	border-radius: 12.4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
