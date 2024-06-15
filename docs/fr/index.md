@@ -25,7 +25,7 @@ hero:
 #   - title: Open Source & Open Standards
 #     icon: 
 #       src: /icons/server-edit.png
-#     details: Our platforms run open-source software, and use open standards like ActivityPub. Since anyone can inspect and contribute to the code, we can ensure that the platforms are secure, private, and trustworthy.
+#     details: Our platforms run open-source software, and use open standards like ActivityPub. Since anyone can inspect and contribute to the code, we can ensure that the platforms are secure, privacy respecting, and reliable.
 #   - title: A Federated Network
 #     icon: 
 #       src: /icons/fediverse.png

@@ -1,24 +1,16 @@
-Fedecan.ca
+# Fedecan.ca
 
-**Details:**
-- Built with Vitepress ([recommended extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar))
+This is the repository for the [Fedecan.ca](https://fedecan.ca) website. The site is built with Vitepress and deployed to GitHub Pages.
 
+## Development
 
-### Development
+### **Setup & Start a local development server:**
 
-**Installation:**
-
-Using this guide: https://vitepress.dev/guide/getting-started
+[recommended extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) for VS Code
 
 ```bash
-npm add -D vitepress
+npm install
 
-npx vitepress init
-```
-
-**Start a local development server:**
-
-```bash
 npm run docs:dev
 ```
 
@@ -27,23 +19,34 @@ Alternatively:
 npx vitepress dev docs
 ```
 
-**Deployment:**
+### **Deployment:**
+
+The site is deployed to GitHub Pages. The deployment process is automated using GitHub Actions. Before pushing changes, you can build the site locally and preview it to check for issues that didn't appear in the local development server.
 
 ```bash
-npm run docs:build   # build the site
-npm run docs:preview # preview before deploying
+npm run docs:build
+npm run docs:preview
 ```
 
 
 
-### Content
+## Content
 
-**Tips:**
+### **Pages:**
+
+See the [vitepress documentation](https://vitepress.dev/) for more information on how to create pages and organize content.
+
+- The main page content is in the `docs` folder, where the relative path of the file determines the URL.
+- Assets like images are in the `docs/.vitepress/public` folder.
+- Translated content can be found in the `docs/fr/` folder.
+
+
+### **Tips:**
 
 - When linking to other pages, [don't use any file extensions](https://vitepress.dev/guide/routing#linking-between-pages).
 - If you are getting a warning message on the `.github/workflows/deploy.yml` file, refresh it by following the [instructions here](https://github.com/github/vscode-github-actions/issues/215#issuecomment-1634719484).
 
-**Icons:**
+### **Icons:**
 
 We are using [iconify](https://icon-sets.iconify.design) for icons. You can search for icons [here](https://icon-sets.iconify.design/).
 
@@ -56,7 +59,7 @@ We are using [iconify](https://icon-sets.iconify.design) for icons. You can sear
 - Customization is possible. See the [iconify documentation](https://iconify.design/docs/icon-components/vue/), or see other examples in the codebase.
 - We have some custom styles for icons. See the `docs/.vitepress/theme/style.css` file for details.
 
-**Announcements**
+### **Announcements**
 
 1. Create a new file with this naming format `docs/announcements/YYYY-MM-DD_identifier.md`.
 2. In the file, add the following component before the content. The title and date fields are required, but the image field is optional.
