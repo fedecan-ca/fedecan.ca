@@ -31,7 +31,7 @@ export default defineConfig({
             { text: 'Getting Started', link: '/guide/get-started' },
             { text: 'Fediverse',
               items: [
-                { text: 'What is the Fediverse?', link: '/fediverse/guide/fediverse' },
+                { text: 'What is the Fediverse?', link: '/guide/fediverse' },
                 { text: 'Why Open Source?', link: '/guide/fediverse/open-source' }
               ]
             },

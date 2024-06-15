@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Commencer
-      link: /guide/fediverse
+      link: /guide/get-started
     - theme: alt
       text:  Nous contacter
       link: /contact
