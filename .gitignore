@@ -1,5 +1,5 @@
-# Ignore local build output
-/site/
+docs/.vitepress/dist
+docs/.vitepress/cache
 
-# Ignore cache directories
-/.cache/
+# node_modules
+node_modules
