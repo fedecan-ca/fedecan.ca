@@ -1,25 +1,30 @@
-# Contact Us
+# Contact
 
-The **best way to contact us** is by contacting us through Lemmy, by messaging [@admin@lemmy.ca](https://lemmy.ca/u/admin). Once we get set up, we will add an email address that you can also use to contact us.
+### Ask Questions and Discuss
 
-While we have a phone number and mailing address, there may be significant delays in response time. We recommend using the above methods.
+If you would like to discuss about our projects or have questions, we invite you to make a post in our [main community on Lemmy](https://lemmy.ca/c/main). We have many helpful members who can provide assistance and answer your questions.
 
 
-<div style="display: flex; justify-content: space-around; width: 100%;">
-    <div style="width: 50%;">
-        <h2>Send us a message</h2>
-        <p><strong>Lemmy: </strong><a href="https://lemmy.ca/u/admin">@admin@lemmy.ca</a></p>
-    </div>
-    <div style="width: 50%;">
-        <h2>Mailing Address</h2>
-        <p>
-            329 Howe St, #2151<br>
-            Vancouver, BC, Canada<br>
-            V6C 3N2<br>
-        </p>
-    </div>
+### Contact our Team
+
+If you would like to contact our team, we are available by the following methods:
+
+<div class="cards-container">
+  <div class="card">
+    <h3 class="text-with-icon">
+      <Icon icon="ic:outline-email" width="1.2em" height="1.2em" />
+      Send an Email
+    </h3>
+    <p>General: <a href="mailto:support@fedecan.ca">support@fedecan.ca</a></p>
+  </div>
+
+  <div class="card">
+    <h3 class="text-with-icon">
+      <Icon icon="ic:outline-chat" width="1.2em" height="1.2em" />
+      Message us Directly
+    </h3>
+    <p>Lemmy user <a href="https://lemmy.ca/u/admin">u/admin</a></p>
+  </div>
 </div>
 
-<br>
-
----
+We are also available by phone and mail, but there may be significant delays in response time. If you would like to use these methods, please contact us by email first to make arrangements.
