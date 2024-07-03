@@ -1,19 +1,7 @@
----
-head:
-# Header code from FundraiseUp
-  - - script
-    - {}
-    - |
-      (function(w,d,s,n,a){if(!w[n]){var l='call,catch,on,once,set,then,track'
-      .split(','),i,o=function(n){return'function'==typeof n?o.l.push([arguments])&&o
-      :function(){return o.l.push([n,arguments])&&o}},t=d.getElementsByTagName(s)[0],
-      j=d.createElement(s);j.async=!0;j.src='https://cdn.fundraiseup.com/widget/'+a+'';
-      t.parentNode.insertBefore(j,t);o.s=Date.now();o.v=4;o.h=w.location.href;o.l=[];
-      for(i=0;i<7;i++)o[l[i]]=o(l[i]);w[n]=o}
-      })(window,document,'script','FundraiseUp','AMHBMQHJ');
----
-
 # Donate
+
+> [!WARNING]
+> This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md).
 
 We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation. 
 
@@ -29,80 +17,14 @@ While we are a registered non-profit organization, we are not a registered chari
 
 We have a few different ways you can donate. Please choose the method that works best for you. See [Donation Method Comparison](#donation-method-comparison) for more information.
 
-### One Time & Recurring Donations
+**One Time & Recurring Donations**
 
-<div class="cards-container">
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="iconoir:donate" width="1.2em" height="1.2em" />
-        FundraiseUp
-    </h3>
-    <InfoPill type="warn" label="Fees apply" hoverText="FundraiseUp charges a fee for processing donations."/>
-    <div style="display: flex; justify-content: center; width: 100%;">
-      <a href="#XWUTTLQG" style="display: none"></a>
-    </div>
-    <p>If the button isn't loading, you can use the <a href="https://fedecan.donorsupport.co/page/general-donations">donation page</a> directly.</p>
-  </div>
+- FundraiseUp: [fedecan.donorsupport.co/page/general-donations](https://fedecan.donorsupport.co/page/general-donations)
+- GitHub Sponsors: [github.com/sponsors/fedecan-ca](https://github.com/sponsors/fedecan-ca)
 
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="mdi:github" width="1.2em" height="1.2em" />
-      GitHub Sponsors
-    </h3>
-    <InfoPill type="ok" label="No fees" hoverText="We will receive 100% of your donation."/>
-    <p>
-      You will need to log in to your GitHub account to sponsor us through GitHub Sponsors:
-    </p>
-    <iframe src="https://github.com/sponsors/fedecan-ca/button" title="Sponsor fedecan-ca" height="32"  style="border: 0; border-radius: 6px;"></iframe>
-    <p>If the button isn't loading, you can use the <a href="https://github.com/sponsors/fedecan-ca">GitHub Sponsors profile</a> directly.</p>
-  </div>
-</div>
-
-<!-- <div class="cards-container">
-  <div class="card">
-    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-      <h3 class="text-with-icon">
-        <Icon icon="mdi:github" width="1.2em" height="1.2em" />
-        GitHub Sponsors
-      </h3>
-    <InfoPill type="ok" label="No fees" hoverText="We will receive 100% of your donation."/>
-    </div>
-    <hr>
-    <div style="display: flex; justify-content: center; width: 100%;">
-      <iframe src="https://github.com/sponsors/fedecan-ca/button" title="Sponsor fedecan-ca" height="34" width="342" style="border: 0; border-radius: 6px;"></iframe>
-    </div>
-  </div>
-</div> -->
-
-<br>
-
-### One Time Donations Only
-
-<div class="cards-container">
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="mingcute:send-line" width="1.2em" height="1.2em" />
-      Interac e-Transfer
-    </h3>
-    <InfoPill type="ok" label="No fees" hoverText="We will receive 100% of your donation." />
-    <p>Step-by-step instructions:</p>
-    <ol>
-      <li>Start an Interac e-Transfer on your bank app or website.</li>
-      <li>Enter the email <code>donate@fedecan.ca</code> as the recipient.</li>
-      <li>If you would like to include your name, feel free to do so in the message field.</li>
-    </ol>
-  </div>
-
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="mingcute:stripe-line" width="1.2em" height="1.2em" />
-      Stripe
-    </h3>
-    <InfoPill type="warn" label="Fees Apply" hoverText="Stripe charges a fee for processing donations." />
-    <StripeButton />
-    <p>If the button isn't loading, you can use the <a href="https://donate.stripe.com/5kAg108OT6f44uIfYY">donation page</a> directly.</p>
-  </div>
-</div>
+**One Time Donations Only**
+- Interac e-Transfer: Send an Interac e-Transfer to `donate@fedecan.ca` as the recipient. If you would like to include your name, feel free to do so in the message field.
+- Stripe: [donate.stripe.com/5kAg108OT6f44uIfYY](https://donate.stripe.com/5kAg108OT6f44uIfYY)
 
 ## Donation Method Comparison
 
