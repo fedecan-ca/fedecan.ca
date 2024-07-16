@@ -52,21 +52,21 @@ We support a few different donation methods. See the [table at the bottom of thi
 
 <table style="width: 100%;">
   <colgroup>
-    <col style="width: 25%;">
-    <col style="width: 20%;">
-    <col style="width: 55%;">
+    <col style="width: 30%;">
+    <col style="width: 70%;">
   </colgroup>
   <thead>
     <tr>
       <th>Method</th>
-      <th></th>
       <th>More Information</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>FundraiseUp</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          FundraiseUp
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -92,8 +92,10 @@ We support a few different donation methods. See the [table at the bottom of thi
       </td>
     </tr>
     <tr>
-      <td><strong>GitHub Sponsors</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          GitHub Sponsors
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -119,8 +121,10 @@ We support a few different donation methods. See the [table at the bottom of thi
       </td>
     </tr>
     <tr>
-      <td><strong>Interac e-Transfer</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          Interac e-Transfer
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -145,8 +149,10 @@ We support a few different donation methods. See the [table at the bottom of thi
       </td>
     </tr>
     <tr>
-      <td><strong>Stripe</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          Stripe
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 

@@ -36,12 +36,6 @@ features:
 title: "Welcome"
 ---
 
-<!-- ## No more compromises
-
-In today's digital age, staying connected often means making sacrifices. Whether it's compromising your privacy, security, or user experience, these trade-offs have become the norm on traditional social media platforms. 
-
-It clearly doesn't have to be this way. -->
-
 ## Our Platforms
 
 <div class="cards-container">
@@ -50,12 +44,12 @@ It clearly doesn't have to be this way. -->
       <Icon icon="simple-icons:lemmy" width="1.2em" height="1.2em" />
       Lemmy.ca
     </h3>
-    <div style="display: flex; align-items: center;">
-      <div style="flex: 0 0 50%; margin-right: 1rem;">
+    <div class="card-content">
+      <div class="card-text">
         <p>Lemmy is a "federated link aggregator". You might be familiar with websites such as Reddit or the many forum websites that exist.</p>
         <p>You can find communities for different topics where you can post content, comment, and vote on submissions. Lemmy features a familiar interface with the added benefit of being federated. This means that you can interact with users from across the Fediverse, including those on other platforms such as Mastodon.</p>
       </div>
-      <img src="/img/lemmy-screenshots.png" alt="Lemmy" style="flex: 0 0 50%; max-width: 500px;"/>
+      <img src="/img/lemmy-screenshots.png" alt="Lemmy" class="card-image"/>
     </div>
   </div>
 </div>
