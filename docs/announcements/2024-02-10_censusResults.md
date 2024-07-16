@@ -25,7 +25,7 @@ head:
 
 
 <BlogPostHeader 
-  image="../announcements/banner/2024-02-10_censusResults.jpg"
+  image="/announcements/banner/2024-02-10_censusResults.jpg"
   title="2023 Instance Census Results"
   date="February 10, 2024"
   />
@@ -106,7 +106,7 @@ We can see a nice curve, with a peak around 30-39. So the average age on Lemmy i
 
 This was one of the questions that I couldn’t analyze the way I was originally planning to. While allowing for multiple responses and user submissions allowed for more accurate self-identified responses, it made it difficult to visualize the data in a meaningful way. This data deserves a more in depth analysis, but for now I opted to create a word cloud so we could get a sense of what the responses were like.
 
-<img src="../announcements/2024-02-10_censusResults/2.2.png" alt="word cloud" class="chart-card--image-rounded" />
+<img src="/announcements/2024-02-10_censusResults/2.2.png" alt="word cloud" class="chart-card--image-rounded" />
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -144,7 +144,7 @@ You can see Canadian census data for [‘Sex at birth and gender’ here](https:
 
 Similar to the other question above, this question allowed for multiple responses and user submissions, so it was difficult to visualize the data in a meaningful way.
 
-<img src="../announcements/2024-02-10_censusResults/2.5.png" alt="word cloud" class="chart-card--image-rounded" />
+<img src="/announcements/2024-02-10_censusResults/2.5.png" alt="word cloud" class="chart-card--image-rounded" />
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -223,7 +223,7 @@ We got a few custom responses, including ‘active duty military’, ‘disabili
 
 This question was… a mess to try and clean and display. I tried to collapse as many similar responses as I could, but it felt like I was making more mistakes than I was fixing:
 
-<img src="../announcements/2024-02-10_censusResults/2.9.png" alt="word cloud" class="chart-card--image-rounded" />
+<img src="/announcements/2024-02-10_censusResults/2.9.png" alt="word cloud" class="chart-card--image-rounded" />
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -440,7 +440,7 @@ The question that was asked was "First, what’s your favourite dessert?". Wow t
 
 After cleaning the data, and consolidating similar responses into a format that could easily be searched, I can confidently say that the **most popular dessert out of 527 entries was…**
 
-<img src="../announcements/2024-02-10_censusResults/icecream.jpg" alt="word cloud" class="chart-card--image-rounded" />
+<img src="/announcements/2024-02-10_censusResults/icecream.jpg" alt="word cloud" class="chart-card--image-rounded" />
 
 kind of…
 
@@ -467,7 +467,7 @@ Even a lot of the joke entries had repeats, with 4 entries along the lines of `j
 
 Here is the word cloud, which unfortunately includes a bug where every entry is duplicated.
 
-<img src="../announcements/2024-02-10_censusResults/4.1.png" alt="word cloud" class="chart-card--image-rounded" />
+<img src="/announcements/2024-02-10_censusResults/4.1.png" alt="word cloud" class="chart-card--image-rounded" />
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
