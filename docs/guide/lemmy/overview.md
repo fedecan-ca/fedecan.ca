@@ -10,19 +10,21 @@ head:
       content: en_CA
   - - meta
     - property: og:title #  max 50-60 characters
-      content: Guides | Open Source
+      content: Guides | Lemmy
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/fediverse/open-source
+      content: https://fedecan.ca/guide/lemmy/overview
   - - meta
     - property: og:description  # 150-160 characters
-      content: Overview of 'Open Source' in the context of the Fediverse.
+      content: Guides on Lemmy, how to get started, and best practices.
   - - meta
     - property: article:section
-      content: Guides - Fediverse
+      content: Guides - Lemmy
 ---
 
-# Open Source Software
+# Lemmy
+
+### What is Lemmy?
 
 This page is still under construction. Please check back later for updates.
 

@@ -32,6 +32,8 @@ features:
     icon: 
       src: /icons/fediverse.png
     details: The Fediverse enables many different and independent social media platforms to communicate with each other. By joining a Fediverse instance like ours, you can connect with users from thousands of other instances.
+
+title: "Welcome"
 ---
 
 <!-- ## No more compromises
@@ -40,7 +42,7 @@ In today's digital age, staying connected often means making sacrifices. Whether
 
 It clearly doesn't have to be this way. -->
 
-## What are we working on?
+## Our Platforms
 
 <div class="cards-container">
   <div class="card">
@@ -48,15 +50,18 @@ It clearly doesn't have to be this way. -->
       <Icon icon="simple-icons:lemmy" width="1.2em" height="1.2em" />
       Lemmy.ca
     </h3>
-    <p>Lemmy is a "federated link aggregator". You might be familiar with websites like Reddit, or old-school forums. Lemmy is one of the Fediverse's answers to these platforms.</p>
-  </div>
-  <div class="card">
-    <h3 class="text-with-icon">
-      More on the way
-    </h3>
-    <p>As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!</p>
+    <div style="display: flex; align-items: center;">
+      <div style="flex: 0 0 50%; margin-right: 1rem;">
+        <p>Lemmy is a "federated link aggregator". You might be familiar with websites such as Reddit or the many forum websites that exist.</p>
+        <p>You can find communities for different topics where you can post content, comment, and vote on submissions. Lemmy features a familiar interface with the added benefit of being federated. This means that you can interact with users from across the Fediverse, including those on other platforms such as Mastodon.</p>
+      </div>
+      <img src="/img/lemmy-screenshots.png" alt="Lemmy" style="flex: 0 0 50%; max-width: 500px;"/>
+    </div>
   </div>
 </div>
+
+<h3 class="text-with-icon">More on the way</h3>
+<p>As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!</p>
 
 ## Want to help?
 

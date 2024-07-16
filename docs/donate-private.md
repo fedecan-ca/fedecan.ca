@@ -1,3 +1,22 @@
+---
+head:
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:locale
+      content: en_CA
+  - - meta
+    - property: og:title #  max 50-60 characters
+      content: Donate
+  - - meta
+    - property: og:url
+      content: https://fedecan.ca/donate
+  - - meta
+    - property: og:description  # 150-160 characters
+      content: Your contributions will help us maintain our servers, platforms, and services, pay for operational costs, and spin up new platforms for you to use.
+---
+
 # Donate
 
 ::: warning Privacy-focused page

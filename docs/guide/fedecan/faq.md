@@ -1,5 +1,25 @@
 ---
 layout: doc
+
+head:
+  - - meta
+    - property: og:type
+      content: article
+  - - meta
+    - property: og:locale
+      content: en_CA
+  - - meta
+    - property: og:title #  max 50-60 characters
+      content: FAQ | Fedecan
+  - - meta
+    - property: og:url
+      content: https://fedecan.ca/guide/fedecan/faq
+  - - meta
+    - property: og:description  # 150-160 characters
+      content: Frequently asked questions about the Fedecan organization.
+  - - meta
+    - property: article:section
+      content: Guides - Fedecan
 ---
 
 # Frequently Asked Questions

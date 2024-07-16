@@ -10,19 +10,19 @@ head:
       content: en_CA
   - - meta
     - property: og:title #  max 50-60 characters
-      content: Guides | Open Source
+      content: Guides | Fediverse
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/fediverse/open-source
+      content: https://fedecan.ca/guide/fediverse/overview
   - - meta
     - property: og:description  # 150-160 characters
-      content: Overview of 'Open Source' in the context of the Fediverse.
+      content: Overview of 'Fediverse' and how it works.
   - - meta
     - property: article:section
       content: Guides - Fediverse
 ---
 
-# Open Source Software
+# Fediverse
 
 This page is still under construction. Please check back later for updates.
 
