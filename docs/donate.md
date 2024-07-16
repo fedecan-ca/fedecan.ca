@@ -83,22 +83,6 @@ While we are a registered non-profit organization, we are not a registered chari
   </div>
 </div>
 
-<!-- <div class="cards-container">
-  <div class="card">
-    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-      <h3 class="text-with-icon">
-        <Icon icon="mdi:github" width="1.2em" height="1.2em" />
-        GitHub Sponsors
-      </h3>
-    <InfoPill type="ok" label="No fees" hoverText="We will receive 100% of your donation."/>
-    </div>
-    <hr>
-    <div style="display: flex; justify-content: center; width: 100%;">
-      <iframe src="https://github.com/sponsors/fedecan-ca/button" title="Sponsor fedecan-ca" height="34" width="342" style="border: 0; border-radius: 6px;"></iframe>
-    </div>
-  </div>
-</div> -->
-
 <br>
 
 ### One Time Donations Only
@@ -133,21 +117,21 @@ While we are a registered non-profit organization, we are not a registered chari
 
 <table style="width: 100%;">
   <colgroup>
-    <col style="width: 25%;">
-    <col style="width: 20%;">
-    <col style="width: 55%;">
+    <col style="width: 30%;">
+    <col style="width: 70%;">
   </colgroup>
   <thead>
     <tr>
       <th>Method</th>
-      <th></th>
       <th>More Information</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>FundraiseUp</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          FundraiseUp
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -173,8 +157,10 @@ While we are a registered non-profit organization, we are not a registered chari
       </td>
     </tr>
     <tr>
-      <td><strong>GitHub Sponsors</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          GitHub Sponsors
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -200,8 +186,10 @@ While we are a registered non-profit organization, we are not a registered chari
       </td>
     </tr>
     <tr>
-      <td><strong>Interac e-Transfer</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          Interac e-Transfer
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
@@ -226,8 +214,10 @@ While we are a registered non-profit organization, we are not a registered chari
       </td>
     </tr>
     <tr>
-      <td><strong>Stripe</strong></td>
       <td>
+        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
+          Stripe
+        </p>
         <InfoText 
             colorType="ok" 
             icon="ic:round-schedule" 
