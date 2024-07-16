@@ -3,9 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Fedecan",
-  titleTemplate: 'Fedecan | :title',
+  titleTemplate: ':title | Fedecan',
   description: "Discover a new way to connect online. As a Canadian not-for-profit, we can help you join a growing network of federated social media that prioritizes community over profit.",
-  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
+  ],
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -31,13 +34,13 @@ export default defineConfig({
             { text: 'Getting Started', link: '/guide/get-started' },
             { text: 'Fediverse',
               items: [
-                { text: 'What is the Fediverse?', link: '/guide/fediverse' },
+                { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
                 { text: 'Why Open Source?', link: '/guide/fediverse/open-source' }
               ]
             },
             { text: 'Lemmy',
               items: [
-                { text: 'What is Lemmy?', link: '/guide/lemmy/introduction' },
+                { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
               ]
             },
             { text: 'Fedecan',
