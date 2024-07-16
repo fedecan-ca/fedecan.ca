@@ -1,7 +1,8 @@
 # Donate
 
-> [!WARNING]
-> This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md).
+::: warning Privacy-focused page
+This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md).
+:::
 
 We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation. 
 
@@ -15,7 +16,9 @@ While we are a registered non-profit organization, we are not a registered chari
 
 ## How to Donate
 
-We have a few different ways you can donate. Please choose the method that works best for you. See [Donation Method Comparison](#donation-method-comparison) for more information.
+**Please choose the method that works best for you.**
+
+We support a few different donation methods. See the [table at the bottom of this page](#donation-method-comparison) for details on scheduling, fees, etc.
 
 **One Time & Recurring Donations**
 

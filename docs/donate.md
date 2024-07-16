@@ -27,7 +27,15 @@ While we are a registered non-profit organization, we are not a registered chari
 
 ## How to Donate
 
-We have a few different ways you can donate. Please choose the method that works best for you. See [Donation Method Comparison](#donation-method-comparison) for more information.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 0 0 75%;">
+    <p><b>Please choose the method that works best for you.</b></p>
+    <p> We support a few different donation methods. See the <a href="#donation-method-comparison">table at the bottom of this page</a> for details on scheduling, fees, etc.</p>
+  </div>
+  <Icon icon="fluent-mdl2:compare-uneven" width="3em" height="3em" style="flex: 0 0 25%;" />
+</div>
+
+
 
 ### One Time & Recurring Donations
 
@@ -51,7 +59,7 @@ We have a few different ways you can donate. Please choose the method that works
     </h3>
     <InfoPill type="ok" label="No fees" hoverText="We will receive 100% of your donation."/>
     <p>
-      You will need to log in to your GitHub account to sponsor us through GitHub Sponsors:
+      You will need to sign in with GitHub to use this method:
     </p>
     <iframe src="https://github.com/sponsors/fedecan-ca/button" title="Sponsor fedecan-ca" height="32"  style="border: 0; border-radius: 6px;"></iframe>
     <p>If the button isn't loading, you can use the <a href="https://github.com/sponsors/fedecan-ca">GitHub Sponsors profile</a> directly.</p>
