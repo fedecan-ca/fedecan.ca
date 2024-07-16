@@ -1,3 +1,30 @@
+---
+head:
+  - - meta
+    - property: og:type
+      content: blog
+  - - meta
+    - property: og:locale
+      content: en_CA
+  - - meta
+    - property: og:title #  max 50-60 characters
+      content: 2023 Instance Census Results
+  - - meta
+    - property: og:image
+      content: "../img/social-share.png"
+  - - meta
+    - property: og:url
+      content: https://fedecan.ca/announcements/2024-02-10_censusResults
+  - - meta
+    - property: og:description  # 150-160 characters
+      content: Results and visualizations from the 2023 instance census for lemmy.ca
+  - - meta
+    - property: article:section
+      content: Announcements
+---
+
+
+
 <BlogPostHeader 
   image="../announcements/banner/2024-02-10_censusResults.jpg"
   title="2023 Instance Census Results"

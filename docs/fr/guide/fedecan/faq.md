@@ -23,7 +23,7 @@ We are incorporated federally in Canada, which means that we are recognized as a
 - You can find us on the [Corporations Canada website](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html) by searching for `Federated Open Communications Canada`
 
 ### 2. **Why are you not a registered charity?**
-<!-- If this title is changed, the link in docs/donate.md must be updated as well. -->
+<!-- If this title is changed, the link in docs/donate.md and docs/donate-private.md must be updated as well. -->
 
 We are a registered non-profit organization, but we are not a registered charity. This means that we are unable to provide tax receipts for donations.
 
