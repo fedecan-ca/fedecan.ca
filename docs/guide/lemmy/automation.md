@@ -43,7 +43,8 @@ There are some unofficial API documentaitons:
 There are some libraries that can be used to interact with the Lemmy API. There is only one library that is officially supported by Lemmy:
 
 - [lemmy-js-client](https://join-lemmy.org/api/)
-(Note: This is doubles as the official Lemmy API documentation and the library documentation)
+
+(Note: This doubles as the official Lemmy API documentation and the official JS library documentation)
 
 There are some unofficial libraries:
 
@@ -91,3 +92,5 @@ There are some scripts that can be used to automate tasks on Lemmy. Here are som
 - [pangora-recap](https://recap.pangora.social/) - A website that generates a recap of your Lemmy Account
 - [lemmy-modder](https://github.com/Nothing4You/lemmy-modder) - A script for better moderation on Lemmy instances [Original Repository got abandoned from the creator, this is a fork with some fixes]
 - [lemmy-federate](https://lemmy-federate.com/) - A website that lets you automatically federate your Lemmy communities to other instances
+
+More Automation scripts can be found [here](https://github.com/dbeley/awesome-lemmy?tab=readme-ov-file#userscripts--browser-plugins).
