@@ -197,9 +197,9 @@ While we are a registered non-profit organization, we are not a registered chari
             text="One time"
           />
         <InfoText 
-            colorType="gray" 
+            colorType="warn" 
             icon="ic:round-schedule" 
-            text="Recurring unsupported"
+            text="Recurring support varies by bank"
           />
         <InfoText 
             colorType="ok"
