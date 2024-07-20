@@ -41,6 +41,7 @@ export default defineConfig({
             { text: 'Lemmy',
               items: [
                 { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
+                { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
               ]
             },
             { text: 'Fedecan',
