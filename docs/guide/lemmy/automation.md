@@ -33,7 +33,7 @@ Lemmy has a API that can be used to automate tasks. Here are some tools or libra
 
 The official Lemmy API documentation can be found [here](https://join-lemmy.org/api/). The API will change every time a new version of Lemmy is released.
 
-There are some unofficial API documentaitons:
+There are some unofficial API documentations:
 
 - [lemmy.readme.io](https://lemmy.readme.io/)
 - [Lemmy OpenAPI Spec](https://mv-gh.github.io/lemmy_openapi_spec)
