@@ -182,6 +182,7 @@ While we are a registered non-profit organization, we are not a registered chari
           <li>Options for one time donations and recurring monthly donations.</li>
           <li>Supports credit card payments.</li>
           <li>Requires a GitHub account.</li>
+          <li>Amounts in USD.</li>
         </ul>
       </td>
     </tr>
