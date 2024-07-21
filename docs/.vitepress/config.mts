@@ -58,7 +58,7 @@ export default defineConfig({
       message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
     },
 
-    logo: { light: '/icons/maple-leaf.svg', dark: '/icons/maple-leaf.svg'},
+    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
 
     search: {
       provider: 'local',

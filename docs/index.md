@@ -7,7 +7,7 @@ hero:
   text: "Discover a new way to connect online"
   tagline: We can help you join a growing network of federated social media that prioritizes community over profit
   # image:
-  #   src: /icons/maple-leaf-white.svg
+  #   src: /img/icons/maple-leaf-white.svg
   actions:
     - theme: brand
       text: Get Started
@@ -22,15 +22,15 @@ hero:
 features:
   - title: Run by a non-profit
     icon: 
-      src: /icons/heart-care.png
+      src: /img/icons/heart-care.png
     details: Traditional social media platforms base their decisions on maximizing profits. We registered as a non-profit to ensure that our decisions will always prioritize the best interests of our users.
   - title: Open Source & Open Standards
     icon: 
-      src: /icons/server-edit.png
+      src: /img/icons/server-edit.png
     details: Our platforms run open-source software, and use open standards like ActivityPub. Since anyone can inspect and contribute to the code, we can ensure that the platforms are secure, privacy respecting, and reliable.
   - title: A Federated Network
     icon: 
-      src: /icons/fediverse.png
+      src: /img/icons/fediverse.png
     details: The Fediverse enables many different and independent social media platforms to communicate with each other. By joining a Fediverse instance like ours, you can connect with users from thousands of other instances.
 
 title: "Welcome"
