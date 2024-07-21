@@ -68,6 +68,10 @@ export default defineConfig({
       ],
     },
 
+    footer: {
+      message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
+    },
+
     logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
 
     search: {

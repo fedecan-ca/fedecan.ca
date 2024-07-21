@@ -34,7 +34,7 @@ If you would like to contact our team, we are available by the following methods
       <Icon icon="ic:outline-email" width="1.2em" height="1.2em" />
       Send an Email
     </h3>
-    <p>General: <a href="mailto:support@fedecan.ca">support@fedecan.ca</a></p>
+    <p>General: <code>support@fedecan.ca</code></p>
   </div>
 
   <div class="card">
