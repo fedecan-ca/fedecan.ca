@@ -55,7 +55,16 @@ export default defineConfig({
               items: [
                 { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
                 { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
-                { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'}
+                { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'},
+                { text: 'Securing Lemmy', link: '/guide/lemmy/infrastructure/security', items: [
+                  { text: 'Firewall', link: '/guide/lemmy/infrastructure/firewall' },
+                  {
+                    text: 'SSH', link: '/guide/lemmy/infrastructure/ssh/overview', items: [
+                      { text: 'Configure SSH', link: '/guide/lemmy/infrastructure/ssh/configuring' },
+                      { text: 'Hardening SSH', link: '/guide/lemmy/infrastructure/ssh/hardening' },
+                    ]
+                  }
+                ]},
               ]
             },
             { text: 'Fedecan',
