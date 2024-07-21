@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url';
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,6 +10,18 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg' }],
     ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
   ],
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPFooter\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
+          ),
+        }
+      ],
+    },
+  },
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -53,10 +66,6 @@ export default defineConfig({
           ]
         }
       ],
-    },
-
-    footer: {
-      message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
     },
 
     logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
