@@ -56,6 +56,7 @@ export default defineConfig({
                 { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
                 { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
                 { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'},
+                { text: 'Lemmy Markdown', link: '/guide/lemmy/markdown' },
                 { text: 'Securing Lemmy', link: '/guide/lemmy/infrastructure/security', items: [
                   { text: 'Firewall', link: '/guide/lemmy/infrastructure/firewall' },
                   {
