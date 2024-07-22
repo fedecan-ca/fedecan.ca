@@ -10,6 +10,7 @@ import InfoPill from './components/InfoPill.vue';
 import InfoText from './components/InfoText.vue';
 import StripeButton from './components/StripeButton.vue';
 import DataWrapperChart from './components/DataWrapperChart.vue';
+import ThemedImage from './components/ThemedImage.vue';
 
 export default {
   extends: DefaultTheme,
@@ -26,5 +27,6 @@ export default {
     app.component('InfoText', InfoText);
     app.component('StripeButton', StripeButton);
     app.component('DataWrapperChart', DataWrapperChart);
+    app.component('ThemedImage', ThemedImage);
   }
 } satisfies Theme;
