@@ -1,6 +1,6 @@
 # Fedecan.ca
 
-This is the repository for the [Fedecan.ca](https://fedecan.ca) website. The site is built with Vitepress and deployed to GitHub Pages.
+This is the repository for the [fedecan.ca](https://fedecan.ca) website. The site is built with VitePress and deployed to GitHub Pages.
 
 ## Development
 
@@ -21,13 +21,16 @@ npx vitepress dev docs
 
 ### **Deployment:**
 
-The site is deployed to GitHub Pages. The deployment process is automated using GitHub Actions. Before pushing changes, you can build the site locally and preview it to check for issues that didn't appear in the local development server.
+The site is deployed to GitHub Pages. 
+
+Before pushing changes, check for build issues locally as some issues will not appear in the local development server. If you don't see any errors, you can make a PR to the main branch.
 
 ```bash
 npm run docs:build
 npm run docs:preview
 ```
 
+We have a GitHub Action that checks for build issues before PRs can be merged to the main branch.
 
 
 ## Content

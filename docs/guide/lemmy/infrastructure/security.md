@@ -57,7 +57,7 @@ Refer to the [Firewalls](/guide/lemmy/infrastructure/firewall) guide for setting
 
 ### Configure SSH
 
-Refer to the [SSH Configuration](/guide/lemmy/infrastructure/ssh/configuration) guide for setting up SSH for your server.
+Refer to the [SSH Configuration](/guide/lemmy/infrastructure/ssh/configuring) guide for setting up SSH for your server.
 
 ### Secure SSH
 
