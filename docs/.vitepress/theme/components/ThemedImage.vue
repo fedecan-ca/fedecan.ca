@@ -27,7 +27,6 @@ export default {
 </style>
 <template>
   <div class="themed-image">
-    
     <img
       :src="darkImageUrl"
       :alt="alt"
@@ -38,7 +37,5 @@ export default {
       :alt="alt"
       class="light-only"
     />
-
-    <slot></slot>
   </div>
 </template>
