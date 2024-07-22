@@ -1,6 +1,6 @@
 # Fedecan.ca
 
-This is the repository for the [Fedecan.ca](https://fedecan.ca) website. The site is built with Vitepress and deployed to GitHub Pages.
+This is the repository for the [fedecan.ca](https://fedecan.ca) website. The site is built with VitePress and deployed to GitHub Pages.
 
 ## Development
 
@@ -21,13 +21,16 @@ npx vitepress dev docs
 
 ### **Deployment:**
 
-The site is deployed to GitHub Pages. The deployment process is automated using GitHub Actions. Before pushing changes, you can build the site locally and preview it to check for issues that didn't appear in the local development server.
+The site is deployed to GitHub Pages. 
+
+Before pushing changes, check for build issues locally as some issues will not appear in the local development server. If you don't see any errors, you can make a PR to the main branch.
 
 ```bash
 npm run docs:build
 npm run docs:preview
 ```
 
+We have a GitHub Action that checks for build issues before PRs can be merged to the main branch.
 
 
 ## Content
@@ -77,3 +80,35 @@ We are using [iconify](https://icon-sets.iconify.design) for icons. You can sear
           excerpt=""
           url="" />
 ```
+
+### Images
+
+- Images should be placed in the `docs/.vitepress/public/img` folder.
+- To reference an image, simply use `/img/...` as the path.
+
+**Light & Dark Mode:**
+
+To include a light and dark mode version of an image, add the `.light-only` and `.dark-only` classes to the image tag:
+
+Markdown:
+
+```md
+![image-light](/img/myImage-light.png){.light-only}
+
+![image-dark](/img/myImage-dark.png){.dark-only}
+```
+
+HTML:
+
+```html
+<img class="light-only" src="/img/myImage-light.png">
+
+<img class="dark-only" src="/img/myImage-dark.png">
+```
+
+Tips:
+- Keep the size and aspect ratio of the images consistent.
+- Use similar filenames, such as with a `-light` or `-dark` suffix.
+- Don't include only one version of the image, else content will move when switching between light and dark mode.
+
+To modify this behaviour, see the "Light & Dark Mode images" section in the `docs/.vitepress/theme/style.css` file.
