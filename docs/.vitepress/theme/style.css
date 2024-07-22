@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-c-default-1: var(--vp-c-gray-1);
   /* #dddde3 */
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -234,6 +234,9 @@
   }
 }
 
+
+
+
 /* 
  * Iconify
  * ========================================================================== */
@@ -246,6 +249,8 @@
 .iconify {
   margin-right: 0.5em;
 }
+
+
 
 
 /* 
@@ -306,4 +311,19 @@
     transform: none;
     text-align: center;
   }
+}
+
+
+
+
+/* 
+ * Light & Dark Mode images
+ * ========================================================================== */
+
+:root:not(.dark) .dark-only {
+  display: none;
+}
+
+:root:is(.dark) .light-only {
+  display: none;
 }
