@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useData } from "vitepress/dist/client/theme-default/composables/data";
 import { useSidebar } from "vitepress/dist/client/theme-default/composables/sidebar";
+// ignore warnings, see github.com/vuejs/vitepress/issues/2548
 import { Icon } from "@iconify/vue";
 
 const { theme, frontmatter } = useData();
@@ -117,7 +118,7 @@ const { hasSidebar } = useSidebar();
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
-  color: var(--vp-c-text-1);
+  color: var(--vp-c-text-2);
   padding: 0 16px;
 }
 
@@ -133,6 +134,7 @@ const { hasSidebar } = useSidebar();
 .link-column {
   flex: 1 1 30%;
   padding: 0 16px;
+  margin-bottom: 8px;
 }
 
 .link-column h3 {

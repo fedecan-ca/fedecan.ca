@@ -22,6 +22,9 @@ export default defineConfig({
       ],
     },
   },
+  sitemap: {
+    hostname: 'https://fedecan.ca'
+  },
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
