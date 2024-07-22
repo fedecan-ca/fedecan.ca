@@ -1,10 +1,3 @@
-<script setup>
-import { useData } from 'vitepress'
-
-const { isDark } = useData()
-
-</script>
-
 <script>
 export default {
   name: "ThemedImage",
