@@ -146,6 +146,8 @@ Result:
 
 ## Spoilers
 
+> Warning: Spoilers are not yet fully implemented on Apps and may not work as expected on them.
+
 ```markdown
 ::: spoiler Spoiler Name
 Spoiler Content
