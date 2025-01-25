@@ -1,5 +1,13 @@
 ---
 title: 2023 Instance Census Results
+date: 2024-02-10
+author: fedecan
+category: Announcement
+banner: /announcements/banner/2024-02-10_censusResults.jpg
+draft: false
+featured: true
+
+excerpt: "This data was originally shared on Lemmy. This page has improved visualizations that can take advantage of the website format."
 
 head:
   - - meta
@@ -24,11 +32,16 @@ head:
 
 
 
-<BlogPostHeader 
+<!-- <BlogPostHeader 
   image="/announcements/banner/2024-02-10_censusResults.jpg"
   title="2023 Instance Census Results"
   date="February 10, 2024"
-  />
+  /> -->
+
+<BlogPostHeader 
+  returnLink="/announcements"
+  returnText="Back to Announcements"
+/>
 
 This data was [originally shared on Lemmy](https://lemmy.ca/post/15125231){target="_blank"}, and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!
 

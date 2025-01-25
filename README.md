@@ -64,22 +64,7 @@ We are using [iconify](https://icon-sets.iconify.design) for icons. You can sear
 
 ### **Announcements**
 
-1. Create a new file with this naming format `docs/announcements/YYYY-MM-DD_identifier.md`.
-2. In the file, add the following component before the content. The title and date fields are required, but the image field is optional.
-```html
-<BlogPostHeader 
-  image=""
-  title=""
-  date=""
-  />
-```
-3. In `docs/announcements.md`, add a new card with the following component. The title, date, excerpt, and url fields are required, but the image field is optional.
-```html
-<BlogPostCard title=""
-          date=""
-          excerpt=""
-          url="" />
-```
+Please see https://cynber.dev/projects/vitepress-valence/blog/
 
 ### Images
 

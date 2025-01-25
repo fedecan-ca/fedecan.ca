@@ -1,12 +1,16 @@
 {
+  "type": "module",
   "devDependencies": {
-    "@iconify/vue": "^4.1.2",
-    "@types/node": "^20.14.11",
-    "vitepress": "^1.2.3"
+    "@iconify/vue": "^4.3.0",
+    "@types/node": "^20.17.16",
+    "vitepress": "^1.6.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@cynber/vitepress-valence": "^0.1.2"
   }
 }

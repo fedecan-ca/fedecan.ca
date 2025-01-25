@@ -11,6 +11,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
   ],
   vite: {
+    ssr: { noExternal: ['@cynber/vitepress-valence']},
     resolve: {
       alias: [
         {
