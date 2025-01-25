@@ -4,7 +4,7 @@ date: 2025-01-18
 author: shadow
 category: Announcement
 banner: "/img/social-share.png"
-draft: true
+draft: false
 featured: true
 
 excerpt: "Hello everyone, we’re long overdue for an update on how things have been going!"
