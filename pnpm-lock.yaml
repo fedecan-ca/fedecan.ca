@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cynber/vitepress-valence':
-        specifier: ^0.1.3
-        version: 0.1.3(@iconify/vue@4.3.0(vue@3.5.13))(vitepress@1.6.3(@algolia/client-search@5.20.0)(@types/node@20.17.16)(postcss@8.5.1)(search-insights@2.17.3))(vue@3.5.13)
+        specifier: ^0.1.6
+        version: 0.1.6(@iconify/vue@4.3.0(vue@3.5.13))(vitepress@1.6.3(@algolia/client-search@5.20.0)(@types/node@20.17.16)(postcss@8.5.1)(search-insights@2.17.3))(vue@3.5.13)
     devDependencies:
       '@iconify/vue':
         specifier: ^4.3.0
@@ -113,8 +113,8 @@ packages:
     resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
 
-  '@cynber/vitepress-valence@0.1.3':
-    resolution: {integrity: sha512-8sN263hXBN1FAVg/Y4JYfOXggiXg+qg1MWYdmuwE+BhavJCwr0juslUTBn1bfKo7iCI3y5WgoXaGBktx3ReaKw==}
+  '@cynber/vitepress-valence@0.1.6':
+    resolution: {integrity: sha512-0seq1GhcnnvAyNjjAo1GxO7dDCPlk60uYMbZ23pStl+8vlqUB1wEC32hVLnvy/0BvjfQX6IhGCj74CRIInZwhQ==}
     peerDependencies:
       '@iconify/vue': ^4.1.2
       vitepress: ^1.0.0
@@ -913,7 +913,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@cynber/vitepress-valence@0.1.3(@iconify/vue@4.3.0(vue@3.5.13))(vitepress@1.6.3(@algolia/client-search@5.20.0)(@types/node@20.17.16)(postcss@8.5.1)(search-insights@2.17.3))(vue@3.5.13)':
+  '@cynber/vitepress-valence@0.1.6(@iconify/vue@4.3.0(vue@3.5.13))(vitepress@1.6.3(@algolia/client-search@5.20.0)(@types/node@20.17.16)(postcss@8.5.1)(search-insights@2.17.3))(vue@3.5.13)':
     dependencies:
       '@iconify/vue': 4.3.0(vue@3.5.13)
       medium-zoom: 1.1.0
