@@ -12,6 +12,7 @@ import { data as postsData } from './data/posts.data.js'
 import { Icon } from '@iconify/vue'
 import { BlogPostHeader } from '@cynber/vitepress-valence'
 import { BlogPostList } from '@cynber/vitepress-valence'
+import { EmbedLemmy } from '@cynber/vitepress-valence'
 
 
 // import BlogPostCard from './components/BlogPostCard.vue';
@@ -46,5 +47,6 @@ export default {
 
     app.component('BlogPostHeader', BlogPostHeader)
     app.component('BlogPostList', BlogPostList)
+    app.component('EmbedLemmy', EmbedLemmy)
   }
 } satisfies Theme;
