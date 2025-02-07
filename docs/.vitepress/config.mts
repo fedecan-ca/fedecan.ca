@@ -12,16 +12,16 @@ export default defineConfig({
   ],
   vite: {
     ssr: { noExternal: ['@cynber/vitepress-valence']},
-    resolve: {
-      alias: [
-        {
-          find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(
-            new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
-          ),
-        }
-      ],
-    },
+  //   resolve: {
+  //     alias: [
+  //       {
+  //         find: /^.*\/VPFooter\.vue$/,
+  //         replacement: fileURLToPath(
+  //           new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
+  //         ),
+  //       }
+  //     ],
+  //   },
   },
   markdown: {
     image: {
@@ -36,24 +36,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Announcements', link: '/announcements' },
-      { text: 'Guides',
-        items: [
-          { text: 'Getting Started', link: '/guide/get-started' },
-          {text: 'F.A.Q.', link: '/guide/fedecan/faq'}
-        ]
-      },
-      { text: 'Contact Us', link: '/contact' },
-      { text: 'Donate', link: '/donate' }
+      { text: 'Guides & Resources', link: '/guide/get-started' },
+      { text: 'News', link: '/announcements' },
+      { text: 'Contact', link: '/contact' },
+      { text: 'Donate ❤️', link: '/donate' },
     ],
 
     sidebar: {
       // For pages in the `guide` directory
       '/guide/': [
         {
-          text: 'Guides',
+          text: 'Getting Started',
+          link: '/guide/get-started',
           items: [
-            { text: 'Getting Started', link: '/guide/get-started' },
+            { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
+          ]
+        },
+        {
+          text: 'Getting Started',
+          link: '/guide/get-started',
+          items: [
             { text: 'Fediverse',
               items: [
                 { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
@@ -85,10 +87,6 @@ export default defineConfig({
           ]
         }
       ],
-    },
-
-    footer: {
-      message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
     },
 
     logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
