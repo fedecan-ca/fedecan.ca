@@ -12,16 +12,6 @@ export default defineConfig({
   ],
   vite: {
     ssr: { noExternal: ['@cynber/vitepress-valence']},
-  //   resolve: {
-  //     alias: [
-  //       {
-  //         find: /^.*\/VPFooter\.vue$/,
-  //         replacement: fileURLToPath(
-  //           new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
-  //         ),
-  //       }
-  //     ],
-  //   },
   },
   markdown: {
     image: {
@@ -47,21 +37,19 @@ export default defineConfig({
       '/guide/': [
         {
           text: 'Getting Started',
-          link: '/guide/get-started',
           items: [
-            { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
+            { text: 'What is the Fediverse?', link: '/guide/get-started' },
+            { text: 'Fedecan',
+              items: [
+                { text: 'Who We Are', link: '/guide/fedecan' },
+                { text: 'F.A.Q.', link: '/guide/fedecan/faq' }
+              ]
+            }
           ]
         },
         {
-          text: 'Getting Started',
-          link: '/guide/get-started',
+          text: 'Our Platforms',
           items: [
-            { text: 'Fediverse',
-              items: [
-                { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
-                { text: 'Why Open Source?', link: '/guide/fediverse/open-source' }
-              ]
-            },
             { text: 'Lemmy',
               items: [
                 { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
@@ -77,11 +65,6 @@ export default defineConfig({
                     ]
                   }
                 ]},
-              ]
-            },
-            { text: 'Fedecan',
-              items: [
-                { text: 'F.A.Q.', link: '/guide/fedecan/faq' }
               ]
             }
           ]
@@ -133,7 +116,7 @@ export default defineConfig({
     externalLinkIcon: true
   },
   locales: {
-    root: {
+    en: {
       label: 'English',
       lang: 'en-CA'
     },
