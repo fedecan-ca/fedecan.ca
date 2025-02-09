@@ -11,7 +11,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
   ],
   vite: {
-    ssr: { noExternal: ['@cynber/vitepress-valence']},
+    ssr: { noExternal: ['@cynber/vitepress-valence'] },
   },
   markdown: {
     image: {
@@ -27,9 +27,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guides & Resources', link: '/guide/get-started' },
-      { text: 'News', link: '/announcements' },
+      { text: 'Announcements', link: '/announcements' },
       { text: 'Contact', link: '/contact' },
-      { text: 'Donate ❤️', link: '/donate' },
+      { text: '❤️ Donate', link: '/donate' },
     ],
 
     sidebar: {
@@ -39,7 +39,8 @@ export default defineConfig({
           text: 'Getting Started',
           items: [
             { text: 'What is the Fediverse?', link: '/guide/get-started' },
-            { text: 'Fedecan',
+            {
+              text: 'Fedecan',
               items: [
                 { text: 'Who We Are', link: '/guide/fedecan' },
                 { text: 'F.A.Q.', link: '/guide/fedecan/faq' }
@@ -50,21 +51,50 @@ export default defineConfig({
         {
           text: 'Our Platforms',
           items: [
-            { text: 'Lemmy',
+            {
+              text: 'Lemmy',
+              link: '/guide/lemmy/overview',
               items: [
-                { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
-                { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
-                { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'},
-                { text: 'Lemmy Markdown', link: '/guide/lemmy/markdown' },
-                { text: 'Securing Lemmy', link: '/guide/lemmy/infrastructure/security', items: [
-                  { text: 'Firewall', link: '/guide/lemmy/infrastructure/firewall' },
-                  {
-                    text: 'SSH', link: '/guide/lemmy/infrastructure/ssh/overview', items: [
-                      { text: 'Configure SSH', link: '/guide/lemmy/infrastructure/ssh/configuring' },
-                      { text: 'Hardening SSH', link: '/guide/lemmy/infrastructure/ssh/hardening' },
-                    ]
-                  }
-                ]},
+                {
+                  text: 'Guides for Users',
+                  link: '/guide/lemmy/for-users',
+                  collapsed: true,
+                  items: [
+                    { text: 'Alternative UIs', 
+                      link: '/guide/lemmy/for-users/alternative-uis' },
+                    { text: 'How to format posts', 
+                      link: '/guide/lemmy/for-users/markdown' },
+                  ]
+                },
+                { text: 'Guides for Moderators', 
+                  link: '/guide/lemmy/for-moderators' },
+                { text: 'Guide for Admins', 
+                  link: '/guide/lemmy/for-admins',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: 'Securing Lemmy', 
+                      link: '/guide/lemmy/for-admins/infrastructure/security', items: [
+                        { text: 'Firewall', 
+                          link: '/guide/lemmy/for-admins/infrastructure/firewall' },
+                        {
+                          text: 'SSH', 
+                          link: '/guide/lemmy/for-admins/infrastructure/ssh/overview', 
+                          items: [
+                            { text: 'Configure SSH', 
+                              link: '/guide/lemmy/for-admins/infrastructure/ssh/configuring' },
+                            { text: 'Hardening SSH', 
+                              link: '/guide/lemmy/for-admins/infrastructure/ssh/hardening' },
+                          ]
+                        }
+                      ]
+                    },
+                    { text: 'Automation for Lemmy', 
+                      link: '/guide/lemmy/for-admins/automation' },
+                  ]
+                },
+                { text: 'Guides for Developers', 
+                  link: '/guide/lemmy/for-developers' }
               ]
             }
           ]
@@ -72,7 +102,7 @@ export default defineConfig({
       ],
     },
 
-    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
+    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg' },
 
     search: {
       provider: 'local',

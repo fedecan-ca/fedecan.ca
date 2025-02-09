@@ -9,58 +9,58 @@ This is the repository for the [fedecan.ca](https://fedecan.ca) website. The sit
 [recommended extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) for VS Code
 
 ```bash
-npm install
-
-npm run docs:dev
-```
-
-Alternatively:
-```bash
-npx vitepress dev docs
+pnpm install    # install dependencies
+pnpm docs:dev   # start a local development server
 ```
 
 ### **Deployment:**
 
-The site is deployed to GitHub Pages. 
-
-Before pushing changes, check for build issues locally as some issues will not appear in the local development server. If you don't see any errors, you can make a PR to the main branch.
+Before making a PR, check for build issues locally. Some issues will not appear in the local development server, but will make the live build fail. 
 
 ```bash
-npm run docs:build
-npm run docs:preview
+pnpm docs:build     # build the site 
+pnpm docs:preview   # preview the built site
 ```
 
-We have a GitHub Action that checks for build issues before PRs can be merged to the main branch.
+If you don't see any errors, you can make a PR to the main branch.
 
+## Contributing Content
 
-## Content
+**Documentation:**
 
-### **Pages:**
+- VitePress: [vitepress.dev](https://vitepress.dev/)
+- VitePress Valence: [cynber.dev/projects/vitepress-valence](https://cynber.dev/projects/vitepress-valence/)
 
-See the [vitepress documentation](https://vitepress.dev/) for more information on how to create pages and organize content.
+**Structure:**
 
-- The main page content is in the `docs` folder, where the relative path of the file determines the URL.
-- Assets like images are in the `docs/.vitepress/public` folder.
-- Translated content can be found in the `docs/fr/` folder.
+```plaintext
+.
+├── docs                    # main content
+│   ├── .vitepress          # configuration
+│   ├── fr                  # French translation of docs content
+│   ├── public              # assets (images, etc.)
+│   ├── announcements       # blog posts
+│   ├── guide               # guide content
+│   │   └── ...
+│   └── ...
+└── ...
+```
 
-
-### **Tips:**
+**Tips:**
 
 - When linking to other pages, [don't use any file extensions](https://vitepress.dev/guide/routing#linking-between-pages).
 - If you are getting a warning message on the `.github/workflows/deploy.yml` file, refresh it by following the [instructions here](https://github.com/github/vscode-github-actions/issues/215#issuecomment-1634719484).
 
 ### **Icons:**
 
-We are using [iconify](https://icon-sets.iconify.design) for icons. You can search for icons [here](https://icon-sets.iconify.design/).
+We are using [iconify](https://icon-sets.iconify.design), search for icons [here](https://icon-sets.iconify.design/).
 
-1. Filter results to find icons with a compatible license. For consistency, we are using icons from the 'Material Design Icons' set.
-2. Click on the desired icon, confirm details, and select `Components > Vue` to copy the code. It should look like this:
+1. Filter results to find icons with a compatible license. For example, `Material Design Icons`
+2. Copy the icon name, such as `ic:outline-email`, then use it as follows:
+
 ```html
 <Icon icon="ic:outline-email" />
 ```
-
-- Customization is possible. See the [iconify documentation](https://iconify.design/docs/icon-components/vue/), or see other examples in the codebase.
-- We have some custom styles for icons. See the `docs/.vitepress/theme/style.css` file for details.
 
 ### **Announcements**
 
@@ -91,9 +91,8 @@ HTML:
 <img class="dark-only" src="/img/myImage-dark.png">
 ```
 
-Tips:
-- Keep the size and aspect ratio of the images consistent.
-- Use similar filenames, such as with a `-light` or `-dark` suffix.
-- Don't include only one version of the image, else content will move when switching between light and dark mode.
+#### Image Sizing:
 
-To modify this behaviour, see the "Light & Dark Mode images" section in the `docs/.vitepress/theme/style.css` file.
+- **OG:image:** 1200x630px (1.91:1 aspect ratio)
+- **Banner:** 1200x300px (4:1 aspect ratio)
+

@@ -59,7 +59,7 @@ Most older social media platforms are **centralized**. If you wanted to leave a 
     darkImageUrl="/img/guide/getting-started/getting_started-old_media-dark.png"
 />
 
-As the user base of individual platforms grew, it became a **problem** with how much power the platforms had. It became very difficult to leave them, or for better alternatives to compete. 
+As the userbase of individual platforms grew, it became a **problem** with how much power the platforms had. It became very difficult to leave them, or for better alternatives to compete. 
 
 It has gotten to the point where a few companies have a near-monopoly on social media, and your online experience along with it.
 
@@ -83,7 +83,7 @@ ActivityPub is an **open standard** and **federation protocol** for social media
 
 Since then, a number of independent projects have adopted ActivityPub to make new social media platforms.
 
-- Do you like reading short text posts from your friends and celebrities? Join one of the many microblogging platforms, and you will be able to follow people from any of the other platform.
+- Do you like reading short text posts from your friends and celebrities? Join one of the many microblogging platforms, and you will be able to follow people from any of the other platforms.
 
 - Do you like sharing photos? Watching videos? Upvoting and commenting on forum posts? There are platforms for all of these, and much more.
 
@@ -94,14 +94,26 @@ All of these platforms make up a 'federated universe' of social media, known as 
     darkImageUrl="/img/guide/getting-started/getting_started-welcome-dark.png"
 />
 
+## How does this help?
+
+- **Decentralization**: No single entity has control over the entire network, and it is much harder for a single entity to take over a social media format.
+- **Freedom to Choose**: You can pick the server that best fits your needs, moderation preferences, and values. If something changes, you can easily move to another server and still see the same content.
+
+Many of these platforms are being built from the ground up, by teams of volunteers, to fix the problems we saw with older social media platforms. As such they are often better about privacy, transparency, and user control.
+
+<br>
+
+<HorizontalContainer>
+<HorizontalCard
+    title="Our Platforms"
+    image="/img/guide/getting-started/getting_started-welcome-dark.png"
+    excerpt="Ready to start already? Check out this list of platforms you can join!"
+    url="../#our-platforms"
+    hideAuthor="true"
+    hideCategory="true"
+/>
+</HorizontalContainer>
+
 <br>
 
 ### See the next section to learn how Fedecan fits into all this!
-
-<br>
-
-::: details Credits
-
-- Inspiration from [this video](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD) by [Framasoft](https://framasoft.org/en/)
-- Icons: <a href="https://www.flaticon.com/free-icons/polar-bear" title="polar bear icons">Polar bear</a>, <a href="https://www.flaticon.com/free-icons/moose" title="moose icons">Moose</a>, <a href="https://www.flaticon.com/free-icons/beaver" title="beaver icons">Beaver</a>, <a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icon</a>, <a href="https://www.flaticon.com/free-icons/raccoon" title="raccoon icons">Raccoon</a>, <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone</a>, <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email</a>, <a href="https://www.flaticon.com/free-icons/platypus" title="platypus icons">Platypus</a>, <a href="https://www.flaticon.com/free-icons/panda" title="panda icons">Panda</a>, <a href="https://www.flaticon.com/free-icons/store-front" title="store front icons">Store front</a>, <a href="https://www.flaticon.com/free-icons/company" title="company icons">Company</a>, <a href="https://www.flaticon.com/free-icons/architecture-and-city" title="architecture and city icons">Architecture</a>, <a href="https://www.flaticon.com/free-icons/hospital" title="hospital icons">Hospital</a>
-:::

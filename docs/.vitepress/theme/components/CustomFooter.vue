@@ -13,14 +13,14 @@ const { hasSidebar, isSidebarEnabled } = useSidebar();
     <div class="container">
       <div class="note">
         <p>
-          Federated Open Communications Canada (Fedecan) is an incorporated not-for-profit
-          organization in Canada. For more information,
+          Federated Open Communications Canada (Fedecan) is a not-for-profit
+          organization in Canada. Check out
           <b
-            ><a href="https://fedecan.ca/guide/fedecan/faq" target="_blank"
-              >see the FAQ section</a
+            ><a href="https://fedecan.ca/guide/fedecan/" target="_blank"
+              >our guides</a
             ></b
           >
-          in our guides.
+          for more information.
         </p>
       </div>
 
@@ -83,15 +83,23 @@ const { hasSidebar, isSidebarEnabled } = useSidebar();
 }
 
 .note {
-  flex: 1 1 300px;
+  flex: 1 1 250px;
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
   color: var(--vp-c-text-2);
 }
 
+.note a {
+  text-decoration: underline;
+}
+
+.note a:hover {
+  color: var(--vp-c-brand);
+}
+
 .links {
-  flex: 1 1 600px;
+  flex: 1 1 650px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
