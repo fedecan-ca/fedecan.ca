@@ -36,6 +36,19 @@ head:
   returnText="Back to Announcements"
 />
 
+::: details You can also view this post on Lemmy: https://lemmy.ca/post/37453471 
+
+<EmbedLemmy
+  :links="[
+    'https://lemmy.ca/post/37453471'
+  ]"
+  :titleLines="2"
+  :excerptLines="3"
+/>
+:::
+
+<br>
+
 Hello everyone, we're long overdue for an update on how things have been going!
 
 **Finances**
@@ -81,3 +94,4 @@ Phases 2+ I'm not 100% decided on yet and have not planned a timeline around. It
 - [Light mode diagram](https://lemmy.ca/pictrs/image/82e0e38e-2315-47f5-8a6e-fa50da706674.png)
 
 Let me know if you have any questions or comments, or feedback on the architecture!
+
