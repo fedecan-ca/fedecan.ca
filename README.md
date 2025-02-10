@@ -97,3 +97,120 @@ Tips:
 - Don't include only one version of the image, else content will move when switching between light and dark mode.
 
 To modify this behaviour, see the "Light & Dark Mode images" section in the `docs/.vitepress/theme/style.css` file.
+
+```
+fedecan.ca
+├─ docs
+│  ├─ .vitepress
+│  │  ├─ config.mts
+│  │  └─ theme
+│  │     ├─ components
+│  │     │  ├─ DataWrapperChart.vue
+│  │     │  ├─ InfoPill.vue
+│  │     │  ├─ InfoText.vue
+│  │     │  ├─ overrides
+│  │     │  │  └─ VPFooter.vue
+│  │     │  ├─ StripeButton.vue
+│  │     │  └─ ThemedImage.vue
+│  │     ├─ data
+│  │     │  ├─ authors.js
+│  │     │  └─ posts.data.js
+│  │     ├─ index.ts
+│  │     └─ style.css
+│  ├─ en
+│  │  ├─ announcements
+│  │  │  ├─ 2024-02-10_censusResults.md
+│  │  │  ├─ 2024-04-08_incorporated.md
+│  │  │  ├─ 2024-04-08_lemmyvision-2024.md
+│  │  │  ├─ 2024-07-15_canvas-2024.md
+│  │  │  └─ 2025-01-18_update-finances-new-server.md
+│  │  ├─ announcements.md
+│  │  ├─ contact.md
+│  │  ├─ donate-private.md
+│  │  ├─ donate.md
+│  │  ├─ guide
+│  │  │  ├─ fedecan
+│  │  │  │  └─ faq.md
+│  │  │  ├─ fediverse
+│  │  │  │  ├─ open-source.md
+│  │  │  │  └─ overview.md
+│  │  │  ├─ get-started.md
+│  │  │  └─ lemmy
+│  │  │     ├─ alternative-uis.md
+│  │  │     ├─ automation.md
+│  │  │     ├─ infrastructure
+│  │  │     │  ├─ firewall.md
+│  │  │     │  ├─ security.md
+│  │  │     │  └─ ssh
+│  │  │     │     ├─ configuring.md
+│  │  │     │     ├─ hardening.md
+│  │  │     │     └─ overview.md
+│  │  │     ├─ markdown.md
+│  │  │     └─ overview.md
+│  │  └─ index.md
+│  ├─ fr
+│  │  ├─ donate.md
+│  │  ├─ guide
+│  │  │  ├─ fedecan
+│  │  │  │  └─ faq.md
+│  │  │  └─ get-started.md
+│  │  └─ index.md
+│  └─ public
+│     ├─ announcements
+│     │  ├─ 2024-02-10_censusResults
+│     │  │  ├─ 2.2.png
+│     │  │  ├─ 2.5.png
+│     │  │  ├─ 2.9.png
+│     │  │  ├─ 4.1.png
+│     │  │  └─ icecream.jpg
+│     │  ├─ author
+│     │  │  └─ shadow.webp
+│     │  └─ banner
+│     │     ├─ 2024-02-10_censusResults.jpg
+│     │     ├─ canvas-2024.webp
+│     │     └─ lemmyvision-2024.webp
+│     ├─ favicon.svg
+│     ├─ img
+│     │  ├─ asleep.png
+│     │  ├─ error-asleep.webp
+│     │  ├─ error-leaves.png
+│     │  ├─ guides
+│     │  │  └─ markdown
+│     │  │     ├─ blockquotes_dark.png
+│     │  │     ├─ blockquotes_light.png
+│     │  │     ├─ code_dark.png
+│     │  │     ├─ code_light.png
+│     │  │     ├─ emphasis_dark.png
+│     │  │     ├─ emphasis_light.png
+│     │  │     ├─ headers_dark.png
+│     │  │     ├─ headers_light.png
+│     │  │     ├─ horizontal_rule_dark.png
+│     │  │     ├─ horizontal_rule_light.png
+│     │  │     ├─ links_images_dark.png
+│     │  │     ├─ links_images_light.png
+│     │  │     ├─ lists_dark.png
+│     │  │     ├─ lists_light.png
+│     │  │     ├─ spoilers_dark.png
+│     │  │     ├─ spoilers_light.png
+│     │  │     ├─ sub_superscript_dark.png
+│     │  │     ├─ sub_superscript_light.png
+│     │  │     ├─ tables_dark.png
+│     │  │     └─ tables_light.png
+│     │  ├─ icons
+│     │  │  ├─ fediverse.png
+│     │  │  ├─ heart-care.png
+│     │  │  ├─ maple-leaf-white.svg
+│     │  │  ├─ maple-leaf.png
+│     │  │  ├─ maple-leaf.svg
+│     │  │  └─ server-edit.png
+│     │  ├─ lemmy-screenshots.png
+│     │  ├─ profile-square-light.png
+│     │  ├─ profile-square.png
+│     │  └─ social-share.png
+│     └─ _redirects
+├─ local-test
+├─ package.json
+├─ pnpm-lock.yaml
+└─ README.md
+
+```
