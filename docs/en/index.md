@@ -62,6 +62,6 @@ title: "Welcome"
 Everyone can contribute in their own way! Whether you want to join a platform, donate, or help share your expertise, we look forward to seeing you around. See below for some links to get started, but this list is not exhaustive:
 
 - Check out our [main community on lemmy.ca](https://lemmy.ca/c/main) to follow recent discussions or ask questions. As we get organized and start on new projects, we will make posts in the community looking for help.
-- See our [donation page](/donate) to learn how you can support our work.
+- See our [donation page](./donate.md) to learn how you can support our work.
 
 What we love to see most of all is new people making the jump to the Fediverse. See you soon!

@@ -13,7 +13,7 @@ head:
       content: Security | SSH hardening
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/infrastructure/ssh/hardening
+      content: https://fedecan.ca/en/guide/lemmy/infrastructure/ssh/hardening
   - - meta
     - property: og:description # 150-160 characters
       content:  Guides for hardening ssh for hosting.
