@@ -11,7 +11,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
   ],
   vite: {
-    ssr: { noExternal: ['@cynber/vitepress-valence'] },
+    ssr: { noExternal: ['@cynber/vitepress-valence']},
     resolve: {
       alias: [
         {
@@ -32,119 +32,66 @@ export default defineConfig({
     hostname: 'https://fedecan.ca'
   },
   cleanUrls: true,
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Announcements', link: '/announcements' },
+      { text: 'Guides',
+        items: [
+          { text: 'Getting Started', link: '/guide/get-started' },
+          {text: 'F.A.Q.', link: '/guide/fedecan/faq'}
+        ]
+      },
+      { text: 'Contact Us', link: '/contact' },
+      { text: 'Donate', link: '/donate' }
+    ],
 
-  locales: {
-    root: {
-      label: 'English',
-      lang: 'en-CA',
-      link: '/en/',
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Announcements', link: '/en/announcements' },
-          {
-            text: 'Guides',
-            items: [
-              { text: 'Getting Started', link: '/en/guide/get-started' },
-              { text: 'F.A.Q.', link: '/en/guide/fedecan/faq' }
-            ]
-          },
-          { text: 'Contact Us', link: '/en/contact' },
-          { text: 'Donate', link: '/en/donate' }
-        ],
-        sidebar: {
-          '/en/guide/': [
-            {
-              text: 'Guides',
+    sidebar: {
+      // For pages in the `guide` directory
+      '/guide/': [
+        {
+          text: 'Guides',
+          items: [
+            { text: 'Getting Started', link: '/guide/get-started' },
+            { text: 'Fediverse',
               items: [
-                { text: 'Getting Started', link: '/en/guide/get-started' },
-                {
-                  text: 'Fediverse',
-                  items: [
-                    { text: 'What is the Fediverse?', link: '/en/guide/fediverse/overview' },
-                    { text: 'Why Open Source?', link: '/en/guide/fediverse/open-source' }
-                  ]
-                },
-                {
-                  text: 'Lemmy',
-                  items: [
-                    { text: 'What is Lemmy?', link: '/en/guide/lemmy/overview' },
-                    { text: 'Automation for Lemmy', link: '/en/guide/lemmy/automation' },
-                    { text: 'Alternative UIs', link: '/en/guide/lemmy/alternative-uis' },
-                    { text: 'Lemmy Markdown', link: '/en/guide/lemmy/markdown' },
-                    {
-                      text: 'Securing Lemmy', link: '/en/guide/lemmy/infrastructure/security',
-                      items: [
-                        { text: 'Firewall', link: '/en/guide/lemmy/infrastructure/firewall' },
-                        {
-                          text: 'SSH',
-                          link: '/en/guide/lemmy/infrastructure/ssh/overview',
-                          items: [
-                            { text: 'Configure SSH', link: '/en/guide/lemmy/infrastructure/ssh/configuring' },
-                            { text: 'Hardening SSH', link: '/en/guide/lemmy/infrastructure/ssh/hardening' },
-                          ]
-                        }
-                      ]
-                    },
-                  ]
-                },
-                {
-                  text: 'Fedecan',
-                  items: [
-                    { text: 'F.A.Q.', link: '/en/guide/fedecan/faq' }
-                  ]
-                }
+                { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
+                { text: 'Why Open Source?', link: '/guide/fediverse/open-source' }
               ]
-            }
-          ],
-        }
-      }
-    },
-    fr: {
-      label: 'Français',
-      lang: 'fr-CA',
-      link: '/fr/',
-      themeConfig: {
-        nav: [
-          { text: 'Accueil', link: '/fr/' },
-          {
-            text: 'Guide',
-            items: [
-              { text: 'Commencer', link: '/fr/guide/get-started' },
-              { text: 'FAQ', link: '/fr/guide/fedecan/faq' }
-            ]
-          },
-          { text: 'Faire un don', link: '/fr/donate' }
-        ],
-        sidebar: {
-          '/fr/guide/': [
-            {
-              text: 'Guide',
+            },
+            { text: 'Lemmy',
               items: [
-                { text: 'Commencer', link: '/fr/guide/get-started' },
-                {
-                  text: 'Fedecan',
-                  items: [
-                    { text: 'FAQ', link: '/fr/guide/fedecan/faq' }
-                  ]
-                }
+                { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
+                { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
+                { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'},
+                { text: 'Lemmy Markdown', link: '/guide/lemmy/markdown' },
+                { text: 'Securing Lemmy', link: '/guide/lemmy/infrastructure/security', items: [
+                  { text: 'Firewall', link: '/guide/lemmy/infrastructure/firewall' },
+                  {
+                    text: 'SSH', link: '/guide/lemmy/infrastructure/ssh/overview', items: [
+                      { text: 'Configure SSH', link: '/guide/lemmy/infrastructure/ssh/configuring' },
+                      { text: 'Hardening SSH', link: '/guide/lemmy/infrastructure/ssh/hardening' },
+                    ]
+                  }
+                ]},
+              ]
+            },
+            { text: 'Fedecan',
+              items: [
+                { text: 'F.A.Q.', link: '/guide/fedecan/faq' }
               ]
             }
           ]
         }
-      }
-    }
-  },
-
-  themeConfig: {
-    logo: {
-      light: '/img/icons/maple-leaf.svg',
-      dark: '/img/icons/maple-leaf.svg'
+      ],
     },
 
     footer: {
       message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
     },
+
+    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
 
     search: {
       provider: 'local',
@@ -186,5 +133,16 @@ export default defineConfig({
       }
     },
     externalLinkIcon: true
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-CA'
+    },
+    fr: {
+      label: 'Français',
+      lang: 'fr-CA',
+      link: '/fr/'
+    }
   }
 })
