@@ -11,17 +11,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
   ],
   vite: {
-    ssr: { noExternal: ['@cynber/vitepress-valence']},
-    resolve: {
-      alias: [
-        {
-          find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(
-            new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
-          ),
-        }
-      ],
-    },
+    ssr: { noExternal: ['@cynber/vitepress-valence'] },
   },
   markdown: {
     image: {
@@ -36,50 +26,75 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Guides & Resources', link: '/guide/get-started' },
       { text: 'Announcements', link: '/announcements' },
-      { text: 'Guides',
-        items: [
-          { text: 'Getting Started', link: '/guide/get-started' },
-          {text: 'F.A.Q.', link: '/guide/fedecan/faq'}
-        ]
-      },
-      { text: 'Contact Us', link: '/contact' },
-      { text: 'Donate', link: '/donate' }
+      { text: 'Contact', link: '/contact' },
+      { text: '❤️ Donate', link: '/donate' },
     ],
 
     sidebar: {
       // For pages in the `guide` directory
       '/guide/': [
         {
-          text: 'Guides',
+          text: 'Getting Started',
           items: [
-            { text: 'Getting Started', link: '/guide/get-started' },
-            { text: 'Fediverse',
+            { text: 'What is the Fediverse?', link: '/guide/get-started' },
+            {
+              text: 'Fedecan',
               items: [
-                { text: 'What is the Fediverse?', link: '/guide/fediverse/overview' },
-                { text: 'Why Open Source?', link: '/guide/fediverse/open-source' }
-              ]
-            },
-            { text: 'Lemmy',
-              items: [
-                { text: 'What is Lemmy?', link: '/guide/lemmy/overview' },
-                { text: 'Automation for Lemmy', link: '/guide/lemmy/automation' },
-                { text: 'Alternative UIs', link: '/guide/lemmy/alternative-uis'},
-                { text: 'Lemmy Markdown', link: '/guide/lemmy/markdown' },
-                { text: 'Securing Lemmy', link: '/guide/lemmy/infrastructure/security', items: [
-                  { text: 'Firewall', link: '/guide/lemmy/infrastructure/firewall' },
-                  {
-                    text: 'SSH', link: '/guide/lemmy/infrastructure/ssh/overview', items: [
-                      { text: 'Configure SSH', link: '/guide/lemmy/infrastructure/ssh/configuring' },
-                      { text: 'Hardening SSH', link: '/guide/lemmy/infrastructure/ssh/hardening' },
-                    ]
-                  }
-                ]},
-              ]
-            },
-            { text: 'Fedecan',
-              items: [
+                { text: 'Who We Are', link: '/guide/fedecan' },
                 { text: 'F.A.Q.', link: '/guide/fedecan/faq' }
+              ]
+            }
+          ]
+        },
+        {
+          text: 'Our Platforms',
+          items: [
+            {
+              text: 'Lemmy',
+              link: '/guide/lemmy/overview',
+              items: [
+                {
+                  text: 'Guides for Users',
+                  link: '/guide/lemmy/for-users',
+                  collapsed: true,
+                  items: [
+                    { text: 'Alternative UIs', 
+                      link: '/guide/lemmy/for-users/alternative-uis' },
+                    { text: 'How to format posts', 
+                      link: '/guide/lemmy/for-users/markdown' },
+                  ]
+                },
+                { text: 'Guides for Moderators', 
+                  link: '/guide/lemmy/for-moderators' },
+                { text: 'Guide for Admins', 
+                  link: '/guide/lemmy/for-admins',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: 'Securing Lemmy', 
+                      link: '/guide/lemmy/for-admins/infrastructure/security', items: [
+                        { text: 'Firewall', 
+                          link: '/guide/lemmy/for-admins/infrastructure/firewall' },
+                        {
+                          text: 'SSH', 
+                          link: '/guide/lemmy/for-admins/infrastructure/ssh/overview', 
+                          items: [
+                            { text: 'Configure SSH', 
+                              link: '/guide/lemmy/for-admins/infrastructure/ssh/configuring' },
+                            { text: 'Hardening SSH', 
+                              link: '/guide/lemmy/for-admins/infrastructure/ssh/hardening' },
+                          ]
+                        }
+                      ]
+                    },
+                    { text: 'Automation for Lemmy', 
+                      link: '/guide/lemmy/for-admins/automation' },
+                  ]
+                },
+                { text: 'Guides for Developers', 
+                  link: '/guide/lemmy/for-developers' }
               ]
             }
           ]
@@ -87,11 +102,7 @@ export default defineConfig({
       ],
     },
 
-    footer: {
-      message: '<a href="https://status.lemmy.ca/">Uptime Status</a> | <a href="https://github.com/fedecan-ca/">GitHub Organization</a>',
-    },
-
-    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg'},
+    logo: { light: '/img/icons/maple-leaf.svg', dark: '/img/icons/maple-leaf.svg' },
 
     search: {
       provider: 'local',
@@ -135,7 +146,7 @@ export default defineConfig({
     externalLinkIcon: true
   },
   locales: {
-    root: {
+    en: {
       label: 'English',
       lang: 'en-CA'
     },

@@ -39,7 +39,7 @@ Lemmy uses markdown-it for rendering markdown. This means that you can use the s
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/headers_light.png" darkImageUrl="/img/guides/markdown/headers_dark.png" alt="Markdown Headers"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/headers_light.png" darkImageUrl="/img/guide/markdown/headers_dark.png" alt="Markdown Headers"/>
 
 
 ## Emphasis
@@ -53,7 +53,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/emphasis_light.png" darkImageUrl="/img/guides/markdown/emphasis_dark.png" alt="Markdown Emphasis"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/emphasis_light.png" darkImageUrl="/img/guide/markdown/emphasis_dark.png" alt="Markdown Emphasis"/>
 
 
 ## Lists
@@ -72,7 +72,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/lists_light.png" darkImageUrl="/img/guides/markdown/lists_dark.png" alt="Markdown Emphasis"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/lists_light.png" darkImageUrl="/img/guide/markdown/lists_dark.png" alt="Markdown Emphasis"/>
 
 
 
@@ -86,7 +86,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/links_images_light.png" darkImageUrl="/img/guides/markdown/links_images_dark.png" alt="Markdown Links/Images"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/links_images_light.png" darkImageUrl="/img/guide/markdown/links_images_dark.png" alt="Markdown Links/Images"/>
 
 
 ## Blockquotes
@@ -98,7 +98,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/blockquotes_light.png" darkImageUrl="/img/guides/markdown/blockquotes_dark.png" alt="Markdown Blockquotes"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/blockquotes_light.png" darkImageUrl="/img/guide/markdown/blockquotes_dark.png" alt="Markdown Blockquotes"/>
 
 
 ## Code
@@ -114,7 +114,7 @@ def hello():
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/code_light.png" darkImageUrl="/img/guides/markdown/code_dark.png" alt="Markdown Inline/Blockcode"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/code_light.png" darkImageUrl="/img/guide/markdown/code_dark.png" alt="Markdown Inline/Blockcode"/>
 
 
 ## Tables
@@ -131,7 +131,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/tables_light.png" darkImageUrl="/img/guides/markdown/tables_dark.png" alt="Markdown Tables"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/tables_light.png" darkImageUrl="/img/guide/markdown/tables_dark.png" alt="Markdown Tables"/>
 
 ## Horizontal Rule
 
@@ -141,7 +141,7 @@ Result:
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/horizontal_rule_light.png" darkImageUrl="/img/guides/markdown/horizontal_rule_dark.png" alt="Markdown Horizontal Rule"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/horizontal_rule_light.png" darkImageUrl="/img/guide/markdown/horizontal_rule_dark.png" alt="Markdown Horizontal Rule"/>
 
 
 ## Spoilers
@@ -156,7 +156,7 @@ Spoiler Content
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/spoilers_light.png" darkImageUrl="/img/guides/markdown/spoilers_dark.png" alt="Markdown Spoilers"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/spoilers_light.png" darkImageUrl="/img/guide/markdown/spoilers_dark.png" alt="Markdown Spoilers"/>
 
 > Note: In the example above, the spoiler is in the open state, by default it is in the closed state.
 
@@ -169,4 +169,4 @@ H^2^O
 
 Result:
 
-<ThemedImage  lightImageUrl="/img/guides/markdown/sub_superscript_light.png" darkImageUrl="/img/guides/markdown/sub_superscript_dark.png" alt="Markdown Sub/Superscript"/>
+<ThemedImage  lightImageUrl="/img/guide/markdown/sub_superscript_light.png" darkImageUrl="/img/guide/markdown/sub_superscript_dark.png" alt="Markdown Sub/Superscript"/>

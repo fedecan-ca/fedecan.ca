@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy Hosting Security
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/infrastructure/security
+      content: https://fedecan.ca/guide/lemmy/for-admins/infrastructure/security
   - - meta
     - property: og:description # 150-160 characters
       content: Guides on the security of Lemmy hosting.
@@ -49,19 +49,19 @@ Use strong passwords for all user accounts on the server, including the root acc
 
 ### Use a Firewall
 
-Refer to the [Firewalls](/guide/lemmy/infrastructure/firewall) guide for setting up a firewall for your server.
+Refer to the [Firewalls](/guide/lemmy/for-admins/infrastructure/firewall) guide for setting up a firewall for your server.
 
 ## SSH Security
 
-## [What is SSH?](/guide/lemmy/infrastructure/ssh/overview)
+## [What is SSH?](/guide/lemmy/for-admins/infrastructure/ssh/overview)
 
 ### Configure SSH
 
-Refer to the [SSH Configuration](/guide/lemmy/infrastructure/ssh/configuring) guide for setting up SSH for your server.
+Refer to the [SSH Configuration](/guide/lemmy/for-admins/infrastructure/ssh/configuring) guide for setting up SSH for your server.
 
 ### Secure SSH
 
-Refer to the [SSH Hardening](/guide/lemmy/infrastructure/ssh/hardening) guide for setting up and hardening SSH for your server.
+Refer to the [SSH Hardening](/guide/lemmy/for-admins/infrastructure/ssh/hardening) guide for setting up and hardening SSH for your server.
 
 
 
