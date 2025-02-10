@@ -18,11 +18,6 @@ export default defineConfig({
       lazyLoading: true
     }
   },
-  markdown: {
-    image: {
-      lazyLoading: true
-    }
-  },
   sitemap: {
     hostname: 'https://fedecan.ca'
   },
