@@ -13,7 +13,7 @@ head:
       content: Security | SSH configuration
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/infrastructure/ssh/configuration
+      content: https://fedecan.ca/guide/lemmy/for-admins/infrastructure/ssh/configuration
   - - meta
     - property: og:description # 150-160 characters
       content:  Guides for setting up ssh for hosting.
@@ -71,11 +71,11 @@ sudo systemctl restart sshd
 
 ### Setting up a Firewall
 
-Pleasae refer to the [Firewall](/guide/lemmy/infrastructure/firewall) guide for setting up a firewall for your Lemmy instance.
+Pleasae refer to the [Firewall](/guide/lemmy/for-admins/infrastructure/firewall) guide for setting up a firewall for your Lemmy instance.
 
 ### Hardening SSH
 
-Please refer to the [SSH Hardening](/guide/lemmy/infrastructure/ssh/hardening) guide for hardening SSH for your Lemmy instance.
+Please refer to the [SSH Hardening](/guide/lemmy/for-admins/infrastructure/ssh/hardening) guide for hardening SSH for your Lemmy instance.
 
 ### Conclusion
 

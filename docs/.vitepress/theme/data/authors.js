@@ -1,7 +1,7 @@
 const authors = {
     fedecan: {
         name: 'Fedecan',
-        avatar: '/img/profile-square-light.png',
+        avatar: '/announcements/author/profile-square-light.png',
         // description: 'Non-Profit', // Optional
         url: '..' // Optional
     },

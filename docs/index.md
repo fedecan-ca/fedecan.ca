@@ -13,8 +13,8 @@ hero:
       text: Get Started
       link: /guide/get-started
     - theme: alt
-      text:  Contact Us
-      link: /contact
+      text:  Announcements
+      link: /announcements
     - theme: alt
       text: Donate
       link: /donate
@@ -23,22 +23,39 @@ features:
   - title: Run by a non-profit
     icon: 
       src: /img/icons/heart-care.png
-    details: Traditional social media platforms base their decisions on maximizing profits. We registered as a non-profit to ensure that our decisions will always prioritize the best interests of our users.
+    details: Traditional social media platforms base their decisions on maximizing profits. We started Fedecan as a non-profit to ensure that our decisions will always prioritize our users.
+    link: /guide/fedecan/
+    linkText: Learn more about us
   - title: Open Source & Open Standards
     icon: 
       src: /img/icons/server-edit.png
-    details: Our platforms run open-source software, and use open standards like ActivityPub. Since anyone can inspect and contribute to the code, we can ensure that the platforms are secure, privacy respecting, and reliable.
+    details: Our platforms run on open-source software and use open standards. Everyone can inspect the code, and so you can trust that the platforms will be secure, privacy respecting, and fair.
+    link: /guide/get-started
+    linkText: Learn more
   - title: A Federated Network
     icon: 
       src: /img/icons/fediverse.png
-    details: The Fediverse enables many different and independent social media platforms to communicate with each other. By joining a Fediverse instance like ours, you can connect with users from thousands of other instances.
+    details: We are a part of the Fediverse. When you join one of these platforms, whether it is one of ours or not, you will be able to interact with users from across the network.
+    link: /guide/get-started
+    linkText: Learn more
 
 title: "Welcome"
 ---
 
 ## Our Platforms
 
-<div class="cards-container">
+<HorizontalContainer>
+<HorizontalCard
+    title="Lemmy.ca"
+    image="/img/lemmy-screenshots.png"
+    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Lemmy is a federated alternative to these platforms, and so it has all the benefits of being a part of the Fediverse."
+    url="./guide/lemmy/overview"
+    hideAuthor="true"
+    hideCategory="true"
+/>
+</HorizontalContainer>
+
+<!-- <div class="cards-container">
   <div class="card">
     <h3 class="text-with-icon">
       <Icon icon="simple-icons:lemmy" width="1.2em" height="1.2em" />
@@ -46,16 +63,15 @@ title: "Welcome"
     </h3>
     <div class="card-content">
       <div class="card-text">
-        <p>Lemmy is a "federated link aggregator". You might be familiar with websites such as Reddit or the many forum websites that exist.</p>
+        <p>Lemmy follows a forum format, where you can share and discuss links, text, and images. You can upvote and downvote content, and the best content rises to the top. </p>
         <p>You can find communities for different topics where you can post content, comment, and vote on submissions. Lemmy features a familiar interface with the added benefit of being federated. This means that you can interact with users from across the Fediverse, including those on other platforms such as Mastodon.</p>
       </div>
       <img src="/img/lemmy-screenshots.png" alt="Lemmy" class="card-image"/>
     </div>
   </div>
-</div>
+</div> -->
 
-<h3 class="text-with-icon">More on the way</h3>
-<p>As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!</p>
+**More on the way:** As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!
 
 ## Want to help?
 
