@@ -13,7 +13,7 @@ head:
       content: Security | SSH
   - - meta
     - property: og:url
-      content: https://fedecan.ca/en/guide/lemmy/infrastructure/ssh/overview
+      content: https://fedecan.ca/guide/lemmy/infrastructure/ssh/overview
   - - meta
     - property: og:description # 150-160 characters
       content:  Guides for ssh for hosting.
@@ -40,11 +40,11 @@ The official documentation for OpenSSH can be found [here](https://www.openssh.c
 
 Here are some guides on SSH that can help you secure your server and manage it remotely using SSH:
 
-### [SSH Configuration](./configuring.md)
+### [SSH Configuration](/guide/lemmy/infrastructure/ssh/configuring)
 
 This guide will cover the setup of SSH for hosting a Lemmy instance.
 
-### [SSH Hardening](./hardening.md)
+### [SSH Hardening](/guide/lemmy/infrastructure/ssh/hardening)
 
 This guide will cover the hardening of SSH for hosting a Lemmy instance.
 
