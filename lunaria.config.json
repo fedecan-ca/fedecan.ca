@@ -3,7 +3,6 @@
   "repository": {
     "name": "fedecan-ca/fedecan.ca",
     "branch": "main",
-    "rootDir": "docs",
     "hosting": "github"
   },
   "defaultLocale": {
