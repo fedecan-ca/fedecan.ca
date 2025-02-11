@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy Automation
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/automation
+      content: https://fedecan.ca/en/guide/lemmy/automation
   - - meta
     - property: og:description  # 150-160 characters
       content: Tools or Libraries for automation of Lemmy

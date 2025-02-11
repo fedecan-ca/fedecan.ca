@@ -21,7 +21,7 @@ head:
       content: Non-Profit Incorporation
   - - meta
     - property: og:url
-      content: https://fedecan.ca/announcements/2024-04-08_incorporated
+      content: https://fedecan.ca/en/announcements/2024-04-08_incorporated
   - - meta
     - property: og:description  # 150-160 characters
       content: Fedecan has been officially incorporated as a not-for-profit organization!
@@ -31,21 +31,22 @@ head:
 ---
 
 <BlogPostHeader 
-  returnLink="/announcements"
+  returnLink="/en/announcements"
   returnText="Back to Announcements"
+  authorsDataKey="enAuthors"
 />
 
 We recently crossed the first anniversary for many of us on Lemmy and the Fediverse, and we are thrilled to announce an important milestone: we have started a new registered not-for-profit organization! The organization is registered as ‘Federated Open Communications Canada’, and we will go by 'Fedecan' in our day-to-day operations.
 
-Over the past few months, we have been working behind the scenes on the necessary paperwork, bylaws, and other administrative tasks to get the organization rolling. Thanks to the invaluable feedback from our previous check-in, we decided to take the leap and register federally, which will allow us to operate across Canada more easily. For more details, you can check out the [FAQs on our new website](https://fedecan.ca/guide/fedecan/faq).
+Over the past few months, we have been working behind the scenes on the necessary paperwork, bylaws, and other administrative tasks to get the organization rolling. Thanks to the invaluable feedback from our previous check-in, we decided to take the leap and register federally, which will allow us to operate across Canada more easily. For more details, you can check out the [FAQs on our new website](https://fedecan.ca/en/guide/fedecan/faq).
 
 ## Resuming Donations
 
 With this important step completed, we are now ready to resume accepting donations. We have set up several donation options to accommodate different preferences on convenience and fees. Our first priority is to reimburse those who have been covering server and other costs, and to set up regular financial updates. We are open to adding more donation options, so please let us know if there is an option you prefer.
 
-- Donation Page: [(fedecan.ca/donate)](https://fedecan.ca/donate)
+- Donation Page: [(fedecan.ca/donate)](https://fedecan.ca/en/donate)
 
-- Alternate Donation page without embedded elements: [(fedecan.ca/donate-private)](https://fedecan.ca/donate-private)
+- Alternate Donation page without embedded elements: [(fedecan.ca/donate-private)](https://fedecan.ca/en/donate-private)
 
 ### Our current costs
 
@@ -56,7 +57,7 @@ With this important step completed, we are now ready to resume accepting donatio
 ## Our Next Steps:
 
 - Reimburse individuals who have covered server and operational costs and to set up more regular financial updates
-- Collaboratively creating [guides and learning resources](https://fedecan.ca/guide/get-started) about Lemmy and the Fediverse (ex. how things work, data/privacy details, and best practices for moderating or running instances, etc.) + translations
+- Collaboratively creating [guides and learning resources](https://fedecan.ca/en/guide/get-started) about Lemmy and the Fediverse (ex. how things work, data/privacy details, and best practices for moderating or running instances, etc.) + translations
 - Exploring other platforms to run. Some that are on our radar include Sublinks, Pixelfed, and Matrix
 - Developing logos, colours, and other branding details based on ideas from the community
 

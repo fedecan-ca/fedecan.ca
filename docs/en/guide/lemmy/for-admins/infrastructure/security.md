@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy Hosting Security
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/for-admins/infrastructure/security
+      content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/security
   - - meta
     - property: og:description # 150-160 characters
       content: Guides on the security of Lemmy hosting.

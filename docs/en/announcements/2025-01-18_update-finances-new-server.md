@@ -21,7 +21,7 @@ head:
       content: lemmy.ca update - Finances & New Server
   - - meta
     - property: og:url
-      content: https://fedecan.ca/announcements/
+      content: https://fedecan.ca/en/announcements/
   - - meta
     - property: og:description  # 150-160 characters
       content: Hello everyone, we’re long overdue for an update on how things have been going!
@@ -32,8 +32,9 @@ head:
 
 
 <BlogPostHeader 
-  returnLink="/announcements"
+  returnLink="/en/announcements"
   returnText="Back to Announcements"
+  authorsDataKey="enAuthors"
 />
 
 ::: details You can also view this post on Lemmy: https://lemmy.ca/post/37453471 

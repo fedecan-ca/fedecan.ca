@@ -13,7 +13,7 @@ head:
       content: Security | SSH configuration
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/for-admins/infrastructure/ssh/configuration
+      content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/ssh/configuration
   - - meta
     - property: og:description # 150-160 characters
       content:  Guides for setting up ssh for hosting.

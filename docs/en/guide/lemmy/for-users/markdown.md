@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy Markdown
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/markdown
+      content: https://fedecan.ca/en/guide/lemmy/markdown
   - - meta
     - property: og:description  # 150-160 characters
       content: Lemmy Markdown Guide

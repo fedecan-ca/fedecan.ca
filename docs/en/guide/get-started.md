@@ -13,7 +13,7 @@ head:
       content: Guides | Getting Started
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/get-started
+      content: https://fedecan.ca/en/guide/get-started
   - - meta
     - property: og:description  # 150-160 characters
       content: Welcome to the Fediverse! This guide can help you get started.

@@ -13,7 +13,7 @@ head:
       content: Announcements
   - - meta
     - property: og:url
-      content: https://fedecan.ca/announcements
+      content: https://fedecan.ca/en/announcements
   - - meta
     - property: og:description  # 150-160 characters
       content: Latest announcements from Fedecan.
@@ -28,4 +28,6 @@ If you are looking for status and maintenance updates, please visit [status.lemm
 <BlogPostList
     format="horizontal"
     excerptLines="2"
+    postsDataKey="enPostsData"
+    authorsDataKey="enAuthors"
   />

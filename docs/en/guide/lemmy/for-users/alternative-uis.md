@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy Alternative UIs
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/alternative-uis
+      content: https://fedecan.ca/en/guide/lemmy/alternative-uis
   - - meta
     - property: og:description # 150-160 characters
       content: Guides on the alternative UIs for Lemmy.

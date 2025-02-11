@@ -17,8 +17,10 @@ import {  BlogPostHeader,
           EmbedLemmy,
         } from '@cynber/vitepress-valence'
 
-import authors from './data/authors.js'
-import { data as postsData } from './data/posts.data.js'
+import enAuthors from './data/authors_en.js'
+import frAuthors from './data/authors_fr.js'
+import { data as enPostsData } from './data/posts_en.data.js'
+import { data as frPostsData } from './data/posts_fr.data.js'
 
 // Deprecated components
 import InfoPill from './components/InfoPill.vue';
@@ -39,8 +41,10 @@ export default {
     app.component('ThemedImage', ThemedImage)
 
     // New components
-    app.provide('authors', authors)  
-    app.provide('postsData', postsData)
+    app.provide('enAuthors', enAuthors)
+    app.provide('frAuthors', frAuthors)
+    app.provide('enPostsData', enPostsData)
+    app.provide('frPostsData', frPostsData)
 
     app.component('Icon', Icon)
 

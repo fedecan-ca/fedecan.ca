@@ -21,7 +21,7 @@ head:
       content: 2023 Instance Census Results
   - - meta
     - property: og:url
-      content: https://fedecan.ca/announcements/2024-02-10_censusResults
+      content: https://fedecan.ca/en/announcements/2024-02-10_censusResults
   - - meta
     - property: og:description  # 150-160 characters
       content: Results and visualizations from the 2023 instance census for our Lemmy instance.
@@ -30,17 +30,10 @@ head:
       content: Announcements
 ---
 
-
-
-<!-- <BlogPostHeader 
-  image="/announcements/banner/2024-02-10_censusResults.jpg"
-  title="2023 Instance Census Results"
-  date="February 10, 2024"
-  /> -->
-
 <BlogPostHeader 
-  returnLink="/announcements"
+  returnLink="/en/announcements"
   returnText="Back to Announcements"
+  authorsDataKey="enAuthors"
 />
 
 This data was [originally shared on Lemmy](https://lemmy.ca/post/15125231){target="_blank"}, and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!

@@ -13,7 +13,7 @@ head:
       content: FAQ | Fedecan
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/fedecan/faq
+      content: https://fedecan.ca/en/guide/fedecan/faq
   - - meta
     - property: og:description  # 150-160 characters
       content: Frequently asked questions about the Fedecan organization.

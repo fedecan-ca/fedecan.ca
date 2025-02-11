@@ -13,7 +13,7 @@ head:
       content: Security | Firewalls
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/for-admins/infrastructure/security/firewall
+      content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/security/firewall
   - - meta
     - property: og:description # 150-160 characters
       content:  Guides for setting up firewalls for hosting.

@@ -11,7 +11,7 @@ head:
       content: Donate
   - - meta
     - property: og:url
-      content: https://fedecan.ca/donate
+      content: https://fedecan.ca/en/donate
   - - meta
     - property: og:description  # 150-160 characters
       content: Your contributions will help us maintain our servers, platforms, and services, pay for operational costs, and spin up new platforms for you to use.

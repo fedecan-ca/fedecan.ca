@@ -13,7 +13,7 @@ head:
       content: Guides | Lemmy
   - - meta
     - property: og:url
-      content: https://fedecan.ca/guide/lemmy/overview
+      content: https://fedecan.ca/en/guide/lemmy/overview
   - - meta
     - property: og:description  # 150-160 characters
       content: Guides on Lemmy, how to get started, and best practices.

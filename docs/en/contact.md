@@ -11,7 +11,7 @@ head:
       content: Contact
   - - meta
     - property: og:url
-      content: https://fedecan.ca/contact
+      content: https://fedecan.ca/en/contact
   - - meta
     - property: og:description  # 150-160 characters
       content: Get in touch with Fedecan

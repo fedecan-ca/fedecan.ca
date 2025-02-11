@@ -33,18 +33,7 @@ If you don't see any errors, you can make a PR to the main branch.
 
 **Structure:**
 
-```plaintext
-.
-├── docs                    # main content
-│   ├── .vitepress          # configuration
-│   ├── fr                  # French translation of docs content
-│   ├── public              # assets (images, etc.)
-│   ├── announcements       # blog posts
-│   ├── guide               # guide content
-│   │   └── ...
-│   └── ...
-└── ...
-```
+See the bottom of this README for a file structure overview.
 
 **Tips:**
 
@@ -96,3 +85,56 @@ HTML:
 - **OG:image:** 1200x630px (1.91:1 aspect ratio)
 - **Banner:** 1200x300px (4:1 aspect ratio)
 
+## File Structure Overview
+
+```
+fedecan.ca
+├─ docs
+│  ├─ .vitepress
+│  │  ├─ config              # config.mts, but split into multiple files
+│  │  │  ├─ en.ts
+│  │  │  ├─ fr.ts
+│  │  │  ├─ index.ts
+│  │  │  ├─ search.ts
+│  │  │  └─ shared.ts
+│  │  └─ theme
+│  │     ├─ components
+│  │     │  ├─ CustomFooter.vue
+│  │     │  ├─ CustomNotFound.vue
+│  │     │  ├─ DataWrapperChart.vue
+│  │     │  ├─ InfoPill.vue
+│  │     │  ├─ InfoText.vue
+│  │     │  ├─ StripeButton.vue
+│  │     │  └─ ThemedImage.vue
+│  │     ├─ CustomLayout.vue
+│  │     ├─ data
+│  │     │  ├─ authors.js
+│  │     │  └─ posts.data.js
+│  │     ├─ index.ts
+│  │     └─ style.css
+│  ├─ en
+│  │  ├─ announcements
+│  │  │  └─ ...
+│  │  ├─ announcements.md
+│  │  ├─ contact.md
+│  │  ├─ donate-private.md
+│  │  ├─ donate.md
+│  │  ├─ guide
+│  │  │  └─ ...
+│  │  └─ index.md
+│  ├─ fr
+│  │  ├─ announcements
+│  │  │  └─ ...
+│  │  ├─ announcements.md
+│  │  ├─ contact.md
+│  │  ├─ donate-private.md
+│  │  ├─ donate.md
+│  │  ├─ guide
+│  │  │  └─ ...
+│  │  └─ index.md
+│  └─ public
+│     └─ ...
+├─ package.json
+├─ pnpm-lock.yaml
+└─ README.md
+```
