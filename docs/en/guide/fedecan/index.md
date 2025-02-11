@@ -66,7 +66,7 @@ Thanks to this structure, our overall costs are very low. In fact, as of 2025, i
 
 This should put into perspective how cheap it is to run a social media platform such as ours, and how it is possible to fund everything through donations and grants alone.
 
-If you are interested in supporting this work, check out our [donation page](/donate). You **do not** need to donate to use our platform. Please only donate if you are able to.
+If you are interested in supporting this work, check out our [donation page](../../donate.md). You **do not** need to donate to use our platform. Please only donate if you are able to.
 
 ## Still have questions or feedback?
 

@@ -40,11 +40,11 @@ The official documentation for OpenSSH can be found [here](https://www.openssh.c
 
 Here are some guides on SSH that can help you secure your server and manage it remotely using SSH:
 
-### [SSH Configuration](/guide/lemmy/for-admins/infrastructure/ssh/configuring)
+### [SSH Configuration](configuring.md)
 
 This guide will cover the setup of SSH for hosting a Lemmy instance.
 
-### [SSH Hardening](/guide/lemmy/for-admins/infrastructure/ssh/hardening)
+### [SSH Hardening](hardening.md)
 
 This guide will cover the hardening of SSH for hosting a Lemmy instance.
 

@@ -71,11 +71,11 @@ sudo systemctl restart sshd
 
 ### Setting up a Firewall
 
-Pleasae refer to the [Firewall](/guide/lemmy/for-admins/infrastructure/firewall) guide for setting up a firewall for your Lemmy instance.
+Pleasae refer to the [Firewall](../firewall.md) guide for setting up a firewall for your Lemmy instance.
 
 ### Hardening SSH
 
-Please refer to the [SSH Hardening](/guide/lemmy/for-admins/infrastructure/ssh/hardening) guide for hardening SSH for your Lemmy instance.
+Please refer to the [SSH Hardening](hardening.md) guide for hardening SSH for your Lemmy instance.
 
 ### Conclusion
 

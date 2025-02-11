@@ -49,19 +49,19 @@ Use strong passwords for all user accounts on the server, including the root acc
 
 ### Use a Firewall
 
-Refer to the [Firewalls](/guide/lemmy/for-admins/infrastructure/firewall) guide for setting up a firewall for your server.
+Refer to the [Firewalls](firewall.md) guide for setting up a firewall for your server.
 
 ## SSH Security
 
-## [What is SSH?](/guide/lemmy/for-admins/infrastructure/ssh/overview)
+## [What is SSH?](ssh/overview.md)
 
 ### Configure SSH
 
-Refer to the [SSH Configuration](/guide/lemmy/for-admins/infrastructure/ssh/configuring) guide for setting up SSH for your server.
+Refer to the [SSH Configuration](ssh/configuring.md) guide for setting up SSH for your server.
 
 ### Secure SSH
 
-Refer to the [SSH Hardening](/guide/lemmy/for-admins/infrastructure/ssh/hardening) guide for setting up and hardening SSH for your server.
+Refer to the [SSH Hardening](ssh/hardening.md) guide for setting up and hardening SSH for your server.
 
 
 
