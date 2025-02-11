@@ -5,3 +5,6 @@ local-test
 # vitepress recommendations
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+# Lunaria
+dist/lunaria
