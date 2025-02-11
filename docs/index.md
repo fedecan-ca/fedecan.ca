@@ -81,3 +81,5 @@ Everyone can contribute in their own way! Whether you want to join a platform, d
 - See our [donation page](/donate) to learn how you can support our work.
 
 What we love to see most of all is new people making the jump to the Fediverse. See you soon!
+
+
