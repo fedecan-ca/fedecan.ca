@@ -8,9 +8,12 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lunaria:build": "lunaria build",
+    "lunaria:preview": "lunaria preview"
   },
   "dependencies": {
-    "@cynber/vitepress-valence": "^0.1.12"
+    "@cynber/vitepress-valence": "^0.1.12",
+    "@lunariajs/core": "^0.1.1"
   }
 }

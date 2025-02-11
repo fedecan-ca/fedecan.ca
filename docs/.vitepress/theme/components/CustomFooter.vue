@@ -1,8 +1,40 @@
 <script setup lang="ts">
 import { useSidebar } from "vitepress/theme";
-import { watch } from "vue";
+import { useRoute } from "vitepress";
 
 const { hasSidebar, isSidebarEnabled } = useSidebar();
+const route = useRoute();
+const isFrench = route.path.startsWith("/fr/");
+
+const content = {
+  en: {
+    note:
+      "Federated Open Communications Canada (Fedecan) is a not-for-profit organization in Canada. Check out",
+    guides: "our guides",
+    moreInfo: "for more information.",
+    organization: "Organization",
+    donate: "Donate",
+    contact: "Contact",
+    message: "Message on Lemmy",
+    platforms: "Platforms",
+    status: "Uptime Status",
+  },
+  fr: {
+    note:
+      "Federated Open Communications Canada (Fédécan) est un organisme sans but lucratif au Canada. Consultez",
+    guides: "nos guides",
+    moreInfo: "pour plus d'informations.",
+    organization: "Organisation",
+    donate: "Faire un don",
+    contact: "Contact",
+    message: "Message sur Lemmy",
+    platforms: "Plateformes",
+    status: "État du système",
+  },
+};
+
+const currentContent = isFrench ? content.fr : content.en;
+const guidesLink = isFrench ? "/fr/guide/fedecan/" : "/en/guide/fedecan/";
 </script>
 
 <template>
@@ -13,51 +45,48 @@ const { hasSidebar, isSidebarEnabled } = useSidebar();
     <div class="container">
       <div class="note">
         <p>
-          Federated Open Communications Canada (Fedecan) is a not-for-profit
-          organization in Canada. Check out
+          {{ currentContent.note }}
           <b
-            ><a href="https://fedecan.ca/guide/fedecan/" target="_blank"
-              >our guides</a
-            ></b
+            ><a :href="guidesLink" target="_blank">{{ currentContent.guides }}</a></b
           >
-          for more information.
+          {{ currentContent.moreInfo }}
         </p>
       </div>
 
       <div class="links">
         <div class="link-column">
-          <h3>Organization</h3>
-          <a href="https://fedecan.ca/donate" target="_blank">
+          <h3>{{ currentContent.organization }}</h3>
+          <a :href="isFrench ? '/fr/donate' : '/en/donate'" target="_blank">
             <Icon icon="fa:heart-o" width="1em" height="1em" />
-            Donate
+            {{ currentContent.donate }}
           </a>
           <a href="https://github.com/fedecan-ca/" target="_blank">
             <Icon icon="fa:github" width="1em" height="1em" />
-            Github
+            GitHub
           </a>
         </div>
 
         <div class="link-column">
-          <h3>Contact</h3>
+          <h3>{{ currentContent.contact }}</h3>
           <a href="mailto:support@fedecan.ca">
             <Icon icon="ic:outline-email" width="1em" height="1em" />
             support@fedecan.ca
           </a>
           <a href="https://lemmy.ca/u/admin" target="_blank">
             <Icon icon="ic:outline-message" width="1em" height="1em" />
-            Message on Lemmy
+            {{ currentContent.message }}
           </a>
         </div>
 
         <div class="link-column">
-          <h3>Platforms</h3>
+          <h3>{{ currentContent.platforms }}</h3>
           <a href="https://lemmy.ca" target="_blank">
             <Icon icon="simple-icons:lemmy" width="1em" height="1em" />
             Lemmy.ca
           </a>
           <a href="https://status.lemmy.ca" target="_blank">
             <Icon icon="fa:heartbeat" width="1em" height="1em" />
-            Uptime Status
+            {{ currentContent.status }}
           </a>
         </div>
       </div>

@@ -1,0 +1,60 @@
+{
+  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "repository": {
+    "name": "fedecan-ca/fedecan.ca",
+    "branch": "main",
+    "rootDir": "docs",
+    "hosting": "github"
+  },
+  "defaultLocale": {
+    "label": "English",
+    "lang": "en"
+  },
+  "locales": [
+    {
+      "label": "English",
+      "lang": "en"
+    },
+    {
+      "label": "Français",
+      "lang": "fr"
+    }
+  ],
+  "files": [
+    {
+      "location": "docs/**/*.md",
+      "pattern": "docs/@lang/@path",
+      "type": "universal"
+    }
+  ],
+  "ignoreKeywords": [
+    "lunaria-ignore",
+    "fix typo",
+    "en-only",
+    "fr-only",
+    "needs-translation"
+  ],
+  "dashboard": {
+    "title": "Fedecan.ca i18n",
+    "description": "Translation status / État des traductions",
+    "favicon": {
+      "external": [
+        {
+          "link": "https://fedecan.ca/favicon.svg",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    "basesToHide": ["docs/"],
+    "ui": {
+      "status.emojiDone": "✅",
+      "status.emojiMissing": "❌",
+      "status.emojiOutdated": "🔄",
+      "status.done": "Complete / Complet",
+      "status.missing": "Missing / Manquant",
+      "status.outdated": "Outdated / Dépassée",
+      "statusByFile.heading": "File List / Liste des fichiers",
+      "statusByLocale.heading": "Progress / Progrès"
+    }
+  }
+}
