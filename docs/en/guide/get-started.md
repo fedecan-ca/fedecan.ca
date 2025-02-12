@@ -28,7 +28,7 @@ If this is your first time hearing about the Fediverse, we're very excited to be
 
 ## Background
 
-When you want to send an email, you don't need to use the same email provider as the person you're sending it to.
+When you want to send an email, you don't need to use the same email provider as the person you're sending it to. 
 
 <ThemedImage 
     lightImageUrl="/img/guide/getting-started/getting_started-email-light.png"

@@ -9,8 +9,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "lunaria:build": "lunaria build",
-    "lunaria:preview": "lunaria preview"
+    "lunaria:build": "lunaria build --config lunaria/lunaria.config.json",
+    "lunaria:preview": "lunaria preview --config lunaria/lunaria.config.json",
+    "lunaria:fedecan": "lunaria build --config lunaria/lunaria.config.json && lunaria preview --config lunaria/lunaria.config.json"
   },
   "dependencies": {
     "@cynber/vitepress-valence": "^0.1.12",

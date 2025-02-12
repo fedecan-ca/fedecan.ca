@@ -1,10 +1,12 @@
 {
-  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "$schema": "../node_modules/@lunariajs/core/config.schema.json",
   "repository": {
     "name": "fedecan-ca/fedecan.ca",
     "branch": "main",
     "hosting": "github"
   },
+  "outDir": "./lunaria/dist/",
+  "renderer": "./lunaria/renderer.config.ts",
   "defaultLocale": {
     "label": "English",
     "lang": "en"
@@ -39,12 +41,13 @@
     "favicon": {
       "external": [
         {
-          "link": "https://fedecan.ca/favicon.svg",
+          "link": "https://fedecan.ca/favicon-bg-i18n.svg",
           "type": "image/svg+xml"
         }
       ]
     },
     "basesToHide": ["docs/"],
+    "customCss": ["./lunaria/custom.css"],
     "ui": {
       "status.emojiDone": "✅",
       "status.emojiMissing": "❌",
