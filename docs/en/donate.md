@@ -32,7 +32,7 @@ head:
 
 # Donate
 
-We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation. 
+We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation.
 
 While we are a registered non-profit organization, we are not a registered charity. As such, we are unable to provide tax receipts for donations. Please see our [FAQ section](guide/fedecan/faq#_2-why-are-you-not-a-registered-charity) to read about why we are not currently pursuing charitable status.
 

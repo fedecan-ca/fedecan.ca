@@ -7,4 +7,4 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 
 # Lunaria
-dist/lunaria
+lunaria/dist

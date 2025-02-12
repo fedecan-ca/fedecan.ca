@@ -1,0 +1,48 @@
+/* Title improvements */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.status-by-file {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    font-size: 0.9rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-collapse: separate;
+    /* Add this line */
+    border-spacing: 0;
+    /* Add this line */
+}
+
+.status-by-file th {
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+}
+
+.status-by-file td {
+    padding: 0.6rem 1rem;
+}
+
+/* Progress bar improvements */
+.progress-bar {
+    gap: 2px;
+}
+
+.progress-bar div {
+    height: 0.75rem;
+}
+
+/* Details/Summary improvements */
+.progress-details {
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.progress-details summary {
+    padding: 0.5rem 0;
+}

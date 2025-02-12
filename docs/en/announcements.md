@@ -23,7 +23,7 @@ head:
 
 # Announcements
 
-If you are looking for status and maintenance updates, please visit [status.lemmy.ca](https://status.lemmy.ca/), or see the [lemmy.ca/c/main](https://lemmy.ca/c/main) community.
+If you are looking for status and maintenance updates, please visit [status.lemmy.ca](https://status.lemmy.ca/), or see the [lemmy.ca/c/main](https://lemmy.ca/c/main) community. 
 
 <BlogPostList
     format="horizontal"

@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/get-started
+      link: /en/guide/get-started
     - theme: alt
       text:  Announcements
-      link: /announcements
+      link: /en/announcements
     - theme: alt
       text: Donate
-      link: /donate
+      link: /en/donate
 
 features:
   - title: Run by a non-profit

@@ -85,6 +85,12 @@ HTML:
 - **OG:image:** 1200x630px (1.91:1 aspect ratio)
 - **Banner:** 1200x300px (4:1 aspect ratio)
 
+## Translate Content
+
+We are using [Lunaria](https://lunaria.dev/) to manage translations. We will add more information here when we are ready for people to contribute translations.
+
+See the translation progress at [lang.fedecan.ca](https://lang.fedecan.ca/).
+
 ## File Structure Overview
 
 ```
