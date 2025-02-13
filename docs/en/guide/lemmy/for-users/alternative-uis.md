@@ -24,7 +24,66 @@ head:
 
 # Lemmy Alternative UIs
 
-Lemmy has a few alternative UIs that can be used to access the Lemmy instance. These UIs are built by the community and provide a different look and feel to the default UI. Some of these UIs are already hosted on many instances of Lemmy, while others can be self-hosted for your own Lemmy instance.
+Lemmy has a few alternative UIs that can be used to access the Lemmy instance. These UIs are built by the community and provide a different look and feel to the default UI. 
+
+Many instances will have a few different instances built in and already running for you to use. For example, the following UIs are available for on our instance [lemmy.ca](https://lemmy.ca):
+
+## Default UI
+
+This is the default UI that you will see when you access [lemmy.ca](https://lemmy.ca). It is a simple and clean UI that is easy to use. Since it is built by the main developers of Lemmy, it is the most stable and reliable UI available.
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L1_default.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D1_default.png"
+/>
+
+## Photon
+
+You can access **lemmy.ca** with the Photon UI by going to [photon.lemmy.ca](https://photon.lemmy.ca/).
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
+/>
+
+## Voyager
+
+You can access **lemmy.ca** with the Voyager UI by going to [voyager.lemmy.ca](https://voyager.lemmy.ca/). It is a mobile-first interface, and it is a great way to use lemmy through your mobile web browser.
+
+You can see the app on [GitHub](https://github.com/aeharding/voyager?tab=readme-ov-file#voyager) for some screenshots and more information.
+
+## Tesseract
+
+You can access **lemmy.ca** with the Tesseract UI by going to [tess.lemmy.ca](https://tess.lemmy.ca/).
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png"
+/>
+
+## Alexandrite
+
+You can access **lemmy.ca** with the Alexandrite UI by going to [alex.lemmy.ca](https://alex.lemmy.ca/).
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L4_alexandrite.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D4_alexandrite.png"
+/>
+
+## Mlymym
+
+You can access **lemmy.ca** with the Mlymym UI by going to [old.lemmy.ca](https://old.lemmy.ca/). It has an old-Reddit like UI.
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L5_old.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D5_old.png"
+/>
+
+<br><br><br>
+
+# Detailed information on the different UIs available
+
+If you want a more detailed comparison of the different UIs available for Lemmy, you can check out the list below.
 
 ## Photon
 

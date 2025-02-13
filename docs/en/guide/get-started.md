@@ -109,8 +109,8 @@ Many of these platforms are being built from the ground up, by teams of voluntee
     image="/img/guide/getting-started/getting_started-welcome-dark.png"
     excerpt="Ready to start already? Check out this list of platforms you can join!"
     url="../#our-platforms"
-    hideAuthor="true"
-    hideCategory="true"
+    :hideAuthor="true"
+    :hideCategory="true"
 />
 </HorizontalContainer>
 

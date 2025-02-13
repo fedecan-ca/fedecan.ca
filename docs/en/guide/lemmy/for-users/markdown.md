@@ -22,7 +22,7 @@ head:
       content: Guides - Lemmy Markdown
 ---
 
-# Lemmy Markdown
+# How to format posts on Lemmy using Markdown
 
 Lemmy uses markdown-it for rendering markdown. This means that you can use the same markdown syntax that you would use on Lemmy and it follows the [CommonMark spec](https://commonmark.org/). Here are some examples of markdown that you can use on Lemmy:
 
