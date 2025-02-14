@@ -41,7 +41,7 @@
     "favicon": {
       "external": [
         {
-          "link": "https://fedecan.ca/favicon-bg-i18n.svg",
+          "link": "https://fedecan.ca/favicon-i18n.svg",
           "type": "image/svg+xml"
         }
       ]

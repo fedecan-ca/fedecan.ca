@@ -31,19 +31,19 @@ This is one of the easiest ways to learn about new places passively.
   title="newcommunities @ lemmy.world"
   excerpt="See posts about new communities as they are created or rebooted."
   image="/img/guide/lemmy/how-to-find-communities/newcommunities.webp"
-  url="https://lemmy.world/c/newcommunities"
+  url="https://lemmy.ca/c/newcommunities@lemmy.world"
 />
 <VerticalCard
   title="communitypromo @ lemmy.ca"
   excerpt="Users will promote their communities and ask for recommendations."
   image="/img/guide/lemmy/how-to-find-communities/communitypromo.webp"
-  url="https://lemmy.ca/c/CommunityPromo"
+  url="https://lemmy.ca/c/CommunityPromo@lemmy.ca"
 />
 <VerticalCard
   title="trendingcommunities @ feddit.nl"
   excerpt="This is an automated community that posts regular updates on which communities grew the most in the past week."
   image="/img/guide/lemmy/how-to-find-communities/trendingcommunities.webp"
-  url="https://feddit.nl/c/trendingcommunities@feddit.nl"
+  url="https://lemmy.ca/c/trendingcommunities@feddit.nl"
 />
 </VerticalContainer>
 
@@ -51,17 +51,17 @@ This is one of the easiest ways to learn about new places passively.
 
 - [wowthislemmyexists@lemmy.ca](https://lemmy.ca/c/wowthislemmyexists@lemmy.ca)
 - [lemmy411@lemmy.ca](https://lemmy.ca/c/lemmy411@lemmy.ca)
-- [findacommunity@lemmy.ml](https://lemmy.ml/c/findacommunity@lemmy.ml)
+- [findacommunity@lemmy.ml](https://lemmy.ca/c/findacommunity@lemmy.ml)
 
-## 2) Search Engines 🔎
+## 2) Lemmyverse.net Search Engine 🔎
 
-If you already know what you are looking for, you can use this search engines to find them.
+If you already know what you are looking for, you can search for it with [lemmyverse.net](https://lemmyverse.net/communities)
 
 ::: tip 🏠 Set your Home Instance First
 
-Before using the website for the first time, set your home instance by selecting the `home` icon in the top right. 
+If you are using **lemmyverse.net** for the first time, you should set your home instance by selecting the `home` icon in the top right. 
 
-This will make it so that all the links will open on the website that you have a lemmy account with, so that you can subscribe right away without having to edit the links.
+This will make it so that all the links will open on the instance that you have a Lemmy account with, so that you can subscribe right away without having to edit the links.
 :::
 
 <VerticalContainer>

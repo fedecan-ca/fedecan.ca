@@ -11,11 +11,11 @@ hero:
       text: Get Started
       link: /en/guide/get-started
     - theme: alt
-      text:  Announcements
-      link: /en/announcements
-    - theme: alt
       text: Donate
       link: /en/donate
+    - theme: alt
+      text: Announcements
+      link: /en/announcements
 
 features:
   - title: Run by a non-profit
@@ -48,7 +48,7 @@ title: "Welcome"
 <HorizontalCard
     title="Lemmy.ca"
     image="/img/lemmy-screenshots.png"
-    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join our instance and can connect to communities from all over!"
+    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
     url="./guide/lemmy/overview"
     :hideAuthor="true"
     :hideCategory="true"

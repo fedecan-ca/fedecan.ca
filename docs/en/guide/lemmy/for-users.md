@@ -9,18 +9,25 @@ layout: doc
 Lemmy is a forum-style social media platform, often referred to as a 'link aggregator'. You may be familiar with websites such as Reddit or Hacker News, which are similar in nature. You can share and discuss links, text, and images, and decide on what content rises to the top by upvoting and downvoting.
 
 <ImageGallery
+  title="You can switch between a variety of themes and interfaces"
+  :folders="[
+    '/public/gallery/lemmy-screenshots/desktop',
+  ]"
+/>
+
+<!-- <ImageGallery
       title="You can switch between a variety of themes and interfaces"
       :images="[
-        '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
+        '/public/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
       ]"
-    />
+    /> -->
 
 Like many other forum-style websites, Lemmy is made up of communities, each of which has a topic or theme. When you make a post, you will post it to a particular community.
 
@@ -50,7 +57,7 @@ If you are having a hard time picking, you're not alone. With so many options, y
 Remember that you can always make an account in one place, and then move somewhere else later. Some people even have accounts on a few places at the same time.
 :::
 
-We run [lemmy.ca](https://lemmy.ca), which is a Canadian-run community, geared towards Canadians, but all are welcome! You can also check out [this organized list of instances](https://pangora.social/join/) for more options.
+The instance that we run is [lemmy.ca](https://lemmy.ca), which is geared towards Canadians, but open to everyone. You can also check out [this organized list of instances](https://pangora.social/join/) for more options.
 
 ---
 
@@ -66,12 +73,13 @@ In order to reduce spam, some instances will have a sign up form. After you subm
 
 ### 3. Start Posting
 
-Congratulations!  🎉
+Congratulations! 🎉 You are now free to use Lemmy however you like.
 
-At this point you are free to use Lemmy however you like. To make the most of your experience, we recommend the following:
+To make the most of your experience:
 
+- Join the [NewToLemmy](https://lemmy.ca/c/NewToLemmy) community. This community is specifically for new users, and you can come back to it whenever you have questions.
 - Grab a mobile app. In our most recent survey, the majority of our users accessed Lemmy on mobile. You can find a list of mobile apps [here](/en/guide/lemmy/for-users/mobile-apps).
-- Join the [NewToLemmy](https://lemmy.ca) community. This community is specifically for new users, and you can ask any questions you have there.
+
 
 ## More Guides
 
@@ -96,6 +104,7 @@ At this point you are free to use Lemmy however you like. To make the most of yo
   title="Alternative UIs"
   excerpt="Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to."
   image="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
+  url="/en/guide/lemmy/for-users/alternative-uis"
   :hideCategory="true"
   :hideAuthor="true"
 />

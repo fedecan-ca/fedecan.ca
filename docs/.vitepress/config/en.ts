@@ -66,13 +66,13 @@ export const en = defineConfig({
                                             text: 'Alternative UIs',
                                             link: '/en/guide/lemmy/for-users/alternative-uis'
                                         },
-                                        // {
-                                        //     text: 'Alternative UIs',
-                                        //     link: '/en/guide/lemmy/for-users/alternative-uis'
-                                        // },
                                         {
                                             text: 'How to format posts',
                                             link: '/en/guide/lemmy/for-users/markdown'
+                                        },
+                                        {
+                                            text: 'How to open something in my instance',
+                                            link: '/en/guide/lemmy/for-users/how-to-open-in-my-instance'
                                         },
                                         {
                                             text: 'How to block users / communities',
@@ -91,7 +91,7 @@ export const en = defineConfig({
                                     ]
                                 },
                                 {
-                                    text: 'Guide for Admins',
+                                    text: 'Guides for Admins',
                                     collapsed: true,
                                     items: [
                                         {
