@@ -135,6 +135,10 @@ export const en = defineConfig({
                             ]
                         }
                     ]
+                },
+                {
+                    text: 'Credits',
+                    link: '/en/guide/credits'
                 }
             ],
         },
