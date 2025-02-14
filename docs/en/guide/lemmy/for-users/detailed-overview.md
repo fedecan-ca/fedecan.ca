@@ -1,8 +1,8 @@
-# Lemmy: How does it work (in detail)?
+# How does Lemmy work (in detail)?
 
 If you haven't already, please see the introduction to Lemmy in the [previous page](../for-users.md).
 
-## How does Lemmy work (in detail)?
+## Where are the communities?
 
 With a traditional forum style website, one website will contain the communities. You can only interact with the communities on that website.
 
@@ -12,19 +12,23 @@ Fedecan (the organization that made this guide) runs a Lemmy instance called [le
 
 Another team runs an instance called [programming.dev](https://programming.dev), and they have their own communities, such as [c/Programming](https://programming.dev/c/programming). A different team runs [mander.xyz](https://mander.xyz), and their communities include [c/science_memes](https://mander.xyz/c/science_memes) and [c/DataIsBeautiful](https://mander.xyz/c/DataIsBeautiful).
 
+![fediverse](/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-fediverse.png)
+
+## Subscribing to communities
+
 If you make an account on **lemmy.ca**, you can interact with all of these communities as if they were all on **lemmy.ca**. This includes subscribing, making posts, comments, moderating, etc.
 
-![fediverse](/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-fediverse.png)
+![fediverse](/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-fediverse-v2.png)
 
 This is true for any instance that **lemmy.ca** knows about. If you find a new community somewhere, that no one on **lemmy.ca** has subscribed to before, it won't show up at first. However once you search for it once on **lemmy.ca**, it will look like any other community on **lemmy.ca**!
 
-::: tip ❓ What about 'bad' communities or instances?
+## What about 'bad' communities or instances?
+
 If there is a community that you don't like, you can block it. If you find that you don't like an entire instance, you can block the entire instance and you won't see their users, communities, or posts anymore. For instructions on how to do this, see [this section](./how-to-block.md).
 
-If there is a particular community or instance that you think is especially bad, you can let the admins of your instance know. They can block the community or instance for everyone on your instance. 
+If there is a particular community or instance that you think is especially bad, you can let the admins of your instance know. They can block it for everyone on your instance. 
 
 If you are on **lemmy.ca**, you can let us know by posting in [c/Main@lemmy.ca](https://lemmy.ca/c/main).
-:::
 
 ## What if two instances have the same community name?
 
