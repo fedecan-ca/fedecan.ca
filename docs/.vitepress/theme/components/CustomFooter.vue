@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { onMounted } from "vue";
 import { useSidebar } from "vitepress/theme";
 import { useRoute } from "vitepress";
 
@@ -35,6 +36,12 @@ const content = {
 
 const currentContent = isFrench ? content.fr : content.en;
 const guidesLink = isFrench ? "/fr/guide/fedecan/" : "/en/guide/fedecan/";
+
+onMounted(() => {
+  requestAnimationFrame(() => {
+    document.body.offsetHeight;
+  });
+});
 </script>
 
 <template>
@@ -168,6 +175,7 @@ const guidesLink = isFrench ? "/fr/guide/fedecan/" : "/en/guide/fedecan/";
 @media (min-width: 700px) {
   .custom-footer.has-sidebar {
     margin-left: var(--vp-sidebar-width);
+    max-width: calc(var(--vp-layout-max-width) - var(--vp-sidebar-width));
   }
 }
 
