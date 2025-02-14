@@ -103,14 +103,20 @@ Many of these platforms are being built from the ground up, by teams of voluntee
 
 <br>
 
+# Our Platforms
+
+Ready to start already? See below for some of the platforms that we run. 
+
+Remember that you can always join other instances of these platforms, while still being able to interact with our users and content.
+
 <HorizontalContainer>
 <HorizontalCard
-    title="Our Platforms"
-    image="/img/guide/getting-started/getting_started-welcome-dark.png"
-    excerpt="Ready to start already? Check out this list of platforms you can join!"
-    url="../#our-platforms"
-    hideAuthor="true"
-    hideCategory="true"
+    title="Lemmy.ca"
+    image="/img/lemmy-screenshots.png"
+    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
+    url="./lemmy/overview"
+    :hideAuthor="true"
+    :hideCategory="true"
 />
 </HorizontalContainer>
 

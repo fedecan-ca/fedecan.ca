@@ -26,7 +26,7 @@ const currentContent = isFrench ? content.fr : content.en;
 
 <template>
   <div class="container">
-    <img src="/img/error-lost.webp" alt="404 illustration" class="error-image" />
+    <img src="/img/error-lost-512.webp" alt="404 illustration" class="error-image" />
     <div class="NotFound">
       <p class="code">404</p>
       <h1 class="title">{{ currentContent.title }}</h1>
@@ -50,6 +50,7 @@ const currentContent = isFrench ? content.fr : content.en;
   flex-direction: column;
   align-items: center;
   padding: 24px;
+  padding-bottom: 128px;
   gap: 32px;
 }
 

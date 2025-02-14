@@ -15,12 +15,14 @@ import {  BlogPostHeader,
           HorizontalCard,
           VerticalCard,
           EmbedLemmy,
+          ImageGallery
         } from '@cynber/vitepress-valence'
 
 import enAuthors from './data/authors_en.js'
 import frAuthors from './data/authors_fr.js'
 import { data as enPostsData } from './data/posts_en.data.js'
 import { data as frPostsData } from './data/posts_fr.data.js'
+import { data as galleryData } from './data/gallery.data.js';
 
 // Deprecated components
 import InfoPill from './components/InfoPill.vue';
@@ -33,19 +35,7 @@ export default {
   extends: DefaultTheme,
   Layout: CustomLayout,
   enhanceApp({ app, router, siteData }) {
-    // Deprecated components 
-    app.component('InfoPill', InfoPill)
-    app.component('InfoText', InfoText)
-    app.component('StripeButton', StripeButton)
-    app.component('DataWrapperChart', DataWrapperChart)
-    app.component('ThemedImage', ThemedImage)
-
     // New components
-    app.provide('enAuthors', enAuthors)
-    app.provide('frAuthors', frAuthors)
-    app.provide('enPostsData', enPostsData)
-    app.provide('frPostsData', frPostsData)
-
     app.component('Icon', Icon)
 
     app.component('BlogPostHeader', BlogPostHeader)
@@ -55,5 +45,19 @@ export default {
     app.component('HorizontalCard', HorizontalCard)
     app.component('VerticalCard', VerticalCard)
     app.component('EmbedLemmy', EmbedLemmy)
+    app.component('ImageGallery', ImageGallery)
+
+    app.provide('enAuthors', enAuthors)
+    app.provide('frAuthors', frAuthors)
+    app.provide('enPostsData', enPostsData)
+    app.provide('frPostsData', frPostsData)
+    app.provide('galleryData', galleryData)
+
+    // Deprecated components 
+    app.component('InfoPill', InfoPill)
+    app.component('InfoText', InfoText)
+    app.component('StripeButton', StripeButton)
+    app.component('DataWrapperChart', DataWrapperChart)
+    app.component('ThemedImage', ThemedImage)
   }
 } satisfies Theme;

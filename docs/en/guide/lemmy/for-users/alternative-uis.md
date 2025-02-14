@@ -24,151 +24,125 @@ head:
 
 # Lemmy Alternative UIs
 
-Lemmy has a few alternative UIs that can be used to access the Lemmy instance. These UIs are built by the community and provide a different look and feel to the default UI. Some of these UIs are already hosted on many instances of Lemmy, while others can be self-hosted for your own Lemmy instance.
+Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These UIs are built by the community and provide a different look and feel to the default UI. 
+
+Some instances run multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca):
+
+## Default UI
+
+This is the default UI that you will see when you access [lemmy.ca](https://lemmy.ca). 
+
+- Simple and clean UI that is easy to use
+- Built by the main developers of Lemmy, so it is the most stable and reliable UI available
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L1_default.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D1_default.png"
+/>
 
 ## Photon
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Xyphyn/photon?style=flat-square)
+You can access **lemmy.ca** with the Photon UI by going to [photon.lemmy.ca](https://photon.lemmy.ca/).
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Xyphyn/photon?style=flat-square)
+- A more modern and sleek UI, that is fast and lightweight with responsive design
+- Support for moderation tools and multi-account switching
 
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
+/>
 
-> A better, more intuitive way to use Lemmy, with a cleaner UI, more features, and snappier usage.
+<div class="shields-container">
+  <img src="https://img.shields.io/github/stars/Xyphyn/photon?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/Xyphyn/photon?style=flat-square" alt="Last Commit" />
+</div>
 
-You can check out the [Photon](https://github.com/Xyphyn/photon) repository on GitHub.
-
-Official Website: [Photon](https://phtn.app/)
-
-Some of the features of Photon are:
-
-- Newest Moderation tools
-- Modern and clean UI
-- Fast and lightweight
-- Dark mode
-- Responsive design
-- Customizable
-- Mobile-friendly
-
-Public Instances: [Photon Instances](https://github.com/Xyphyn/photon?tab=readme-ov-file#public-instances)
-
-It can be self-hosted for your own Lemmy instance. You can check out the [Photon Self-Hosting Installation Guide](https://github.com/Xyphyn/photon?tab=readme-ov-file#self-hosting) for more information.
-
-For many instances of lemmy, Photon is already hosted additionally to the default UI. Some examples are:
-
-- [photon.lemmy.ca](https://photon.lemmy.ca/)
-- [p.lemmy.world](https://p.lemmy.world/)
-- [p.feddit.org](https://p.feddit.org/)
-
-## Alexandrite
-
-![GitHub Repo stars](https://img.shields.io/github/stars/sheodox/alexandrite?style=flat-square) 
-
-![GitHub last commit](https://img.shields.io/github/last-commit/sheodox/alexandrite?style=flat-square)
-
-> Alexandrite is a beautiful desktop-first alternative web UI for Lemmy, a social link aggregator and discussion forum for the Fediverse.
-
-You can check out the [Alexandrite](https://github.com/sheodox/alexandrite) repository on GitHub.
-
-Official Website: [Alexandrite](https://alexandrite.app/)
-
-Some of the features of Alexandrite are:
-
-- Infinite scrolling
-- View posts in an overlay or side-by-side with the feed in a second column so you don't lose your spot
-- Customizable theme hue
-- Powerful account switcher, login to different accounts across the same or different instances simultaneously in different browser tabs
-- Most mod tools
-- Supports most markdown formatting
-
-For many instances of lemmy, Alexandrite is already hosted additionally to the default UI. Some examples are:
-
-- [alex.lemmy.ca](https://alex.lemmy.ca/)
-- [a.lemmy.world](https://a.lemmy.world/)
-- [a.feddit.org](https://a.feddit.org/)
+Other Links:
+- [Photon Website](https://phtn.app/)
+- [Photon on GitHub](https://github.com/Xyphyn/photon)
+- [Photon Self-Hosting Installation Guide](https://github.com/Xyphyn/photon?tab=readme-ov-file#self-hosting)
 
 ## Voyager
 
-![GitHub Repo stars](https://img.shields.io/github/stars/aeharding/voyager?style=flat-square)
+You can access **lemmy.ca** with the Voyager UI by going to [voyager.lemmy.ca](https://voyager.lemmy.ca/). 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square)
+- It is mobile-first
+- A great way to use lemmy through your phone's web browser
 
-> Voyager is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out!
+For more information and screenshots, you can visit the [Voyager website](https://vger.app/posts/lemmy.world/all), or their [GitHub](https://github.com/aeharding/voyager?tab=readme-ov-file#voyager).
 
-You can check out the [Voyager](https://github.com/aeharding/voyager) repository on GitHub.
+<div class="shields-container">
+  <img src="https://img.shields.io/github/stars/aeharding/voyager?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square" alt="Last Commit" />
+</div>
 
-Official Website: [Voyager](https://vger.app/posts/lemmy.world/all)
+## Tesseract
 
-Some of the features of Voyager are:
+You can access **lemmy.ca** with the Tesseract UI by going to [tess.lemmy.ca](https://tess.lemmy.ca/).
 
-- Light/dark mode
-- View and subscribe to communities
-- Multi account support
-- Single comment thread context view
-- Upvote, downvote and reply to threads and comments
-- Interact with user profiles
-- Comment thread collapsing
-- A bunch of swipe gestures
-- Messaging, mentions and replies
-- Creating new posts (url/photo/text)
-- Deleting/editing comments
-- Deleting/editing posts
-- Swipe to hide posts
-- Saving/bookmarking
-- Favorites
-- Android theme (beta)
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png"
+/>
 
-For many instances of lemmy, Voyager is already hosted additionally to the default UI. Some examples are:
+<div class="shields-container">
+  <img src="https://img.shields.io/github/stars/asimons04/tesseract?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square" alt="Last Commit" />
+</div>
 
-- [voyager.lemmy.ca](https://voyager.lemmy.ca/)
-- [m.lemmy.world](https://m.lemmy.world/)
+## Alexandrite
 
-## mlmym
+You can access **lemmy.ca** with the Alexandrite UI by going to [alex.lemmy.ca](https://alex.lemmy.ca/).
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rystaf/mlmym?style=flat-square)  
+- Variety of layout options (ex. open post as an overlay, or side-by-side with the main feed)
+- Support for moderation tools and multi-account switching
 
-![GitHub last commit](https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square)
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L4_alexandrite.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D4_alexandrite.png"
+/>
 
-> a familiar desktop experience for lemmy.
+<div class="shields-container">
+  <img src="https://img.shields.io/github/stars/sheodox/alexandrite?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/sheodox/alexandrite?style=flat-square" alt="Last Commit" />
+</div>
 
-You can check out the [mlmym](https://github.com/rystaf/mlmym) repository on GitHub.
+Other Links:
 
-Official Website: None available as it is instance bound so it can not be used dynamically for different instances.
+- [Alexandrite Website](https://alexandrite.app/)
+- [Alexandrite on GitHub](https://github.com/sheodox/alexandrite)
 
-Some of the features of mlmym are:
+## Mlymym
 
-- Desktop experience
-- Old Reddit-like UI
-- Unlimted scrolling
-- Light/dark mode
+You can access **lemmy.ca** with the Mlymym UI by going to [old.lemmy.ca](https://old.lemmy.ca/).
+
+- A retro UI that is reminiscent of old Reddit
+- While it can be accessed on mobile, it is best used on a desktop
+
+<ThemedImage 
+    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L5_old.png"
+    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D5_old.png"
+/>
+
+<div class="shields-container">
+  <img src="https://img.shields.io/github/stars/rystaf/mlmym?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square" alt="Last Commit" />
+</div>
+
+Other Links:
+
+- [Mlymym on GitHub](https://github.com/rystaf/mlmym)
 
 
-For many instances of lemmy, mlmym is already hosted additionally to the default UI. Some examples are:
+<style scoped>
+.shields-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
 
-- [old.lemmy.ca](https://old.lemmy.ca/)
-- [old.lemmy.world](https://old.lemmy.world/)
-- [old.feddit.org](https://old.feddit.org/)
-
-
-## lemmy-ui-next
-
-![GitHub Repo stars](https://img.shields.io/github/stars/sunaurus/lemmy-ui-next?style=flat-square)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/sunaurus/lemmy-ui-next?style=flat-square)
-
-> Alternative frontend for Lemmy. Built with Next.js.
-
-You can check out the [lemmy-ui-next](https://github.com/sunaurus/lemmy-ui-next) repository on GitHub.
-
-Official Website: None available as it is instance bound so it can not be used dynamically for different instances.
-
-Some of the features of lemmy-ui-next are:
-
-- Simple UI
-- Fast and lightweight
-- Dark mode
-- Proxy support
-
-For many instances of lemmy, lemmy-ui-next is already hosted additionally to the default UI. Some examples are:
-
-- [next.feddit.org](https://next.feddit.org)
-
+.shields-container img {
+  margin: 0 0.5rem;
+  border-radius: 0.25rem;
+}
+</style>

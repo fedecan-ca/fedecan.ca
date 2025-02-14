@@ -19,7 +19,7 @@ export const shared = defineConfig({
     },
 
     head: [
-        ['link', { rel: 'icon', href: '/favicon.svg' }],
+        ['link', { rel: 'icon', href: '/favicon-bg.svg' }],
         ['meta', { property: 'og:image', content: 'https://fedecan.ca/img/social-share.png' }]
     ],
 

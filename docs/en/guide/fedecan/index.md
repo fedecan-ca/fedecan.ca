@@ -1,10 +1,10 @@
 ---
 prev:
   text: 'What is the Fediverse?'
-  link: '/guide/getting-started'
+  link: '/en/guide/get-started'
 next:
-  text: 'Fedecan FAQ'
-  link: '/guide/fedecan/faq'
+  text: 'Lemmy'
+  link: '/en/guide/lemmy/overview'
 ---
 
 # Fedecan
@@ -34,29 +34,17 @@ Our non-profit structure allows us to:
 
 In addition to users, a social media platform needs to take care of 3 other areas:
 
-1. **Software**: People need to write and maintain the code that runs the platform
-2. **Servers**: People need to set up and manage the computers that run the software
-3. **Organization**: People need to manage the user data, moderate the platforms, provide suppor to users, and any other administrative tasks
+1. **Software**: Someone needs to write and maintain the code that makes up the 'social media platform'
+2. **Servers**: Someone needs to set up and manage the computers that run the software
+3. **Organization**: Someone needs to manage the user data, moderate the platforms, provide support to users, and any other administrative tasks
 
-With older social media platforms, all of these areas are usually managed by the same company.
-
-<!-- DIAGRAM 
-( Organization (Servers (Software) ) )
-
--->
+With most older social media platforms, all three areas were managed by the same company.
 
 In our case, and with much of the Fediverse, the structure is different.
 
-<!-- DIAGRAM
-( FOSS Devs           ( software))
-                         |
-                         v
-( Fedecan (Servers (Software) ) )
--->
-
 - The **software** is made by separate teams of developers, often made up of passionate volunteers and funded by donations. They release the code for their software under an open-source license, so that anyone can use it freely.
 
-- Anyone can set up their own **servers** to run this software. Whether that server is a small computer in someone's home, or a large data center, as long as someone can pay to run the server, they can run their own instance of the software.
+- Anyone can set up their own **servers** to run this software. Whether that server is a small computer in someone's home, or a large data center, as long as someone has the means to run the server, they can run their own instance of the software.
 
 We run our servers in a data center in Vancouver. If you are curious about the specifics of our setup, you can read more about it in our [announcement here](../../announcements/2025-01-18_update-finances-new-server.md). In addition to managing the servers, we moderate the platforms, support users, and handle the financial and legal aspects of running the organization.
 

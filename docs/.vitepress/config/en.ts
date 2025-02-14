@@ -40,9 +40,28 @@ export const en = defineConfig({
                             items: [
                                 {
                                     text: 'Guides for Users',
-                                    link: '/en/guide/lemmy/for-users',
                                     collapsed: true,
                                     items: [
+                                        {
+                                            text: 'Getting Started with Lemmy',
+                                            link: '/en/guide/lemmy/for-users',
+                                        },
+                                        {
+                                            text: 'Detailed Overview',
+                                            link: '/en/guide/lemmy/for-users/detailed-overview'
+                                        },
+                                        {
+                                            text: 'Privacy / Security',
+                                            link: '/en/guide/lemmy/for-users/privacy-security'
+                                        },
+                                        {
+                                            text: 'Finding Communities',
+                                            link: '/en/guide/lemmy/for-users/how-to-find-communities'
+                                        },
+                                        {
+                                            text: 'Mobile Apps',
+                                            link: '/en/guide/lemmy/for-users/mobile-apps'
+                                        },
                                         {
                                             text: 'Alternative UIs',
                                             link: '/en/guide/lemmy/for-users/alternative-uis'
@@ -51,17 +70,34 @@ export const en = defineConfig({
                                             text: 'How to format posts',
                                             link: '/en/guide/lemmy/for-users/markdown'
                                         },
+                                        {
+                                            text: 'How to open something in my instance',
+                                            link: '/en/guide/lemmy/for-users/how-to-open-in-my-instance'
+                                        },
+                                        {
+                                            text: 'How to block users / communities',
+                                            link: '/en/guide/lemmy/for-users/how-to-block'
+                                        },
                                     ]
                                 },
                                 {
                                     text: 'Guides for Moderators',
-                                    link: '/en/guide/lemmy/for-moderators'
-                                },
-                                {
-                                    text: 'Guide for Admins',
-                                    link: '/en/guide/lemmy/for-admins',
                                     collapsed: true,
                                     items: [
+                                        {
+                                            text: 'Overview for Moderators',
+                                            link: '/en/guide/lemmy/for-moderators',
+                                        },
+                                    ]
+                                },
+                                {
+                                    text: 'Guides for Admins',
+                                    collapsed: true,
+                                    items: [
+                                        {
+                                            text: 'Overview for Admins',
+                                            link: '/en/guide/lemmy/for-admins',
+                                        },
                                         {
                                             text: 'Securing Lemmy',
                                             link: '/en/guide/lemmy/for-admins/infrastructure/security',
@@ -92,10 +128,10 @@ export const en = defineConfig({
                                         },
                                     ]
                                 },
-                                {
-                                    text: 'Guides for Developers',
-                                    link: '/en/guide/lemmy/for-developers'
-                                }
+                                // {
+                                //     text: 'Guides for Developers',
+                                //     link: '/en/guide/lemmy/for-developers'
+                                // }
                             ]
                         }
                     ]
