@@ -11,23 +11,23 @@ Lemmy is a forum-style social media platform, often referred to as a 'link aggre
 <ImageGallery
   title="You can switch between a variety of themes and interfaces"
   :folders="[
-    '/public/gallery/lemmy-screenshots/desktop',
+    '/gallery/lemmy-screenshots/desktop',
   ]"
 />
 
-<!-- <ImageGallery
+<ImageGallery
       title="You can switch between a variety of themes and interfaces"
       :images="[
-        '/public/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
-        '/public/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
+        '/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
       ]"
-    /> -->
+    />
 
 Like many other forum-style websites, Lemmy is made up of communities, each of which has a topic or theme. When you make a post, you will post it to a particular community.
 
