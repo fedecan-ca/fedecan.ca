@@ -9,7 +9,7 @@ On this page, you can find graphs showing the total number of communities on [le
 />
 
 <ImageGallery
-  title="All instances (past 2 weeks)"
+  title="All federated instances (past 2 weeks)"
   :directUrls="[getImageUrl('communities', 'global', '2w')]"
   layout="vertical"
 />
@@ -21,7 +21,7 @@ On this page, you can find graphs showing the total number of communities on [le
 />
 
 <ImageGallery
-  title="All instances (past 6 months)"
+  title="All federated instances (past 6 months)"
   :directUrls="[getImageUrl('communities', 'global', '6m')]"
   layout="vertical"
 />
@@ -33,7 +33,7 @@ On this page, you can find graphs showing the total number of communities on [le
 />
 
 <ImageGallery
-  title="All instances (past year)"
+  title="All federated instances (past year)"
   :directUrls="[getImageUrl('communities', 'global', '1y')]"
   layout="vertical"
 />
@@ -45,7 +45,7 @@ On this page, you can find graphs showing the total number of communities on [le
 />
 
 <ImageGallery
-  title="All instances (past 2 years)"
+  title="All federated instances (past 2 years)"
   :directUrls="[getImageUrl('communities', 'global', '2y')]"
   layout="vertical"
 />
