@@ -133,6 +133,12 @@ export const en = defineConfig({
                                 //     link: '/en/guide/lemmy/for-developers'
                                 // }
                             ]
+                        },
+                        {
+                            text: 'Pixelfed',
+                            items: [
+                                { text: 'Overview', link: '/en/guide/pixelfed/overview' },
+                            ]
                         }
                     ]
                 },

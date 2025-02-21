@@ -16,5 +16,8 @@
   "dependencies": {
     "@cynber/vitepress-valence": "^0.1.13",
     "@lunariajs/core": "^0.1.1"
+  },
+  "pnpm": {
+    "overrides": {}
   }
 }

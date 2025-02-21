@@ -112,9 +112,17 @@ Remember that you can always join other instances of these platforms, while stil
 <HorizontalContainer>
 <HorizontalCard
     title="Lemmy.ca"
-    image="/img/lemmy-screenshots.png"
+    image="/img/guide/lemmy-screenshots.png"
     excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
     url="./lemmy/overview"
+    :hideAuthor="true"
+    :hideCategory="true"
+/>
+<HorizontalCard
+    title="Pixelfed.ca"
+    image="/img/guide/pixelfed-screenshot.png"
+    excerpt="Pixelfed is a federated image sharing platform that allows you to share photos and videos with your followers. It's a great way to share your memories and connect with others who share your interests."
+    url="./guide/pixelfed/overview"
     :hideAuthor="true"
     :hideCategory="true"
 />

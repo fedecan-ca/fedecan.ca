@@ -30,6 +30,7 @@ import InfoText from './components/InfoText.vue';
 import StripeButton from './components/StripeButton.vue';
 import DataWrapperChart from './components/DataWrapperChart.vue';
 import ThemedImage from './components/ThemedImage.vue';
+import WorkInProgress from './components/WorkInProgress.vue'
 
 export default {
   extends: DefaultTheme,
@@ -59,5 +60,8 @@ export default {
     app.component('StripeButton', StripeButton)
     app.component('DataWrapperChart', DataWrapperChart)
     app.component('ThemedImage', ThemedImage)
+
+    // Add WorkInProgress component
+    app.component('WorkInProgress', WorkInProgress)
   }
 } satisfies Theme;

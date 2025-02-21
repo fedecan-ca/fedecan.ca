@@ -47,31 +47,21 @@ title: "Welcome"
 <HorizontalContainer>
 <HorizontalCard
     title="Lemmy.ca"
-    image="/img/lemmy-screenshots.png"
+    image="/img/guide/desktop-D2_photon.png"
     excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
     url="./guide/lemmy/overview"
+    category="Learn more about Lemmy"
+    :hideAuthor="true"
+/>
+<HorizontalCard
+    title="Pixelfed.ca"
+    image="/img/guide/pixelfed-screenshots.png"
+    excerpt="Pixelfed is a federated image sharing platform that allows you to share photos and videos with your followers. It's a great way to share your memories and connect with others who share your interests."
+    url="./guide/pixelfed/overview"
     :hideAuthor="true"
     :hideCategory="true"
 />
 </HorizontalContainer>
-
-
-
-<!-- <div class="cards-container">
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="simple-icons:lemmy" width="1.2em" height="1.2em" />
-      Lemmy.ca
-    </h3>
-    <div class="card-content">
-      <div class="card-text">
-        <p>Lemmy follows a forum format, where you can share and discuss links, text, and images. You can upvote and downvote content, and the best content rises to the top. </p>
-        <p>You can find communities for different topics where you can post content, comment, and vote on submissions. Lemmy features a familiar interface with the added benefit of being federated. This means that you can interact with users from across the Fediverse, including those on other platforms such as Mastodon.</p>
-      </div>
-      <img src="/img/lemmy-screenshots.png" alt="Lemmy" class="card-image"/>
-    </div>
-  </div>
-</div> -->
 
 
 
