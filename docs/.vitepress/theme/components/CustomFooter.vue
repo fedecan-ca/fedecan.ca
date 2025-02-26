@@ -91,6 +91,10 @@ onMounted(() => {
             <Icon icon="simple-icons:lemmy" width="1em" height="1em" />
             Lemmy.ca
           </a>
+          <a href="https://pixelfed.ca" target="_blank">
+            <Icon icon="simple-icons:pixelfed" width="1em" height="1em" />
+            Pixelfed.ca
+          </a>
           <a href="https://status.lemmy.ca" target="_blank">
             <Icon icon="fa:heartbeat" width="1em" height="1em" />
             {{ currentContent.status }}

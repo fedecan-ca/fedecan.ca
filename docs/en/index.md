@@ -46,20 +46,20 @@ title: "Welcome"
 
 <HorizontalContainer>
 <HorizontalCard
-    title="Lemmy.ca"
+    title="Lemmy"
     image="/img/guide/desktop-D2_photon.png"
-    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
-    url="./guide/lemmy/overview"
-    category="Learn more about Lemmy"
+    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top."
+    url="https://lemmy.ca"
+    category="Lemmy.ca"
     :hideAuthor="true"
 />
 <HorizontalCard
-    title="Pixelfed.ca"
+    title="Pixelfed"
     image="/img/guide/pixelfed-screenshots.png"
-    excerpt="Pixelfed is a federated image sharing platform that allows you to share photos and videos with your followers. It's a great way to share your memories and connect with others who share your interests."
-    url="./guide/pixelfed/overview"
+    excerpt="Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram. You can follow users, hashtags, and share posts outside of Pixelfed, without any ads, tracking, or secretive algorithms."
+    url="https://pixelfed.ca"
+    category="Pixelfed.ca"
     :hideAuthor="true"
-    :hideCategory="true"
 />
 </HorizontalContainer>
 
