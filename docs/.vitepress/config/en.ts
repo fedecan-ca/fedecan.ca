@@ -133,7 +133,44 @@ export const en = defineConfig({
                                 //     link: '/en/guide/lemmy/for-developers'
                                 // }
                             ]
+                        },
+                        {
+                            text: 'Pixelfed',
+                            items: [
+                                { text: 'Overview', link: '/en/guide/pixelfed/overview' },
+                            ]
                         }
+                    ]
+                },
+                {
+                    text: 'Statistics',
+                    items: [
+                        {
+                            text: 'Lemmy',
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: 'New Users per Day',
+                                    link: '/en/guide/data/lemmy/users'
+                                },
+                                {
+                                    text: 'New Comments per Day',
+                                    link: '/en/guide/data/lemmy/comments'
+                                },
+                                {
+                                    text: 'New Posts per Day',
+                                    link: '/en/guide/data/lemmy/posts'
+                                },
+                                {
+                                    text: 'Number of Communities',
+                                    link: '/en/guide/data/lemmy/communities'
+                                },
+                                {
+                                    text: 'Number of Federated Instances',
+                                    link: '/en/guide/data/lemmy/instances'
+                                },
+                            ]
+                        },
                     ]
                 },
                 {

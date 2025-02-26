@@ -23,7 +23,7 @@ You can also see another version of this list on [join-lemmy.org/apps](https://j
 
 The best app for you will depend on your personal preferences! Regardless of which app you try first, you can always download a different one and sign into it with the same Lemmy account.
 
-A good place to start is to go on [lemmyapps.com](https://www.lemmyapps.com/), filter by your platform, sort the list by the number of downloads.
+A good place to start is to go on [lemmyapps.com](https://www.lemmyapps.com/), filter by your device type, sort the list by the number of downloads.
 
 ## What are the differences?
 

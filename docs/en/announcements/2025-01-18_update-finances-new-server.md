@@ -21,7 +21,7 @@ head:
       content: lemmy.ca update - Finances & New Server
   - - meta
     - property: og:url
-      content: https://fedecan.ca/en/announcements/
+      content: https://fedecan.ca/en/announcements/2025-01-18_update-finances-new-server
   - - meta
     - property: og:description  # 150-160 characters
       content: Hello everyone, we’re long overdue for an update on how things have been going!

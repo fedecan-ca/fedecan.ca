@@ -46,32 +46,22 @@ title: "Welcome"
 
 <HorizontalContainer>
 <HorizontalCard
-    title="Lemmy.ca"
-    image="/img/lemmy-screenshots.png"
-    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top. Join one instance and connect to communities from all over!"
-    url="./guide/lemmy/overview"
+    title="Lemmy"
+    image="/img/guide/desktop-D2_photon.png"
+    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top."
+    url="https://lemmy.ca"
+    category="Lemmy.ca"
     :hideAuthor="true"
-    :hideCategory="true"
+/>
+<HorizontalCard
+    title="Pixelfed"
+    image="/img/guide/pixelfed-screenshots.png"
+    excerpt="Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram. You can follow users, hashtags, and share posts outside of Pixelfed, without any ads, tracking, or secretive algorithms."
+    url="https://pixelfed.ca"
+    category="Pixelfed.ca"
+    :hideAuthor="true"
 />
 </HorizontalContainer>
-
-
-
-<!-- <div class="cards-container">
-  <div class="card">
-    <h3 class="text-with-icon">
-      <Icon icon="simple-icons:lemmy" width="1.2em" height="1.2em" />
-      Lemmy.ca
-    </h3>
-    <div class="card-content">
-      <div class="card-text">
-        <p>Lemmy follows a forum format, where you can share and discuss links, text, and images. You can upvote and downvote content, and the best content rises to the top. </p>
-        <p>You can find communities for different topics where you can post content, comment, and vote on submissions. Lemmy features a familiar interface with the added benefit of being federated. This means that you can interact with users from across the Fediverse, including those on other platforms such as Mastodon.</p>
-      </div>
-      <img src="/img/lemmy-screenshots.png" alt="Lemmy" class="card-image"/>
-    </div>
-  </div>
-</div> -->
 
 
 
