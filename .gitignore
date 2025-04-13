@@ -8,3 +8,6 @@ docs/.vitepress/cache
 
 # Lunaria
 lunaria/dist
+
+# IntelliJ IDEA
+.idea
