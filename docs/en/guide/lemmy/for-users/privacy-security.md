@@ -1,5 +1,12 @@
 # Lemmy Privacy and Security
 
+---
+
+<WorkInProgress 
+    communityName="c/newtolemmy"
+    communityLink="https://lemmy.ca/c/newtolemmy"
+/>
+
 ## Quick Overview
 
 Federation is a key feature of Lemmy, allowing users to interact with communities across different instances and thus
@@ -30,4 +37,4 @@ Legend:
 >
 > If you are concerned about this, you can use a password manager to generate a random password for you. This way, even
 > if someone gets access to your password, they cannot use it to log in to your account on other websites.
-::: 
+:::
