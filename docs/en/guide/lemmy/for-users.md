@@ -98,7 +98,7 @@ Congratulations! 🎉 You are now free to use Lemmy however you like.
 To make the most of your experience:
 
 - Join the [NewToLemmy](https://lemmy.ca/c/NewToLemmy) community. This community is specifically for new users, and you can come back to it whenever you have questions.
-- Grab a mobile app. In our most recent survey, the majority of our users accessed Lemmy on mobile. You can find a list of mobile apps [here](/en/guide/lemmy/for-users/mobile-apps).
+- Grab a mobile app. In our most recent survey, the majority of our users accessed Lemmy on mobile. You can find a list of mobile apps [here](../../guide/lemmy/for-users/mobile-apps).
 
 
 ## More Guides
@@ -125,6 +125,13 @@ To make the most of your experience:
   excerpt="Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to."
   image="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
   url="/en/guide/lemmy/for-users/alternative-uis"
+  :hideCategory="true"
+  :hideAuthor="true"
+/>
+<HorizontalCard
+  title="Tools or Libraries for automation of Lemmy"
+  excerpt="A list of tools or libraries that can be used to automate tasks on Lemmy, such as moderation or maintenance."
+  url="/en/guide/lemmy/automation"
   :hideCategory="true"
   :hideAuthor="true"
 />
