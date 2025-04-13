@@ -1,34 +1,33 @@
 # Lemmy Privacy and Security
 
----
-
-<WorkInProgress 
-    communityName="c/newtolemmy"
-    communityLink="https://lemmy.ca/c/newtolemmy"
-/>
-
 ## Quick Overview
 
-- *work in progress*
+Federation is a key feature of Lemmy, allowing users to interact with communities across different instances and thus
+your posts, comments and profile will be shared across multiple servers.
+However, this also raises questions about privacy and security. In general terms, the following applies:
 
-## Detailed Comparison
+| Actor                 | (Your) Password                                                                                                                                     | Ip                                                         | Browser Agent                                              | Email                                                      | Votes                                                                   | Posts                                                      | Comments                                                   | Profile                                                    | Private Messages                                           |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|
+| You                   | <Icon icon="mdi:check-bold" color="red" width="32px" />                                                                                             | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />                 | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    |
+| Other Users           | <Icon icon="mdi:minus-thick" color="green" width="32px" />                                                                                          | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" />              | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:minus-thick" color="green" width="32px" /> |
+| Community Moderators  | <Icon icon="mdi:minus-thick" color="green" width="32px" />                                                                                          | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:check-bold" color="red" width="32px" /> (since ~0.19.x) | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:minus-thick" color="green" width="32px" /> |
+| Instance Admins       | <Icon icon="mdi:check-bold" color="red" width="32px" /> AND <Icon icon="mdi:minus-thick" color="green" width="32px" />  (See below for explanation) | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />                 | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    | <Icon icon="mdi:check-bold" color="red" width="32px" />    |
+| Other Instance Admins | <Icon icon="mdi:minus-thick" color="green" width="32px" />                                                                                          | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:check-bold" color="blue" width="32px" />                | <Icon icon="mdi:check-bold" color="blue" width="32px" />   | <Icon icon="mdi:check-bold" color="blue" width="32px" />   | <Icon icon="mdi:check-bold" color="blue" width="32px" />   | <Icon icon="mdi:check-bold" color="blue" width="32px" />   |
+| Lemmy Developers      | <Icon icon="mdi:minus-thick" color="green" width="32px" />                                                                                          | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" />              | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | <Icon icon="mdi:minus-thick" color="green" width="32px" /> |
 
-### What can other users see?
+Legend:
 
-- *work in progress*
+| Icon                                                       | Meaning                                                                   |
+|------------------------------------------------------------|---------------------------------------------------------------------------|
+| <Icon icon="mdi:check-bold" color="red" width="32px" />    | Yes, the actor can see this information                                   |
+| <Icon icon="mdi:check-bold" color="blue" width="32px" />   | Yes, the actor can see this information if it is federated to his server. |
+| <Icon icon="mdi:minus-thick" color="green" width="32px" /> | No, the actor can NOT see this information                                |
 
-### What can the community moderators see?
-
-- *work in progress*
-
-### What can the admins of my instance see?
-
-- *work in progress*
-
-### What can the admins of other instances see?
-
-*work in progress*
-
-### What about the developers of Lemmy?
-
-*work in progress*
+::: tip Password
+> Your password is stored in a hashed format at REST. This means that even if someone gets access to the database, they
+> cannot see your password. However, if someone (for example instance admin) would modify the server code, they can
+> potentially see your password in transit and/or save it somewhere. This is the same for all web applications.
+>
+> If you are concerned about this, you can use a password manager to generate a random password for you. This way, even
+> if someone gets access to your password, they cannot use it to log in to your account on other websites.
+::: 
