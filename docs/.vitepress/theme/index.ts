@@ -10,12 +10,13 @@ import { Icon } from '@iconify/vue'
 
 import {  BlogPostHeader, 
           BlogPostList,
-          HorizontalContainer,
-          VerticalContainer,
-          HorizontalCard,
-          VerticalCard,
           EmbedLemmy,
-          ImageGallery
+          HorizontalContainer,
+          HorizontalCard,
+          ImageGallery,
+          JSONTable,
+          VerticalContainer,
+          VerticalCard,
         } from '@cynber/vitepress-valence'
 
 import enAuthors from './data/authors_en.js'
@@ -41,13 +42,14 @@ export default {
 
     app.component('BlogPostHeader', BlogPostHeader)
     app.component('BlogPostList', BlogPostList)
-    app.component('HorizontalContainer', HorizontalContainer)
-    app.component('VerticalContainer', VerticalContainer)
-    app.component('HorizontalCard', HorizontalCard)
-    app.component('VerticalCard', VerticalCard)
     app.component('EmbedLemmy', EmbedLemmy)
+    app.component('HorizontalCard', HorizontalCard)
+    app.component('HorizontalContainer', HorizontalContainer)
     app.component('ImageGallery', ImageGallery)
-
+    app.component('JSONTable', JSONTable)
+    app.component('VerticalCard', VerticalCard)
+    app.component('VerticalContainer', VerticalContainer)
+    
     app.provide('enAuthors', enAuthors)
     app.provide('frAuthors', frAuthors)
     app.provide('enPostsData', enPostsData)
