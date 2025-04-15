@@ -8,6 +8,8 @@ With a traditional forum style website, one website will contain the communities
 
 ![traditional](/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-traditional.png)
 
+Federated websites such as Lemmy, Piefed, and Mbin can do much more!
+
 Fedecan (the organization that made this guide) runs a Lemmy instance called [lemmy.ca](https://lemmy.ca). People have made communities on lemmy.ca for a variety of topics, including [c/Canada](https://lemmy.ca/c/Canada) and [c/Woodworking](https://lemmy.ca/c/Woodworking) for example.
 
 Another team runs an instance called [programming.dev](https://programming.dev), and they have their own communities, such as [c/Programming](https://programming.dev/c/programming). A different team runs [mander.xyz](https://mander.xyz), and their communities include [c/science_memes](https://mander.xyz/c/science_memes) and [c/DataIsBeautiful](https://mander.xyz/c/DataIsBeautiful).

@@ -1,3 +1,6 @@
 # Lemmy: Guides for Developers
 
-*This page is a work in progress.*
+<WorkInProgress 
+    communityName="c/newtolemmy"
+    communityLink="https://lemmy.ca/c/newtolemmy"
+/>
