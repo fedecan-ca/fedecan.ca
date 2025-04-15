@@ -1,4 +1,9 @@
 ---
+# placed on last page of each section
+next:
+    text: 'All Lemmy Guides'
+    link: '/en/guide/lemmy/overview#lemmy-guides'
+
 layout: doc
 
 head:

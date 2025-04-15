@@ -1,3 +1,10 @@
+---
+# placed on last page of each section
+next:
+    text: 'All Lemmy Guides'
+    link: '/en/guide/lemmy/overview#lemmy-guides'
+---
+
 # How do I block a user, community, or instance on Lemmy?
 
 ## Blocking a user
@@ -11,7 +18,7 @@ darkImageUrl="/img/guide/lemmy/how-to-block/user-block-dark.png"
 ### Effects
 
 When you block a user, you will no longer see their posts or comments. They will also not be able to send you private
-messages. However, they will still be able to see and post to your posts and comments. In some version of Lemmy, you may
+messages. However, they will still be able to see and reply to your posts and comments. In some version of Lemmy, you may
 also still receive notifications from them.
 
 ### Exceptions
