@@ -66,10 +66,10 @@ uneasy/annoyed, you can take the following steps:
 
 1. **Ignore it**: If the content is not against the rules, you can simply ignore it and move on. This is often the
    easiest and most effective solution.
-2. **Hide the post or comment** ( see [here](/en/guide/lemmy/for-users/how-to-hide#show-hide-hidden-posts) )
-3. **Block the user** ( see [here](/en/guide/lemmy/for-users/how-to-block#blocking-a-user) )
-4. **Block the whole community** ( see [here](/en/guide/lemmy/for-users/how-to-block#blocking-a-community) )
-5. **Block the whole instance** ( see [here](/en/guide/lemmy/for-users/how-to-block#blocking-an-instance) )
+2. **Hide the post or comment** ( see [here](./how-to-block#hide-single-posts) )
+3. **Block the user** ( see [here](./how-to-block#blocking-a-user) )
+4. **Block the whole community** ( see [here](./how-to-block#blocking-a-community) )
+5. **Block the whole instance** ( see [here](./how-to-block#blocking-an-instance) )
 6. **Report the user**: If the user is harassing you by bypassing the above-mentioned methods, you can report the user
    to the admins of the instance. (
-   see [here](/en/guide/lemmy/for-users/how-to-handle-inappropriate-content#how-to-handle-inappropriate-content-from-the-first-category) )
+   see [here](./how-to-handle-inappropriate-content#how-to-handle-inappropriate-content-from-the-first-category) )
