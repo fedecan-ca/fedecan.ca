@@ -24,9 +24,9 @@ head:
 
 # Lemmy Alternative UIs
 
-Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These UIs are built by the community and provide a different look and feel to the default UI. 
+Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These user interfaces (UIs) are built by the community and provide a different look and feel to the default UI. 
 
-Some instances run multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca):
+Some instances offer multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca):
 
 ## Default UI
 

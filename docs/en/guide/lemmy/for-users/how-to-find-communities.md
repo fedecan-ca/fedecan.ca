@@ -11,13 +11,13 @@ There are two incredible benefits to Lemmy being on the Fediverse:
 - You are not limited to just the communities on the website you signed up with. If someone made a community on another Fediverse website that you want to join, chances are that you already can! In cases where you can't, there are likely people currently working on making it possible.
 - People want to avoid the issues with old social media platforms, and so the platforms are not trying to maximize engagement and keep you scrolling constantly.
 
-However, this also means that you get to have a more active role in finding the communities. Here are some tips on how you can do that.
+However, this also means that you get to have a more active role in finding the communities you want to join. Here are some tips on how you can do that:
 
 ::: tip ❓ I found a community on a different instance, how do I join it?
 
 Please see the guide section on [how to open something in your instance](./how-to-open-in-my-instance.md) for more information.
 
-There are also other ways to do this, such as by simply searching for it in your home instance's search bar. However this should get you through the rest of this page.
+There are also other ways to do this, such as by simply searching for it in your home instance's search bar. However that guide should get you through the contents on this page.
 :::
 
 ## 1) Join a community to discover new communities 🙌

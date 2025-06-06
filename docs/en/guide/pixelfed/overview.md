@@ -6,6 +6,6 @@ layout: doc
 
 <WorkInProgress 
     communityName="c/pixelfed"
-    communityLink="https://pixelfed.ca/c/pixelfed"
+    communityLink="https://lemmy.ca/c/pixelfed"
 />
 
