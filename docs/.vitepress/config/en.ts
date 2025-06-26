@@ -75,6 +75,10 @@ export const en = defineConfig({
                                             link: '/en/guide/lemmy/for-users/how-to-open-in-my-instance'
                                         },
                                         {
+                                            text: 'How to handle inappropriate content',
+                                            link: '/en/guide/lemmy/for-users/how-to-handle-inappropriate-content'
+                                        },
+                                        {
                                             text: 'How to block users / communities',
                                             link: '/en/guide/lemmy/for-users/how-to-block'
                                         },
