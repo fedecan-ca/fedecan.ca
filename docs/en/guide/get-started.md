@@ -101,32 +101,23 @@ All of these platforms make up a 'federated universe' of social media, known as 
 
 Many of these platforms are being built from the ground up, by teams of volunteers, to fix the problems we saw with older social media platforms. As such they are often better about privacy, transparency, and user control.
 
-<br>
+<br><br>
 
-# Our Platforms
+# Ready to get started already?
 
-Ready to start already? See below for some of the platforms that we run. 
-
-Signing up with us will let you interact with accounts from all over. In the same way, you can join someone else's instance, while still being able to interact with our users and content.
+You can jump to our page on what platform we run!
 
 <HorizontalContainer>
 <HorizontalCard
-    title="Lemmy"
-    image="/img/guide/desktop-D2_photon.png"
-    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top."
-    url="https://lemmy.ca"
-    category="Lemmy.ca"
-    :hideAuthor="true"
-/>
-<HorizontalCard
-    title="Pixelfed"
+    title="Our Platforms"
     image="/img/guide/pixelfed-screenshots.png"
-    excerpt="Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram. You can follow users, hashtags, and share posts outside of Pixelfed, without any ads, tracking, or secretive algorithms."
-    url="https://pixelfed.ca"
-    category="Pixelfed.ca"
+    excerpt="We're running platforms for image sharing (Pixelfed), forums (Lemmy, Piefed), and more to come soon! Check out this page for a full list."
+    url="/en/guide/fedecan/our-platforms"
+    :hideCategory="true"
     :hideAuthor="true"
 />
 </HorizontalContainer>
+
 <br>
 
 ### See the next section to learn how Fedecan fits into all this!

@@ -71,6 +71,10 @@ onMounted(() => {
             <Icon icon="fa:github" width="1em" height="1em" />
             GitHub
           </a>
+          <a href="https://status.fedecan.ca" target="_blank">
+            <Icon icon="fa:heartbeat" width="1em" height="1em" />
+            {{ currentContent.status }}
+          </a>
         </div>
 
         <div class="link-column">
@@ -89,15 +93,19 @@ onMounted(() => {
           <h3>{{ currentContent.platforms }}</h3>
           <a href="https://lemmy.ca" target="_blank">
             <Icon icon="simple-icons:lemmy" width="1em" height="1em" />
-            Lemmy.ca
+            lemmy.ca
+          </a>
+          <a href="https://sh.itjust.works" target="_blank">
+            <Icon icon="simple-icons:lemmy" width="1em" height="1em" />
+            sh.itjust.works
           </a>
           <a href="https://pixelfed.ca" target="_blank">
             <Icon icon="simple-icons:pixelfed" width="1em" height="1em" />
-            Pixelfed.ca
+            pixelfed.ca
           </a>
-          <a href="https://status.lemmy.ca" target="_blank">
-            <Icon icon="fa:heartbeat" width="1em" height="1em" />
-            {{ currentContent.status }}
+          <a href="https://piefed.ca" target="_blank">
+            <Icon icon="fa6-brands:canadian-maple-leaf" width="1em" height="1em" />
+            piefed.ca
           </a>
         </div>
       </div>
