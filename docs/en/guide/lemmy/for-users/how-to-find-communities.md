@@ -15,7 +15,7 @@ However, this also means that you get to have a more active role in finding the 
 
 ::: tip ❓ I found a community on a different instance, how do I join it?
 
-Please see the guide section on [how to open something in your instance](./how-to-open-in-my-instance.md) for more information.
+Please see the guide section on [how to open something in your instance](./how-to-open-in-my-instance) for more information.
 
 There are also other ways to do this, such as by simply searching for it in your home instance's search bar. However that guide should get you through the contents on this page.
 :::
