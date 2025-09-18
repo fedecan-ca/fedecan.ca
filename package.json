@@ -2,8 +2,8 @@
   "type": "module",
   "devDependencies": {
     "@iconify/vue": "^4.3.0",
-    "@types/node": "^20.19.0",
-    "vitepress": "^1.6.3"
+    "@types/node": "^20.19.17",
+    "vitepress": "^1.6.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
