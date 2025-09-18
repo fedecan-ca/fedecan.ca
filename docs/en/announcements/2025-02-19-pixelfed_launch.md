@@ -3,7 +3,7 @@ title: Launch of pixelfed.ca
 date: 2025-02-19
 author: fedecan
 category: Announcement
-banner: "/announcements/banner/pixelfed_launch.png"
+banner: "/announcements/banner/2025_02_19-pixelfed_launch.png"
 draft: false
 featured: true
 

@@ -25,13 +25,14 @@ export const en = defineConfig({
                             text: 'Fedecan',
                             items: [
                                 {text: 'Who We Are', link: '/en/guide/fedecan'},
+                                {text: 'Our Platforms', link: '/en/guide/fedecan/our-platforms'},
                                 {text: 'F.A.Q.', link: '/en/guide/fedecan/faq'}
                             ]
                         }
                     ]
                 },
                 {
-                    text: 'Our Platforms',
+                    text: 'Guides for each Platform',
                     items: [
                         {
                             text: 'Lemmy',
@@ -139,6 +140,12 @@ export const en = defineConfig({
                                 {text: 'Overview', link: '/en/guide/pixelfed/overview'},
                             ]
                         },
+                        {
+                            text: 'Piefed',
+                            items: [
+                                { text: 'Overview', link: '/en/guide/piefed/overview' },
+                            ]
+                        }
                     ]
                 },
                 {
