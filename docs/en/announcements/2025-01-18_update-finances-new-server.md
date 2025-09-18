@@ -1,5 +1,5 @@
 ---
-title: Lemmy.ca update - Finances & New Server
+title: Finances & New Server
 date: 2025-01-18
 author: shadow
 category: Announcement

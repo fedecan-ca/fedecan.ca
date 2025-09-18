@@ -135,4 +135,11 @@ To make the most of your experience:
   :hideCategory="true"
   :hideAuthor="true"
 />
+<HorizontalCard
+  title="Tools or Libraries for automation of Lemmy"
+  excerpt="A list of tools or libraries that can be used to automate tasks on Lemmy, such as moderation or maintenance."
+  url="/en/guide/lemmy/automation"
+  :hideCategory="true"
+  :hideAuthor="true"
+/>
 </HorizontalContainer>

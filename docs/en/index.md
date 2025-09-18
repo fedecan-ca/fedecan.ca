@@ -40,28 +40,60 @@ features:
 title: "Welcome"
 ---
 
+## Recent Announcements
+
+<BlogPostList
+    format="vertical"
+    sortOrder="descending"
+    excerptLines="2"
+    maxCards="3"
+    postsDataKey="enPostsData"
+    authorsDataKey="enAuthors"
+    :hideAuthor="true"
+    :hideCategory="true"
+  />
+
 ## Our Platforms
 
-**More on the way:** As we grow, we plan to expand our services to include other federated platforms. Stay tuned for more information!
+For a full list of our platforms and how they compare, check out [our full list of platforms on our guide page](/en/guide/fedecan/our-platforms). 
 
-<HorizontalContainer>
-<HorizontalCard
-    title="Lemmy"
-    image="/img/guide/desktop-D2_photon.png"
-    excerpt="Lemmy follows a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top."
-    url="https://lemmy.ca"
-    category="Lemmy.ca"
-    :hideAuthor="true"
-/>
-<HorizontalCard
-    title="Pixelfed"
+All of our platforms are interconnected, and you can interact with users from all over the world.
+
+<VerticalContainer>
+<VerticalCard
+    title="pixelfed.ca"
     image="/img/guide/pixelfed-screenshots.png"
-    excerpt="Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram. You can follow users, hashtags, and share posts outside of Pixelfed, without any ads, tracking, or secretive algorithms."
+    excerpt="A photo sharing platform managed by Canadians"
     url="https://pixelfed.ca"
-    category="Pixelfed.ca"
+    category="Pixelfed"
     :hideAuthor="true"
 />
-</HorizontalContainer>
+<VerticalCard
+    title="lemmy.ca"
+    image="/img/guide/desktop-D2_photon.png"
+    excerpt="A Canadian focused forum running the Lemmy software" 
+    url="https://lemmy.ca"
+    category="Lemmy"
+    :hideAuthor="true"
+/>
+<VerticalCard
+    title="sh.itjust.works"
+    image="/img/guide/desktop-D2_tess-sjw.png"
+    excerpt="A general purpose forum running the Lemmy software"
+    url="https://sh.itjust.works"
+    category="Lemmy"
+    :hideAuthor="true"
+/>
+<VerticalCard
+    title="piefed.ca"
+    image="/img/guide/piefed-desktop-D1_default.png"
+    excerpt="A new Canadian focused forum running the Piefed software"
+    url="https://sh.itjust.works"
+    category="Piefed"
+    :hideAuthor="true"
+/>
+</VerticalContainer>
+<br>
 
 
 
