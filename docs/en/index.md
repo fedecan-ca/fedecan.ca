@@ -59,8 +59,8 @@ For a full list of our platforms and how they compare, check out [our full list 
 
 All of our platforms are interconnected, and you can interact with users from all over the world.
 
-<VerticalContainer>
-<VerticalCard
+<VpvContainerVertical>
+<VpvCardVertical
     title="pixelfed.ca"
     image="/img/guide/pixelfed-screenshots.png"
     excerpt="A photo sharing platform managed by Canadians"
@@ -68,7 +68,7 @@ All of our platforms are interconnected, and you can interact with users from al
     category="Pixelfed"
     :hideAuthor="true"
 />
-<VerticalCard
+<VpvCardVertical
     title="lemmy.ca"
     image="/img/guide/desktop-D2_photon.png"
     excerpt="A Canadian focused forum running the Lemmy software" 
@@ -76,7 +76,7 @@ All of our platforms are interconnected, and you can interact with users from al
     category="Lemmy"
     :hideAuthor="true"
 />
-<VerticalCard
+<VpvCardVertical
     title="sh.itjust.works"
     image="/img/guide/desktop-D2_tess-sjw.png"
     excerpt="A general purpose forum running the Lemmy software"
@@ -84,7 +84,7 @@ All of our platforms are interconnected, and you can interact with users from al
     category="Lemmy"
     :hideAuthor="true"
 />
-<VerticalCard
+<VpvCardVertical
     title="piefed.ca"
     image="/img/guide/piefed-desktop-D1_default.png"
     excerpt="A new Canadian focused forum running the Piefed software"
@@ -92,7 +92,7 @@ All of our platforms are interconnected, and you can interact with users from al
     category="Piefed"
     :hideAuthor="true"
 />
-</VerticalContainer>
+</VpvContainerVertical>
 <br>
 
 

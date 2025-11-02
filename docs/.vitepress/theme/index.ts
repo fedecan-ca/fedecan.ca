@@ -11,13 +11,17 @@ import {Icon} from '@iconify/vue'
 import {
     BlogPostHeader,
     BlogPostList,
-    EmbedLemmy,
-    HorizontalCard,
-    HorizontalContainer,
-    ImageGallery,
-    JSONTable,
-    VerticalCard,
-    VerticalContainer,
+} from '@cynber/vitepress-valence'
+
+import {
+    VpvContainerHorizontal,
+    VpvContainerVertical,
+    VpvCardHorizontal,
+    VpvCardVertical,
+    VpvImageGallery,
+    VpvImage,
+    VpvEmbedLemmy,
+    VpvTableJSON,
 } from '@cynber/vitepress-valence'
 
 import enAuthors from './data/authors_en.js'
@@ -42,15 +46,19 @@ export default {
         // New components
         app.component('Icon', Icon)
 
+        app.component('VpvContainerHorizontal', VpvContainerHorizontal)
+        app.component('VpvContainerVertical', VpvContainerVertical)
+        app.component('VpvCardHorizontal', VpvCardHorizontal)
+        app.component('VpvCardVertical', VpvCardVertical)
+        app.component('VpvImageGallery', VpvImageGallery)
+        app.component('VpvImage', VpvImage)
+        app.component('VpvEmbedLemmy', VpvEmbedLemmy)
+        app.component('VpvTableJSON', VpvTableJSON)
+        
+        
+
         app.component('BlogPostHeader', BlogPostHeader)
         app.component('BlogPostList', BlogPostList)
-        app.component('EmbedLemmy', EmbedLemmy)
-        app.component('HorizontalCard', HorizontalCard)
-        app.component('HorizontalContainer', HorizontalContainer)
-        app.component('ImageGallery', ImageGallery)
-        app.component('JSONTable', JSONTable)
-        app.component('VerticalCard', VerticalCard)
-        app.component('VerticalContainer', VerticalContainer)
 
         app.provide('enAuthors', enAuthors)
         app.provide('frAuthors', frAuthors)

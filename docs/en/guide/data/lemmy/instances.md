@@ -2,28 +2,28 @@
 
 On this page, you can find graphs showing the total number of instances that are federated with [lemmy.ca](https://lemmy.ca). The data is updated around every eight hours.
 
-<ImageGallery
+<VpvImageGallery
   title="Past 2 weeks"
   :directUrls="[getImageUrl('instances', '2w')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="Past 6 months"
   :directUrls="[getImageUrl('instances', '6m')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="Past year"
   :directUrls="[getImageUrl('instances', '1y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="Past 2 years"
   :directUrls="[getImageUrl('instances', '2y')]"
-  layout="vertical"
+  layout="full"
 />
 
 

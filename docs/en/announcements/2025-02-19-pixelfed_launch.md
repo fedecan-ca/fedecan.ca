@@ -39,7 +39,7 @@ head:
 
 ::: details You can also view the original post on Lemmy: https://lemmy.ca/post/39411782
 
-<EmbedLemmy
+<VpvEmbedLemmy
   :links="[
     'https://lemmy.ca/post/39411782'
   ]"

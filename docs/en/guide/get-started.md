@@ -107,8 +107,8 @@ Many of these platforms are being built from the ground up, by teams of voluntee
 
 You can jump to our page on what platform we run!
 
-<HorizontalContainer>
-<HorizontalCard
+<VpvContainerHorizontal>
+<VpvCardHorizontal
     title="Our Platforms"
     image="/img/guide/pixelfed-screenshots.png"
     excerpt="We're running platforms for image sharing (Pixelfed), forums (Lemmy, Piefed), and more to come soon! Check out this page for a full list."
@@ -116,7 +116,7 @@ You can jump to our page on what platform we run!
     :hideCategory="true"
     :hideAuthor="true"
 />
-</HorizontalContainer>
+</VpvContainerHorizontal>
 
 <br>
 

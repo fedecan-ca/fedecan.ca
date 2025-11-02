@@ -10,27 +10,6 @@ Lemmy is a forum-style social media platform, often referred to as a 'link aggre
 websites such as Reddit or Hacker News, which are similar in nature. You can share and discuss links, text, and images,
 and decide on what content rises to the top by upvoting and downvoting.
 
-<!-- <ImageGallery
-  title="You can switch between a variety of themes and interfaces"
-  :folders="[
-    '/gallery/lemmy-screenshots/desktop',
-  ]"
-/> -->
-
-<!-- <ImageGallery
-      title="You can switch between a variety of themes and interfaces"
-      :images="[
-        '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
-        '/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
-      ]"
-    /> -->
-
 <ThemedImage
 lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L1_default.png"
 darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D1_default.png"
@@ -110,8 +89,8 @@ To make the most of your experience:
 
 ## More Guides
 
-<HorizontalContainer>
-<HorizontalCard
+<VpvContainerHorizontal>
+<VpvCardHorizontal
   title="Finding Communities"
   excerpt="Some tips and links that can help you find communities that you might like."
   image="/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-fediverse.png"
@@ -119,7 +98,7 @@ To make the most of your experience:
   :hideCategory="true"
   :hideAuthor="true"
 />
-<HorizontalCard
+<VpvCardHorizontal
   title="Mobile Apps"
   excerpt="Around 85% of our users access Lemmy on mobile. See this page for info on mobile apps."
   image="/gallery/lemmy-screenshots/mobile/mobile-card.png"
@@ -127,7 +106,7 @@ To make the most of your experience:
   :hideCategory="true"
   :hideAuthor="true"
 />
-<HorizontalCard
+<VpvCardHorizontal
   title="Alternative UIs"
   excerpt="Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to."
   image="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
@@ -135,11 +114,11 @@ To make the most of your experience:
   :hideCategory="true"
   :hideAuthor="true"
 />
-<HorizontalCard
+<VpvCardHorizontal
   title="Tools or Libraries for automation of Lemmy"
   excerpt="A list of tools or libraries that can be used to automate tasks on Lemmy, such as moderation or maintenance."
   url="/en/guide/lemmy/automation"
   :hideCategory="true"
   :hideAuthor="true"
 />
-</HorizontalContainer>
+</VpvContainerHorizontal>

@@ -26,26 +26,26 @@ You can subscribe to these places to learn about more communities over time.
 
 This is one of the easiest ways to learn about new places passively.
 
-<VerticalContainer>
-<VerticalCard
+<VpvContainerVertical>
+<VpvCardVertical
   title="newcommunities @ lemmy.world"
   excerpt="See posts about new communities as they are created or rebooted."
   image="/img/guide/lemmy/how-to-find-communities/newcommunities.webp"
   url="https://lemmy.ca/c/newcommunities@lemmy.world"
 />
-<VerticalCard
+<VpvCardVertical
   title="communitypromo @ lemmy.ca"
   excerpt="Users will promote their communities and ask for recommendations."
   image="/img/guide/lemmy/how-to-find-communities/communitypromo.webp"
   url="https://lemmy.ca/c/CommunityPromo@lemmy.ca"
 />
-<VerticalCard
+<VpvCardVertical
   title="trendingcommunities @ feddit.nl"
   excerpt="This is an automated community that posts regular updates on which communities grew the most in the past week."
   image="/img/guide/lemmy/how-to-find-communities/trendingcommunities.webp"
   url="https://lemmy.ca/c/trendingcommunities@feddit.nl"
 />
-</VerticalContainer>
+</VpvContainerVertical>
 
 ### Other Similar Communities
 
@@ -64,14 +64,14 @@ If you are using **lemmyverse.net** for the first time, you should set your home
 This will make it so that all the links will open on the instance that you have a Lemmy account with, so that you can subscribe right away without having to edit the links.
 :::
 
-<VerticalContainer>
-<VerticalCard
+<VpvContainerVertical>
+<VpvCardVertical
   title="lemmyverse.net"
   excerpt="Search for communities across all instances, with filtering and sorting options."
   image="/img/guide/lemmy/how-to-find-communities/lemmyverse.png"
   url="https://lemmyverse.net/communities"
 />
-</VerticalContainer>
+</VpvContainerVertical>
 
 
 
