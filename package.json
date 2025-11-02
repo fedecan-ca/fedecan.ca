@@ -2,7 +2,7 @@
   "type": "module",
   "devDependencies": {
     "@iconify/vue": "^4.3.0",
-    "@types/node": "^20.19.17",
+    "@types/node": "^24.9.2",
     "vitepress": "^1.6.4"
   },
   "scripts": {
@@ -14,7 +14,7 @@
     "lunaria:fedecan": "lunaria build --config lunaria/lunaria.config.json && lunaria preview --config lunaria/lunaria.config.json"
   },
   "dependencies": {
-    "@cynber/vitepress-valence": "^0.1.13",
+    "@cynber/vitepress-valence": "^0.2.2",
     "@lunariajs/core": "^0.1.1"
   },
   "pnpm": {
