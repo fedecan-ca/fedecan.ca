@@ -26,7 +26,11 @@ head:
 
 Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These user interfaces (UIs) are built by the community and provide a different look and feel to the default UI. 
 
-Some instances offer multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca):
+Some instances offer multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca).
+
+::: tip 
+You can see both light and dark mode screenshots by toggling the site theme in the top right corner of the page.
+:::
 
 ## Default UI
 
@@ -35,9 +39,14 @@ This is the default UI that you will see when you access [lemmy.ca](https://lemm
 - Simple and clean UI that is easy to use
 - Built by the main developers of Lemmy, so it is the most stable and reliable UI available
 
-<ThemedImage 
-    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L1_default.png"
-    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D1_default.png"
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+    alt: 'Screenshot of the default theme for Lemmy.',
+    description: 'Screenshot of the default theme for Lemmy.'
+  }"
+  enableZoom
 />
 
 ## Photon
@@ -47,9 +56,14 @@ You can access **lemmy.ca** with the Photon UI by going to [photon.lemmy.ca](htt
 - A more modern and sleek UI, that is fast and lightweight with responsive design
 - Support for moderation tools and multi-account switching
 
-<ThemedImage 
-    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png"
-    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+    alt: 'Screenshot of the Photon alternative UI.',
+    description: 'Screenshot of the Photon alternative UI.'
+  }"
+  enableZoom
 />
 
 <div class="shields-container">
@@ -80,9 +94,15 @@ For more information and screenshots, you can visit the [Voyager website](https:
 
 You can access **lemmy.ca** with the Tesseract UI by going to [tess.lemmy.ca](https://tess.lemmy.ca/).
 
-<ThemedImage 
-    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png"
-    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png"
+
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
+    alt: 'Screenshot of the Tesseract alternative UI.',
+    description: 'Screenshot of the Tesseract alternative UI.'
+  }"
+  enableZoom
 />
 
 <div class="shields-container">
@@ -97,9 +117,14 @@ You can access **lemmy.ca** with the Alexandrite UI by going to [alex.lemmy.ca](
 - Variety of layout options (ex. open post as an overlay, or side-by-side with the main feed)
 - Support for moderation tools and multi-account switching
 
-<ThemedImage 
-    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L4_alexandrite.png"
-    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D4_alexandrite.png"
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L4_alexandrite.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D4_alexandrite.png',
+    alt: 'Screenshot of the Alexandrite alternative UI.',
+    description: 'Screenshot of the Alexandrite alternative UI.'
+  }"
+  enableZoom
 />
 
 <div class="shields-container">
@@ -119,9 +144,14 @@ You can access **lemmy.ca** with the Mlymym UI by going to [old.lemmy.ca](https:
 - A retro UI that is reminiscent of old Reddit
 - While it can be accessed on mobile, it is best used on a desktop
 
-<ThemedImage 
-    lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L5_old.png"
-    darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D5_old.png"
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
+    alt: 'Screenshot of the Mlymym alternative UI.',
+    description: 'Screenshot of the Mlymym alternative UI.'
+  }"
+  enableZoom
 />
 
 <div class="shields-container">

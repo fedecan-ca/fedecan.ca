@@ -10,20 +10,24 @@ Lemmy is a forum-style social media platform, often referred to as a 'link aggre
 websites such as Reddit or Hacker News, which are similar in nature. You can share and discuss links, text, and images,
 and decide on what content rises to the top by upvoting and downvoting.
 
-<ThemedImage
-lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L1_default.png"
-darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D1_default.png"
-caption="Screenshot of the default theme for Lemmy."
-alt="Screenshot of the default theme for Lemmy."
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+    alt: 'Screenshot of the default theme for Lemmy.',
+    description: 'Screenshot of the default theme for Lemmy.',
+  }"
+  enableZoom
 />
 
-
-<ThemedImage
-lightImageUrl="/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png"
-darkImageUrl="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
-caption="Screenshot of Photon, one of the <a href='/en/guide/lemmy/for-users/alternative-uis'>alternative UIs</a> for
-Lemmy."
-alt="Screenshot of Photon, one of the alternative UIs for Lemmy."
+<VpvImage
+  :imageConfig="{
+    image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
+    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+    alt: 'Screenshot of Photon, one of the alternative UIs for Lemmy.',
+    description: 'Screenshot of Photon, one of the alternative UIs for Lemmy.',
+  }"
+  enableZoom
 />
 
 Like many other forum-style websites, Lemmy is made up of communities, each of which has a topic or theme. When you make

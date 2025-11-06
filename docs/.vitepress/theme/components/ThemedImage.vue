@@ -15,7 +15,7 @@ export default {
       default: "Themed Image",
     },
     caption: {
-      type: Element,
+      type: String,
       required: false,
     },
   },
