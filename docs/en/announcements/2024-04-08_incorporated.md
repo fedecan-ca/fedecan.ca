@@ -1,14 +1,32 @@
 ---
-title: Non-Profit Incorporation
+aside: false
+
+# Core Content Fields
+title: "Non-Profit Incorporation & Next Steps"
+summary: "We are pleased to announce that Fedecan has been officially incorporated as a not-for-profit organization! We recently crossed the first anniversary for many of us on Lemmy and the Fediverse, and we are thrilled to announce this important milestone."
+
+# Publication Fields
 date: 2024-04-08
 author: fedecan
+status: published
+featured: false
+
+# Organization Fields
 category: Announcement
-banner: "/img/social-share.png"
-draft: false
-featured: true
+tags:
+  - Fedecan
+  - Non-Profit
+  - Admin
+  - Finances
 
-excerpt: "We are pleased to announce that Fedecan has been officially incorporated as a not-for-profit organization!"
+# Featured Image
+featured_image:
+  image: "/img/social-share.png"
 
+# Content Options
+reading_time: 3
+
+# Built in Social Media Sharing Fields
 head:
   - - meta
     - property: og:type
@@ -30,7 +48,7 @@ head:
       content: Announcements
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   returnLink="/en/announcements"
   returnText="Back to Announcements"
   authorsDataKey="enAuthors"

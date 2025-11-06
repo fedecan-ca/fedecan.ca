@@ -1,14 +1,33 @@
 ---
-title: Launch of pixelfed.ca
+aside: false
+
+# Core Content Fields
+title: "Launch of pixelfed.ca"
+summary: "We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada. Pixelfed is a free and open-source alternative to image sharing platforms such as Instagram."
+
+# Publication Fields
 date: 2025-02-19
 author: fedecan
+status: published
+featured: false
+
+# Organization Fields
 category: Announcement
-banner: "/announcements/banner/2025_02_19-pixelfed_launch.png"
-draft: false
-featured: true
+tags:
+  - Fediverse
+  - Platform
+  - Image Sharing
+  - Pixelfed
 
-excerpt: "We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada"
+# Featured Image
+featured_image:
+  image: "/announcements/banner/2025_02_19-pixelfed_launch.png"
+  alt: "Flat icons of three Canadian landscapes. From left to right: a forest with geese flying, a mountain, and an inuksuk over some snow."
 
+# Content Options
+reading_time: 1
+
+# Built in Social Media Sharing Fields
 head:
   - - meta
     - property: og:type
@@ -30,23 +49,11 @@ head:
       content: Announcement
 ---
 
-
-<BlogPostHeader 
+<VpvArticleHeader
   returnLink="/en/announcements"
   returnText="Back to Announcements"
   authorsDataKey="enAuthors"
 />
-
-::: details You can also view the original post on Lemmy: https://lemmy.ca/post/39411782
-
-<VpvEmbedLemmy
-  :links="[
-    'https://lemmy.ca/post/39411782'
-  ]"
-  :titleLines="2"
-  :excerptLines="3"
-/>
-:::
 
 <br>
 
@@ -73,5 +80,16 @@ Some key features of Pixelfed:
 We highly recommend that you check out their [official website](https://pixelfed.org/) for more information on the features and benefits of Pixelfed. Our instance, pixelfed.ca, is a run by Canadians and hosted in Canada, but is otherwise open to everyone.
 
 Welcome! 🍁
+
+<br>
+
+<VpvEmbedLemmy
+  headerTitle="You can also view the original post on Lemmy"
+  :links="[
+    'https://lemmy.ca/post/39411782'
+  ]"
+  :titleLines="2"
+  :excerptLines="3"
+/>
 
 

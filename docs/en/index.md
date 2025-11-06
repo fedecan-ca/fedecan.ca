@@ -42,9 +42,10 @@ title: "Welcome"
 
 ## Recent Announcements
 
-<BlogPostList
+<VpvArticleList
     format="vertical"
     sortOrder="descending"
+    titleLines="2"
     excerptLines="2"
     maxCards="3"
     postsDataKey="enPostsData"

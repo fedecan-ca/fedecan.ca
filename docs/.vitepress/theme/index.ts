@@ -2,17 +2,9 @@
 import type {Theme} from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import CustomLayout from './CustomLayout.vue'
-
 import './style.css'
 import '@cynber/vitepress-valence/style.css'
-
 import {Icon} from '@iconify/vue'
-
-import {
-    BlogPostHeader,
-    BlogPostList,
-} from '@cynber/vitepress-valence'
-
 import {
     VpvContainerHorizontal,
     VpvContainerVertical,
@@ -22,21 +14,22 @@ import {
     VpvImage,
     VpvEmbedLemmy,
     VpvTableJSON,
+    VpvArticleList,
+    VpvArticleHeader,
 } from '@cynber/vitepress-valence'
-
 import enAuthors from './data/authors_en.js'
 import frAuthors from './data/authors_fr.js'
 import {data as enPostsData} from './data/posts_en.data.js'
 import {data as frPostsData} from './data/posts_fr.data.js'
-import {data as galleryData} from './data/gallery.data.js';
+import {data as galleryData} from './data/gallery.data.js'
 
 // Deprecated components
-import InfoPill from './components/InfoPill.vue';
-import InfoText from './components/InfoText.vue';
-import StripeButton from './components/StripeButton.vue';
-import DataWrapperChart from './components/DataWrapperChart.vue';
-import ThemedImage from './components/ThemedImage.vue';
-import ThemedImageGallery from './components/ThemedImageGallery.vue';
+import InfoPill from './components/InfoPill.vue'
+import InfoText from './components/InfoText.vue'
+import StripeButton from './components/StripeButton.vue'
+import DataWrapperChart from './components/DataWrapperChart.vue'
+import ThemedImage from './components/ThemedImage.vue'
+import ThemedImageGallery from './components/ThemedImageGallery.vue'
 import WorkInProgress from './components/WorkInProgress.vue'
 
 export default {
@@ -54,12 +47,8 @@ export default {
         app.component('VpvImage', VpvImage)
         app.component('VpvEmbedLemmy', VpvEmbedLemmy)
         app.component('VpvTableJSON', VpvTableJSON)
-        
-        
-
-        app.component('BlogPostHeader', BlogPostHeader)
-        app.component('BlogPostList', BlogPostList)
-
+        app.component('VpvArticleList', VpvArticleList)
+        app.component('VpvArticleHeader', VpvArticleHeader)
         app.provide('enAuthors', enAuthors)
         app.provide('frAuthors', frAuthors)
         app.provide('enPostsData', enPostsData)
@@ -73,8 +62,6 @@ export default {
         app.component('DataWrapperChart', DataWrapperChart)
         app.component('ThemedImage', ThemedImage)
         app.component('ThemedImageGallery', ThemedImageGallery)
-
-        // Add WorkInProgress component
         app.component('WorkInProgress', WorkInProgress)
     }
 } satisfies Theme;

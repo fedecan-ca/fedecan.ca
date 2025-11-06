@@ -1,6 +1,10 @@
 ---
 layout: home
 
+hero:
+  text: "Announcements"
+  tagline: See below for updates about the non-profit and our various platforms!
+
 head:
   - - meta
     - property: og:type
@@ -18,16 +22,11 @@ head:
     - property: og:description  # 150-160 characters
       content: Latest announcements from Fedecan.
 ---
+<VpvArticleList
+  format="horizontal"
+  excerptLines="3"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+/>
 
-<br><br>
-
-# Announcements
-
-If you are looking for status and maintenance updates, please visit [status.lemmy.ca](https://status.lemmy.ca/), or see the [lemmy.ca/c/main](https://lemmy.ca/c/main) community. 
-
-<BlogPostList
-    format="horizontal"
-    excerptLines="2"
-    postsDataKey="enPostsData"
-    authorsDataKey="enAuthors"
-  />
+If you are looking for status updates, please see [status.fedecan.ca](https://status.fedecan.ca/). Thank you! 🍁
