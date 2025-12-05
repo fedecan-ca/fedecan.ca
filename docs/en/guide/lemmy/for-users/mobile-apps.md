@@ -8,14 +8,14 @@ To compare the different apps available, you can check out the website below. It
 
 <br>
 
-<VerticalContainer>
-<VerticalCard
+<VpvContainerVertical>
+<VpvCardVertical
   title="lemmyapps.com"
   excerpt="A website that lists all the different mobile apps available for Lemmy, with the ability to filter by platform, open-source status, price, and more."
   image="/gallery/lemmy-screenshots/mobile/mobile-card.png"
   url="https://www.lemmyapps.com/"
 />
-</VerticalContainer>
+</VpvContainerVertical>
 
 You can also see another version of this list on [join-lemmy.org/apps](https://join-lemmy.org/apps). If you want to learn about new apps or updates over time, you can subscribe to the [!lemmyapps@lemmy.world](https://lemmy.ca/c/lemmyapps@lemmy.world) community.
 

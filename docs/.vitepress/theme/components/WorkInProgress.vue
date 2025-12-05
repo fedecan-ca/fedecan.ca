@@ -1,6 +1,6 @@
 <template>
   <div class="outer-container">
-    <HorizontalContainer>
+    <VpvContainerHorizontal>
       <div class="wip-container">
         <div class="title">This section is a work in progress</div>
         <p>
@@ -12,7 +12,7 @@
         </p>
         <p>If you'd like to contribute, please <a href="/en/contact">get in touch</a>.</p>
       </div>
-    </HorizontalContainer>
+    </VpvContainerHorizontal>
   </div>
 </template>
 

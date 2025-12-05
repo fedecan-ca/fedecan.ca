@@ -2,52 +2,52 @@
 
 On this page, you can find graphs showing the total number of communities on [lemmy.ca](https://lemmy.ca), as well as globally. The data is updated around every eight hours.
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 2 weeks)"
   :directUrls="[getImageUrl('communities', 'local', '2w')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 2 weeks)"
   :directUrls="[getImageUrl('communities', 'global', '2w')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 6 months)"
   :directUrls="[getImageUrl('communities', 'local', '6m')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 6 months)"
   :directUrls="[getImageUrl('communities', 'global', '6m')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past year)"
   :directUrls="[getImageUrl('communities', 'local', '1y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past year)"
   :directUrls="[getImageUrl('communities', 'global', '1y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 2 years)"
   :directUrls="[getImageUrl('communities', 'local', '2y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 2 years)"
   :directUrls="[getImageUrl('communities', 'global', '2y')]"
-  layout="vertical"
+  layout="full"
 />
 
 

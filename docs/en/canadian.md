@@ -3,20 +3,20 @@
 
 ## 🍁 Meta
 
-<VerticalContainer>
-    <VerticalCard
+<VpvContainerVertical>
+    <VpvCardVertical
         title="Main"
         url="/c/main@lemmy.ca"
     />
-    <VerticalCard
+    <VpvCardVertical
         title="Lemmy.ca Support"
         url="/c/lemmy_ca_support@lemmy.ca"
     />
-    <VerticalCard
+    <VpvCardVertical
         title="Community Requests"
         url="/c/communityrequests@lemmy.ca"
     />
-</VerticalContainer>
+</VpvContainerVertical>
 
 
 ```

@@ -1,14 +1,33 @@
 ---
-title: 2023 Instance Census Results
+aside: false
+
+# Core Content Fields
+title: "2023 Instance Census Results"
+summary: "This data was originally shared on Lemmy. This page has improved visualizations that can take advantage of the website format. Thank you to everyone who took the time to fill out the census! This was an exciting year, and for a lot of users it was their first year on lemmy.ca (and the fediverse in general)."
+
+# Publication Fields
 date: 2024-02-10
-author: fedecan
-category: Announcement
-banner: /announcements/banner/2024-02-10_censusResults.jpg
-draft: false
-featured: true
+author: otter
+status: published
+featured: false
 
-excerpt: "This data was originally shared on Lemmy. This page has improved visualizations that can take advantage of the website format."
+# Organization Fields
+category: Event
+tags:
+  - Census
+  - Lemmy
+  - Locations
+  - Demographics
+  - Usage Statistics
 
+# Featured Image
+featured_image:
+  image: "/announcements/banner/2024-02-10_censusResults.jpg"
+
+# Content Options
+reading_time: 15
+
+# Built in Social Media Sharing Fields
 head:
   - - meta
     - property: og:type
@@ -30,7 +49,7 @@ head:
       content: Announcements
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   returnLink="/en/announcements"
   returnText="Back to Announcements"
   authorsDataKey="enAuthors"
@@ -49,10 +68,6 @@ For this census, the questions were more open ended, and it ended up being much 
 The turnout was good, with **529 total responses** in the 1 week that the census was open. That made up around 8% of the ~6500 total users on lemmy.ca, which feels like a nice sample size for some fun analysis.
 
 <br>
-
-::: tip ☀️ Switch to Light Theme ☀️
-We are using DataWrapper for the visualizations, and so you should switch to the light theme for better visibility. You can do this by clicking the toggle in the top right corner of the page.
-:::
 
 To start off, here is a chart of the responses over time:
 
@@ -112,7 +127,14 @@ We can see a nice curve, with a peak around 30-39. So the average age on Lemmy i
 
 This was one of the questions that I couldn’t analyze the way I was originally planning to. While allowing for multiple responses and user submissions allowed for more accurate self-identified responses, it made it difficult to visualize the data in a meaningful way. This data deserves a more in depth analysis, but for now I opted to create a word cloud so we could get a sense of what the responses were like.
 
-<img src="/announcements/2024-02-10_censusResults/2.2.png" alt="word cloud" class="chart-card--image-rounded" />
+<VpvImage
+  :imageConfig="{
+    image: '/announcements/2024-02-10_censusResults/2.2.png',
+    alt: 'word cloud',
+  }"
+  enableBorder
+  enableZoom
+/>
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -150,7 +172,14 @@ You can see Canadian census data for [‘Sex at birth and gender’ here](https:
 
 Similar to the other question above, this question allowed for multiple responses and user submissions, so it was difficult to visualize the data in a meaningful way.
 
-<img src="/announcements/2024-02-10_censusResults/2.5.png" alt="word cloud" class="chart-card--image-rounded" />
+<VpvImage
+  :imageConfig="{
+    image: '/announcements/2024-02-10_censusResults/2.5.png',
+    alt: 'word cloud',
+  }"
+  enableBorder
+  enableZoom
+/>
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -229,7 +258,14 @@ We got a few custom responses, including ‘active duty military’, ‘disabili
 
 This question was… a mess to try and clean and display. I tried to collapse as many similar responses as I could, but it felt like I was making more mistakes than I was fixing:
 
-<img src="/announcements/2024-02-10_censusResults/2.9.png" alt="word cloud" class="chart-card--image-rounded" />
+<VpvImage
+  :imageConfig="{
+    image: '/announcements/2024-02-10_censusResults/2.9.png',
+    alt: 'word cloud',
+  }"
+  enableBorder
+  enableZoom
+/>
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
@@ -446,7 +482,14 @@ The question that was asked was "First, what’s your favourite dessert?". Wow t
 
 After cleaning the data, and consolidating similar responses into a format that could easily be searched, I can confidently say that the **most popular dessert out of 527 entries was…**
 
-<img src="/announcements/2024-02-10_censusResults/icecream.jpg" alt="word cloud" class="chart-card--image-rounded" />
+<VpvImage
+  :imageConfig="{
+    image: '/announcements/2024-02-10_censusResults/icecream.jpg',
+    alt: 'word cloud',
+  }"
+  enableBorder
+  enableZoom
+/>
 
 kind of…
 
@@ -473,7 +516,15 @@ Even a lot of the joke entries had repeats, with 4 entries along the lines of `j
 
 Here is the word cloud, which unfortunately includes a bug where every entry is duplicated.
 
-<img src="/announcements/2024-02-10_censusResults/4.1.png" alt="word cloud" class="chart-card--image-rounded" />
+<VpvImage
+  :imageConfig="{
+    image: '/announcements/2024-02-10_censusResults/4.1.png',
+    alt: 'word cloud',
+  }"
+  enableBorder
+  enableZoom
+/>
+
 
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 

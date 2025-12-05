@@ -54,7 +54,7 @@ Federation is a key feature of Lemmy, allowing users to interact with communitie
 
 ### Legend
 
-<JSONTable
+<VpvTableJSON
 :jsonDataProp="[
     {
         i: 'yes-user',
@@ -93,7 +93,7 @@ Federation is a key feature of Lemmy, allowing users to interact with communitie
 
 ## Personally identifiable information
 
-<JSONTable
+<VpvTableJSON
 :jsonDataProp="[
     {
         actor: 'You',
@@ -166,7 +166,7 @@ Instance admins require access to IP addresses and email in order to handle user
 
 ## Community Interaction Information
 
-<JSONTable
+<VpvTableJSON
     :jsonDataProp="[
         {
             actor: 'You',

@@ -1,5 +1,4 @@
-import { defineConfig } from 'vitepress'
-import type { DefaultTheme } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 export const en = defineConfig({
     lang: 'en-CA',
@@ -9,11 +8,11 @@ export const en = defineConfig({
 
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/en/' },
-            { text: 'Guides & Resources', link: '/en/guide/get-started' },
-            { text: 'Announcements', link: '/en/announcements' },
-            { text: 'Contact', link: '/en/contact' },
-            { text: '❤️ Donate', link: '/en/donate' },
+            {text: 'Home', link: '/en/'},
+            {text: 'Guides & Resources', link: '/en/guide/get-started'},
+            {text: 'Announcements', link: '/en/announcements'},
+            {text: 'Contact', link: '/en/contact'},
+            {text: '❤️ Donate', link: '/en/donate'},
         ],
 
         sidebar: {
@@ -21,13 +20,13 @@ export const en = defineConfig({
                 {
                     text: 'Getting Started',
                     items: [
-                        { text: 'What is the Fediverse?', link: '/en/guide/get-started' },
+                        {text: 'What is the Fediverse?', link: '/en/guide/get-started'},
                         {
                             text: 'Fedecan',
                             items: [
-                                { text: 'Who We Are', link: '/en/guide/fedecan' },
-                                { text: 'Our Platforms', link: '/en/guide/fedecan/our-platforms' },
-                                { text: 'F.A.Q.', link: '/en/guide/fedecan/faq' }
+                                {text: 'Who We Are', link: '/en/guide/fedecan'},
+                                {text: 'Our Platforms', link: '/en/guide/fedecan/our-platforms'},
+                                {text: 'F.A.Q.', link: '/en/guide/fedecan/faq'}
                             ]
                         }
                     ]
@@ -74,6 +73,10 @@ export const en = defineConfig({
                                         {
                                             text: 'How to open something in my instance',
                                             link: '/en/guide/lemmy/for-users/how-to-open-in-my-instance'
+                                        },
+                                        {
+                                            text: 'How to handle inappropriate content',
+                                            link: '/en/guide/lemmy/for-users/how-to-handle-inappropriate-content'
                                         },
                                         {
                                             text: 'How to block users / communities',
@@ -123,22 +126,28 @@ export const en = defineConfig({
                                                 }
                                             ]
                                         },
-                                        {
-                                            text: 'Automation for Lemmy',
-                                            link: '/en/guide/lemmy/for-admins/automation'
-                                        },
                                     ]
                                 },
                                 // {
                                 //     text: 'Guides for Developers',
                                 //     link: '/en/guide/lemmy/for-developers'
                                 // }
+                                {
+                                    text: 'Automation for Lemmy',
+                                    link: '/en/guide/lemmy/automation'
+                                },
                             ]
                         },
                         {
                             text: 'Pixelfed',
                             items: [
-                                { text: 'Overview', link: '/en/guide/pixelfed/overview' },
+                                {text: 'Overview', link: '/en/guide/pixelfed/overview'},
+                            ]
+                        },
+                        {
+                            text: 'Piefed',
+                            items: [
+                                { text: 'Overview', link: '/en/guide/piefed/overview' },
                             ]
                         },
                         {

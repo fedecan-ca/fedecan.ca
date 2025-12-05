@@ -30,18 +30,24 @@ If this is your first time hearing about the Fediverse, we're very excited to be
 
 When you want to send an email, you don't need to use the same email provider as the person you're sending it to. 
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-email-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-email-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-email-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-email-dark.png',
+  }"
+  enableZoom
 />
 
 The same is true for phone calls. You can sign up with any phone network, and still call your friend regardless of which network they are on.
 
 This is possible because of **open standards**. Email providers and phone networks use these standards to **federate** their services. 
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-federate-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-federate-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-federate-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-federate-dark.png',
+  }"
+  enableZoom
 />
 
 Open standards allow you to communicate with anyone, without needing to be on the same service!
@@ -54,18 +60,24 @@ Email and phone calls are both examples of federated services.
 
 Most older social media platforms are **centralized**. If you wanted to leave a comment somewhere, you needed to make an account on that website / app.
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-old_media-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-old_media-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-old_media-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-old_media-dark.png',
+  }"
+  enableZoom
 />
 
 As the userbase of individual platforms grew, it became a **problem** with how much power the platforms had. It became very difficult to leave them, or for better alternatives to compete. 
 
 It has gotten to the point where a few companies have a near-monopoly on social media, and your online experience along with it.
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-old_monopolies-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-old_monopolies-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-old_monopolies-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-old_monopolies-dark.png',
+  }"
+  enableZoom
 />
 
 So why aren't social networks federated?
@@ -76,9 +88,12 @@ Faced with this problem, in 2018 the World Wide Web Consortium ([W3C](https://en
 
 ActivityPub is an **open standard** and **federation protocol** for social media. It allows different social media platforms to communicate with each other!
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-the_fediverse-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-the_fediverse-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-the_fediverse-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-the_fediverse-dark.png',
+  }"
+  enableZoom
 />
 
 Since then, a number of independent projects have adopted ActivityPub to make new social media platforms.
@@ -89,9 +104,12 @@ Since then, a number of independent projects have adopted ActivityPub to make ne
 
 All of these platforms make up a 'federated universe' of social media, known as the **Fediverse**.
 
-<ThemedImage 
-    lightImageUrl="/img/guide/getting-started/getting_started-welcome-light.png"
-    darkImageUrl="/img/guide/getting-started/getting_started-welcome-dark.png"
+<VpvImage
+  :imageConfig="{
+    image: '/img/guide/getting-started/getting_started-welcome-light.png',
+    image_dark: '/img/guide/getting-started/getting_started-welcome-dark.png',
+  }"
+  enableZoom
 />
 
 ## How does this help?
@@ -107,8 +125,8 @@ Many of these platforms are being built from the ground up, by teams of voluntee
 
 You can jump to our page on what platform we run!
 
-<HorizontalContainer>
-<HorizontalCard
+<VpvContainerHorizontal>
+<VpvCardHorizontal
     title="Our Platforms"
     image="/img/guide/pixelfed-screenshots.png"
     excerpt="We're running platforms for image sharing (Pixelfed), forums (Lemmy, Piefed), and more to come soon! Check out this page for a full list."
@@ -116,7 +134,7 @@ You can jump to our page on what platform we run!
     :hideCategory="true"
     :hideAuthor="true"
 />
-</HorizontalContainer>
+</VpvContainerHorizontal>
 
 <br>
 

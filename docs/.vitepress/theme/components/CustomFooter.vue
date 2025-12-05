@@ -104,7 +104,7 @@ onMounted(() => {
             pixelfed.ca
           </a>
           <a href="https://piefed.ca" target="_blank">
-            <Icon icon="fa6-brands:canadian-maple-leaf" width="1em" height="1em" />
+            <Icon icon="lucide-lab:pie" width="1em" height="1em" />
             piefed.ca
           </a>
         </div>

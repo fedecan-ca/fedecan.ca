@@ -2,52 +2,52 @@
 
 On this page, you can find graphs showing the number of new posts per day on [lemmy.ca](https://lemmy.ca), as well as globally. The data is updated around every eight hours.
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 2 weeks)"
   :directUrls="[getImageUrl('posts', 'local', '2w')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 2 weeks)"
   :directUrls="[getImageUrl('posts', 'global', '2w')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 6 months)"
   :directUrls="[getImageUrl('posts', 'local', '6m')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 6 months)"
   :directUrls="[getImageUrl('posts', 'global', '6m')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past year)"
   :directUrls="[getImageUrl('posts', 'local', '1y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past year)"
   :directUrls="[getImageUrl('posts', 'global', '1y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="lemmy.ca (past 2 years)"
   :directUrls="[getImageUrl('posts', 'local', '2y')]"
-  layout="vertical"
+  layout="full"
 />
 
-<ImageGallery
+<VpvImageGallery
   title="All federated instances (past 2 years)"
   :directUrls="[getImageUrl('posts', 'global', '2y')]"
-  layout="vertical"
+  layout="full"
 />
 
 
