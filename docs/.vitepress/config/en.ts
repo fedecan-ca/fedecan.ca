@@ -149,6 +149,12 @@ export const en = defineConfig({
                             items: [
                                 { text: 'Overview', link: '/en/guide/piefed/overview' },
                             ]
+                        },
+                        {
+                            text: 'Piefed',
+                            items: [
+                                { text: 'Overview', link: '/en/guide/piefed/overview' },
+                            ]
                         }
                     ]
                 },
