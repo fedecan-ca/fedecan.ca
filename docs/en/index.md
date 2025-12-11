@@ -89,7 +89,7 @@ All of our platforms are interconnected, and you can interact with users from al
     title="piefed.ca"
     image="/img/guide/piefed-desktop-D1_default.png"
     excerpt="A new Canadian focused forum running the Piefed software"
-    url="https://sh.itjust.works"
+    url="https://piefed.ca"
     category="Piefed"
     :hideAuthor="true"
 />
