@@ -146,14 +146,18 @@ export const en = defineConfig({
                         },
                         {
                             text: 'Piefed',
+                            link: '/en/guide/piefed/overview',
                             items: [
-                                { text: 'Overview', link: '/en/guide/piefed/overview' },
-                            ]
-                        },
-                        {
-                            text: 'Piefed',
-                            items: [
-                                { text: 'Overview', link: '/en/guide/piefed/overview' },
+                                {
+                                    text: 'Guides for Users',
+                                    collapsed: true,
+                                    items: [
+                                        {
+                                            text: 'Getting Started with PieFed',
+                                            link: '/en/guide/piefed/for-users',
+                                        },
+                                    ]
+                                }
                             ]
                         }
                     ]
