@@ -156,6 +156,10 @@ export const en = defineConfig({
                                             text: 'Getting Started with PieFed',
                                             link: '/en/guide/piefed/for-users',
                                         },
+                                        {
+                                            text: 'Privacy / Security',
+                                            link: '/en/guide/piefed/for-users/privacy-security'
+                                        },
                                     ]
                                 }
                             ]

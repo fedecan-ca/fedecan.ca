@@ -34,7 +34,7 @@ PieFed is similar to other forum-style websites in that users make posts to comm
 
 **PieFed is a part of the 'fediverse'.** This means that you can access communities from all over the internet, as if they were all on the same website.
 
-If you want to learn about this in detail, you can see the [Detailed Overview](../lemmy/for-users/detailed-overview.md) page from the lemmy guide. All the same principles work the same for PieFed. However, if you're ready to get started, see below!
+If you want to learn about this in detail, you can see the [Detailed Overview](../lemmy/for-users/detailed-overview.md) page from the lemmy guide. All the principles work the same for PieFed. However, if you're ready to get started, see below!
 
 <br>
 
