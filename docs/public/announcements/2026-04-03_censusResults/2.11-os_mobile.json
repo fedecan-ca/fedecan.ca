@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "no answer",
+    "I don't use a mobile device",
+    "Android",
+    "Android (custom ROM)",
+    "iOS",
+    "Ubuntu Touch",
+    "postmarketOS"
+  ],
+  "values": [
+    6,
+    0,
+    344,
+    105,
+    112,
+    4,
+    2
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "no answer",
+    "Info Tech (IT)",
+    "Engineering",
+    "Government",
+    "Health / Science",
+    "Tourism / Hospitality",
+    "Other"
+  ],
+  "values": [
+    79,
+    239,
+    89,
+    40,
+    40,
+    5,
+    104
+  ]
+}

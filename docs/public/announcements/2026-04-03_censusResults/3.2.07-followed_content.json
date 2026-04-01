@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "Personal life moments/daily updates",
+    "Art, photography, or creative work",
+    "Pets and animals",
+    "Travel and adventures"
+  ],
+  "values": [
+    3,
+    9,
+    25,
+    14,
+    9
+  ]
+}

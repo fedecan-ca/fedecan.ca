@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "I don't use desktop",
+    "no answer",
+    "default",
+    "Voyager",
+    "Photon",
+    "Mlymym (old reddit style)",
+    "Alexandrite",
+    "Tesseract",
+    "Blorp",
+    "Other"
+  ],
+  "values": [
+    92,
+    37,
+    261,
+    31,
+    24,
+    14,
+    10,
+    9,
+    7,
+    1
+  ]
+}

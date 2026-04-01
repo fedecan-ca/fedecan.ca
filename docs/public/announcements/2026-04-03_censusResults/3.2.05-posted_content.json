@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "I don't post anything (only lurking)",
+    "Personal life moments/daily updates",
+    "Art, photography, or creative work",
+    "Pets and animals",
+    "Travel and adventures"
+  ],
+  "values": [
+    0,
+    11,
+    9,
+    12,
+    8,
+    6
+  ]
+}

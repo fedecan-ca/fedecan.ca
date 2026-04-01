@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "no answer",
+    "Man",
+    "Woman",
+    "Non-Binary person",
+    "Genderfluid",
+    "Two-Spirit",
+    "Other"
+  ],
+  "values": [
+    24,
+    386,
+    27,
+    24,
+    3,
+    0,
+    4
+  ]
+}

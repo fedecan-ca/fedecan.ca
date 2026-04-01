@@ -1,0 +1,12 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "Desktop (PC, Laptop)",
+    "Mobile (Smartphone, Tablet)"
+  ],
+  "values": [
+    0,
+    6,
+    26
+  ]
+}

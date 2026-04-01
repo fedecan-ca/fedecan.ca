@@ -1,0 +1,40 @@
+{
+  "labels": [
+    "no answer",
+    "A website via. the browser",
+    "Arctic",
+    "Avalon",
+    "Blorp",
+    "Boost",
+    "Connect",
+    "Eternity",
+    "Interstellar",
+    "Jerboa",
+    "Mlem",
+    "Racoon",
+    "Summit",
+    "Sync",
+    "Thunder",
+    "Voyager",
+    "Other"
+  ],
+  "values": [
+    24,
+    67,
+    5,
+    1,
+    6,
+    45,
+    38,
+    16,
+    9,
+    52,
+    12,
+    2,
+    22,
+    33,
+    27,
+    142,
+    1
+  ]
+}

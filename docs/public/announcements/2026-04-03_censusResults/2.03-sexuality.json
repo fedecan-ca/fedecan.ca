@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "no answer",
+    "Straight",
+    "Bi",
+    "Queer",
+    "Gay",
+    "Asexual",
+    "Other"
+  ],
+  "values": [
+    40,
+    387,
+    50,
+    27,
+    18,
+    17,
+    9
+  ]
+}

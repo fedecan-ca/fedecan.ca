@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "no answer",
+    "< 1 hour",
+    "1-2 hours",
+    "2-3 hours",
+    "3+ hours"
+  ],
+  "values": [
+    2,
+    26,
+    3,
+    0,
+    0
+  ]
+}

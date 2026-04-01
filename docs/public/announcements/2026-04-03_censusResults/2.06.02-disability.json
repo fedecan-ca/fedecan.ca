@@ -1,0 +1,30 @@
+{
+  "labels": [
+    "ADHD",
+    "Depression",
+    "Anxiety",
+    "ASD",
+    "Mobility Restrictions",
+    "Other Mood or Personality Disorders",
+    "PTSD / Trauma-related",
+    "Chronic Illness / Autoimmune",
+    "Chronic Pain / Migraines",
+    "Sleep Disorders",
+    "Vision Impairment",
+    "Cognitive / Neurological"
+  ],
+  "values": [
+    106,
+    82,
+    79,
+    50,
+    6,
+    2,
+    3,
+    4,
+    3,
+    2,
+    3,
+    2
+  ]
+}

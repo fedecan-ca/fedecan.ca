@@ -1,0 +1,86 @@
+[
+  {
+    "animal": "cat",
+    "count": 220
+  },
+  {
+    "animal": "cherry shrimp",
+    "count": 200
+  },
+  {
+    "animal": "dog",
+    "count": 128
+  },
+  {
+    "animal": "fish",
+    "count": 43
+  },
+  {
+    "animal": "guinea pig",
+    "count": 8
+  },
+  {
+    "animal": "bird",
+    "count": 5
+  },
+  {
+    "animal": "snake",
+    "count": 5
+  },
+  {
+    "animal": "rat",
+    "count": 5
+  },
+  {
+    "animal": "chicken",
+    "count": 5
+  },
+  {
+    "animal": "rabbit",
+    "count": 4
+  },
+  {
+    "animal": "chinchilla",
+    "count": 2
+  },
+  {
+    "animal": "tarantula",
+    "count": 2
+  },
+  {
+    "animal": "plushy",
+    "count": 2
+  },
+  {
+    "animal": "tortoise",
+    "count": 2
+  },
+  {
+    "animal": "chameleon",
+    "count": 1
+  },
+  {
+    "animal": "rooster",
+    "count": 1
+  },
+  {
+    "animal": "gecko",
+    "count": 1
+  },
+  {
+    "animal": "hamster",
+    "count": 1
+  },
+  {
+    "animal": "bat",
+    "count": 1
+  },
+  {
+    "animal": "frog",
+    "count": 1
+  },
+  {
+    "animal": "plastic raven",
+    "count": 1
+  }
+]

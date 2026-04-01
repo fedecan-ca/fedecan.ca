@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "I have an account on lemmy.ca, sh.itjust.works, piefed.ca, or pixelfed.ca",
+    "I interact with users, posts, or communities from the instances above",
+    "I do not interact with the instances above"
+  ],
+  "values": [
+    2,
+    466,
+    125,
+    24
+  ]
+}

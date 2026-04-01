@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "no answer",
+    "Hashtags and search",
+    "Browsing local/global feeds",
+    "Boosted / reblogged content",
+    "Other"
+  ],
+  "values": [
+    4,
+    17,
+    23,
+    11,
+    1
+  ]
+}
