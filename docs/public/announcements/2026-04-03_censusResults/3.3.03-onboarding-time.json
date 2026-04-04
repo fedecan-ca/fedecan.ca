@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "unknown",
+    "misc. short",
+    "< 1 minute",
+    "< 1 hour",
+    "< 1 day",
+    "< 1 week",
+    "< 1 month",
+    "< 1 year",
+    "few years"
+  ],
+  "values": [
+    42,
+    29,
+    67,
+    3,
+    20,
+    32,
+    26,
+    10,
+    10
+  ]
+}

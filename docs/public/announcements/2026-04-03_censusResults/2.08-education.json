@@ -1,0 +1,30 @@
+{
+  "labels": [
+    "no answer",
+    "No formal ed",
+    "High school",
+    "Some post secondary",
+    "CEGEP",
+    "Institute",
+    "College",
+    "Bachelor’s",
+    "Master’s",
+    "Doctoral",
+    "Professional",
+    "Other"
+  ],
+  "values": [
+    22,
+    3,
+    95,
+    103,
+    16,
+    22,
+    104,
+    205,
+    69,
+    24,
+    14,
+    2
+  ]
+}

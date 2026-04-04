@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "no answer",
+    "Full Time",
+    "Part Time",
+    "Self-Employed",
+    "Unemployed",
+    "Student",
+    "Homemaker",
+    "Retired",
+    "Other"
+  ],
+  "values": [
+    18,
+    361,
+    29,
+    42,
+    40,
+    39,
+    4,
+    15,
+    5
+  ]
+}

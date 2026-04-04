@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "no answer",
+    "Donated money to instance(s)",
+    "Donated money to dev(s)",
+    "Donated money (other)",
+    "Donated time to development",
+    "Donated time to instances",
+    "Donated time (other)",
+    "I haven't donated",
+    "I don't know how",
+    "Other"
+  ],
+  "values": [
+    53,
+    142,
+    51,
+    45,
+    15,
+    20,
+    13,
+    236,
+    22,
+    1
+  ]
+}

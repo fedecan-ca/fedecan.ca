@@ -1,0 +1,22 @@
+{
+  "labels": [
+    "no answer",
+    "Never, I have no reason to",
+    "Never, I avoid them actively",
+    "When I come across a link",
+    "Yes, but I use federated more",
+    "Yes, about equally",
+    "Yes, more than federated",
+    "Other"
+  ],
+  "values": [
+    12,
+    11,
+    61,
+    170,
+    99,
+    48,
+    47,
+    10
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "Urban",
+    "Suburban",
+    "Rural",
+    "Other"
+  ],
+  "values": [
+    32,
+    297,
+    189,
+    74,
+    2
+  ]
+}

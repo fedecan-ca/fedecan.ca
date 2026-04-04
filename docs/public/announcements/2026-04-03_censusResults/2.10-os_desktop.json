@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "no answer",
+    "I don't use a desktop device",
+    "Linux",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "values": [
+    4,
+    5,
+    409,
+    243,
+    91,
+    3
+  ]
+}

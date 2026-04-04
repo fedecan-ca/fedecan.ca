@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "no answer",
+    "Multiple times a day",
+    "Daily",
+    "Weekly",
+    "Monthly",
+    "Rarely"
+  ],
+  "values": [
+    3,
+    236,
+    187,
+    45,
+    6,
+    7
+  ]
+}

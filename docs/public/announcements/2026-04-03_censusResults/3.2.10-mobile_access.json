@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "no answer",
+    "I do not use mobile",
+    "Pixelfed (official app)",
+    "Fedilab",
+    "Impressia (iOS)",
+    "PixelDroid (android)",
+    "Pixelix (android, iOS)",
+    "PixelNest (iOS)",
+    "Tusker (iOS)"
+  ],
+  "values": [
+    0,
+    1,
+    21,
+    0,
+    1,
+    5,
+    9,
+    0,
+    0
+  ]
+}

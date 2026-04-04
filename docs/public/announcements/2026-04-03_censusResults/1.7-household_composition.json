@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "no answer (skip this question)",
+    "Mostly family members or other relatives",
+    "Mostly non-relatives",
+    "I live alone"
+  ],
+  "values": [
+    54,
+    384,
+    30,
+    90
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "total": 618,
+  "parsed_count": 422,
+  "null_count": 167,
+  "excluded_count": 11,
+  "qualitative_count": 18,
+  "unparseable_count": 0,
+  "unit": "Mbps",
+  "labels": [
+    "< 10 Mbps",
+    "10–50 Mbps",
+    "50–100 Mbps",
+    "100–250 Mbps",
+    "250–500 Mbps",
+    "0.5–1 Gbps",
+    "1–2.5 Gbps",
+    "2.5+ Gbps"
+  ],
+  "values": [
+    13,
+    34,
+    40,
+    58,
+    66,
+    74,
+    120,
+    17
+  ]
+}

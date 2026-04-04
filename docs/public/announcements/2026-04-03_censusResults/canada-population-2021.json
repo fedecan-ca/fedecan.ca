@@ -1,0 +1,22 @@
+{
+  "labels": [
+    "Ontario",
+    "British Columbia",
+    "Qu\u00e9bec",
+    "Alberta",
+    "Saskatchewan",
+    "Nova Scotia",
+    "Manitoba",
+    "Nunavut",
+    "New Brunswick",
+    "Northwest Territories",
+    "Prince Edward Island",
+    "Yukon Territory",
+    "Newfoundland and Labrador"
+  ],
+
+  "values": [
+    14223942, 5000879, 8501833, 4262635, 1132505, 969383, 1342153, 36858,
+    775610, 41070, 154331, 40232, 510550
+  ]
+}
