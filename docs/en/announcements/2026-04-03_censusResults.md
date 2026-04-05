@@ -465,14 +465,44 @@ All responses were manually processed to the best of our ability. For example:
   }"
 />
 
-<!-- ::: details Data in Table Format
-<VpvTableJSON
-    jsonPath="/announcements/2026-04-03_censusResults/1.8-pets-table.json"
-    :columns="[{ key: 'animal', title: 'Animal', format: 'text' }, { key: 'count', title: 'Count', format: 'number' }]"
-    defaultSortField="count"
-    defaultSortDirection="descending"
+Below you can find the total number of responses mentioning a particular type of pet. For example, a response that mentioned 2 dogs and 1 cat would be counted as `1` in the "dog" category and `1` in the "cat" category.
+
+<ChartCard
+  data-url="/announcements/2026-04-03_censusResults/1.8-pets-mentions.json"
+  chart-type="bar"
+  title="Total number of responses mentioning a particular type of pet"
+  subtitle="2025 Fedecan Instance Census"
+  note="User submissions were manually processed."
+  :colors="['#094657']"
+  :height="650"
+  :options="{
+    indexAxis: 'y',
+    plugins: {
+      legend: {
+        display: false
+      },
+      datalabels: {
+        display: true
+      }
+    },
+    scales: {
+      y: {
+        ticks: {
+          autoSkip: false,
+          font: {
+            size: 12
+          }
+        }
+      },
+      x: {
+        title: {
+          display: true,
+          text: 'Number of Pets'
+        }
+      }
+    }
+  }"
 />
-::: -->
 
 In addition to this data, `4` responses mentioned pets who passed away, and `2` mentioned wishing for pets but being unable to have any currently. Another `4` submissions mentioned pets without specifying the type and/or number.
 
@@ -1607,11 +1637,11 @@ The labels in the chart below have been shortened to fit nicely on all screen si
 
 One custom response indicated that they use the platform through Wordpress.
 
-#### 3.2.09: Is there another interface you would like us to add?
+#### 3.1.09: Is there another interface you would like us to add?
 
 This question did not have any relevant responses. General feedback from this question was moved to the section near the end.
 
-#### 3.2.10: On mobile, how do you access the instance?
+#### 3.1.10: On mobile, how do you access the instance?
 
 The app `Avalon` was not in the original set of questions, and it was added to the graph from a custom response. The `Other` response was from a respondent developing their own app, which is not released to the public yet.
 
@@ -1645,7 +1675,7 @@ The app `Avalon` was not in the original set of questions, and it was added to t
     }"
 />
 
-#### 3.2.11: How does your main instance’s speed compare to other websites you use?
+#### 3.1.11: How does your main instance’s speed compare to other websites you use?
 
 Two responses in `Other` indicated that they either haven't noticed anything, or that they haven't been paying attention to it.
 
@@ -1689,7 +1719,7 @@ Adding our contact details to this question would allow the people facing slower
     }"
 />
 
-#### 3.2.12: Other than the main instance you use listed above, which instances do you have an account on or visit, and approximately how much time do you spend there daily?
+#### 3.1.12: Other than the main instance you use listed above, which instances do you have an account on or visit, and approximately how much time do you spend there daily?
 
 Below you can find responses from users that consented to their responses being shared. We have taken note of the other responses without sharing them publicly.
 
@@ -1824,7 +1854,7 @@ Responses have been sorted alphabetically. Responses for "None" or "0" have been
 
 :::
 
-#### 3.2.13: Do you use centralized forum or threaded platforms (e.g. Reddit, Hacker News)?
+#### 3.1.13: Do you use centralized forum or threaded platforms (e.g. Reddit, Hacker News)?
 
 ::: details Original category labels
 
