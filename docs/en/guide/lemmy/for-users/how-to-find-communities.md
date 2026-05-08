@@ -3,7 +3,6 @@ layout: doc
 aside: false
 ---
 
-
 # How to find communities on Lemmy
 
 There are two incredible benefits to Lemmy being on the Fediverse:
@@ -22,7 +21,7 @@ There are also other ways to do this, such as by simply searching for it in your
 
 ## 1) Join a community to discover new communities 🙌
 
-You can subscribe to these places to learn about more communities over time. 
+You can subscribe to these places to learn about more communities over time.
 
 This is one of the easiest ways to learn about new places passively.
 
@@ -59,7 +58,7 @@ If you already know what you are looking for, you can search for it with [lemmyv
 
 ::: tip 🏠 Set your Home Instance First
 
-If you are using **lemmyverse.net** for the first time, you should set your home instance by selecting the `home` icon in the top right. 
+If you are using **lemmyverse.net** for the first time, you should set your home instance by selecting the `home` icon in the top right.
 
 This will make it so that all the links will open on the instance that you have a Lemmy account with, so that you can subscribe right away without having to edit the links.
 :::
@@ -73,21 +72,18 @@ This will make it so that all the links will open on the instance that you have 
 />
 </VpvContainerVertical>
 
-
-
 ## 3) Look Through other Instances 🌐
 
-A great way to find lesser known communities is to look at the `/communities` page on an instance. Different instances may have different themes or focuses, and so you can find related communities that way. 
+A great way to find lesser known communities is to look at the `/communities` page on an instance. Different instances may have different themes or focuses, and so you can find related communities that way.
 
-For example, since **lemmy.ca** is a Canadian instance, you will find a lot of Canadian communities at [lemmy.ca/communities](https://lemmy.ca/communities). 
+For example, since **lemmy.ca** is a Canadian instance, you will find a lot of Canadian communities at [lemmy.ca/communities](https://lemmy.ca/communities).
 
 To find instances related to a particular topic, you can use these websites:
 
 - [pangora.social](https://pangora.social/join) for an organized list of instances
 - [awesome-lemmy-instances](https://github.com/maltfield/awesome-lemmy-instances#all-lemmy-instances) list on GitHub.
 
-
-<!-- 
+<!--
 
 Potentially out of date:
 

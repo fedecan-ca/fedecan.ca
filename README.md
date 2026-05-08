@@ -15,10 +15,10 @@ pnpm docs:dev   # start a local development server
 
 ### **Deployment:**
 
-Before making a PR, check for build issues locally. Some issues will not appear in the local development server, but will make the live build fail. 
+Before making a PR, check for build issues locally. Some issues will not appear in the local development server, but will make the live build fail.
 
 ```bash
-pnpm docs:build     # build the site 
+pnpm docs:build     # build the site
 pnpm docs:preview   # preview the built site
 ```
 
@@ -75,9 +75,9 @@ Markdown:
 HTML:
 
 ```html
-<img class="light-only" src="/img/myImage-light.png">
+<img class="light-only" src="/img/myImage-light.png" />
 
-<img class="dark-only" src="/img/myImage-dark.png">
+<img class="dark-only" src="/img/myImage-dark.png" />
 ```
 
 #### Image Sizing:

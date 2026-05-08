@@ -1,47 +1,45 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import { useSidebar } from "vitepress/theme";
-import { useRoute } from "vitepress";
+import { onMounted } from 'vue'
+import { useSidebar } from 'vitepress/theme'
+import { useRoute } from 'vitepress'
 
-const { hasSidebar, isSidebarEnabled } = useSidebar();
-const route = useRoute();
-const isFrench = route.path.startsWith("/fr/");
+const { hasSidebar, isSidebarEnabled } = useSidebar()
+const route = useRoute()
+const isFrench = route.path.startsWith('/fr/')
 
 const content = {
   en: {
-    note:
-      "Federated Open Communications Canada (Fedecan) is a not-for-profit organization in Canada. Check out",
-    guides: "our guides",
-    moreInfo: "for more information.",
-    organization: "Organization",
-    donate: "Donate",
-    contact: "Contact",
-    message: "Message on Lemmy",
-    platforms: "Platforms",
-    status: "Uptime Status",
+    note: 'Federated Open Communications Canada (Fedecan) is a not-for-profit organization in Canada. Check out',
+    guides: 'our guides',
+    moreInfo: 'for more information.',
+    organization: 'Organization',
+    donate: 'Donate',
+    contact: 'Contact',
+    message: 'Message on Lemmy',
+    platforms: 'Platforms',
+    status: 'Uptime Status',
   },
   fr: {
-    note:
-      "Federated Open Communications Canada (Fédécan) est un organisme sans but lucratif au Canada. Consultez",
-    guides: "nos guides",
+    note: 'Federated Open Communications Canada (Fédécan) est un organisme sans but lucratif au Canada. Consultez',
+    guides: 'nos guides',
     moreInfo: "pour plus d'informations.",
-    organization: "Organisation",
-    donate: "Faire un don",
-    contact: "Contact",
-    message: "Message sur Lemmy",
-    platforms: "Plateformes",
-    status: "État du système",
+    organization: 'Organisation',
+    donate: 'Faire un don',
+    contact: 'Contact',
+    message: 'Message sur Lemmy',
+    platforms: 'Plateformes',
+    status: 'État du système',
   },
-};
+}
 
-const currentContent = isFrench ? content.fr : content.en;
-const guidesLink = isFrench ? "/fr/guide/fedecan/" : "/en/guide/fedecan/";
+const currentContent = isFrench ? content.fr : content.en
+const guidesLink = isFrench ? '/fr/guide/fedecan/' : '/en/guide/fedecan/'
 
 onMounted(() => {
   requestAnimationFrame(() => {
-    document.body.offsetHeight;
-  });
-});
+    document.body.offsetHeight
+  })
+})
 </script>
 
 <template>
@@ -54,7 +52,9 @@ onMounted(() => {
         <p>
           {{ currentContent.note }}
           <b
-            ><a :href="guidesLink" target="_blank">{{ currentContent.guides }}</a></b
+            ><a :href="guidesLink" target="_blank">{{
+              currentContent.guides
+            }}</a></b
           >
           {{ currentContent.moreInfo }}
         </p>

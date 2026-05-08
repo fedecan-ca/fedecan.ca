@@ -14,7 +14,6 @@ A community link will have two parts, the name of the community and the instance
 
 For example, if you are looking for the `canada` community from `lemmy.ca`, you can paste the following into the search bar: `!canada@lemmy.ca`
 
-
 ## Manually resolve the community
 
 Similar to the example above, you can manually type in the URL based on the usual format. If you want to open the `canada` community from `lemmy.ca` on `lemmy.ca`, you would type in `lemmy.ca/c/canada` (note that `lemmy.ca/c/canada@lemmy.ca` will also work, but it is unnecessary on when it is on the same instance).

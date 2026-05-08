@@ -1,8 +1,8 @@
 ---
 # placed on last page of each section
 next:
-    text: 'All Lemmy Guides'
-    link: '/en/guide/lemmy/overview#lemmy-guides'
+  text: 'All Lemmy Guides'
+  link: '/en/guide/lemmy/overview#lemmy-guides'
 
 layout: doc
 
@@ -20,7 +20,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/guide/lemmy/automation
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Tools or Libraries for automation of Lemmy
   - - meta
     - property: article:section

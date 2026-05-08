@@ -15,7 +15,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/guide/get-started
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Welcome to the Fediverse! This guide can help you get started.
   - - meta
     - property: article:section
@@ -28,7 +28,7 @@ If this is your first time hearing about the Fediverse, we're very excited to be
 
 ## Background
 
-When you want to send an email, you don't need to use the same email provider as the person you're sending it to. 
+When you want to send an email, you don't need to use the same email provider as the person you're sending it to.
 
 <VpvImage
   :imageConfig="{
@@ -40,7 +40,7 @@ When you want to send an email, you don't need to use the same email provider as
 
 The same is true for phone calls. You can sign up with any phone network, and still call your friend regardless of which network they are on.
 
-This is possible because of **open standards**. Email providers and phone networks use these standards to **federate** their services. 
+This is possible because of **open standards**. Email providers and phone networks use these standards to **federate** their services.
 
 <VpvImage
   :imageConfig="{
@@ -68,7 +68,7 @@ Most older social media platforms are **centralized**. If you wanted to leave a 
   enableZoom
 />
 
-As the userbase of individual platforms grew, it became a **problem** with how much power the platforms had. It became very difficult to leave them, or for better alternatives to compete. 
+As the userbase of individual platforms grew, it became a **problem** with how much power the platforms had. It became very difficult to leave them, or for better alternatives to compete.
 
 It has gotten to the point where a few companies have a near-monopoly on social media, and your online experience along with it.
 

@@ -26,16 +26,6 @@ On this page, you can find graphs showing the total number of instances that are
   layout="full"
 />
 
-
-
-
-
-
-
-
-
-
-
 <script setup>
 import { useData } from 'vitepress'
 import { computed } from 'vue'

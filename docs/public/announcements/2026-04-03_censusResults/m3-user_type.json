@@ -5,10 +5,5 @@
     "I interact with users, posts, or communities from the instances above",
     "I do not interact with the instances above"
   ],
-  "values": [
-    2,
-    466,
-    125,
-    24
-  ]
+  "values": [2, 466, 125, 24]
 }

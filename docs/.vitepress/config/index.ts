@@ -5,20 +5,20 @@ import { en } from './en'
 import { fr } from './fr'
 
 export default defineConfig({
-    ...shared,
-    themeConfig: {
-        search,
+  ...shared,
+  themeConfig: {
+    search,
+  },
+  locales: {
+    root: {
+      label: 'English',
+      ...en,
+      link: '/en/',
     },
-    locales: {
-        root: {
-            label: 'English',
-            ...en,
-            link: '/en/'
-        },
-        fr: {
-            label: 'Français',
-            ...fr,
-            link: '/fr/'
-        }
-    }
+    fr: {
+      label: 'Français',
+      ...fr,
+      link: '/fr/',
+    },
+  },
 })

@@ -8,4 +8,3 @@ layout: doc
     communityName="c/pixelfed"
     communityLink="https://lemmy.ca/c/pixelfed"
 />
-

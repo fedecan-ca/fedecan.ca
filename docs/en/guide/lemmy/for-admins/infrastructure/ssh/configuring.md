@@ -16,7 +16,7 @@ head:
       content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/ssh/configuration
   - - meta
     - property: og:description # 150-160 characters
-      content:  Guides for setting up ssh for hosting.
+      content: Guides for setting up ssh for hosting.
   - - meta
     - property: article:section
       content: Security | SSH configuration
@@ -82,4 +82,3 @@ Please refer to the [SSH Hardening](hardening.md) guide for hardening SSH for yo
 This guide has covered the setup and hardening of SSH for hosting a Lemmy instance. It has covered the installation and configuration of OpenSSH on a debian based linux system. It is recommended to consult with a security professional when setting up a server and to follow best practices for server security.
 
 For more information on OpenSSH, you can check out the [OpenSSH documentation](https://www.openssh.com/).
-

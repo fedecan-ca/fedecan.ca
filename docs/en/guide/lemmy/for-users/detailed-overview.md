@@ -28,7 +28,7 @@ This is true for any instance that **lemmy.ca** knows about. If you find a new c
 
 If there is a community that you don't like, you can block it. If you find that you don't like an entire instance, you can block the entire instance and you won't see their users, communities, or posts anymore. For instructions on how to do this, see [this section](./how-to-block.md).
 
-If there is a particular community or instance that you think is especially bad, you can let the admins of your instance know. They can block it for everyone on your instance. 
+If there is a particular community or instance that you think is especially bad, you can let the admins of your instance know. They can block it for everyone on your instance.
 
 If you are on **lemmy.ca**, you can let us know by posting in [c/Main@lemmy.ca](https://lemmy.ca/c/main).
 

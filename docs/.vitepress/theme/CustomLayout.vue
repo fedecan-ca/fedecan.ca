@@ -1,9 +1,9 @@
 <script setup>
-import DefaultTheme from "vitepress/theme";
-import CustomFooter from "./components/CustomFooter.vue";
-import CustomNotFound from "./components/CustomNotFound.vue";
+import DefaultTheme from 'vitepress/theme'
+import CustomFooter from './components/CustomFooter.vue'
+import CustomNotFound from './components/CustomNotFound.vue'
 
-const { Layout } = DefaultTheme;
+const { Layout } = DefaultTheme
 </script>
 
 <template>

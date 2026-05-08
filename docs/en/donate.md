@@ -1,6 +1,6 @@
 ---
 head:
-# Header code from FundraiseUp
+  # Header code from FundraiseUp
   - - script
     - {}
     - |
@@ -25,9 +25,10 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/donate
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Your contributions will help us maintain our servers, platforms, and services, pay for operational costs, and spin up new platforms for you to use.
 ---
+
 ---
 
 # Donate
@@ -51,8 +52,6 @@ While we are a registered non-profit organization, we are not a registered chari
   </div>
   <Icon icon="fluent-mdl2:compare-uneven" width="3em" height="3em" style="flex: 0 0 25%;" />
 </div>
-
-
 
 ### One Time & Recurring Donations
 

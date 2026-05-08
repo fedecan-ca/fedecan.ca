@@ -2,8 +2,8 @@
 aside: false
 
 # Core Content Fields
-title: "Launch of pixelfed.ca"
-summary: "We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada. Pixelfed is a free and open-source alternative to image sharing platforms such as Instagram."
+title: 'Launch of pixelfed.ca'
+summary: 'We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada. Pixelfed is a free and open-source alternative to image sharing platforms such as Instagram.'
 
 # Publication Fields
 date: 2025-02-19
@@ -21,8 +21,8 @@ tags:
 
 # Featured Image
 featured_image:
-  image: "/announcements/banner/2025_02_19-pixelfed_launch.png"
-  alt: "Flat icons of three Canadian landscapes. From left to right: a forest with geese flying, a mountain, and an inuksuk over some snow."
+  image: '/announcements/banner/2025_02_19-pixelfed_launch.png'
+  alt: 'Flat icons of three Canadian landscapes. From left to right: a forest with geese flying, a mountain, and an inuksuk over some snow.'
 
 # Content Options
 reading_time: 1
@@ -42,7 +42,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2025-02-19-pixelfed_launch
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada
   - - meta
     - property: article:section
@@ -91,5 +91,3 @@ Welcome! 🍁
   :titleLines="2"
   :excerptLines="3"
 />
-
-

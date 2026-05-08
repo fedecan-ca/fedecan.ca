@@ -13,17 +13,17 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/donate-private
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Your contributions will help us maintain our servers, platforms, and services, pay for operational costs, and spin up new platforms for you to use.
 ---
 
 # Donate
 
 ::: warning Privacy-focused page
-This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md). 
+This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md).
 :::
 
-We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation. 
+We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation.
 
 While we are a registered non-profit organization, we are not a registered charity. As such, we are unable to provide tax receipts for donations. Please see our [FAQ section](guide/fedecan/faq#_2-why-are-you-not-a-registered-charity) to read about why we are not currently pursuing charitable status.
 
@@ -45,6 +45,7 @@ We support a few different donation methods. See the [table at the bottom of thi
 - GitHub Sponsors: [github.com/sponsors/fedecan-ca](https://github.com/sponsors/fedecan-ca)
 
 **One Time Donations Only**
+
 - Interac e-Transfer: Send an Interac e-Transfer to `donate@fedecan.ca` as the recipient. If you would like to include your name, feel free to do so in the message field.
 - Stripe: [donate.stripe.com/5kAg108OT6f44uIfYY](https://donate.stripe.com/5kAg108OT6f44uIfYY)
 

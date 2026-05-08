@@ -16,7 +16,7 @@ head:
       content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/security/firewall
   - - meta
     - property: og:description # 150-160 characters
-      content:  Guides for setting up firewalls for hosting.
+      content: Guides for setting up firewalls for hosting.
   - - meta
     - property: article:section
       content: Security | Firewalls
@@ -111,7 +111,6 @@ To check the status of `ufw`, run the following command:
 ```bash
 sudo ufw status
 ```
-
 
 ## Conclusion
 

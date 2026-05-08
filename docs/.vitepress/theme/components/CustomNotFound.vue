@@ -1,32 +1,36 @@
 <script setup>
-import { useData, useRoute } from "vitepress";
+import { useData, useRoute } from 'vitepress'
 
-const route = useRoute();
-const isFrench = route.path.startsWith("/fr/");
+const route = useRoute()
+const isFrench = route.path.startsWith('/fr/')
 
 const content = {
   en: {
-    title: "PAGE NOT FOUND",
+    title: 'PAGE NOT FOUND',
     quote:
-      "Looks like the page has wandered off! Try using the search bar to find your way back.",
-    homeLink: "/en/",
-    homeText: "Take me home",
+      'Looks like the page has wandered off! Try using the search bar to find your way back.',
+    homeLink: '/en/',
+    homeText: 'Take me home',
   },
   fr: {
-    title: "PAGE NON TROUVÉE",
+    title: 'PAGE NON TROUVÉE',
     quote:
       "On dirait que la page s'est éloignée ! Essayez d'utiliser la barre de recherche pour retrouver votre chemin.",
-    homeLink: "/fr/",
+    homeLink: '/fr/',
     homeText: "Retour à l'accueil",
   },
-};
+}
 
-const currentContent = isFrench ? content.fr : content.en;
+const currentContent = isFrench ? content.fr : content.en
 </script>
 
 <template>
   <div class="container">
-    <img src="/img/error-lost-512.webp" alt="404 illustration" class="error-image" />
+    <img
+      src="/img/error-lost-512.webp"
+      alt="404 illustration"
+      class="error-image"
+    />
     <div class="NotFound">
       <p class="code">404</p>
       <h1 class="title">{{ currentContent.title }}</h1>
@@ -131,7 +135,9 @@ const currentContent = isFrench ? content.fr : content.en;
   font-size: 14px;
   font-weight: 500;
   color: var(--vp-c-brand-1);
-  transition: border-color 0.25s, color 0.25s;
+  transition:
+    border-color 0.25s,
+    color 0.25s;
 }
 
 .link:hover {

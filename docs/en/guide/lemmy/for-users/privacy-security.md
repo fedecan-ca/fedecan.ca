@@ -2,7 +2,6 @@
 aside: false
 ---
 
-
 # Lemmy Privacy and Security
 
 ---
@@ -14,8 +13,8 @@ aside: false
 
 ---
 
-<!-- 
-    Tables were split into two sections for better readability 
+<!--
+    Tables were split into two sections for better readability
 
     This script tag contains reusable code for the tables
 -->
@@ -46,7 +45,6 @@ const createIconColumn = (key, title) => ({
   options: commonIconOptions
 });
 </script>
-
 
 <!-- Start of content -->
 
@@ -88,8 +86,6 @@ Federation is a key feature of Lemmy, allowing users to interact with communitie
 | <Icon icon="mdi:check-bold" color="red" width="32px" />    | Yes, the actor can see this information                                   |
 | <Icon icon="mdi:check-bold" color="blue" width="32px" />   | Yes, the actor can see this information if it is federated to his server. |
 | <Icon icon="mdi:minus-thick" color="green" width="32px" /> | No, the actor can NOT see this information      -->
-
-
 
 ## Personally identifiable information
 
@@ -151,10 +147,10 @@ Federation is a key feature of Lemmy, allowing users to interact with communitie
 
 **Instance Admins & Passwords**
 
-> Your password is stored in a hashed format at REST. This means that even if someone gets access to the database, they cannot see your password. 
-> 
+> Your password is stored in a hashed format at REST. This means that even if someone gets access to the database, they cannot see your password.
+>
 > However, if someone (for example instance admin) would modify the server code, they can potentially see your password in transit and/or save it somewhere. This is the same for all websites and web applications.
-> 
+>
 > Joining a trustworthy instance is important. However you can also take precautions yourself. Using a password manager to generate a random password is good practice, and can ensure that even if someone gets access to your password, they cannot use it to log in to your accounts on other websites.
 
 :::

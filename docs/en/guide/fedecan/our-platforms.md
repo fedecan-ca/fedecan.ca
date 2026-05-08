@@ -2,8 +2,7 @@
 
 See below for some of the platforms under the Fedecan umbrella.Whether you sign up with us, or someone else, you will still be able to interact freely with accounts from all over.
 
-All of our platforms are hosted in Canada and run by Canadians. 🍁 
-
+All of our platforms are hosted in Canada and run by Canadians. 🍁
 
 ## Image Sharing
 
@@ -21,13 +20,11 @@ Pixelfed is a federated platform for sharing images, photos, and videos, similar
 </VpvContainerHorizontal>
 <br>
 
-
 ## Forum Style
 
 These platforms follow a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and upvote/downvote content to decide on what content rises to the top.
 
 ::: info These platforms use one of two projects under the hood:
-
 
 - **Lemmy** - Lemmy is an established and stable project. It was designed to be very fast and reliable, and it makes up a large part of the forum side of the Fediverse.
 - **Piefed** - Piefed is a relatively new project that is growing in popularity. It offers new ways to organize content, such as topic lists, feeds, flairs, and additional moderation tools.
@@ -64,4 +61,3 @@ Our forum style platforms are as follows:
 />
 </VpvContainerHorizontal>
 <br>
-

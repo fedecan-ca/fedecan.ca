@@ -62,6 +62,3 @@ Refer to the [SSH Configuration](ssh/configuring.md) guide for setting up SSH fo
 ### Secure SSH
 
 Refer to the [SSH Hardening](ssh/hardening.md) guide for setting up and hardening SSH for your server.
-
-
-

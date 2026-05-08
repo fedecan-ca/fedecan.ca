@@ -50,16 +50,6 @@ On this page, you can find graphs showing the number of new comments per day on 
   layout="full"
 />
 
-
-
-
-
-
-
-
-
-
-
 <script setup>
 import { useData } from 'vitepress'
 import { computed } from 'vue'

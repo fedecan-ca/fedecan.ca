@@ -15,7 +15,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/guide/lemmy/markdown
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Lemmy Markdown Guide
   - - meta
     - property: article:section
@@ -30,10 +30,15 @@ Lemmy uses markdown-it for rendering markdown. This means that you can use the s
 
 ```markdown
 # Header 1
+
 ## Header 2
+
 ### Header 3
+
 #### Header 4
+
 ##### Header 5
+
 ###### Header 6
 ```
 
@@ -41,20 +46,18 @@ Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/headers_light.png" darkImageUrl="/img/guide/markdown/headers_dark.png" alt="Markdown Headers"/>
 
-
 ## Emphasis
 
 ```markdown
-*italic*  
+_italic_  
 **bold**  
-***bold italic***  
+**_bold italic_**  
 ~~strikethrough~~
 ```
 
 Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/emphasis_light.png" darkImageUrl="/img/guide/markdown/emphasis_dark.png" alt="Markdown Emphasis"/>
-
 
 ## Lists
 
@@ -74,20 +77,17 @@ Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/lists_light.png" darkImageUrl="/img/guide/markdown/lists_dark.png" alt="Markdown Emphasis"/>
 
-
-
 ## Links / Images
 
 ```markdown
 [Link text](https://example.com)  
-![Image Alt](https://example.com/image.jpg "Image title")  
-![The fedecan Logo](https://fedecan.ca/img/icons/maple-leaf.svg "Maple Leaf")
+![Image Alt](https://example.com/image.jpg 'Image title')  
+![The fedecan Logo](https://fedecan.ca/img/icons/maple-leaf.svg 'Maple Leaf')
 ```
 
 Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/links_images_light.png" darkImageUrl="/img/guide/markdown/links_images_dark.png" alt="Markdown Links/Images"/>
-
 
 ## Blockquotes
 
@@ -100,11 +100,10 @@ Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/blockquotes_light.png" darkImageUrl="/img/guide/markdown/blockquotes_dark.png" alt="Markdown Blockquotes"/>
 
-
 ## Code
 
 ````markdown
-`inline code`  
+`inline code`
 
 ```python
 def hello():
@@ -116,14 +115,13 @@ Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/code_light.png" darkImageUrl="/img/guide/markdown/code_dark.png" alt="Markdown Inline/Blockcode"/>
 
-
 ## Tables
 
 > Tables are not officially documented.
 
 ```markdown
 | Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
+| -------- | -------- | -------- |
 | Row 1    | Row 1    | Row 1    |
 | Row 2    | Row 2    | Row 2    |
 | Row 3    | Row 3    | Row 3    |
@@ -142,7 +140,6 @@ Result:
 Result:
 
 <ThemedImage  lightImageUrl="/img/guide/markdown/horizontal_rule_light.png" darkImageUrl="/img/guide/markdown/horizontal_rule_dark.png" alt="Markdown Horizontal Rule"/>
-
 
 ## Spoilers
 

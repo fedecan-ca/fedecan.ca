@@ -1,4 +1,3 @@
-
 # List of Canadian Communities
 
 ## 🍁 Meta
@@ -17,7 +16,6 @@
         url="/c/communityrequests@lemmy.ca"
     />
 </VpvContainerVertical>
-
 
 ```
 ---

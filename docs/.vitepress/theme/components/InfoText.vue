@@ -7,12 +7,12 @@
 
 <script>
 export default {
-  name: "InfoText",
+  name: 'InfoText',
   props: {
     colorType: {
       type: String,
-      default: "ok", // 'ok', 'warn', 'gray'
-      validator: (value) => ["ok", "warn", "gray"].includes(value),
+      default: 'ok', // 'ok', 'warn', 'gray'
+      validator: (value) => ['ok', 'warn', 'gray'].includes(value),
     },
     icon: {
       type: String,
@@ -26,20 +26,20 @@ export default {
   computed: {
     colorClass() {
       return {
-        ok: "ok-color",
-        warn: "warn-color",
-        gray: "gray-color",
-      }[this.colorType];
+        ok: 'ok-color',
+        warn: 'warn-color',
+        gray: 'gray-color',
+      }[this.colorType]
     },
     iconColorClass() {
       return {
-        ok: "ok-icon-color",
-        warn: "warn-icon-color",
-        gray: "gray-icon-color",
-      }[this.colorType];
+        ok: 'ok-icon-color',
+        warn: 'warn-icon-color',
+        gray: 'gray-icon-color',
+      }[this.colorType]
     },
   },
-};
+}
 </script>
 
 <style scoped>

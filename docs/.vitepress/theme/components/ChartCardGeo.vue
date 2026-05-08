@@ -70,10 +70,10 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount, watch } from "vue";
-import { useData } from "vitepress";
-import { Chart, registerables } from "chart.js";
-import { merge } from "chart.js/helpers";
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
+import { useData } from 'vitepress'
+import { Chart, registerables } from 'chart.js'
+import { merge } from 'chart.js/helpers'
 import {
   ChoroplethController,
   GeoFeature,
@@ -86,7 +86,7 @@ import {
   geoAlbers,
   geoMercator,
   geoNaturalEarth1,
-} from "chartjs-chart-geo";
+} from 'chartjs-chart-geo'
 
 Chart.register(
   ...registerables,
@@ -94,71 +94,71 @@ Chart.register(
   GeoFeature,
   ColorScale,
   ColorLogarithmicScale,
-  ProjectionScale,
-);
+  ProjectionScale
+)
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 const props = defineProps({
   dataUrl: { type: String, required: true },
   geoUrl: { type: String, required: true },
-  title: { type: String, default: "" },
-  subtitle: { type: String, default: "" },
+  title: { type: String, default: '' },
+  subtitle: { type: String, default: '' },
   simple: { type: Boolean, default: false },
   height: { type: Number, default: null },
-  geoKey: { type: String, default: "name" },
-  dataKey: { type: String, default: "labels" },
-  valueKey: { type: String, default: "values" },
-  valueLabel: { type: String, default: "responses" },
-  projection: { type: String, default: "equalEarth" },
+  geoKey: { type: String, default: 'name' },
+  dataKey: { type: String, default: 'labels' },
+  valueKey: { type: String, default: 'values' },
+  valueLabel: { type: String, default: 'responses' },
+  projection: { type: String, default: 'equalEarth' },
   projectionRotate: { type: Array, default: null },
   projectionScale: { type: Number, default: 1 },
   projectionOffset: { type: Array, default: () => [0, 0] },
   projectionPadding: { type: [Number, Object], default: 0 },
-  colorScale: { type: Array, default: () => ["#e0f2fe", "#0369a1"] },
+  colorScale: { type: Array, default: () => ['#e0f2fe', '#0369a1'] },
   logarithmic: { type: Boolean, default: false },
-  noDataColor: { type: String, default: "#e5e7eb" },
+  noDataColor: { type: String, default: '#e5e7eb' },
   legendSteps: { type: Number, default: 5 },
   options: { type: Object, default: () => ({}) },
   showDebug: { type: Boolean, default: false },
-  source: { type: String, default: "" },
-  sourceLink: { type: String, default: "" },
-  byline: { type: String, default: "" },
-  license: { type: String, default: "" },
-  lastupdated: { type: String, default: "" },
-  note: { type: String, default: "" },
-});
+  source: { type: String, default: '' },
+  sourceLink: { type: String, default: '' },
+  byline: { type: String, default: '' },
+  license: { type: String, default: '' },
+  lastupdated: { type: String, default: '' },
+  note: { type: String, default: '' },
+})
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
-const { isDark } = useData();
+const { isDark } = useData()
 
 const getCSSVar = (name) => {
-  if (typeof window === "undefined") return "";
+  if (typeof window === 'undefined') return ''
   return getComputedStyle(document.documentElement)
     .getPropertyValue(name)
-    .trim();
-};
+    .trim()
+}
 
 // ─── Mobile ───────────────────────────────────────────────────────────────────
-const mobileRef = ref(false);
+const mobileRef = ref(false)
 const checkMobile = () => {
-  mobileRef.value = typeof window !== "undefined" && window.innerWidth < 640;
-};
+  mobileRef.value = typeof window !== 'undefined' && window.innerWidth < 640
+}
 
 // ─── Refs ─────────────────────────────────────────────────────────────────────
-const chartCanvas = ref(null);
-let chartInstance = null;
-const debugInfo = ref(null);
-const colorLegendStops = ref([]);
+const chartCanvas = ref(null)
+let chartInstance = null
+const debugInfo = ref(null)
+const colorLegendStops = ref([])
 
 // ─── Footer ───────────────────────────────────────────────────────────────────
 const hasFooter = computed(
-  () => !!(props.source || props.byline || props.license || props.lastupdated),
-);
+  () => !!(props.source || props.byline || props.license || props.lastupdated)
+)
 
 // ─── Wrapper style ────────────────────────────────────────────────────────────
 const wrapperStyle = computed(() =>
-  props.height ? { height: `${props.height}px` } : {},
-);
+  props.height ? { height: `${props.height}px` } : {}
+)
 
 // ─── Projection ───────────────────────────────────────────────────────────────
 const projectionMap = {
@@ -168,100 +168,99 @@ const projectionMap = {
   albers: geoAlbers,
   mercator: geoMercator,
   naturalEarth1: geoNaturalEarth1,
-};
+}
 
 const getProjection = () => {
-  if (!props.projectionRotate) return props.projection;
-  const fn = projectionMap[props.projection];
-  return fn ? fn().rotate(props.projectionRotate) : props.projection;
-};
+  if (!props.projectionRotate) return props.projection
+  const fn = projectionMap[props.projection]
+  return fn ? fn().rotate(props.projectionRotate) : props.projection
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 const normalize = (str) =>
   str
     ?.toString()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .trim()
-    .toLowerCase() ?? "";
+    .toLowerCase() ?? ''
 
 const lerpColor = (c1, c2, t) => {
-  const parse = (c) => c.match(/\w\w/g).map((x) => parseInt(x, 16));
-  const [r1, g1, b1] = parse(c1);
-  const [r2, g2, b2] = parse(c2);
-  const r = Math.round(r1 + t * (r2 - r1));
-  const g = Math.round(g1 + t * (g2 - g1));
-  const b = Math.round(b1 + t * (b2 - b1));
-  return `#${[r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("")}`;
-};
+  const parse = (c) => c.match(/\w\w/g).map((x) => parseInt(x, 16))
+  const [r1, g1, b1] = parse(c1)
+  const [r2, g2, b2] = parse(c2)
+  const r = Math.round(r1 + t * (r2 - r1))
+  const g = Math.round(g1 + t * (g2 - g1))
+  const b = Math.round(b1 + t * (b2 - b1))
+  return `#${[r, g, b].map((v) => v.toString(16).padStart(2, '0')).join('')}`
+}
 
 const formatValue = (v) => {
-  if (v == null) return "";
-  if (Math.abs(v) >= 1_000_000) return `${+(v / 1_000_000).toPrecision(3)}M`;
-  if (Math.abs(v) >= 1_000) return `${+(v / 1_000).toPrecision(3)}K`;
-  return String(v);
-};
+  if (v == null) return ''
+  if (Math.abs(v) >= 1_000_000) return `${+(v / 1_000_000).toPrecision(3)}M`
+  if (Math.abs(v) >= 1_000) return `${+(v / 1_000).toPrecision(3)}K`
+  return String(v)
+}
 
 // ─── Legend ───────────────────────────────────────────────────────────────────
 const buildLegend = (min, max) => {
   colorLegendStops.value = Array.from(
     { length: props.legendSteps + 1 },
     (_, i) => {
-      const t = i / props.legendSteps;
+      const t = i / props.legendSteps
       const value =
         props.logarithmic && min > 0
           ? Math.round(
-              Math.exp(Math.log(min) + t * (Math.log(max) - Math.log(min))),
+              Math.exp(Math.log(min) + t * (Math.log(max) - Math.log(min)))
             )
-          : Math.round(min + t * (max - min));
+          : Math.round(min + t * (max - min))
       return {
         value,
         color: lerpColor(props.colorScale[0], props.colorScale[1], t),
-      };
-    },
-  );
-};
+      }
+    }
+  )
+}
 
 const gradientStyle = computed(() => {
-  if (!colorLegendStops.value.length) return {};
+  if (!colorLegendStops.value.length) return {}
   const stops = colorLegendStops.value
     .map(
-      (s, i) =>
-        `${s.color} ${(i / (colorLegendStops.value.length - 1)) * 100}%`,
+      (s, i) => `${s.color} ${(i / (colorLegendStops.value.length - 1)) * 100}%`
     )
-    .join(", ");
-  return { background: `linear-gradient(to right, ${stops})` };
-});
+    .join(', ')
+  return { background: `linear-gradient(to right, ${stops})` }
+})
 
 // ─── Chart creation ───────────────────────────────────────────────────────────
 const createChart = async () => {
-  if (!chartCanvas.value) return;
+  if (!chartCanvas.value) return
   try {
     const [geoRes, dataRes] = await Promise.all([
       fetch(props.geoUrl),
       fetch(props.dataUrl),
-    ]);
-    const geoData = await geoRes.json();
-    const surveyData = await dataRes.json();
+    ])
+    const geoData = await geoRes.json()
+    const surveyData = await dataRes.json()
 
-    const labels = surveyData[props.dataKey] || [];
-    const values = surveyData[props.valueKey] || [];
+    const labels = surveyData[props.dataKey] || []
+    const values = surveyData[props.valueKey] || []
     const dataMap = new Map(
-      labels.map((label, i) => [normalize(label), values[i]]),
-    );
+      labels.map((label, i) => [normalize(label), values[i]])
+    )
 
     const features = geoData.features.map((feature) => {
-      const name = feature.properties[props.geoKey];
-      const value = dataMap.get(normalize(name)) ?? null;
-      return { feature, value, name };
-    });
+      const name = feature.properties[props.geoKey]
+      const value = dataMap.get(normalize(name)) ?? null
+      return { feature, value, name }
+    })
 
-    const validValues = features.map((f) => f.value).filter((v) => v !== null);
-    const min = Math.min(...validValues);
-    const max = Math.max(...validValues);
-    const total = values.reduce((a, b) => a + b, 0);
+    const validValues = features.map((f) => f.value).filter((v) => v !== null)
+    const min = Math.min(...validValues)
+    const max = Math.max(...validValues)
+    const total = values.reduce((a, b) => a + b, 0)
 
-    buildLegend(min, max);
+    buildLegend(min, max)
 
     if (props.showDebug) {
       debugInfo.value = {
@@ -270,15 +269,15 @@ const createChart = async () => {
         projection: props.projection,
         projectionRotate: props.projectionRotate,
         valueRange: { min, max },
-      };
+      }
     }
 
     const borderColor =
-      getCSSVar("--vp-c-divider") || (isDark.value ? "#2e2e32" : "#e2e2e3");
+      getCSSVar('--vp-c-divider') || (isDark.value ? '#2e2e32' : '#e2e2e3')
 
-    chartInstance?.destroy();
+    chartInstance?.destroy()
     chartInstance = new Chart(chartCanvas.value, {
-      type: "choropleth",
+      type: 'choropleth',
       data: {
         labels: features.map((f) => f.name),
         datasets: [
@@ -299,32 +298,32 @@ const createChart = async () => {
           plugins: {
             legend: { display: false },
             tooltip: {
-              backgroundColor: getCSSVar("--vp-c-bg-soft"),
-              titleColor: getCSSVar("--vp-c-text-1"),
-              bodyColor: getCSSVar("--vp-c-text-2"),
-              borderColor: getCSSVar("--vp-c-divider"),
+              backgroundColor: getCSSVar('--vp-c-bg-soft'),
+              titleColor: getCSSVar('--vp-c-text-1'),
+              bodyColor: getCSSVar('--vp-c-text-2'),
+              borderColor: getCSSVar('--vp-c-divider'),
               borderWidth: 1,
               padding: 10,
               callbacks: {
                 label: (ctx) => {
-                  const v = ctx.raw?.value;
-                  if (v === null) return "No data";
-                  return `${v} ${props.valueLabel} (${((v / total) * 100).toFixed(1)}%)`;
+                  const v = ctx.raw?.value
+                  if (v === null) return 'No data'
+                  return `${v} ${props.valueLabel} (${((v / total) * 100).toFixed(1)}%)`
                 },
               },
             },
           },
           scales: {
             projection: {
-              axis: "x",
+              axis: 'x',
               projection: getProjection(),
               projectionScale: props.projectionScale,
               projectionOffset: props.projectionOffset,
               padding: props.projectionPadding,
             },
             color: {
-              type: props.logarithmic ? "colorLogarithmic" : "color",
-              axis: "x",
+              type: props.logarithmic ? 'colorLogarithmic' : 'color',
+              axis: 'x',
               display: false,
               quantize: props.legendSteps,
               interpolate: (v) =>
@@ -334,37 +333,37 @@ const createChart = async () => {
             },
           },
         },
-        props.options,
+        props.options
       ),
-    });
+    })
   } catch (err) {
-    console.error("Geo chart error:", err);
-    if (props.showDebug) debugInfo.value = { error: err.message };
+    console.error('Geo chart error:', err)
+    if (props.showDebug) debugInfo.value = { error: err.message }
   }
-};
+}
 
 // ─── Lifecycle ────────────────────────────────────────────────────────────────
-let resizeTimer = null;
+let resizeTimer = null
 
 const onResize = () => {
-  checkMobile();
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(createChart, 250);
-};
+  checkMobile()
+  clearTimeout(resizeTimer)
+  resizeTimer = setTimeout(createChart, 250)
+}
 
 onMounted(() => {
-  checkMobile();
-  createChart();
-  window.addEventListener("resize", onResize);
-});
+  checkMobile()
+  createChart()
+  window.addEventListener('resize', onResize)
+})
 
-watch(isDark, createChart);
+watch(isDark, createChart)
 
 onBeforeUnmount(() => {
-  chartInstance?.destroy();
-  window.removeEventListener("resize", onResize);
-  clearTimeout(resizeTimer);
-});
+  chartInstance?.destroy()
+  window.removeEventListener('resize', onResize)
+  clearTimeout(resizeTimer)
+})
 </script>
 
 <style scoped>

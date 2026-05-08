@@ -2,7 +2,7 @@
 outline: [2, 4]
 
 # Core Content Fields
-title: "2025 Instance Census Results"
+title: '2025 Instance Census Results'
 summary: "Thank you to everyone who participated in the 2025 Fedecan Instance Census! We received around of 600 total valid responses this time around. We hope that you enjoy the results that we've put together."
 
 # Publication Fields
@@ -23,7 +23,7 @@ tags:
 
 # Featured Image
 featured_image:
-  image: "/announcements/banner/2026-04-03_censusResults.png"
+  image: '/announcements/banner/2026-04-03_censusResults.png'
 
 # Content Options
 reading_time: 15

@@ -24,17 +24,17 @@ head:
 
 # Lemmy Alternative UIs
 
-Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These user interfaces (UIs) are built by the community and provide a different look and feel to the default UI. 
+Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to. These user interfaces (UIs) are built by the community and provide a different look and feel to the default UI.
 
 Some instances offer multiple UIs, so that you can access Lemmy with the UI that you like the most. All of them have the same content, so you can switch between them as you like. For example, the following UIs are available on our instance [lemmy.ca](https://lemmy.ca).
 
-::: tip 
+::: tip
 You can see both light and dark mode screenshots by toggling the site theme in the top right corner of the page.
 :::
 
 ## Default UI
 
-This is the default UI that you will see when you access [lemmy.ca](https://lemmy.ca). 
+This is the default UI that you will see when you access [lemmy.ca](https://lemmy.ca).
 
 - Simple and clean UI that is easy to use
 - Built by the main developers of Lemmy, so it is the most stable and reliable UI available
@@ -72,13 +72,14 @@ You can access **lemmy.ca** with the Photon UI by going to [photon.lemmy.ca](htt
 </div>
 
 Other Links:
+
 - [Photon Website](https://phtn.app/)
 - [Photon on GitHub](https://github.com/Xyphyn/photon)
 - [Photon Self-Hosting Installation Guide](https://github.com/Xyphyn/photon?tab=readme-ov-file#self-hosting)
 
 ## Voyager
 
-You can access **lemmy.ca** with the Voyager UI by going to [voyager.lemmy.ca](https://voyager.lemmy.ca/). 
+You can access **lemmy.ca** with the Voyager UI by going to [voyager.lemmy.ca](https://voyager.lemmy.ca/).
 
 - It is mobile-first
 - A great way to use lemmy through your phone's web browser
@@ -93,7 +94,6 @@ For more information and screenshots, you can visit the [Voyager website](https:
 ## Tesseract
 
 You can access **lemmy.ca** with the Tesseract UI by going to [tess.lemmy.ca](https://tess.lemmy.ca/).
-
 
 <VpvImage
   :imageConfig="{
@@ -162,7 +162,6 @@ You can access **lemmy.ca** with the Mlymym UI by going to [old.lemmy.ca](https:
 Other Links:
 
 - [Mlymym on GitHub](https://github.com/rystaf/mlmym)
-
 
 <style scoped>
 .shields-container {

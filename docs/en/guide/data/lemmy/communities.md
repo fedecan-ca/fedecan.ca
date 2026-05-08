@@ -50,16 +50,6 @@ On this page, you can find graphs showing the total number of communities on [le
   layout="full"
 />
 
-
-
-
-
-
-
-
-
-
-
 <script setup>
 import { useData } from 'vitepress'
 import { computed } from 'vue'

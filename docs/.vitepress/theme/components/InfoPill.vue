@@ -12,28 +12,28 @@
 
 <script>
 export default {
-  name: "InfoPill",
+  name: 'InfoPill',
   props: {
     type: {
       type: String,
-      default: "ok", // 'ok' or 'warn'
-      validator: (value) => ["ok", "warn"].includes(value),
+      default: 'ok', // 'ok' or 'warn'
+      validator: (value) => ['ok', 'warn'].includes(value),
     },
     label: {
       type: String,
-      default: "No fees",
+      default: 'No fees',
     },
     hoverText: {
       type: String,
-      default: "We will receive 100% of your donation.",
+      default: 'We will receive 100% of your donation.',
     },
   },
   computed: {
     icon() {
-      return this.type === "ok" ? "ic:round-check" : "ic:round-warning-amber";
+      return this.type === 'ok' ? 'ic:round-check' : 'ic:round-warning-amber'
     },
   },
-};
+}
 </script>
 
 <style scoped>
