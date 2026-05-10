@@ -2,83 +2,120 @@
 
 On this page, you can find graphs showing the number of new posts per day on [lemmy.ca](https://lemmy.ca), as well as globally. The data is updated around every eight hours.
 
-<VpvImageGallery
-  title="lemmy.ca (past 2 weeks)"
-  :directUrls="[getImageUrl('posts', 'local', '2w')]"
-  layout="full"
+## Past 2 weeks
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-local-2w-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-local-2w-dark.png',
+    description: 'lemmy.ca post statistics over the past 2 weeks'
+  }"
+  defaultAlt="Graph of local posts statistics for lemmy.ca over the past 2 weeks"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="All federated instances (past 2 weeks)"
-  :directUrls="[getImageUrl('posts', 'global', '2w')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-global-2w-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-global-2w-dark.png',
+    description: 'Global post statistics over the past 2 weeks'
+  }"
+  defaultAlt="Graph of global posts statistics for lemmy.ca over the past 2 weeks"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="lemmy.ca (past 6 months)"
-  :directUrls="[getImageUrl('posts', 'local', '6m')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+## Past 6 months
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-local-6m-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-local-6m-dark.png',
+    description: 'lemmy.ca post statistics over the past 6 months'
+  }"
+  defaultAlt="Graph of local posts statistics for lemmy.ca over the past 6 months"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="All federated instances (past 6 months)"
-  :directUrls="[getImageUrl('posts', 'global', '6m')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-global-6m-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-global-6m-dark.png',
+    description: 'Global post statistics over the past 6 months'
+  }"
+  defaultAlt="Graph of global posts statistics for lemmy.ca over the past 6 months"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="lemmy.ca (past year)"
-  :directUrls="[getImageUrl('posts', 'local', '1y')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+## Past year
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-local-1y-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-local-1y-dark.png',
+    description: 'lemmy.ca post statistics over the past year'
+  }"
+  defaultAlt="Graph of local posts statistics for lemmy.ca over the past year"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="All federated instances (past year)"
-  :directUrls="[getImageUrl('posts', 'global', '1y')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-global-1y-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-global-1y-dark.png',
+    description: 'Global post statistics over the past year'
+  }"
+  defaultAlt="Graph of global posts statistics for lemmy.ca over the past year"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="lemmy.ca (past 2 years)"
-  :directUrls="[getImageUrl('posts', 'local', '2y')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+## Past 2 years
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-local-2y-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-local-2y-dark.png',
+    description: 'lemmy.ca post statistics over the past 2 years'
+  }"
+  defaultAlt="Graph of local posts statistics for lemmy.ca over the past 2 years"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
 
-<VpvImageGallery
-  title="All federated instances (past 2 years)"
-  :directUrls="[getImageUrl('posts', 'global', '2y')]"
-  layout="full"
+<div style="margin-top: 1.5rem;" />
+
+<VpvImage
+  :imageConfig="{
+    image: 'https://data.fedecan.ca/images/posts-global-2y-light.png',
+    image_dark: 'https://data.fedecan.ca/images/posts-global-2y-dark.png',
+    description: 'Global post statistics over the past 2 years'
+  }"
+  defaultAlt="Graph of global posts statistics for lemmy.ca over the past 2 years"
+  :enableZoom="true"
+  :enableBorder="true"
+  :enableRadius="true"
 />
-
-<script setup>
-import { useData } from 'vitepress'
-import { computed } from 'vue'
-
-const { isDark } = useData()
-
-const BASE_URL = 'https://data.fedecan.ca/images'
-
-const IMAGES = {
-  posts: {
-    global: {
-      '2w': 'posts-global-2w',
-      '6m': 'posts-global-6m',
-      '1y': 'posts-global-1y',
-      '2y': 'posts-global-2y'
-    },
-    local: {
-      '2w': 'posts-local-2w',
-      '6m': 'posts-local-6m',
-      '1y': 'posts-local-1y',
-      '2y': 'posts-local-2y'
-    }
-  }
-}
-
-const getImageUrl = computed(() => (type, scope, duration) => {
-  const baseName = IMAGES[type]?.[scope]?.[duration]
-  if (!baseName) return null
-  
-  return `${BASE_URL}/${baseName}-${isDark.value ? 'dark' : 'light'}.png`
-})
-</script>
