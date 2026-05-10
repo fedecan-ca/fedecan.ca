@@ -56,45 +56,55 @@ title: 'Welcome'
 
 ## Our Platforms
 
-For a full list of our platforms and how they compare, check out [our full list of platforms on our guide page](/en/guide/fedecan/our-platforms).
+We currently have 4 platforms under the Fedecan umbrella. Whether you join the Fediverse through one of our platforms, or through someone else's, you can still connect to the wider network. For a full list of our platforms and how they compare, check out [our full list of platforms on our guide page](/en/guide/fedecan/our-platforms).
 
-All of our platforms are interconnected, and you can interact with users from all over the world.
+<div style="clear: both; padding-bottom: 2rem"></div>
 
-<VpvContainerVertical>
-<VpvCardVertical
-    title="pixelfed.ca"
-    image="/img/guide/pixelfed-screenshots.png"
-    excerpt="A photo sharing platform managed by Canadians"
-    url="https://pixelfed.ca"
-    category="Pixelfed"
-    :hideAuthor="true"
+<VpvImage 
+  :imageConfig="{
+    image: '/img/guide/pixelfed-screenshots.png',
+    description: 'Screenshot of pixelfed.ca on desktop',
+  }"
+  float="right" 
+  width="700px"
+  enableZoom
+  enableBorder
 />
-<VpvCardVertical
-    title="lemmy.ca"
-    image="/img/guide/desktop-D2_photon.png"
-    excerpt="A Canadian focused forum running the Lemmy software" 
-    url="https://lemmy.ca"
-    category="Lemmy"
-    :hideAuthor="true"
+
+<h3 style="margin-top: 0">Pixelfed for Image Sharing</h3>
+
+Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram.
+
+You can follow users, hashtags, and share posts, all without any ads, tracking, or secretive algorithms.
+
+Pixelfed also connects nicely with Mastodon, so you can follow your favourite creators from that side of the Fediverse, while viewing their content in a familiar interface.
+
+[read more](/en/guide/fedecan/our-platforms#image-sharing) or go to [pixelfed.ca](https://pixelfed.ca)
+
+<div style="clear: both; padding-bottom: 2rem"></div>
+
+<VpvImage 
+  :imageConfig="{
+    image: '/img/guide/desktop-D2_photon.png',
+    description: 'Screenshot of lemmy.ca on desktop using the photon theme',
+  }"
+  float="left" 
+  width="700px"
+  enableZoom
+  enableBorder
 />
-<VpvCardVertical
-    title="sh.itjust.works"
-    image="/img/guide/desktop-D2_tess-sjw.png"
-    excerpt="A general purpose forum running the Lemmy software"
-    url="https://sh.itjust.works"
-    category="Lemmy"
-    :hideAuthor="true"
-/>
-<VpvCardVertical
-    title="piefed.ca"
-    image="/img/guide/piefed-desktop-D1_default.png"
-    excerpt="A new Canadian focused forum running the Piefed software"
-    url="https://piefed.ca"
-    category="Piefed"
-    :hideAuthor="true"
-/>
-</VpvContainerVertical>
-<br>
+
+<h3 style="margin-top: 0">Forum Style with Lemmy and Piefed</h3>
+
+These platforms follow a forum format, similar to platforms like Reddit or Hacker News.
+
+You can share and discuss links, text, and images, and use upvotes/downvotes to decide on what content rises to the top. There are communities for everything, from niche topics to general discussions.
+
+We currently run **three** of these platforms, with unique features and functionality. You can try them all to see which one is best for your needs!
+
+[read more](/en/guide/fedecan/our-platforms#forum-style) to join one of them
+
+<div style="clear: both; padding-bottom: 2rem"></div>
 
 ## Want to help?
 
