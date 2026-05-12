@@ -12,7 +12,7 @@ To compare the different apps available, you can check out the website below. It
 <VpvCardVertical
   title="lemmyapps.com"
   excerpt="A website that lists all the different mobile apps available for Lemmy, with the ability to filter by platform, open-source status, price, and more."
-  image="/gallery/lemmy-screenshots/mobile/mobile-card.png"
+  image="/img/screenshots/promo-mobile.png"
   url="https://www.lemmyapps.com/"
 />
 </VpvContainerVertical>

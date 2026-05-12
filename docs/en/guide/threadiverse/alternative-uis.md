@@ -53,8 +53,8 @@ This is what you will see by default when you access [lemmy.ca](https://lemmy.ca
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+    image: '/img/screenshots/desktop/lemmy-default-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-default-dark.png',
     alt: 'Screenshot of the default theme for Lemmy.',
     description: 'Screenshot of the default theme for Lemmy.'
   }"
@@ -73,8 +73,8 @@ This is what you will see by default when you access [piefed.ca](https://piefed.
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L_default_piefed.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D_default_piefed.png',
+    image: '/img/screenshots/desktop/piefed-default-light.png',
+    image_dark: '/img/screenshots/desktop/piefed-default-dark.png',
     alt: 'Screenshot of the default theme for Piefed.',
     description: 'Screenshot of the default theme for Piefed.'
   }"
@@ -95,8 +95,8 @@ Blorp was built to support BOTH **Lemmy** and **Piefed** instances. You can try 
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L_blorp.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D_blorp.png',
+    image: '/img/screenshots/desktop/lemmy-blorp-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-blorp-dark.png',
     alt: 'Screenshot of the Blorp alternative UI.',
     description: 'Screenshot of the Blorp alternative UI.'
   }"
@@ -117,8 +117,8 @@ Photon supports BOTH **Lemmy** and **Piefed** instances. You can try it out on o
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+    image: '/img/screenshots/desktop/lemmy-photon-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-photon-dark.png',
     alt: 'Screenshot of the Photon alternative UI.',
     description: 'Screenshot of the Photon alternative UI.'
   }"
@@ -139,7 +139,7 @@ Voyager supports BOTH **Lemmy** and **Piefed** instances. You can try it out on 
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/mobile/voyager.webp',
+    image: '/img/screenshots/promo-voyager.webp',
     alt: 'Promo for the Voyager client',
     description: 'Promo for the Voyager client (source: github.com/aeharding/voyager)'
   }"
@@ -166,8 +166,8 @@ Alexandrite supports **Lemmy** only. You can try it out on our instance at [alex
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L4_alexandrite.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D4_alexandrite.png',
+    image: '/img/screenshots/desktop/lemmy-alexandrite-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-alexandrite-dark.png',
     alt: 'Screenshot of the Alexandrite alternative UI.',
     description: 'Screenshot of the Alexandrite alternative UI.'
   }"
@@ -193,8 +193,8 @@ Mlymym supports **Lemmy** only. You can try it out on our instance at [old.lemmy
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L5_old.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D5_old.png',
+    image: '/img/screenshots/desktop/lemmy-old-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-old-dark.png',
     alt: 'Screenshot of the Mlymym alternative UI.',
     description: 'Screenshot of the Mlymym alternative UI.'
   }"
@@ -220,8 +220,8 @@ Tesseract supports **Lemmy** only. You can try it out on our instance at [tess.l
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L3_tesseract.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D3_tesseract.png',
+    image: '/img/screenshots/desktop/lemmy-tesseract-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-tesseract-dark.png',
     alt: 'Screenshot of the Tesseract alternative UI.',
     description: 'Screenshot of the Tesseract alternative UI.'
   }"

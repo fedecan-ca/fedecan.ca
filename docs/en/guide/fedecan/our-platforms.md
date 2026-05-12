@@ -11,7 +11,8 @@ Pixelfed is a federated platform for sharing images, photos, and videos, similar
 <VpvContainerHorizontal>
 <VpvCardHorizontal
     title="pixelfed.ca"
-    image="/img/guide/pixelfed-screenshots.png"
+    image="/img/screenshots/desktop/pixelfed-default-light.png"
+    image_dark="/img/screenshots/desktop/pixelfed-default-dark.png"
     excerpt="A general purpose instance with many Canadian users, sharing amazing images and videos."
     url="https://pixelfed.ca"
     category="Pixelfed"
@@ -37,7 +38,8 @@ Our forum style platforms are as follows:
 <VpvContainerHorizontal>
 <VpvCardHorizontal
     title="lemmy.ca"
-    image="/img/guide/desktop-D2_photon.png"
+    image="/img/screenshots/desktop/lemmy-photon-light.png"
+    image_dark="/img/screenshots/desktop/lemmy-photon-dark.png"
     excerpt="This instance has a focus on Canadian content and communities, while all are welcome to join!" 
     url="https://lemmy.ca"
     category="Lemmy"
@@ -45,7 +47,8 @@ Our forum style platforms are as follows:
 />
 <VpvCardHorizontal
     title="sh.itjust.works"
-    image="/img/guide/desktop-D2_tess-sjw.png"
+    image="/img/screenshots/desktop/lemmy-tess-light-sjw.png"
+    image_dark="/img/screenshots/desktop/lemmy-tess-dark-sjw.png"
     excerpt="This is a bilingual (EN/FR) general-purpose instance that joined under Fedecan in 2025."
     url="https://sh.itjust.works"
     category="Lemmy"
@@ -53,7 +56,8 @@ Our forum style platforms are as follows:
 />
 <VpvCardHorizontal
     title="piefed.ca"
-    image="/img/guide/piefed-desktop-D1_default.png"
+    image="/img/screenshots/desktop/piefed-blorp-light.png"
+    image_dark="/img/screenshots/desktop/piefed-blorp-dark.png"
     excerpt="Being the Piefed equivalent to lemmy.ca this instance also has a focus on Canadian content and communities, while all are welcome!"
     url="https://piefed.ca"
     category="Piefed"

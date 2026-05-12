@@ -75,7 +75,8 @@ Pixelfed also connects nicely with Mastodon, so you can follow your favourite cr
   <div style="flex: 0 1 450px; margin: 0 auto;">
     <VpvImage 
       :imageConfig="{
-        image: '/img/guide/pixelfed-screenshots.png',
+        image: '/img/screenshots/desktop/pixelfed-default-light.png',
+        image_dark: '/img/screenshots/desktop/pixelfed-default-dark.png',
         description: 'Screenshot of pixelfed.ca on desktop',
       }"
       enableZoom
@@ -83,9 +84,6 @@ Pixelfed also connects nicely with Mastodon, so you can follow your favourite cr
     />
   </div>
 </div>
-
-<!-- image: /img/screenshots/desktop/pixelfed-light-default.png',
-        image_dark: '/img/screenshots/desktop/pixelfed-dark-default.png', -->
 
 <h3 style="margin-top: 3 rem">Forum Style with Lemmy and Piefed</h3>
 
@@ -104,8 +102,8 @@ We currently run **three** of these platforms, with unique features and function
   <div style="flex: 0 1 450px; margin: 0 auto;">
     <VpvImage 
       :imageConfig="{
-        image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-        image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+        image: '/img/screenshots/desktop/lemmy-photon-light.png',
+        image_dark: '/img/screenshots/desktop/lemmy-photon-dark.png',
         description: 'Screenshot of lemmy.ca on desktop using the photon theme',
       }"
       enableZoom

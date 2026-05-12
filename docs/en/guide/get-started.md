@@ -128,7 +128,7 @@ You can jump to our page on what platform we run!
 <VpvContainerHorizontal>
 <VpvCardHorizontal
     title="Our Platforms"
-    image="/img/guide/pixelfed-screenshots.png"
+    image="/img/screenshots/desktop/lemmy-photon-dark.png"
     excerpt="We're running platforms for image sharing (Pixelfed), forums (Lemmy, Piefed), and more to come soon! Check out this page for a full list."
     url="/en/guide/fedecan/our-platforms"
     :hideCategory="true"

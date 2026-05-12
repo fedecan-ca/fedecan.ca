@@ -170,7 +170,11 @@ export const en = defineConfig({
           text: 'Misc.',
           items: [
             {
-              text: 'lemmy.ca Statistics',
+              text: 'About this site',
+              link: '/en/guide/credits',
+            },
+            {
+              text: 'Statistics for lemmy.ca',
               collapsed: true,
               items: [
                 {
@@ -194,10 +198,6 @@ export const en = defineConfig({
                   link: '/en/guide/data/lemmy/instances',
                 },
               ],
-            },
-            {
-              text: 'About this site',
-              link: '/en/guide/credits',
             },
           ],
         },

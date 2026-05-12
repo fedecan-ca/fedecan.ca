@@ -12,22 +12,24 @@ and decide on what content rises to the top by upvoting and downvoting.
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L1_default.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D1_default.png',
+    image: '/img/screenshots/desktop/lemmy-default-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-default-dark.png',
     alt: 'Screenshot of the default theme for Lemmy.',
     description: 'Screenshot of the default theme for Lemmy.',
   }"
   enableZoom
+  enableBorder
 />
 
 <VpvImage
   :imageConfig="{
-    image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
-    image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+    image: '/img/screenshots/desktop/lemmy-photon-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-photon-dark.png',
     alt: 'Screenshot of Photon, one of the alternative UIs for Lemmy.',
     description: 'Screenshot of Photon, one of the alternative UIs for Lemmy.',
   }"
   enableZoom
+  enableBorder
 />
 
 Like many other forum-style websites, Lemmy is made up of communities, each of which has a topic or theme. When you make
@@ -105,7 +107,7 @@ To make the most of your experience:
 <VpvCardHorizontal
   title="Mobile Apps"
   excerpt="Around 85% of our users access Lemmy on mobile. See this page for info on mobile apps."
-  image="/gallery/lemmy-screenshots/mobile/mobile-card.png"
+  image="/img/screenshots/promo-mobile.png"
   url="/en/guide/lemmy/for-users/mobile-apps"
   :hideCategory="true"
   :hideAuthor="true"
@@ -113,7 +115,7 @@ To make the most of your experience:
 <VpvCardHorizontal
   title="Alternative UIs"
   excerpt="Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to."
-  image="/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png"
+  image="/img/screenshots/desktop/lemmy-photon-dark.png"
   url="/en/guide/lemmy/for-users/alternative-uis"
   :hideCategory="true"
   :hideAuthor="true"
