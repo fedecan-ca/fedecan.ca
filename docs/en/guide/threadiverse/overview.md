@@ -1,8 +1,6 @@
----
-layout: doc
----
+# Threadiverse
 
-# Lemmy Guides
+## Lemmy Guide Sections
 
 <br>
 

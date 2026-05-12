@@ -55,7 +55,7 @@ Our forum style platforms are as follows:
     title="piefed.ca"
     image="/img/guide/piefed-desktop-D1_default.png"
     excerpt="Being the Piefed equivalent to lemmy.ca this instance also has a focus on Canadian content and communities, while all are welcome!"
-    url="https://sh.itjust.works"
+    url="https://piefed.ca"
     category="Piefed"
     :hideAuthor="true"
 />

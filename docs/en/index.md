@@ -58,20 +58,10 @@ title: 'Welcome'
 
 We currently have 4 platforms under the Fedecan umbrella. Whether you join the Fediverse through one of our platforms, or through someone else's, you can still connect to the wider network. For a full list of our platforms and how they compare, check out [our full list of platforms on our guide page](/en/guide/fedecan/our-platforms).
 
-<div style="clear: both; padding-bottom: 2rem"></div>
+<h3 style="margin-top: 3rem">Image Sharing with Pixelfed</h3>
 
-<VpvImage 
-  :imageConfig="{
-    image: '/img/guide/pixelfed-screenshots.png',
-    description: 'Screenshot of pixelfed.ca on desktop',
-  }"
-  float="right" 
-  width="700px"
-  enableZoom
-  enableBorder
-/>
-
-<h3 style="margin-top: 0">Pixelfed for Image Sharing</h3>
+<div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 3rem;">
+  <div style="flex: 1 1 250px; min-width: 0;">
 
 Pixelfed is a federated platform for sharing images, photos, and videos, similar to platforms such as Instagram.
 
@@ -81,20 +71,26 @@ Pixelfed also connects nicely with Mastodon, so you can follow your favourite cr
 
 [read more](/en/guide/fedecan/our-platforms#image-sharing) or go to [pixelfed.ca](https://pixelfed.ca)
 
-<div style="clear: both; padding-bottom: 2rem"></div>
+  </div>
+  <div style="flex: 0 1 450px; margin: 0 auto;">
+    <VpvImage 
+      :imageConfig="{
+        image: '/img/guide/pixelfed-screenshots.png',
+        description: 'Screenshot of pixelfed.ca on desktop',
+      }"
+      enableZoom
+      enableBorder
+    />
+  </div>
+</div>
 
-<VpvImage 
-  :imageConfig="{
-    image: '/img/guide/desktop-D2_photon.png',
-    description: 'Screenshot of lemmy.ca on desktop using the photon theme',
-  }"
-  float="left" 
-  width="700px"
-  enableZoom
-  enableBorder
-/>
+<!-- image: /img/screenshots/desktop/pixelfed-light-default.png',
+        image_dark: '/img/screenshots/desktop/pixelfed-dark-default.png', -->
 
-<h3 style="margin-top: 0">Forum Style with Lemmy and Piefed</h3>
+<h3 style="margin-top: 3 rem">Forum Style with Lemmy and Piefed</h3>
+
+<div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 3rem;">
+  <div style="flex: 1 1 250px; min-width: 0;">
 
 These platforms follow a forum format, similar to platforms like Reddit or Hacker News.
 
@@ -104,7 +100,19 @@ We currently run **three** of these platforms, with unique features and function
 
 [read more](/en/guide/fedecan/our-platforms#forum-style) to join one of them
 
-<div style="clear: both; padding-bottom: 2rem"></div>
+  </div>
+  <div style="flex: 0 1 450px; margin: 0 auto;">
+    <VpvImage 
+      :imageConfig="{
+        image: '/gallery/lemmy-screenshots/desktop/desktop-L2_photon.png',
+        image_dark: '/gallery/lemmy-screenshots/desktop/desktop-D2_photon.png',
+        description: 'Screenshot of lemmy.ca on desktop using the photon theme',
+      }"
+      enableZoom
+      enableBorder
+    />
+  </div>
+</div>
 
 ## Want to help?
 
@@ -117,3 +125,32 @@ Everyone can contribute in their own way!
 - **Donate:** See our [donation page](donate.md) to learn how you can support our work.
 
 What we love to see most of all is new people making the jump to the Fediverse. See you soon! 🍁
+
+<style>
+
+.platform-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.platform-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.platform-row .platform-text {
+  flex: 1;
+  min-width: 0; /* prevents flex overflow issues */
+}
+
+/* Stack vertically on smaller screens */
+@media (max-width: 768px) {
+  .platform-row,
+  .platform-row.reverse {
+    flex-direction: column;
+  }
+}
+
+</style>

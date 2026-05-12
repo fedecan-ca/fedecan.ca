@@ -36,14 +36,26 @@ export const en = defineConfig({
           ],
         },
         {
-          text: 'Guides for each Platform',
+          text: 'Threadiverse',
           items: [
             {
-              text: 'Lemmy',
-              link: '/en/guide/lemmy/overview',
+              text: 'Overview',
+              link: '/en/guide/threadiverse/overview',
+            },
+            {
+              text: 'for Users',
               items: [
                 {
-                  text: 'Guides for Users',
+                  text: 'Alternative UIs',
+                  link: '/en/guide/threadiverse/alternative-uis',
+                },
+              ],
+            },
+            {
+              text: 'Lemmy',
+              items: [
+                {
+                  text: 'for Users',
                   collapsed: true,
                   items: [
                     {
@@ -67,10 +79,6 @@ export const en = defineConfig({
                       link: '/en/guide/lemmy/for-users/mobile-apps',
                     },
                     {
-                      text: 'Alternative UIs',
-                      link: '/en/guide/lemmy/for-users/alternative-uis',
-                    },
-                    {
                       text: 'How to format posts',
                       link: '/en/guide/lemmy/for-users/markdown',
                     },
@@ -89,7 +97,7 @@ export const en = defineConfig({
                   ],
                 },
                 {
-                  text: 'Guides for Moderators',
+                  text: 'for Moderators',
                   collapsed: true,
                   items: [
                     {
@@ -98,60 +106,56 @@ export const en = defineConfig({
                     },
                   ],
                 },
+              ],
+            },
+            {
+              text: 'for Admins running Lemmy',
+              collapsed: true,
+              items: [
                 {
-                  text: 'Guides for Admins',
-                  collapsed: true,
+                  text: 'Overview for Admins',
+                  link: '/en/guide/lemmy/for-admins',
+                },
+                {
+                  text: 'Securing Lemmy',
+                  link: '/en/guide/lemmy/for-admins/infrastructure/security',
                   items: [
                     {
-                      text: 'Overview for Admins',
-                      link: '/en/guide/lemmy/for-admins',
+                      text: 'Firewall',
+                      link: '/en/guide/lemmy/for-admins/infrastructure/firewall',
                     },
                     {
-                      text: 'Securing Lemmy',
-                      link: '/en/guide/lemmy/for-admins/infrastructure/security',
+                      text: 'SSH',
+                      link: '/en/guide/lemmy/for-admins/infrastructure/ssh/overview',
                       items: [
                         {
-                          text: 'Firewall',
-                          link: '/en/guide/lemmy/for-admins/infrastructure/firewall',
+                          text: 'Configure SSH',
+                          link: '/en/guide/lemmy/for-admins/infrastructure/ssh/configuring',
                         },
                         {
-                          text: 'SSH',
-                          link: '/en/guide/lemmy/for-admins/infrastructure/ssh/overview',
-                          items: [
-                            {
-                              text: 'Configure SSH',
-                              link: '/en/guide/lemmy/for-admins/infrastructure/ssh/configuring',
-                            },
-                            {
-                              text: 'Hardening SSH',
-                              link: '/en/guide/lemmy/for-admins/infrastructure/ssh/hardening',
-                            },
-                          ],
+                          text: 'Hardening SSH',
+                          link: '/en/guide/lemmy/for-admins/infrastructure/ssh/hardening',
                         },
                       ],
                     },
                   ],
                 },
-                // {
-                //     text: 'Guides for Developers',
-                //     link: '/en/guide/lemmy/for-developers'
-                // }
+              ],
+            },
+            {
+              text: 'for Devs & Technical Users',
+              collapsed: true,
+              items: [
                 {
                   text: 'Automation for Lemmy',
                   link: '/en/guide/lemmy/automation',
                 },
               ],
             },
-            {
-              text: 'Pixelfed',
-              items: [
-                { text: 'Overview', link: '/en/guide/pixelfed/overview' },
-              ],
-            },
-            {
-              text: 'Piefed',
-              items: [{ text: 'Overview', link: '/en/guide/piefed/overview' }],
-            },
+            // {
+            //   text: 'Guides for Developers',
+            //   link: '/en/guide/lemmy/for-developers',
+            // },
             {
               text: 'Piefed',
               items: [{ text: 'Overview', link: '/en/guide/piefed/overview' }],
@@ -159,10 +163,14 @@ export const en = defineConfig({
           ],
         },
         {
-          text: 'Statistics',
+          text: 'Pixelfed',
+          items: [{ text: 'Overview', link: '/en/guide/pixelfed/overview' }],
+        },
+        {
+          text: 'Misc.',
           items: [
             {
-              text: 'Lemmy',
+              text: 'lemmy.ca Statistics',
               collapsed: true,
               items: [
                 {
@@ -187,11 +195,11 @@ export const en = defineConfig({
                 },
               ],
             },
+            {
+              text: 'About this site',
+              link: '/en/guide/credits',
+            },
           ],
-        },
-        {
-          text: 'Credits',
-          link: '/en/guide/credits',
         },
       ],
     },

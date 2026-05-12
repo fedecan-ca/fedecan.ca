@@ -5,6 +5,6 @@ layout: doc
 # Piefed Guides
 
 <WorkInProgress 
-    communityName="c/newtopiefed"
-    communityLink="https://piefed.ca/c/newtopiefed" 
+    communityName="c/newcomers"
+    communityLink="https://piefed.ca/c/newcomers@piefed.zip" 
 />

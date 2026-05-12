@@ -1,5 +1,7 @@
 # Lemmy: Guides for Admins
 
+This section is intended for technical users who want to run their own instance of the Lemmy software. If you are looking for guides on how to use Lemmy as a user, please check go to the [Threadiverse Overview](/en/guide/threadiverse/overview) section.
+
 <br>
 
 <VpvContainerHorizontal>
