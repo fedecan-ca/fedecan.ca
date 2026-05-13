@@ -21,15 +21,13 @@ import enAuthors from './data/authors_en.js'
 import frAuthors from './data/authors_fr.js'
 import { data as enPostsData } from './data/posts_en.data.js'
 import { data as frPostsData } from './data/posts_fr.data.js'
-import { data as galleryData } from './data/gallery.data.js'
+// import { data as galleryData } from './data/gallery.data.js'
 import ChartCard from './components/ChartCard.vue'
 import ChartCardGeo from './components/ChartCardGeo.vue'
 
 // Deprecated components
 import StripeButton from './components/StripeButton.vue'
 import DataWrapperChart from './components/DataWrapperChart.vue'
-import ThemedImage from './components/ThemedImage.vue'
-import ThemedImageGallery from './components/ThemedImageGallery.vue'
 import WorkInProgress from './components/WorkInProgress.vue'
 
 export default {
@@ -53,15 +51,13 @@ export default {
     app.provide('frAuthors', frAuthors)
     app.provide('enPostsData', enPostsData)
     app.provide('frPostsData', frPostsData)
-    app.provide('galleryData', galleryData)
+    // app.provide('galleryData', galleryData)
 
     // Deprecated components
     app.component('ChartCard', ChartCard)
     app.component('ChartCardGeo', ChartCardGeo)
     app.component('StripeButton', StripeButton)
     app.component('DataWrapperChart', DataWrapperChart)
-    app.component('ThemedImage', ThemedImage)
-    app.component('ThemedImageGallery', ThemedImageGallery)
     app.component('WorkInProgress', WorkInProgress)
   },
 } satisfies Theme

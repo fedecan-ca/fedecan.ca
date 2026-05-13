@@ -28,6 +28,8 @@ Lemmy uses markdown-it for rendering markdown. This means that you can use the s
 
 ## Headers
 
+If you enter the following text:
+
 ```markdown
 # Header 1
 
@@ -42,11 +44,20 @@ Lemmy uses markdown-it for rendering markdown. This means that you can use the s
 ###### Header 6
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/headers_light.png" darkImageUrl="/img/guide/markdown/headers_dark.png" alt="Markdown Headers"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-headers-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-headers-dark.png',
+      description: 'Markdown Headers'
+    }"
+    enableZoom
+  />
 
 ## Emphasis
+
+If you enter the following text:
 
 ```markdown
 _italic_  
@@ -55,11 +66,20 @@ _italic_
 ~~strikethrough~~
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/emphasis_light.png" darkImageUrl="/img/guide/markdown/emphasis_dark.png" alt="Markdown Emphasis"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-emphasis-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-emphasis-dark.png',
+      description: 'Markdown Emphasis'
+    }"
+    enableZoom
+  />
 
 ## Lists
+
+If you enter the following text:
 
 ```markdown
 - Unordered list item 1
@@ -73,11 +93,20 @@ Result:
 3. Ordered list item 3
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/lists_light.png" darkImageUrl="/img/guide/markdown/lists_dark.png" alt="Markdown Emphasis"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-lists-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-lists-dark.png',
+      description: 'Markdown Lists'
+    }"
+    enableZoom
+  />
 
 ## Links / Images
+
+If you enter the following text:
 
 ```markdown
 [Link text](https://example.com)  
@@ -85,22 +114,40 @@ Result:
 ![The fedecan Logo](https://fedecan.ca/img/icons/maple-leaf.svg 'Maple Leaf')
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/links_images_light.png" darkImageUrl="/img/guide/markdown/links_images_dark.png" alt="Markdown Links/Images"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-links-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-links-dark.png',
+      description: 'Markdown Links/Images'
+    }"
+    enableZoom
+  />
 
 ## Blockquotes
+
+If you enter the following text:
 
 ```markdown
 > Block  
 > -quote
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/blockquotes_light.png" darkImageUrl="/img/guide/markdown/blockquotes_dark.png" alt="Markdown Blockquotes"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-blockquote-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-blockquote-dark.png',
+      description: 'Markdown Blockquotes'
+    }"
+    enableZoom
+  />
 
 ## Code
+
+If you enter the following text:
 
 ````markdown
 `inline code`
@@ -111,13 +158,20 @@ def hello():
 ```
 ````
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/code_light.png" darkImageUrl="/img/guide/markdown/code_dark.png" alt="Markdown Inline/Blockcode"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-code-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-code-dark.png',
+      description: 'Markdown Inline/Blockcode'
+    }"
+    enableZoom
+  />
 
 ## Tables
 
-> Tables are not officially documented.
+If you enter the following text:
 
 ```markdown
 | Header 1 | Header 2 | Header 3 |
@@ -127,23 +181,49 @@ Result:
 | Row 3    | Row 3    | Row 3    |
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/tables_light.png" darkImageUrl="/img/guide/markdown/tables_dark.png" alt="Markdown Tables"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-table-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-table-dark.png',
+      description: 'Markdown Tables'
+    }"
+    enableZoom
+  />
+
+::: info Note
+
+Tables are not officially documented by Lemmy, but they are supported by the frontend.
+
+:::
 
 ## Horizontal Rule
 
+If you enter the following text:
+
 ```markdown
+Some text.
+
 ---
+
+Some more text.
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/horizontal_rule_light.png" darkImageUrl="/img/guide/markdown/horizontal_rule_dark.png" alt="Markdown Horizontal Rule"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-horizontal-rule-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-horizontal-rule-dark.png',
+      description: 'Markdown Horizontal Rule'
+    }"
+    enableZoom
+  />
 
 ## Spoilers
 
-> Warning: Spoilers are not yet fully implemented on Apps and may not work as expected on them.
+If you enter the following text:
 
 ```markdown
 ::: spoiler Spoiler Name
@@ -151,19 +231,51 @@ Spoiler Content
 :::
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/spoilers_light.png" darkImageUrl="/img/guide/markdown/spoilers_dark.png" alt="Markdown Spoilers"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-spoiler-closed-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-spoiler-closed-dark.png',
+      description: 'Markdown Spoilers (closed)'
+    }"
+    enableZoom
+  />
 
-> Note: In the example above, the spoiler is in the open state, by default it is in the closed state.
+The user can then toggle the spoiler to show the content:
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-spoiler-open-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-spoiler-open-dark.png',
+      description: 'Markdown Spoilers (open)'
+    }"
+    enableZoom
+  />
+
+::: warning This is not supported by all apps
+
+Some apps may not support this spoiler notation. In that case, the spoiler will be rendered as a regular blockquote.
+
+:::
 
 ## Sub/Superscript
 
+If you enter the following text:
+
 ```markdown
 H~2~O
+
 H^2^O
 ```
 
-Result:
+Lemmy will render it as:
 
-<ThemedImage  lightImageUrl="/img/guide/markdown/sub_superscript_light.png" darkImageUrl="/img/guide/markdown/sub_superscript_dark.png" alt="Markdown Sub/Superscript"/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/lemmy-sub_super-light.png',
+      image_dark: '/guide/threadiverse/markdown/lemmy-sub_super-dark.png',
+      description: 'Markdown Spoilers (open)'
+    }"
+    enableZoom
+  />

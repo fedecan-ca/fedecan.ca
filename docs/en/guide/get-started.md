@@ -32,8 +32,8 @@ When you want to send an email, you don't need to use the same email provider as
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-email-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-email-dark.png',
+    image: '/guide/get-started/getting_started-email-light.png',
+    image_dark: '/guide/get-started/getting_started-email-dark.png',
   }"
   enableZoom
 />
@@ -44,8 +44,8 @@ This is possible because of **open standards**. Email providers and phone networ
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-federate-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-federate-dark.png',
+    image: '/guide/get-started/getting_started-federate-light.png',
+    image_dark: '/guide/get-started/getting_started-federate-dark.png',
   }"
   enableZoom
 />
@@ -62,8 +62,8 @@ Most older social media platforms are **centralized**. If you wanted to leave a 
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-old_media-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-old_media-dark.png',
+    image: '/guide/get-started/getting_started-old_media-light.png',
+    image_dark: '/guide/get-started/getting_started-old_media-dark.png',
   }"
   enableZoom
 />
@@ -74,8 +74,8 @@ It has gotten to the point where a few companies have a near-monopoly on social 
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-old_monopolies-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-old_monopolies-dark.png',
+    image: '/guide/get-started/getting_started-old_monopolies-light.png',
+    image_dark: '/guide/get-started/getting_started-old_monopolies-dark.png',
   }"
   enableZoom
 />
@@ -90,8 +90,8 @@ ActivityPub is an **open standard** and **federation protocol** for social media
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-the_fediverse-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-the_fediverse-dark.png',
+    image: '/guide/get-started/getting_started-the_fediverse-light.png',
+    image_dark: '/guide/get-started/getting_started-the_fediverse-dark.png',
   }"
   enableZoom
 />
@@ -106,8 +106,8 @@ All of these platforms make up a 'federated universe' of social media, known as 
 
 <VpvImage
   :imageConfig="{
-    image: '/img/guide/getting-started/getting_started-welcome-light.png',
-    image_dark: '/img/guide/getting-started/getting_started-welcome-dark.png',
+    image: '/guide/get-started/getting_started-welcome-light.png',
+    image_dark: '/guide/get-started/getting_started-welcome-dark.png',
   }"
   enableZoom
 />

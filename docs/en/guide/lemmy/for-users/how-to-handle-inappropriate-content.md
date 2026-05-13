@@ -36,9 +36,32 @@ If you see content that is against the rules of the instance or community you ar
 moderators of that instance. To do this, click on the three dots on the right side of a post or comment and select
 "Create Report", then write in the "Reason" field an appropriate Reason.
 
-<ThemedImageGallery
-:images="postReport"
-/>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+  <VpvImage 
+    :imageConfig="{ 
+      image: '/img/guide/lemmy/how-to-handle-inappropriate-content/report-post-light.png',
+      image_dark: '/img/guide/lemmy/how-to-handle-inappropriate-content/report-post-dark.png',
+      alt: 'Screenshot of the report post button',
+      description: 'Report a Post'
+    }"
+    width="45%"
+    enableBorder
+    enableZoom
+  />
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/img/guide/lemmy/how-to-handle-inappropriate-content/report-comment-light.png',
+      image_dark: '/img/guide/lemmy/how-to-handle-inappropriate-content/report-comment-dark.png',
+      alt: 'Screenshot of the report post button',
+      description: 'Report a Post'
+    }"
+    width="45%"
+    enableBorder
+    enableZoom
+   />
+
+</div>
 
 ::: tip Note:
 It is important to add a valid Reason for the report, as this will help the moderators understand why you are

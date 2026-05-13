@@ -10,10 +10,16 @@ next:
 ## Blocking a user
 
 To block a user, go to their profile page and click on "Block user" on the right side of the profile.
-<ThemedImage
-lightImageUrl="/img/guide/lemmy/how-to-block/user-block-light.png"
-darkImageUrl="/img/guide/lemmy/how-to-block/user-block-dark.png"
-/>
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/user-block-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/user-block-dark.png',
+      description: 'Block a user on Lemmy'
+    }"
+    enableZoom
+    enableBorder
+  />
 
 ### Effects
 
@@ -31,10 +37,16 @@ You can still see posts from blocked users if you go to a post over a direct lin
 
 To block a community, go to the community page and click on "Block community" on the right sidepanel of the page.
 
-<ThemedImage
-lightImageUrl="/img/guide/lemmy/how-to-block/community-block-light.png"
-darkImageUrl="/img/guide/lemmy/how-to-block/community-block-dark.png"
-/>
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/community-block-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/community-block-dark.png',
+      description: 'Block a community on Lemmy'
+    }"
+    width="400px"
+    enableZoom
+    enableBorder
+  />
 
 ### Effects
 
@@ -46,10 +58,16 @@ the community
 
 To block an instance go to your profile settings and click on the "Blocks" tab.  
 Then click on "Block instance" and enter the instance domain you want to block.
-<ThemedImage
-lightImageUrl="/img/guide/lemmy/how-to-block/instance-block-light.png"
-darkImageUrl="/img/guide/lemmy/how-to-block/instance-block-dark.png"
-/>
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/instance-block-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/instance-block-dark.png',
+      description: 'Block an instance on Lemmy'
+    }"
+    enableZoom
+    enableBorder
+  />
 
 ### Effects
 
@@ -63,10 +81,16 @@ You can not block your own instance.
 ## Hide single posts
 
 To hide a single post, click on the three dots on the right side of the post and select "Hide post".
-<ThemedImage
-lightImageUrl="/img/guide/lemmy/how-to-block/hide-post-light.png"
-darkImageUrl="/img/guide/lemmy/how-to-block/hide-post-dark.png"
-/>
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/hide-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/hide-post-dark.png',
+      description: 'Hide a post on Lemmy'
+    }"
+    enableZoom
+    enableBorder
+  />
 
 ### Effects
 
@@ -80,7 +104,27 @@ For example over a direct link, in the community page, in your feed, or in the u
 
 When you want to find a hidden post in a community page or in your feed you need to enable the option to show hidden
 posts.
-<ThemedImage
-lightImageUrl="/img/guide/lemmy/how-to-block/show-hidden-post-light.png"
-darkImageUrl="/img/guide/lemmy/how-to-block/show-hidden-post-dark.png"
-/>
+
+When the toggle is set to this option, hidden posts will not be displayed:
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/show-hidden-false-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/show-hidden-false-dark.png',
+      description: 'Only display non-hidden posts'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+When the toggle is set to this other option, it will display all posts including those that you have hidden:
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/show-hidden-true-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/show-hidden-true-dark.png',
+      description: 'Display all posts, including hidden posts'
+    }"
+    enableZoom
+    enableBorder
+  />
