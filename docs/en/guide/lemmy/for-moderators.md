@@ -43,7 +43,7 @@ While support will vary on the app and interface, it is possible to include an a
 
 This is the place for a community description, rules, and other information. It is recommended to start with a short description of the community so people know what to expect.
 
-You can use **markdown** formatting to make it nicer. See the [markdown guide](./for-users/markdown.md) page for more information.
+You can use **markdown** formatting to make it nicer. See the [markdown guide](/en/guide/threadiverse/formatting-posts) page for more information.
 
 ### NSFW
 

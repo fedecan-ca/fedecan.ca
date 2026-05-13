@@ -43,68 +43,53 @@ export const en = defineConfig({
               link: '/en/guide/threadiverse/overview',
             },
             {
+              text: 'Detailed Overview',
+              link: '/en/guide/threadiverse/detailed-overview',
+            },
+            {
               text: 'for Users',
               items: [
                 {
                   text: 'Alternative UIs',
                   link: '/en/guide/threadiverse/alternative-uis',
                 },
+                {
+                  text: 'Apps',
+                  link: '/en/guide/threadiverse/apps',
+                },
+                {
+                  text: 'Finding Communities',
+                  link: '/en/guide/threadiverse/finding-communities',
+                },
+                {
+                  text: 'Formatting Posts',
+                  link: '/en/guide/threadiverse/formatting-posts',
+                },
+                {
+                  text: 'How to block users, communities, or instances',
+                  link: '/en/guide/threadiverse/how-to-block',
+                },
+                {
+                  text: 'How to deal with inappropriate content',
+                  link: '/en/guide/threadiverse/how-to-deal-with-inappropriate-content',
+                },
+                {
+                  text: 'How to open something in my instance',
+                  link: '/en/guide/threadiverse/how-to-open-in-my-instance',
+                },
+                {
+                  text: 'Privacy on Lemmy',
+                  link: '/en/guide/threadiverse/privacy-lemmy',
+                },
               ],
             },
             {
-              text: 'Lemmy',
+              text: 'for Moderators on Lemmy',
+              collapsed: true,
               items: [
                 {
-                  text: 'for Users',
-                  collapsed: true,
-                  items: [
-                    {
-                      text: 'Getting Started with Lemmy',
-                      link: '/en/guide/lemmy/for-users',
-                    },
-                    {
-                      text: 'Detailed Overview',
-                      link: '/en/guide/lemmy/for-users/detailed-overview',
-                    },
-                    {
-                      text: 'Privacy / Security',
-                      link: '/en/guide/lemmy/for-users/privacy-security',
-                    },
-                    {
-                      text: 'Finding Communities',
-                      link: '/en/guide/lemmy/for-users/how-to-find-communities',
-                    },
-                    {
-                      text: 'Mobile Apps',
-                      link: '/en/guide/lemmy/for-users/mobile-apps',
-                    },
-                    {
-                      text: 'How to format posts',
-                      link: '/en/guide/lemmy/for-users/markdown',
-                    },
-                    {
-                      text: 'How to open something in my instance',
-                      link: '/en/guide/lemmy/for-users/how-to-open-in-my-instance',
-                    },
-                    {
-                      text: 'How to handle inappropriate content',
-                      link: '/en/guide/lemmy/for-users/how-to-handle-inappropriate-content',
-                    },
-                    {
-                      text: 'How to block users / communities',
-                      link: '/en/guide/lemmy/for-users/how-to-block',
-                    },
-                  ],
-                },
-                {
-                  text: 'for Moderators',
-                  collapsed: true,
-                  items: [
-                    {
-                      text: 'Overview for Moderators',
-                      link: '/en/guide/lemmy/for-moderators',
-                    },
-                  ],
+                  text: 'Overview for Moderators',
+                  link: '/en/guide/lemmy/for-moderators',
                 },
               ],
             },
@@ -151,14 +136,6 @@ export const en = defineConfig({
                   link: '/en/guide/lemmy/automation',
                 },
               ],
-            },
-            // {
-            //   text: 'Guides for Developers',
-            //   link: '/en/guide/lemmy/for-developers',
-            // },
-            {
-              text: 'Piefed',
-              items: [{ text: 'Overview', link: '/en/guide/piefed/overview' }],
             },
           ],
         },

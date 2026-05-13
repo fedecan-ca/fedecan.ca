@@ -1,60 +1,69 @@
 ---
-# placed on last page of each section
-next:
-  text: 'All Lemmy Guides'
-  link: '/en/guide/lemmy/overview#lemmy-guides'
+outline: 2,4
 ---
 
-# How do I block a user, community, or instance on Lemmy?
+# How to block a user, community, or instance
+
+The steps and screenshots on this guide page correspond to the default desktop website interface. You can likely achieve the same results on other apps or alternative UIs.
+
+::: danger 🛠️ Help Needed
+
+The Piefed section of this guide page is incomplete. If you are familiar with Piefed, please consider contributing to this guide page.
+
+:::
 
 ## Blocking a user
 
-To block a user, go to their profile page and click on "Block user" on the right side of the profile.
+### Lemmy
+
+To block a user on Lemmy, open a user's profile page and select the "Block user" button.
 
 <VpvImage 
     :imageConfig="{ 
       image: '/guide/threadiverse/how-to-block/user-block-light.png',
-      image_dark: '/guide/threadiverse/how-to-block/user-block-dark.png',
-      description: 'Block a user on Lemmy'
+      image_dark: '/guide/threadiverse/how-to-block/user-block-dark.png'
     }"
     enableZoom
     enableBorder
   />
 
-### Effects
+::: info Effects
 
-When you block a user, you will no longer see their posts or comments. They will also not be able to send you private
-messages. However, they will still be able to see and reply to your posts and comments. In some version of Lemmy, you
-may
-also still receive notifications from them.
+When you block a user, you will no longer see their posts or comments. They will also not be able to send you private messages. However, they will still be able to see and reply to your posts and comments. In some version of Lemmy, you may also still receive notifications from them.
+:::
 
-### Exceptions
+::: warning Exceptions
 
 You can still see posts from blocked users if you go to a post over a direct link to it.  
 **Local** Admins can not be blocked.
 
+:::
+
 ## Blocking a community
 
-To block a community, go to the community page and click on "Block community" on the right sidepanel of the page.
+### Lemmy
+
+To block a community on Lemmy, open the community page and select the "Block community" button in the sidebar.
 
 <VpvImage 
     :imageConfig="{ 
       image: '/guide/threadiverse/how-to-block/community-block-light.png',
-      image_dark: '/guide/threadiverse/how-to-block/community-block-dark.png',
-      description: 'Block a community on Lemmy'
+      image_dark: '/guide/threadiverse/how-to-block/community-block-dark.png'
     }"
     width="400px"
     enableZoom
     enableBorder
   />
 
-### Effects
+::: info Effects
 
-When you block a community, you will no longer see their posts or comments. Even if you are going to a user's profile
-page, you will not see their posts or comments if they are from a blocked community. You will also not be able to see
-the community
+When you block a community, you will no longer see their posts or comments. Even if you are going to a user's profile page, you will not see their posts or comments if they are from a blocked community. You will also not be able to see the community.
+
+:::
 
 ## Blocking an instance
+
+### Lemmy
 
 To block an instance go to your profile settings and click on the "Blocks" tab.  
 Then click on "Block instance" and enter the instance domain you want to block.
@@ -62,25 +71,29 @@ Then click on "Block instance" and enter the instance domain you want to block.
 <VpvImage 
     :imageConfig="{ 
       image: '/guide/threadiverse/how-to-block/instance-block-light.png',
-      image_dark: '/guide/threadiverse/how-to-block/instance-block-dark.png',
-      description: 'Block an instance on Lemmy'
+      image_dark: '/guide/threadiverse/how-to-block/instance-block-dark.png'
     }"
     enableZoom
     enableBorder
   />
 
-### Effects
+::: info Effects
 
-When you block an instance, you will no longer see their posts or comments. You will also not be able to see the
-communities or users from that instance. You will also not be able to see the posts or comments from users on that
+When you block an instance, you will no longer see their posts or comments. You will also not be able to see the communities or users from that instance. You will also not be able to see the posts or comments from users on that
 
-### Exceptions
+:::
+
+::: warning Exceptions
 
 You can not block your own instance.
 
+:::
+
 ## Hide single posts
 
-To hide a single post, click on the three dots on the right side of the post and select "Hide post".
+### Lemmy
+
+To hide a single post, use the three dots button on the post and select "Hide post".
 
 <VpvImage 
     :imageConfig="{ 
@@ -92,12 +105,14 @@ To hide a single post, click on the three dots on the right side of the post and
     enableBorder
   />
 
-### Effects
+::: info Effects
 
 When you hide a post, you will no longer see that post. You can still see the comments on the post, but you will not be
 able to see the post itself. You can also still see the post if you go to the community page or the user's profile page.
 
-### Show / Hide hidden posts
+:::
+
+#### Show / Hide hidden posts
 
 To show hidden posts find the "Hidden post" you want to show and click on the three dots on the right side of the post.
 For example over a direct link, in the community page, in your feed, or in the user's profile page.

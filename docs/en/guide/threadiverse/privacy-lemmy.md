@@ -2,16 +2,7 @@
 aside: false
 ---
 
-# Lemmy Privacy and Security
-
----
-
-<WorkInProgress 
-    communityName="c/newtolemmy"
-    communityLink="https://lemmy.ca/c/newtolemmy"
-/>
-
----
+# Privacy on Lemmy
 
 <!--
     Tables were split into two sections for better readability
@@ -48,7 +39,9 @@ const createIconColumn = (key, title) => ({
 
 <!-- Start of content -->
 
-Federation is a key feature of Lemmy, allowing users to interact with communities across different instances. For this to work, some data must be shared across multiple servers. See below to understand what data is shared with whom, and any relevant privacy and security considerations.
+This page includes includes information on what data is shared with whom, and any relevant privacy and security considerations.
+
+Federation is a key feature of Lemmy, allowing users to interact with communities across different instances. For this to work, a minimal amount of data must be shared across multiple servers. See below for a full breakdown.
 
 ### Legend
 
