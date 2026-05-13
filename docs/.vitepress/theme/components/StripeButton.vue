@@ -35,15 +35,13 @@ export default {
 
 <style>
 .center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  background-color: var(--vp-c-bg-elv);
 }
 
 .styled-stripe-button {
-  margin-top: 16px;
+  margin: 16px;
   display: inline-block;
-  border: 1px solid var(--vp-c-default-1);
-  border-radius: 8px;
 }
 </style>

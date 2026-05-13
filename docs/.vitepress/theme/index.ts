@@ -26,8 +26,6 @@ import ChartCard from './components/ChartCard.vue'
 import ChartCardGeo from './components/ChartCardGeo.vue'
 
 // Deprecated components
-import InfoPill from './components/InfoPill.vue'
-import InfoText from './components/InfoText.vue'
 import StripeButton from './components/StripeButton.vue'
 import DataWrapperChart from './components/DataWrapperChart.vue'
 import ThemedImage from './components/ThemedImage.vue'
@@ -60,8 +58,6 @@ export default {
     // Deprecated components
     app.component('ChartCard', ChartCard)
     app.component('ChartCardGeo', ChartCardGeo)
-    app.component('InfoPill', InfoPill)
-    app.component('InfoText', InfoText)
     app.component('StripeButton', StripeButton)
     app.component('DataWrapperChart', DataWrapperChart)
     app.component('ThemedImage', ThemedImage)

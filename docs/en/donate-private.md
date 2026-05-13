@@ -1,4 +1,13 @@
 ---
+layout: home
+
+hero:
+  text: 'Donate'
+  tagline: |
+    We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation.
+
+    Your contributions will help us maintain our servers, platforms, and services; pay for operational costs; and spin up new platforms for you to use.
+
 head:
   - - meta
     - property: og:type
@@ -11,175 +20,251 @@ head:
       content: Donate
   - - meta
     - property: og:url
-      content: https://fedecan.ca/en/donate-private
+      content: https://fedecan.ca/en/donate
   - - meta
     - property: og:description # 150-160 characters
       content: Your contributions will help us maintain our servers, platforms, and services, pay for operational costs, and spin up new platforms for you to use.
 ---
 
-# Donate
+::: info Tax Receipts
 
-::: warning Privacy-focused page
-This is the privacy-focused version of the donation page. It does not include any third-party embeds or header code, and only direct links to each of the donation platforms. To view the full donation page, please see [here](donate.md).
+While we are a registered non-profit organization, we are not a registered charity. As such, we are unable to provide tax receipts for donations. Please see our [FAQ section](guide/fedecan/faq#_2-why-are-you-not-a-registered-charity) to read about why we are not pursuing charitable status right now.
+
 :::
 
-We are a non-profit organization and all of our platforms are sustained by donations from users like you. If you would like to support our work, please consider making a donation.
+::: tip This is the privacy-friendly version of the donation page
 
-While we are a registered non-profit organization, we are not a registered charity. As such, we are unable to provide tax receipts for donations. Please see our [FAQ section](guide/fedecan/faq#_2-why-are-you-not-a-registered-charity) to read about why we are not currently pursuing charitable status.
+It does not include any third-party embeds or header code, and only contains links to donation methods instead of embedded buttons and forms. You can visit the regular donation page here: [donate](donate.md)
 
-### Your contributions will help us:
-
-- Maintain our servers, platforms, and services
-- Pay for operational costs to keep the non-profit running smoothly
-- Spin up new platforms for you, to cover more of your social media needs
+:::
 
 ## How to Donate
 
-**Please choose the method that works best for you.**
+We support a few different donation methods. Please see the comparison table for details on fees, payment types, etc.
 
-We support a few different donation methods. See the [table at the bottom of this page](#donation-method-comparison) for details on scheduling, fees, etc.
+Is there another way you would like to donate? You can start a discussion in our <a href="https://lemmy.ca/c/main">Lemmy community</a> or send us an email at <a href="mailto:support@fedecan.ca">support@fedecan.ca</a>.
 
-**One Time & Recurring Donations**
+### Comparison Table
 
-- FundraiseUp: [fedecan.donorsupport.co/page/general-donations](https://fedecan.donorsupport.co/page/general-donations)
-- GitHub Sponsors: [github.com/sponsors/fedecan-ca](https://github.com/sponsors/fedecan-ca)
+<VpvTableJSON
+  :sortable="false"
+  :jsonDataProp="donationMethods"
+  :columns="[
+    {
+      key: 'icon',
+      title: '-',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'FundraiseUp': 'iconoir:donate',
+          'GitHub Sponsors': 'mdi:github',
+          'Interac e-Transfer': 'mingcute:send-line',
+          'Stripe': 'mingcute:stripe-line'
+        },
+        iconColorMap: {
+          'FundraiseUp': '#9E9E9E',
+          'GitHub Sponsors': '#9E9E9E',
+          'Interac e-Transfer': '#9E9E9E',
+          'Stripe': '#9E9E9E'
+        },
+        width: '1.8em',
+        height: '1.8em'
+      }
+    },
+    {
+      key: 'method',
+      title: 'Method',
+      format: 'text'
+    },
+    {
+      key: 'oneTime',
+      title: 'One-Time',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'yes': 'ic:twotone-check-circle',
+          'no': 'mdi:close-circle',
+          'depends': 'mdi:help-circle'
+        },
+        iconColorMap: {
+          'yes': '#4CAF50',
+          'no': '#9E9E9E',
+          'depends': '#FF9800'
+        },
+        hoverTextMap: {
+          'yes': 'Supported',
+          'no': 'Not supported',
+          'depends': 'Depends'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'recurring',
+      title: 'Recurring',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'yes': 'ic:twotone-check-circle',
+          'no': 'mdi:cross-circle',
+          'depends': 'ic:twotone-circle'
+        },
+        iconColorMap: {
+          'yes': '#4CAF50',
+          'no': '#9E9E9E',
+          'depends': '#afaf4c'
+        },
+        hoverTextMap: {
+          'yes': 'Supported',
+          'no': 'Not supported',
+          'depends': 'Varies by bank'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'fees',
+      title: 'Fees',
+      format: 'boolean',
+      options: {
+        displayAs: 'icon',
+        trueIcon: 'mdi:warning',
+        falseIcon: 'line-md:cancel-twotone',
+        trueColor: '#FF9800',
+        falseColor: '#4CAF50',
+        trueHoverText: 'Fees apply',
+        falseHoverText: 'No fees'
+      }
+    },
+    {
+      key: 'paymentMethods',
+      title: 'Payment Methods',
+      format: 'tags',
+      options: {
+        tagColors: {
+          'Visa': '#1A1F71',
+          'Mastercard': '#EB001B',
+          'Amex': '#2E77BC',
+          'Apple Pay': '#555555',
+          'Google Pay': '#4285F4',
+          'Interac': '#FFAD00',
+          'Link': '#00D66B'
+        }
+      }
+    }
+  ]"
+/>
 
-**One Time Donations Only**
+### Donation Methods
 
-- Interac e-Transfer: Send an Interac e-Transfer to `donate@fedecan.ca` as the recipient. If you would like to include your name, feel free to do so in the message field.
-- Stripe: [donate.stripe.com/5kAg108OT6f44uIfYY](https://donate.stripe.com/5kAg108OT6f44uIfYY)
+<div class="donation-cards-grid">
+  <div class="donation-card">
 
-## Donation Method Comparison
+### <Icon icon="mingcute:send-line" width="1.2em" height="1.2em" /> Interac e-Transfer
 
-<table style="width: 100%;">
-  <colgroup>
-    <col style="width: 30%;">
-    <col style="width: 70%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>More Information</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
-          FundraiseUp
-        </p>
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="One time"
-          />
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="Recurring"
-          />
-        <InfoText 
-            colorType="warn"
-            icon="ic:round-warning-amber"
-            text="Fees Apply"
-          />
-      </td>
-      <td>
-        <ul>
-          <li>Options for one time donations and recurring monthly donations.</li>
-          <li>Supports a variety of payment methods (credit cards, Apple Pay, Google Pay).</li>
-          <li>You can manage your donation through the email you receive after donating.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
-          GitHub Sponsors
-        </p>
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="One time"
-          />
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="Recurring"
-          />
-        <InfoText 
-            colorType="ok"
-            icon="ic:round-check"
-            text="No fees"
-          />
-      </td>
-      <td>
-        <ul>
-          <li>Options for one time donations and recurring monthly donations.</li>
-          <li>Supports credit card payments.</li>
-          <li>Requires a GitHub account.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
-          Interac e-Transfer
-        </p>
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="One time"
-          />
-        <InfoText 
-            colorType="gray" 
-            icon="ic:round-schedule" 
-            text="Recurring unsupported"
-          />
-        <InfoText 
-            colorType="ok"
-            icon="ic:round-check"
-            text="No fees"
-          />
-      </td>
-      <td>
-        <ul>
-          <li>One time donations only.</li>
-          <li>Requires access to Interac e-Transfer through your bank.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p style="font-weight: bold; font-size: 1.2em; margin: 0.5em 0;">
-          Stripe
-        </p>
-        <InfoText 
-            colorType="ok" 
-            icon="ic:round-schedule" 
-            text="One time"
-          />
-        <InfoText 
-            colorType="gray" 
-            icon="ic:round-schedule" 
-            text="Recurring unsupported"
-          />
-        <InfoText 
-            colorType="warn"
-            icon="ic:round-warning-amber"
-            text="Fees Apply"
-          />
-      </td>
-      <td>
-        <ul>
-          <li>One time donations only.</li>
-          <li>Supports credit card payments.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+Support for **recurring** donations depends on your bank.
 
-**Other Methods**
+**To send an Interac e-Transfer:**
 
-Is there another way you would like to donate? You can post a message in our <a href="https://lemmy.ca/c/main">Lemmy community</a> or send us an email at <a href="mailto:support@fedecan.ca">support@fedecan.ca</a>.
+1. Start an Interac e-Transfer on your bank app or website.
+2. Enter `donate@fedecan.ca` as the recipient.
+3. Optionally include your name in the message field.
+
+  </div>
+  <div class="donation-card">
+
+### <Icon icon="mdi:github" width="1.2em" height="1.2em" /> GitHub Sponsors
+
+This method requires a GitHub account, and donation amounts are in **USD**.
+
+Link to donate: [github.com/sponsors/fedecan-ca](https://github.com/sponsors/fedecan-ca)
+
+  </div>
+  <div class="donation-card">
+
+### <Icon icon="iconoir:donate" width="1.2em" height="1.2em" /> FundraiseUp
+
+::: warning Fees Apply with this donation method.
+
+:::
+
+Link to donate: [fedecan.donorsupport.co/page/general-donations](https://fedecan.donorsupport.co/page/general-donations)
+
+To manage recurring donations: [fedecan.donorsupport.co](https://fedecan.donorsupport.co)
+
+  </div>
+  <div class="donation-card">
+
+### <Icon icon="mingcute:stripe-line" width="1.2em" height="1.2em" /> Stripe
+
+::: warning Fees Apply with this donation method.
+
+:::
+
+Link to donate: [donate.stripe.com/5kAg108OT6f44uIfYY](https://donate.stripe.com/5kAg108OT6f44uIfYY)
+
+  </div>
+</div>
+
+<script setup>
+const donationMethods = [
+  {
+    icon: "Interac e-Transfer",
+    method: "Interac e-Transfer",
+    oneTime: "yes",
+    recurring: "depends",
+    fees: false,
+    paymentMethods: ["Interac"]
+  },
+  {
+    icon: "GitHub Sponsors",
+    method: "GitHub Sponsors",
+    oneTime: "yes",
+    recurring: "yes",
+    fees: false,
+    paymentMethods: ["Credit/Debit Card"]
+  },
+  {
+    icon: "FundraiseUp",
+    method: "FundraiseUp",
+    oneTime: "yes",
+    recurring: "yes",
+    fees: true,
+    paymentMethods: ["Credit/Debit Card", "Apple Pay", "Google Pay", "Link"]
+  },
+  {
+    icon: "Stripe",
+    method: "Stripe",
+    oneTime: "yes",
+    recurring: "no",
+    fees: true,
+    paymentMethods: ["Credit/Debit Card", "Apple Pay", "Google Pay", "Link"]
+  }
+]
+</script>
+
+<style scoped>
+.donation-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.donation-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  background: var(--vp-c-bg-soft);
+}
+
+.donation-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+</style>
