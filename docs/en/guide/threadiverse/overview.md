@@ -81,7 +81,7 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
 <VpvCardHorizontal
   title="Finding Communities"
   excerpt="Some tips and links that can help you find communities that you might like."
-  image="/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse.jpg"
+  image="/guide/threadiverse/detailed-overview/fediverse.png"
   url="/en/guide/lemmy/for-users/how-to-find-communities"
   :hideCategory="true"
   :hideAuthor="true"
