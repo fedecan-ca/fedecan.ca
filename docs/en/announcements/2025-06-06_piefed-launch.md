@@ -21,8 +21,8 @@ tags:
 
 # Featured Image
 featured_image:
-  image: '/announcements/banner/2025-06-06_piefed-launch-light.png'
-  image_dark: '/announcements/banner/2025-06-06_piefed-launch-dark.png'
+  image: '/announcements/banner/2025-06-06_piefed-launch-light.jpg'
+  image_dark: '/announcements/banner/2025-06-06_piefed-launch-dark.jpg'
 
 # Content Options
 reading_time: 2

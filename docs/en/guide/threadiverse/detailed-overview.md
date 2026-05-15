@@ -15,7 +15,7 @@ If you haven't already, please see these other guide pages first:
 
 With a traditional forum style platform, all of the communities are locked inside that one platform. You can only interact with the communities if you have an account on that platform.
 
-![traditional](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-traditional.png)
+![traditional](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-traditional.jpg)
 
 Federated platforms such as Lemmy, Piefed, and Mbin can do much more!
 
@@ -25,13 +25,13 @@ Another team runs an instance called [programming.dev](https://programming.dev),
 
 See the image below for a visualization of this:
 
-![fediverse](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse.png)
+![fediverse](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse.jpg)
 
 ## So how do I join one of these communities?
 
 If your account is on **lemmy.ca**, it will appear as though all of these communities are on **lemmy.ca**. You can interact with all of the communities just the same. This includes subscribing, making posts, comments, moderating, etc.
 
-![fediverse](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse-v2.png)
+![fediverse](/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse-v2.jpg)
 
 This is true for any instance that **lemmy.ca** knows about. If you find a new community somewhere, that no one on **lemmy.ca** has subscribed to before, it won't show up at first. However once you search for it once on **lemmy.ca**, it will look like any other community on **lemmy.ca**!
 

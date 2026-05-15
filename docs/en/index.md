@@ -75,8 +75,8 @@ Pixelfed also connects nicely with Mastodon, so you can follow your favourite cr
   <div style="flex: 0 1 450px; margin: 0 auto;">
     <VpvImage 
       :imageConfig="{
-        image: '/img/screenshots/desktop/pixelfed-default-light.png',
-        image_dark: '/img/screenshots/desktop/pixelfed-default-dark.png',
+        image: '/img/screenshots/desktop/pixelfed-default-light.jpg',
+        image_dark: '/img/screenshots/desktop/pixelfed-default-dark.jpg',
         description: 'Screenshot of pixelfed.ca on desktop',
       }"
       enableZoom

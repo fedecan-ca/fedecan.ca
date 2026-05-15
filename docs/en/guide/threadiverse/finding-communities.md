@@ -47,7 +47,7 @@ This will make it so that all the links will open on the instance that you have 
 <VpvCardVertical
   title="lemmyverse.net"
   excerpt="Search for communities across all instances, with filtering and sorting options."
-  image="/guide/threadiverse/finding-communities/lemmyverse.png"
+  image="/guide/threadiverse/finding-communities/lemmyverse.jpg"
   url="https://lemmyverse.net/communities"
 />
 </VpvContainerVertical>

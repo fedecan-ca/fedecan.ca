@@ -2945,7 +2945,7 @@ Here is a word cloud containing every genre after the responses were cleaned:
 - If a response listed multiple distinct genres, they were separated into multiple entries
 - If only an artist was mentioned, the genres were extracted from Wikipedia. If artists were mentioned as examples, no further genres were added.
 
-<VpvImage :imageConfig="{image: '/announcements/2026-04-03_censusResults/4.4-music-wordcloud.png'}" enableBorder enableZoom />
+<VpvImage :imageConfig="{image: '/announcements/2026-04-03_censusResults/4.4-music-wordcloud.jpg'}" enableBorder enableZoom />
 
 The responses were processed further for the graph below. Genres with 4 or fewer entries were placed in a parent category. We recognize that many of these genres are not actually contained neatly inside one parent category, and many of them are adjacent to the indicated category at best. Please use both the word cloud above and the graph below to get an idea of how people responded.
 

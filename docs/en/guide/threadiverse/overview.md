@@ -19,10 +19,10 @@ If you want to see how this is different from a traditional forum, you can read 
         '/img/screenshots/desktop/lemmy-photon-dark.png',
         '/img/screenshots/desktop/lemmy-default-light.png',
         '/img/screenshots/desktop/lemmy-default-dark.png',
-        '/img/screenshots/desktop/piefed-blorp-light.png',
-        '/img/screenshots/desktop/piefed-blorp-dark.png',
-        '/img/screenshots/desktop/piefed-default-light.png',
-        '/img/screenshots/desktop/piefed-default-dark.png',
+        '/img/screenshots/desktop/piefed-blorp-light.jpg',
+        '/img/screenshots/desktop/piefed-blorp-dark.jpg',
+        '/img/screenshots/desktop/piefed-default-light.jpg',
+        '/img/screenshots/desktop/piefed-default-dark.jpg',
         '/img/screenshots/desktop/lemmy-old-light.png',
         '/img/screenshots/desktop/lemmy-old-dark.png',
         '/img/screenshots/promo-mobile.png',
@@ -67,8 +67,8 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
 
 <VpvImage 
     :imageConfig="{
-    image: '/img/screenshots/community/newcomers-light.png',
-    image_dark: '/img/screenshots/community/newcomers-dark.png',
+    image: '/img/screenshots/community/newcomers-light.jpg',
+    image_dark: '/img/screenshots/community/newcomers-dark.jpg',
     description: 'Screenshot of the Newcomers community'
     }"
     enableZoom
@@ -81,7 +81,7 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
 <VpvCardHorizontal
   title="Finding Communities"
   excerpt="Some tips and links that can help you find communities that you might like."
-  image="/img/guide/lemmy/detailed-overview/lemmy-detailed_overview-fediverse.png"
+  image="/guide/threadiverse/detailed-overview/lemmy-detailed_overview-fediverse.jpg"
   url="/en/guide/lemmy/for-users/how-to-find-communities"
   :hideCategory="true"
   :hideAuthor="true"

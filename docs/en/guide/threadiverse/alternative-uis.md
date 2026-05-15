@@ -73,8 +73,8 @@ This is what you will see by default when you access [piefed.ca](https://piefed.
 
 <VpvImage
   :imageConfig="{
-    image: '/img/screenshots/desktop/piefed-default-light.png',
-    image_dark: '/img/screenshots/desktop/piefed-default-dark.png',
+    image: '/img/screenshots/desktop/piefed-default-light.jpg',
+    image_dark: '/img/screenshots/desktop/piefed-default-dark.jpg',
     alt: 'Screenshot of the default theme for Piefed.',
     description: 'Screenshot of the default theme for Piefed.'
   }"
@@ -95,8 +95,8 @@ Blorp was built to support BOTH **Lemmy** and **Piefed** instances. You can try 
 
 <VpvImage
   :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-blorp-light.png',
-    image_dark: '/img/screenshots/desktop/lemmy-blorp-dark.png',
+    image: '/img/screenshots/desktop/lemmy-blorp-light.jpg',
+    image_dark: '/img/screenshots/desktop/lemmy-blorp-dark.jpg',
     alt: 'Screenshot of the Blorp alternative UI.',
     description: 'Screenshot of the Blorp alternative UI.'
   }"
@@ -166,8 +166,8 @@ Alexandrite supports **Lemmy** only. You can try it out on our instance at [alex
 
 <VpvImage
   :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-alexandrite-light.png',
-    image_dark: '/img/screenshots/desktop/lemmy-alexandrite-dark.png',
+    image: '/img/screenshots/desktop/lemmy-alexandrite-light.jpg',
+    image_dark: '/img/screenshots/desktop/lemmy-alexandrite-dark.jpg',
     alt: 'Screenshot of the Alexandrite alternative UI.',
     description: 'Screenshot of the Alexandrite alternative UI.'
   }"
@@ -220,8 +220,8 @@ Tesseract supports **Lemmy** only. You can try it out on our instance at [tess.l
 
 <VpvImage
   :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-tesseract-light.png',
-    image_dark: '/img/screenshots/desktop/lemmy-tesseract-dark.png',
+    image: '/img/screenshots/desktop/lemmy-tesseract-light.jpg',
+    image_dark: '/img/screenshots/desktop/lemmy-tesseract-dark.jpg',
     alt: 'Screenshot of the Tesseract alternative UI.',
     description: 'Screenshot of the Tesseract alternative UI.'
   }"
