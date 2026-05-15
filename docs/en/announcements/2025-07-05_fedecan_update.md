@@ -41,6 +41,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2025-07-05_fedecan_update
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2025-07-05_fedecan_update.png
+  - - meta
     - property: og:description # 150-160 characters
       content: 'Hello everyone! It’s time for another long-overdue update on how Fedecan and our various sites are doing. It’s been just over two years since the great Reddit migration, and in that time we’ve made some solid progress.'
   - - meta

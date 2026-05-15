@@ -41,6 +41,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2024-04-08_incorporated
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/img/social-share.png
+  - - meta
     - property: og:description # 150-160 characters
       content: Fedecan has been officially incorporated as a not-for-profit organization!
   - - meta

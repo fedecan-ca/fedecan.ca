@@ -42,6 +42,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2024-02-10_censusResults
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2024-02-10_censusResults.jpg
+  - - meta
     - property: og:description # 150-160 characters
       content: Results and visualizations from the 2023 instance census for our Lemmy instance.
   - - meta

@@ -43,6 +43,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2026-04-03_censusResults
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2026-04-03_censusResults.png
+  - - meta
     - property: og:description # 150-160 characters
       content: Results and visualizations from the 2025 Fedecan Instance Census
   - - meta
