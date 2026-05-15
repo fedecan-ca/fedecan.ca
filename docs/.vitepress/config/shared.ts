@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitepress'
+import { generateFeed } from './rss'
 
 export const shared = defineConfig({
   lastUpdated: true,
   cleanUrls: true,
+
+  buildEnd: (config) => generateFeed(config),
 
   vite: {
     ssr: { noExternal: ['@cynber/vitepress-valence'] },
@@ -28,6 +31,25 @@ export const shared = defineConfig({
       },
     ],
     ['meta', { name: 'robots', content: 'index,follow' }],
+    [
+      'link',
+      {
+        rel: 'alternate',
+        type: 'application/atom+xml',
+        title: 'Fedecan Announcements (EN)',
+        href: 'https://fedecan.ca/feed-en.xml',
+      },
+    ],
+    // Uncomment when French feed is enabled:
+    // [
+    //   'link',
+    //   {
+    //     rel: 'alternate',
+    //     type: 'application/atom+xml',
+    //     title: 'Annonces Fedecan (FR)',
+    //     href: 'https://fedecan.ca/feed-fr.xml',
+    //   },
+    // ],
   ],
   transformPageData(pageData) {
     const canonicalUrl = `https://fedecan.ca${pageData.relativePath}`

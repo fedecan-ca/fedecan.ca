@@ -3,6 +3,7 @@
   "devDependencies": {
     "@iconify/vue": "^4.3.0",
     "@types/node": "^24.12.3",
+    "feed": "^5.2.1",
     "prettier": "3.8.3",
     "vitepress": "^1.6.4"
   },
