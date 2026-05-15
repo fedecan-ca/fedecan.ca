@@ -91,20 +91,20 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount, watch } from "vue";
-import { useData } from "vitepress";
-import { Chart, registerables } from "chart.js";
-import ChartDataLabels from "chartjs-plugin-datalabels";
-import { merge } from "chart.js/helpers";
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
+import { useData } from 'vitepress'
+import { Chart, registerables } from 'chart.js'
+import ChartDataLabels from 'chartjs-plugin-datalabels'
+import { merge } from 'chart.js/helpers'
 
-Chart.register(...registerables);
+Chart.register(...registerables)
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 const props = defineProps({
   dataUrl: { type: String, required: true },
   chartType: { type: String, required: true },
-  title: { type: String, default: "" },
-  subtitle: { type: String, default: "" },
+  title: { type: String, default: '' },
+  subtitle: { type: String, default: '' },
   simple: { type: Boolean, default: false },
   height: { type: Number, default: null },
   options: { type: Object, default: () => ({}) },
@@ -112,129 +112,129 @@ const props = defineProps({
   columnColors: { type: Object, default: () => ({}) },
   datasetOptions: { type: Object, default: () => ({}) },
   showPercentage: { type: Boolean, default: false },
-  animate: { type: String, default: "default" },
+  animate: { type: String, default: 'default' },
   animationDuration: { type: Number, default: 3000 },
-  source: { type: String, default: "" },
-  sourceLink: { type: String, default: "" },
-  byline: { type: String, default: "" },
-  license: { type: String, default: "" },
-  lastupdated: { type: String, default: "" },
-  note: { type: String, default: "" },
-});
+  source: { type: String, default: '' },
+  sourceLink: { type: String, default: '' },
+  byline: { type: String, default: '' },
+  license: { type: String, default: '' },
+  lastupdated: { type: String, default: '' },
+  note: { type: String, default: '' },
+})
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
-const { isDark } = useData();
+const { isDark } = useData()
 
 const getCSSVar = (name) => {
-  if (typeof window === "undefined") return "";
+  if (typeof window === 'undefined') return ''
   return getComputedStyle(document.documentElement)
     .getPropertyValue(name)
-    .trim();
-};
+    .trim()
+}
 
 const getColors = () => ({
-  text: getCSSVar("--vp-c-text-1"),
-  text_2: getCSSVar("--vp-c-text-2"),
-  text_3: getCSSVar("--vp-c-text-3"),
-  grid: getCSSVar("--vp-c-divider"),
-  primary: getCSSVar("--vp-c-brand-1"),
-  bg: getCSSVar("--vp-c-brand-soft"),
-  cardBg: getCSSVar("--vp-c-bg"),
-});
+  text: getCSSVar('--vp-c-text-1'),
+  text_2: getCSSVar('--vp-c-text-2'),
+  text_3: getCSSVar('--vp-c-text-3'),
+  grid: getCSSVar('--vp-c-divider'),
+  primary: getCSSVar('--vp-c-brand-1'),
+  bg: getCSSVar('--vp-c-brand-soft'),
+  cardBg: getCSSVar('--vp-c-bg'),
+})
 
 // ─── Color helpers ────────────────────────────────────────────────────────────
 const defaultPieColors = [
-  "#3b82f6",
-  "#ef4444",
-  "#10b981",
-  "#f59e0b",
-  "#8b5cf6",
-  "#ec4899",
-  "#06b6d4",
-  "#84cc16",
-  "#f97316",
-  "#6366f1",
-];
+  '#3b82f6',
+  '#ef4444',
+  '#10b981',
+  '#f59e0b',
+  '#8b5cf6',
+  '#ec4899',
+  '#06b6d4',
+  '#84cc16',
+  '#f97316',
+  '#6366f1',
+]
 
 const getDatasetColor = (index = 0) => {
-  if (!props.colors) return getColors().primary;
+  if (!props.colors) return getColors().primary
   if (Array.isArray(props.colors))
-    return props.colors[index % props.colors.length];
-  return props.colors;
-};
+    return props.colors[index % props.colors.length]
+  return props.colors
+}
 
 // ─── Chart type helpers ───────────────────────────────────────────────────────
-const isPie = () => props.chartType === "pie" || props.chartType === "doughnut";
+const isPie = () => props.chartType === 'pie' || props.chartType === 'doughnut'
 const isHorizBar = () =>
-  props.chartType === "bar" && props.options?.indexAxis === "y";
+  props.chartType === 'bar' && props.options?.indexAxis === 'y'
 
 // ─── Mobile ───────────────────────────────────────────────────────────────────
-const mobileRef = ref(false);
+const mobileRef = ref(false)
 const checkMobile = () => {
-  mobileRef.value = typeof window !== "undefined" && window.innerWidth < 640;
-};
+  mobileRef.value = typeof window !== 'undefined' && window.innerWidth < 640
+}
 
 // ─── Horizontal bar: y-axis title ─────────────────────────────────────────────
 // Extracted from user options and rendered as HTML to avoid Chart.js overlap.
 const horizYAxisTitle = computed(() =>
-  isHorizBar() ? (props.options?.scales?.y?.title?.text ?? "") : "",
-);
+  isHorizBar() ? (props.options?.scales?.y?.title?.text ?? '') : ''
+)
 
 // ─── Pie legend ───────────────────────────────────────────────────────────────
-const pieLegendItems = ref([]);
+const pieLegendItems = ref([])
 
 const buildPieLegend = (data) => {
-  const pieColors = props.colors || defaultPieColors;
+  const pieColors = props.colors || defaultPieColors
   pieLegendItems.value = (data.labels || []).map((label, i) => ({
     text: label,
     color: Array.isArray(pieColors)
       ? pieColors[i % pieColors.length]
       : pieColors,
-  }));
-};
+  }))
+}
 
 // ─── Footer ───────────────────────────────────────────────────────────────────
 const hasFooter = computed(
-  () => !!(props.source || props.byline || props.license || props.lastupdated),
-);
+  () => !!(props.source || props.byline || props.license || props.lastupdated)
+)
 
 // ─── Wrapper style ────────────────────────────────────────────────────────────
 const wrapperStyle = computed(() => {
-  if (props.height) return { height: `${props.height}px` };
-  if (isPie()) return { height: mobileRef.value ? "260px" : "320px" };
-  return {};
-});
+  if (props.height) return { height: `${props.height}px` }
+  if (isPie()) return { height: mobileRef.value ? '260px' : '320px' }
+  return {}
+})
 
 // ─── Chart instance ───────────────────────────────────────────────────────────
-const chartCanvas = ref(null);
-let chartInstance = null;
-let lastData = null;
+const chartCanvas = ref(null)
+let chartInstance = null
+let lastData = null
 
 const createChart = async () => {
-  if (!chartCanvas.value) return;
+  if (!chartCanvas.value) return
   if (!lastData) {
-    const response = await fetch(props.dataUrl);
-    lastData = await response.json();
+    const response = await fetch(props.dataUrl)
+    lastData = await response.json()
   }
-  const colors = getColors();
-  chartInstance?.destroy();
-  if (isPie()) buildPieLegend(lastData);
+  const colors = getColors()
+  chartInstance?.destroy()
+  if (isPie()) buildPieLegend(lastData)
   chartInstance = new Chart(chartCanvas.value, {
     type: props.chartType,
     data: prepareData(lastData, colors),
     options: getChartOptions(colors, lastData),
     plugins: [ChartDataLabels],
-  });
-};
+  })
+}
 
 // ─── Data preparation ─────────────────────────────────────────────────────────
 const prepareData = (data, colors) => {
-  if (props.chartType === "line") {
+  if (props.chartType === 'line') {
     return {
       labels: data.labels,
       datasets: [
         {
-          label: props.title || "Cumulative Responses",
+          label: props.title || 'Cumulative Responses',
           data: data.cumulative || data.data,
           borderColor: getDatasetColor(),
           backgroundColor: props.colors ? `${getDatasetColor()}20` : colors.bg,
@@ -243,11 +243,11 @@ const prepareData = (data, colors) => {
           ...props.datasetOptions,
         },
       ],
-    };
+    }
   }
 
   if (isPie()) {
-    const pieColors = props.colors || defaultPieColors;
+    const pieColors = props.colors || defaultPieColors
     return {
       labels: data.labels,
       datasets: [
@@ -261,19 +261,19 @@ const prepareData = (data, colors) => {
           ...props.datasetOptions,
         },
       ],
-    };
+    }
   }
 
-  if (props.chartType === "bar") {
-    const labels = data.labels || [];
+  if (props.chartType === 'bar') {
+    const labels = data.labels || []
     const bgColors = labels.map(
-      (label, i) => props.columnColors?.[label] ?? getDatasetColor(i),
-    );
+      (label, i) => props.columnColors?.[label] ?? getDatasetColor(i)
+    )
     return {
       labels,
       datasets: [
         {
-          label: props.title || "Count",
+          label: props.title || 'Count',
           data: data.values || data.data,
           backgroundColor: bgColors,
           borderRadius: 4,
@@ -283,125 +283,125 @@ const prepareData = (data, colors) => {
           ...props.datasetOptions,
         },
       ],
-    };
+    }
   }
-};
+}
 
 // ─── Animation ────────────────────────────────────────────────────────────────
 const getProgressiveAnimation = (dataLength) => {
-  const delay = props.animationDuration / dataLength;
+  const delay = props.animationDuration / dataLength
   const previousY = (ctx) =>
     ctx.index === 0
       ? ctx.chart.scales.y.getPixelForValue(100)
       : ctx.chart
           .getDatasetMeta(ctx.datasetIndex)
-          .data[ctx.index - 1].getProps(["y"], true).y;
+          .data[ctx.index - 1].getProps(['y'], true).y
 
   return {
     x: {
-      type: "number",
-      easing: "linear",
+      type: 'number',
+      easing: 'linear',
       duration: delay,
       from: NaN,
       delay(ctx) {
-        if (ctx.type !== "data" || ctx.xStarted) return 0;
-        ctx.xStarted = true;
-        return ctx.index * delay;
+        if (ctx.type !== 'data' || ctx.xStarted) return 0
+        ctx.xStarted = true
+        return ctx.index * delay
       },
     },
     y: {
-      type: "number",
-      easing: "linear",
+      type: 'number',
+      easing: 'linear',
       duration: delay,
       from: previousY,
       delay(ctx) {
-        if (ctx.type !== "data" || ctx.yStarted) return 0;
-        ctx.yStarted = true;
-        return ctx.index * delay;
+        if (ctx.type !== 'data' || ctx.yStarted) return 0
+        ctx.yStarted = true
+        return ctx.index * delay
       },
     },
-  };
-};
+  }
+}
 
 // ─── Label wrapping ───────────────────────────────────────────────────────────
 const makeWrapper = (maxChars) => (str) => {
-  if (typeof str !== "string" || str.length <= maxChars)
-    return [String(str ?? "")];
-  const words = str.split(" ");
-  const lines = [];
-  let cur = "";
+  if (typeof str !== 'string' || str.length <= maxChars)
+    return [String(str ?? '')]
+  const words = str.split(' ')
+  const lines = []
+  let cur = ''
   for (const word of words) {
-    const cand = cur ? `${cur} ${word}` : word;
+    const cand = cur ? `${cur} ${word}` : word
     if (cand.length > maxChars && cur) {
-      lines.push(cur);
-      cur = word;
-    } else cur = cand;
+      lines.push(cur)
+      cur = word
+    } else cur = cand
   }
-  if (cur) lines.push(cur);
-  return lines;
-};
+  if (cur) lines.push(cur)
+  return lines
+}
 
 // ─── Horizontal bar y-axis config ─────────────────────────────────────────────
 const buildHorizYAxis = (colors, mobile, labels) => {
-  const maxChars = mobile ? 14 : 24;
-  const wrapLabel = makeWrapper(maxChars);
-  const fontSize = mobile ? 11 : 13;
+  const maxChars = mobile ? 14 : 24
+  const wrapLabel = makeWrapper(maxChars)
+  const fontSize = mobile ? 11 : 13
 
   return {
     ticks: {
       color: colors.text,
       autoSkip: false,
-      crossAlign: "far",
+      crossAlign: 'far',
       font: { size: fontSize },
       callback(value) {
-        return wrapLabel(String(this.getLabelForValue(value) ?? ""));
+        return wrapLabel(String(this.getLabelForValue(value) ?? ''))
       },
     },
     grid: { color: colors.grid },
     title: { display: false },
     afterFit(scale) {
-      const ctx = scale.chart.ctx;
-      const fontFamily = getCSSVar("--vp-font-family-base") || "sans-serif";
-      ctx.save();
-      ctx.font = `${fontSize}px ${fontFamily}`;
-      let maxLineW = 0;
+      const ctx = scale.chart.ctx
+      const fontFamily = getCSSVar('--vp-font-family-base') || 'sans-serif'
+      ctx.save()
+      ctx.font = `${fontSize}px ${fontFamily}`
+      let maxLineW = 0
       for (const lbl of labels) {
-        for (const line of wrapLabel(String(lbl ?? ""))) {
-          maxLineW = Math.max(maxLineW, ctx.measureText(line).width);
+        for (const line of wrapLabel(String(lbl ?? ''))) {
+          maxLineW = Math.max(maxLineW, ctx.measureText(line).width)
         }
       }
-      ctx.restore();
+      ctx.restore()
       scale.width = Math.min(
         Math.ceil(maxLineW) + 16,
-        Math.floor(scale.chart.width * 0.42),
-      );
+        Math.floor(scale.chart.width * 0.42)
+      )
     },
-  };
-};
+  }
+}
 
 // ─── Aspect ratio for horizontal bar charts ───────────────────────────────────
 const computeHorizAspectRatio = (labels, mobile) => {
-  const maxChars = mobile ? 14 : 24;
-  const wrapLabel = makeWrapper(maxChars);
-  const fontSize = mobile ? 11 : 13;
-  const lineH = Math.round(fontSize * 1.6);
-  const slotGap = mobile ? 10 : 14;
+  const maxChars = mobile ? 14 : 24
+  const wrapLabel = makeWrapper(maxChars)
+  const fontSize = mobile ? 11 : 13
+  const lineH = Math.round(fontSize * 1.6)
+  const slotGap = mobile ? 10 : 14
 
   const totalContentH = labels.reduce((sum, l) => {
-    return sum + wrapLabel(String(l ?? "")).length * lineH + slotGap;
-  }, 0);
+    return sum + wrapLabel(String(l ?? '')).length * lineH + slotGap
+  }, 0)
 
-  const overhead = mobile ? 80 : 100;
-  const refWidth = mobile ? 340 : 600;
-  const ratio = refWidth / (totalContentH + overhead);
-  return Math.max(0.6, Math.min(ratio, mobile ? 1.4 : 2.0));
-};
+  const overhead = mobile ? 80 : 100
+  const refWidth = mobile ? 340 : 600
+  const ratio = refWidth / (totalContentH + overhead)
+  return Math.max(0.6, Math.min(ratio, mobile ? 1.4 : 2.0))
+}
 
 // ─── Chart options ────────────────────────────────────────────────────────────
 const getChartOptions = (colors, data) => {
-  const mobile = mobileRef.value;
-  const horizBar = isHorizBar();
-  const labels = data.labels || [];
+  const mobile = mobileRef.value
+  const horizBar = isHorizBar()
+  const labels = data.labels || []
 
   const baseOptions = {
     responsive: true,
@@ -413,7 +413,7 @@ const getChartOptions = (colors, data) => {
         ? { display: false }
         : { labels: { color: colors.text, font: { size: 13 }, padding: 12 } },
       tooltip: {
-        backgroundColor: getCSSVar("--vp-c-bg-soft"),
+        backgroundColor: getCSSVar('--vp-c-bg-soft'),
         titleColor: colors.text,
         bodyColor: colors.text_2,
         borderColor: colors.grid,
@@ -423,59 +423,59 @@ const getChartOptions = (colors, data) => {
           isPie() && {
             callbacks: {
               label(ctx) {
-                const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                const total = ctx.dataset.data.reduce((a, b) => a + b, 0)
                 const pct =
-                  total > 0 ? ((ctx.parsed / total) * 100).toFixed(1) : 0;
-                return ` ${ctx.label}: ${ctx.parsed} (${pct}%)`;
+                  total > 0 ? ((ctx.parsed / total) * 100).toFixed(1) : 0
+                return ` ${ctx.label}: ${ctx.parsed} (${pct}%)`
               },
             },
           }),
       },
       datalabels: {
         display: false,
-        font: { weight: "bold", size: 12 },
+        font: { weight: 'bold', size: 12 },
         clamp: true,
         formatter: (v) => v,
         anchor(ctx) {
-          return "end";
+          return 'end'
         },
         align(ctx) {
-          const value = ctx.dataset.data[ctx.dataIndex];
-          const max = Math.max(...ctx.dataset.data);
-          return value / max > 0.95 ? "start" : "end";
+          const value = ctx.dataset.data[ctx.dataIndex]
+          const max = Math.max(...ctx.dataset.data)
+          return value / max > 0.95 ? 'start' : 'end'
         },
         color(ctx) {
-          const value = ctx.dataset.data[ctx.dataIndex];
-          const max = Math.max(...ctx.dataset.data);
-          return value / max > 0.95 ? "#ffffff" : getColors().text;
+          const value = ctx.dataset.data[ctx.dataIndex]
+          const max = Math.max(...ctx.dataset.data)
+          return value / max > 0.95 ? '#ffffff' : getColors().text
         },
         padding: { left: 4, right: 4 },
       },
     },
-  };
+  }
 
   // Animation
-  if (props.animate === "progressive" && props.chartType === "line") {
-    const len = data.cumulative?.length || data.data?.length || 0;
-    baseOptions.animation = getProgressiveAnimation(len);
-    baseOptions.interaction = { intersect: false };
-  } else if (props.animate === "none") {
-    baseOptions.animation = false;
+  if (props.animate === 'progressive' && props.chartType === 'line') {
+    const len = data.cumulative?.length || data.data?.length || 0
+    baseOptions.animation = getProgressiveAnimation(len)
+    baseOptions.interaction = { intersect: false }
+  } else if (props.animate === 'none') {
+    baseOptions.animation = false
   } else {
-    baseOptions.animation = { duration: 1000, easing: "easeInOutQuart" };
+    baseOptions.animation = { duration: 1000, easing: 'easeInOutQuart' }
   }
 
   // Scales
-  if (props.chartType === "line" || props.chartType === "bar") {
+  if (props.chartType === 'line' || props.chartType === 'bar') {
     if (horizBar) {
-      baseOptions.aspectRatio = computeHorizAspectRatio(labels, mobile);
+      baseOptions.aspectRatio = computeHorizAspectRatio(labels, mobile)
       baseOptions.scales = {
         x: {
           ticks: { color: colors.text, font: { size: mobile ? 11 : 13 } },
           grid: { color: colors.grid },
         },
         y: buildHorizYAxis(colors, mobile, labels),
-      };
+      }
     } else {
       baseOptions.scales = {
         x: {
@@ -493,12 +493,12 @@ const getChartOptions = (colors, data) => {
           ticks: { color: colors.text, font: { size: mobile ? 11 : 13 } },
           grid: { color: colors.grid },
         },
-      };
+      }
     }
   }
 
   // Strip Chart.js y-axis title for horizontal bars; it is rendered as HTML instead.
-  let userOptions = props.options;
+  let userOptions = props.options
   if (horizBar && userOptions?.scales?.y?.title) {
     userOptions = {
       ...userOptions,
@@ -506,34 +506,34 @@ const getChartOptions = (colors, data) => {
         ...userOptions.scales,
         y: { ...userOptions.scales.y, title: { display: false } },
       },
-    };
+    }
   }
 
-  return merge(baseOptions, userOptions);
-};
+  return merge(baseOptions, userOptions)
+}
 
 // ─── Lifecycle ────────────────────────────────────────────────────────────────
-let resizeTimer = null;
+let resizeTimer = null
 
 const onResize = () => {
-  checkMobile();
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(createChart, 250);
-};
+  checkMobile()
+  clearTimeout(resizeTimer)
+  resizeTimer = setTimeout(createChart, 250)
+}
 
 onMounted(() => {
-  checkMobile();
-  createChart();
-  window.addEventListener("resize", onResize);
-});
+  checkMobile()
+  createChart()
+  window.addEventListener('resize', onResize)
+})
 
-watch(isDark, createChart);
+watch(isDark, createChart)
 
 onBeforeUnmount(() => {
-  chartInstance?.destroy();
-  window.removeEventListener("resize", onResize);
-  clearTimeout(resizeTimer);
-});
+  chartInstance?.destroy()
+  window.removeEventListener('resize', onResize)
+  clearTimeout(resizeTimer)
+})
 </script>
 
 <style scoped>

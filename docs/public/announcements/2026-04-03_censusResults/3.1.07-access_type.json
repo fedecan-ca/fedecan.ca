@@ -4,9 +4,5 @@
     "Mobile (Smartphone, Tablet)",
     "Desktop (PC, Laptop)"
   ],
-  "values": [
-    1,
-    413,
-    140
-  ]
+  "values": [1, 413, 140]
 }

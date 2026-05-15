@@ -1,60 +1,46 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import { useSidebar } from "vitepress/theme";
-import { useRoute } from "vitepress";
+import { useRoute } from 'vitepress'
 
-const { hasSidebar, isSidebarEnabled } = useSidebar();
-const route = useRoute();
-const isFrench = route.path.startsWith("/fr/");
+const route = useRoute()
+const isFrench = route.path.startsWith('/fr/')
 
 const content = {
   en: {
-    note:
-      "Federated Open Communications Canada (Fedecan) is a not-for-profit organization in Canada. Check out",
-    guides: "our guides",
-    moreInfo: "for more information.",
-    organization: "Organization",
-    donate: "Donate",
-    contact: "Contact",
-    message: "Message on Lemmy",
-    platforms: "Platforms",
-    status: "Uptime Status",
+    note: 'Federated Open Communications Canada (Fedecan) is a not-for-profit organization in Canada. Check out',
+    guides: 'our guides',
+    moreInfo: 'for more information.',
+    organization: 'Organization',
+    donate: 'Donate',
+    contact: 'Contact',
+    message: 'Message the admins',
+    platforms: 'Platforms',
+    status: 'Uptime Status',
   },
   fr: {
-    note:
-      "Federated Open Communications Canada (Fédécan) est un organisme sans but lucratif au Canada. Consultez",
-    guides: "nos guides",
+    note: 'Federated Open Communications Canada (Fédécan) est un organisme sans but lucratif au Canada. Consultez',
+    guides: 'nos guides',
     moreInfo: "pour plus d'informations.",
-    organization: "Organisation",
-    donate: "Faire un don",
-    contact: "Contact",
-    message: "Message sur Lemmy",
-    platforms: "Plateformes",
-    status: "État du système",
+    organization: 'Organisation',
+    donate: 'Faire un don',
+    contact: 'Contact',
+    message: 'Message sur Lemmy',
+    platforms: 'Plateformes',
+    status: 'État du système',
   },
-};
+}
 
-const currentContent = isFrench ? content.fr : content.en;
-const guidesLink = isFrench ? "/fr/guide/fedecan/" : "/en/guide/fedecan/";
-
-onMounted(() => {
-  requestAnimationFrame(() => {
-    document.body.offsetHeight;
-  });
-});
+const currentContent = isFrench ? content.fr : content.en
+const guidesLink = isFrench ? '/fr/guide/fedecan/' : '/en/guide/fedecan/'
 </script>
 
 <template>
-  <footer
-    class="custom-footer"
-    :class="{ 'has-sidebar': hasSidebar && isSidebarEnabled }"
-  >
-    <div class="container">
+  <div class="footer-wrapper">
+    <footer class="footer-card">
       <div class="note">
         <p>
           {{ currentContent.note }}
           <b
-            ><a :href="guidesLink" target="_blank">{{ currentContent.guides }}</a></b
+            ><a :href="guidesLink">{{ currentContent.guides }}</a></b
           >
           {{ currentContent.moreInfo }}
         </p>
@@ -109,29 +95,29 @@ onMounted(() => {
           </a>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
-.custom-footer {
-  position: relative;
-  z-index: var(--vp-z-index-footer);
-  border-top: 1px solid var(--vp-c-gutter);
-  padding: 32px 48px;
-  background-color: var(--vp-c-bg);
-}
-
-.container {
+.footer-wrapper {
+  padding: 0 24px 32px;
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: var(--vp-layout-max-width);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 20;
+}
+.footer-card {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 16px;
+  padding: 32px 40px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .note {
-  flex: 1 1 250px;
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
@@ -147,27 +133,26 @@ onMounted(() => {
 }
 
 .links {
-  flex: 1 1 650px;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
-  justify-content: space-around;
+  gap: 24px 32px;
 }
 
 .link-column {
-  flex: 0 1 auto;
-  min-width: 160px;
+  flex: 1 1 160px;
 }
 
 .link-column h3 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 12px;
+  color: var(--vp-c-text-1);
 }
 
 .link-column a {
   display: flex;
   align-items: center;
+  gap: 8px;
   margin: 8px 0;
   text-decoration: none;
   color: var(--vp-c-text-2);
@@ -179,28 +164,28 @@ onMounted(() => {
   text-decoration: underline;
 }
 
-.link-column a :deep(svg) {
-  margin-right: 8px;
-}
+@media (max-width: 768px) {
+  .footer-wrapper {
+    padding: 0 16px 24px;
+  }
 
-/* Handle sidebar */
-@media (min-width: 700px) {
-  .custom-footer.has-sidebar {
-    margin-left: var(--vp-sidebar-width);
-    max-width: calc(var(--vp-layout-max-width) - var(--vp-sidebar-width));
+  .footer-card {
+    padding: 24px;
   }
 }
 
-/* Responsive breakpoints */
-@media (max-width: 700px) {
-  .note {
-    text-align: center;
-    flex: 1 1 100%;
+@media (max-width: 639px) {
+  .footer-wrapper {
+    padding: 0 12px 20px;
+  }
+
+  .footer-card {
+    padding: 24px 20px;
   }
 
   .links {
-    flex: 1 1 100%;
-    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .link-column {
@@ -208,21 +193,7 @@ onMounted(() => {
     text-align: center;
   }
 
-  .link-column a {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 700px) {
-  .link-column {
-    flex: 1 1 calc(50% - 16px);
-    min-width: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  .link-column {
-    flex: 1 1 100%;
+  .note {
     text-align: center;
   }
 

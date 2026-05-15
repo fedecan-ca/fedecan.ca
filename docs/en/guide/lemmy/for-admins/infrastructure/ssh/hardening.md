@@ -16,7 +16,7 @@ head:
       content: https://fedecan.ca/en/guide/lemmy/for-admins/infrastructure/ssh/hardening
   - - meta
     - property: og:description # 150-160 characters
-      content:  Guides for hardening ssh for hosting.
+      content: Guides for hardening ssh for hosting.
   - - meta
     - property: article:section
       content: Security | SSH hardening
@@ -71,7 +71,7 @@ It is recommended to disable password authentication for SSH connections and use
 
 You can limit the users who are allowed to connect to the server using SSH by using the `AllowUsers` option in the `sshd_config` file. By specifying a list of users who are allowed to connect to the server, you can restrict access to only authorized users.
 
-```bash 
+```bash
 sudo nano /etc/ssh/sshd_config
 ```
 

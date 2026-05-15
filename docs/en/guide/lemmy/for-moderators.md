@@ -43,7 +43,7 @@ While support will vary on the app and interface, it is possible to include an a
 
 This is the place for a community description, rules, and other information. It is recommended to start with a short description of the community so people know what to expect.
 
-You can use **markdown** formatting to make it nicer. See the [markdown guide](./for-users/markdown.md) page for more information.
+You can use **markdown** formatting to make it nicer. See the [markdown guide](/en/guide/threadiverse/formatting-posts) page for more information.
 
 ### NSFW
 
@@ -77,15 +77,11 @@ On the default interface, you will need to wait for them to make a post or comme
 
 If your instance supports the Photon interface, you can add new moderators directly. For example, if you are a user on `lemmy.ca` and moderate the `!cats@example.com` community, you would do so on this page: `photon.lemmy.ca/c/cats@example.com/settings/team`
 
-
-
-
-
 ## Scheduled and Automated Posts
 
 There are various third party tools that can create posts for you.
 
-**Scheduling:** 
+**Scheduling:**
 
 [LemmySchedule](https://github.com/RikudouSage/LemmySchedule) is a third party tool that can schedule posts ahead of time. It supports recurring posts, incremental numbering in post titles, scheduled pin/unpin, and more. You can use it to schedule out discussion threads ahead of time.
 
@@ -95,7 +91,7 @@ There are various third party tools that can create posts for you.
 
 The commands are as follows:
 
-``` bash
+```bash
 /add {rss_url} {community}@{instance} # Add a new RSS feed
 /delete {rss_url} {community}@{instance} # Delete an existing RSS feed
 /list {community}@{instance} # List all feeds for a community

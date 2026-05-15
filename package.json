@@ -2,13 +2,17 @@
   "type": "module",
   "devDependencies": {
     "@iconify/vue": "^4.3.0",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.12.3",
+    "feed": "^5.2.1",
+    "prettier": "3.8.3",
     "vitepress": "^1.6.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lunaria:build": "lunaria build --config lunaria/lunaria.config.json",
     "lunaria:preview": "lunaria preview --config lunaria/lunaria.config.json",
     "lunaria:fedecan": "lunaria build --config lunaria/lunaria.config.json && lunaria preview --config lunaria/lunaria.config.json"

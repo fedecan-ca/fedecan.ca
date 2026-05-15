@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  text: "Announcements"
+  text: 'Announcements'
   tagline: See below for updates about the non-profit and our various platforms!
 
 head:
@@ -19,9 +19,10 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Latest announcements from Fedecan.
 ---
+
 <VpvArticleList
   format="horizontal"
   excerptLines="3"

@@ -2,7 +2,7 @@
 outline: [2, 4]
 
 # Core Content Fields
-title: "2025 Instance Census Results"
+title: '2025 Instance Census Results'
 summary: "Thank you to everyone who participated in the 2025 Fedecan Instance Census! We received around of 600 total valid responses this time around. We hope that you enjoy the results that we've put together."
 
 # Publication Fields
@@ -23,7 +23,7 @@ tags:
 
 # Featured Image
 featured_image:
-  image: "/announcements/banner/2026-04-03_censusResults.png"
+  image: '/announcements/banner/2026-04-03_censusResults.png'
 
 # Content Options
 reading_time: 15
@@ -2945,7 +2945,7 @@ Here is a word cloud containing every genre after the responses were cleaned:
 - If a response listed multiple distinct genres, they were separated into multiple entries
 - If only an artist was mentioned, the genres were extracted from Wikipedia. If artists were mentioned as examples, no further genres were added.
 
-<VpvImage :imageConfig="{image: '/announcements/2026-04-03_censusResults/4.4-music-wordcloud.png'}" enableBorder enableZoom />
+<VpvImage :imageConfig="{image: '/announcements/2026-04-03_censusResults/4.4-music-wordcloud.jpg'}" enableBorder enableZoom />
 
 The responses were processed further for the graph below. Genres with 4 or fewer entries were placed in a parent category. We recognize that many of these genres are not actually contained neatly inside one parent category, and many of them are adjacent to the indicated category at best. Please use both the word cloud above and the graph below to get an idea of how people responded.
 

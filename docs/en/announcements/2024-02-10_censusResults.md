@@ -2,8 +2,8 @@
 aside: false
 
 # Core Content Fields
-title: "2023 Instance Census Results"
-summary: "This data was originally shared on Lemmy. This page has improved visualizations that can take advantage of the website format. Thank you to everyone who took the time to fill out the census! This was an exciting year, and for a lot of users it was their first year on lemmy.ca (and the fediverse in general)."
+title: '2023 Instance Census Results'
+summary: 'This data was originally shared on Lemmy. This page has improved visualizations that can take advantage of the website format. Thank you to everyone who took the time to fill out the census! This was an exciting year, and for a lot of users it was their first year on lemmy.ca (and the fediverse in general).'
 
 # Publication Fields
 date: 2024-02-10
@@ -22,7 +22,7 @@ tags:
 
 # Featured Image
 featured_image:
-  image: "/announcements/banner/2024-02-10_censusResults.jpg"
+  image: '/announcements/banner/2024-02-10_censusResults.jpg'
 
 # Content Options
 reading_time: 15
@@ -42,7 +42,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2024-02-10_censusResults
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Results and visualizations from the 2023 instance census for our Lemmy instance.
   - - meta
     - property: article:section
@@ -55,11 +55,12 @@ head:
   authorsDataKey="enAuthors"
 />
 
-This data was [originally shared on Lemmy](https://lemmy.ca/post/15125231){target="_blank"}, and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!
+This data was [originally shared on Lemmy](https://lemmy.ca/post/15125231){target="\_blank"}, and this blog post has been backdated to match the original post date. This page has improved visualizations that can take advantage of the website format. We hope you enjoy the updated version!
 
 ::: warning Corrections
+
 - Updated the total response count to 529
-:::
+  :::
 
 Thank you to everyone who took the time to fill out the census! This was an exciting year, and for a lot of users it was their first year on [lemmy.ca](https://lemmy.ca) (and the fediverse in general).
 
@@ -194,6 +195,7 @@ wordcloud_cli --text text.txt --imagefile wordcloud.png --prefer_horizontal 1 --
 As this was an optional question with free responses and a small number of responses overall, I opted to manually clean the results and list out details from the responses. Hopefully this is still useful while also respecting the privacy of the respondents.
 
 ::: details See the full list of responses
+
 - “ADHD”
 - “anxiety”
 - “ASD/autism”
@@ -212,7 +214,7 @@ As this was an optional question with free responses and a small number of respo
 - “sensory issues”
 - “struggles with mental health”
 - “vascular Ehlers-Danlos syndrome”
-:::
+  :::
 
 <br>
 
@@ -242,6 +244,7 @@ We got a few custom responses, including ‘active duty military’, ‘disabili
 <DataWrapperChart chartId="7m42i" />
 
 ::: details View the percentage breakdown
+
 - Employed Full-time: ~70.8%
 - Employed Part-time: ~4.8%
 - Self-Employed: ~7.1%
@@ -250,7 +253,7 @@ We got a few custom responses, including ‘active duty military’, ‘disabili
 - Homemaker: ~0.4%
 - Retired: ~2.5%
 - Other: ~1.0%
-:::
+  :::
 
 <br>
 
@@ -295,11 +298,12 @@ In the future, this could be replaced with a number input field.
 
 ### **3.3: Community Requests**
 
-The question that was asked was "What community do you want to see on lemmy.ca?". Personal information was cut out and responses were split into multiple lines as appropriate. 
+The question that was asked was "What community do you want to see on lemmy.ca?". Personal information was cut out and responses were split into multiple lines as appropriate.
 
 While we will also look into these communities, you are free to (and encouraged) to look through this list and get them going 🚀
 
 ::: details See the full list of requests (77 responses)
+
 - amigurumi
 - Analog photography
 - anything urbanism, climate change, waste reduction/RE use etc related would be nice to have more activity
@@ -377,7 +381,7 @@ While we will also look into these communities, you are free to (and encouraged)
 - What is this thing
 - witchesvspatriarchy
 - worldnews
-:::
+  :::
 
 <br>
 
@@ -442,7 +446,7 @@ There were also comments about the lack of tablet apps, so if you’re an app de
 
 ### **3.9: Visitors from the Fediverse**
 
-The question that was asked was "If you primarily access lemmy.ca through different Lemmy/Kbin instance, please list it below (optional)". 
+The question that was asked was "If you primarily access lemmy.ca through different Lemmy/Kbin instance, please list it below (optional)".
 
 Thanks for stopping by 😊
 
@@ -525,7 +529,6 @@ Here is the word cloud, which unfortunately includes a bug where every entry is 
   enableZoom
 />
 
-
 See the note at the bottom on the potential for bias or misleading results. The following command was used to generate the graphic:
 
 ```bash
@@ -549,7 +552,7 @@ In addition to that, here are some other areas with questions, comments and feed
 ##### **Technical**
 
 - upgrade to 0.19 was a bit bumpy (but otherwise good)
-    - a few comments about not being able to log in since 0.19 (please try logging out and back in, it should fix it)
+  - a few comments about not being able to log in since 0.19 (please try logging out and back in, it should fix it)
 - The subscribed feed is preferred, as users may not want the experience to be Canada-focused
 - (census specific): "None" should be an option as it is different from "skip"
 - a few users didn't know about the other frontends, so we could do a better job of promoting them
@@ -562,7 +565,7 @@ In addition to that, here are some other areas with questions, comments and feed
 
 Thank you everyone and stay tuned for the next census! 🎉
 
-<br><br> 
+<br><br>
 
 ## Other Notes
 
@@ -571,17 +574,3 @@ Thank you everyone and stay tuned for the next census! 🎉
 I had trouble with the word size variability, and I used the relative scaling option to try and make the word cloud more useful and representative while still being readable. This is based on my perception of the raw data, and while I did my best to minimize bias, I may have introduced some. If you have any suggestions for how to improve this in future years, please comment below!
 
 People filled out the census with so much care and detail and these sections deserve nice visualizations. Word clouds are not good mediums for conveying information, so please keep all that in mind when looking at these results.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

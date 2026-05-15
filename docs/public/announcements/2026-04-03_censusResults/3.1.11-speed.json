@@ -1,16 +1,4 @@
 {
-  "labels": [
-    "no answer",
-    "slower",
-    "about the same",
-    "faster",
-    "Other"
-  ],
-  "values": [
-    62,
-    23,
-    299,
-    61,
-    2
-  ]
+  "labels": ["no answer", "slower", "about the same", "faster", "Other"],
+  "values": [62, 23, 299, 61, 2]
 }

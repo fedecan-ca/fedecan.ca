@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'fs'
+import path from 'path'
 
 /*
 
@@ -30,48 +30,53 @@ import path from 'path';
 
 */
 
-const SITE_DIR = 'docs';
-const SRC_DIR = '';
-const GALLERY_DIR = 'public/gallery';
+const SITE_DIR = 'docs'
+const SRC_DIR = ''
+const GALLERY_DIR = 'public/gallery'
 
-const absoluteGalleryDir = path.resolve(process.cwd(), SITE_DIR, SRC_DIR, GALLERY_DIR);
-const base = process.env.VITEPRESS_BASE || '';
+const absoluteGalleryDir = path.resolve(
+  process.cwd(),
+  SITE_DIR,
+  SRC_DIR,
+  GALLERY_DIR
+)
+const base = process.env.VITEPRESS_BASE || ''
 
 function normalizePath(path) {
-  return path.replace(/\\/g, '/');
+  return path.replace(/\\/g, '/')
 }
 
 // Removes double slashes in the path, and the /public/ prefix if it is at the start of the path, to prevent complaints from VitePress
 function cleanPath(path) {
   if (GALLERY_DIR.startsWith('public/')) {
-    path = path.replace(/^\/public\//, '/');
+    path = path.replace(/^\/public\//, '/')
   }
-  path = path.replace(/\/+/g, '/');
-  return path;
+  path = path.replace(/\/+/g, '/')
+  return path
 }
 
 export default {
   watch: [`${absoluteGalleryDir}/**/*`],
   async load() {
-    const images = [];
+    const images = []
     // console.log('Gallery loader: Starting scan of', absoluteGalleryDir);
 
     function scanDirectory(dir) {
-      const items = fs.readdirSync(dir);
-      items.forEach(item => {
-        const fullPath = path.join(dir, item);
+      const items = fs.readdirSync(dir)
+      items.forEach((item) => {
+        const fullPath = path.join(dir, item)
 
         if (fs.statSync(fullPath).isDirectory()) {
-          scanDirectory(fullPath);
+          scanDirectory(fullPath)
         } else if (/\.(jpg|jpeg|png|gif|webp)$/i.test(item)) {
-          let relativePath = path.relative(absoluteGalleryDir, fullPath);
-          relativePath = path.join(GALLERY_DIR, relativePath);
-          relativePath = `/${normalizePath(relativePath)}`;
-          relativePath = cleanPath(relativePath);
+          let relativePath = path.relative(absoluteGalleryDir, fullPath)
+          relativePath = path.join(GALLERY_DIR, relativePath)
+          relativePath = `/${normalizePath(relativePath)}`
+          relativePath = cleanPath(relativePath)
 
           // Prepend the base URL if it's defined
           if (base) {
-            relativePath = `${base}${relativePath.replace(/^\//, '')}`;
+            relativePath = `${base}${relativePath.replace(/^\//, '')}`
           }
 
           // if (images.length === 0) {
@@ -82,16 +87,16 @@ export default {
           images.push({
             path: relativePath,
             folder: cleanPath(`/${path.dirname(relativePath)}`),
-            filename: item
-          });
+            filename: item,
+          })
         }
-      });
+      })
     }
 
-    scanDirectory(absoluteGalleryDir);
+    scanDirectory(absoluteGalleryDir)
 
     // console.log('Gallery loader: Found total images:', images.length);
     // console.log('gallery_loader | images.slice(0,3):', images.slice(0, 3));
-    return images;
-  }
-};
+    return images
+  },
+}

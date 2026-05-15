@@ -13,7 +13,7 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/contact
   - - meta
-    - property: og:description  # 150-160 characters
+    - property: og:description # 150-160 characters
       content: Get in touch with Fedecan
 ---
 
@@ -21,8 +21,7 @@ head:
 
 ### Ask Questions and Discuss
 
-If you would like to discuss about our projects or have questions, we invite you to make a post in our [main community on Lemmy](https://lemmy.ca/c/main). We have many helpful members who can provide assistance and answer your questions. 
-
+If you would like to discuss about our projects or have questions, we invite you to make a post in our [main community on Lemmy](https://lemmy.ca/c/main). We have many helpful members who can provide assistance and answer your questions.
 
 ### Contact our Team
 
