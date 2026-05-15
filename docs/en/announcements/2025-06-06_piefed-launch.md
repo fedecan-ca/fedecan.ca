@@ -42,6 +42,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2025-06-06_piefed-launch
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2025-06-06_piefed-launch-light.jpg
+  - - meta
     - property: og:description # 150-160 characters
       content: Would you like some pie? We have launched a PieFed instance!
   - - meta
@@ -81,4 +84,18 @@ We have done some testing and we are learning as we go, but please bear with us 
   ]"
   :titleLines="2"
   :excerptLines="3"
+/>
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-06-06_piefed-launch'
+  ]"
 />

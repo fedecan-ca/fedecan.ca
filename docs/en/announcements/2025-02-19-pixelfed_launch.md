@@ -42,6 +42,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2025-02-19-pixelfed_launch
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2025_02_19-pixelfed_launch.png
+  - - meta
     - property: og:description # 150-160 characters
       content: We are excited to announce pixelfed.ca, a new Pixelfed instance run by Canadians and hosted in Canada
   - - meta
@@ -90,4 +93,18 @@ Welcome! 🍁
   ]"
   :titleLines="2"
   :excerptLines="3"
+/>
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-02-19-pixelfed_launch'
+  ]"
 />

@@ -1,3 +1,8 @@
+---
+next:
+  text: 'Overview for Admins on Lemmy'
+---
+
 # Lemmy: Guides for Moderators
 
 <WorkInProgress 

@@ -43,6 +43,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2026-04-03_censusResults
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/announcements/banner/2026-04-03_censusResults.png
+  - - meta
     - property: og:description # 150-160 characters
       content: Results and visualizations from the 2025 Fedecan Instance Census
   - - meta
@@ -3235,3 +3238,17 @@ We identified a few issues with Formbricks, which will hopefully be fixed by nex
 - Instability and performance issues with the survey creator caused us to lose work a few times. They have since added an auto-save feature in v4.6.0
 - It was not possible to import and export surveys between instances, which is a required feature if we are going to be collaborating with other Fediverse organizations on this project. We got around this issue by investigating the Formbricks endpoints and creating a custom script to modify the file that is exported via. the API, before importing it back in successfully. This script can also be found on our GitHub.
 - Immediately after launching the census, we were notified by a user that clicking on external links will open the page in the same window, voiding any progress that the user made. We made all links unclickable for the duration of the census.
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2026-04-03_censusResults'
+  ]"
+/>

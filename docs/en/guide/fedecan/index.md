@@ -3,8 +3,8 @@ prev:
   text: 'What is the Fediverse?'
   link: '/en/guide/get-started'
 next:
-  text: 'Lemmy'
-  link: '/en/guide/lemmy/overview'
+  text: 'Our Platforms'
+  link: '/en/guide/fedecan/our-platforms'
 ---
 
 # Fedecan

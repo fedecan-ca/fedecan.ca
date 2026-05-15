@@ -43,6 +43,9 @@ head:
     - property: og:url
       content: https://fedecan.ca/en/announcements/2025-01-18_update-finances-new-server
   - - meta
+    - property: og:image
+      content: https://fedecan.ca/img/social-share.png
+  - - meta
     - property: og:description # 150-160 characters
       content: Hello everyone, we’re long overdue for an update on how things have been going!
   - - meta
@@ -122,4 +125,18 @@ Let me know if you have any questions or comments, or feedback on the architectu
   ]"
   :titleLines="2"
   :excerptLines="3"
+/>
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-01-18_update-finances-new-server'
+  ]"
 />

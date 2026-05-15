@@ -1,3 +1,8 @@
+---
+prev:
+  text: 'Threadiverse Overview'
+---
+
 # Threadiverse Detailed Overview
 
 This page goes into more details that aren't required to be able to casually use the Threadiverse. However, it can be helpful for those who are curious.

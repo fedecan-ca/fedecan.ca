@@ -1,7 +1,9 @@
 ---
 layout: doc
+prev:
+  text: 'Who we are'
+  link: '/en/guide/fedecan/'
 next: false
-prev: false
 ---
 
 # Credits
