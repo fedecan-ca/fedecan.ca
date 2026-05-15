@@ -94,3 +94,17 @@ Welcome! 🍁
   :titleLines="2"
   :excerptLines="3"
 />
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-02-19-pixelfed_launch'
+  ]"
+/>

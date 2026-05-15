@@ -295,3 +295,17 @@ As always, feel free to reach out if you have any questions or ideas. Thanks for
   :titleLines="2"
   :excerptLines="3"
 />
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-07-05_fedecan_update'
+  ]"
+/>

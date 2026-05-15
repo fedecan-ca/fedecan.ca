@@ -126,3 +126,17 @@ Let me know if you have any questions or comments, or feedback on the architectu
   :titleLines="2"
   :excerptLines="3"
 />
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-01-18_update-finances-new-server'
+  ]"
+/>

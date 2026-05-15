@@ -93,3 +93,17 @@ We want to help build a better online experience for everyone, and that requires
 Thank you for everything so far, and we look forward to seeing you around! 🥳
 
 The Fedecan Team
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-07-05_fedecan_update'
+  ]"
+/>

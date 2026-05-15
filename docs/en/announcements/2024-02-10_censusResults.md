@@ -577,3 +577,18 @@ Thank you everyone and stay tuned for the next census! 🎉
 I had trouble with the word size variability, and I used the relative scaling option to try and make the word cloud more useful and representative while still being readable. This is based on my perception of the raw data, and while I did my best to minimize bias, I may have introduced some. If you have any suggestions for how to improve this in future years, please comment below!
 
 People filled out the census with so much care and detail and these sections deserve nice visualizations. Word clouds are not good mediums for conveying information, so please keep all that in mind when looking at these results.
+:::
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-07-05_fedecan_update'
+  ]"
+/>

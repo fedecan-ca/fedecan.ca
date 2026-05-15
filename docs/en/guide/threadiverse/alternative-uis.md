@@ -1,6 +1,9 @@
 ---
 layout: doc
 
+prev:
+  text: 'Threadiverse Detailed Overview'
+
 head:
   - - meta
     - property: og:type

@@ -1,5 +1,6 @@
 ---
-layout: doc
+next:
+  text: 'Threadiverse Overview'
 
 head:
   - - meta

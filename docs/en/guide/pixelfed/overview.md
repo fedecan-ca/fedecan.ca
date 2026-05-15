@@ -1,5 +1,8 @@
 ---
-layout: doc
+prev:
+  text: 'Our Platforms'
+  link: '/en/guide/fedecan/our-platforms'
+next: false
 ---
 
 # Pixelfed Guides

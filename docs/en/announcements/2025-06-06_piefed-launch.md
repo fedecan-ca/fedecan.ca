@@ -85,3 +85,17 @@ We have done some testing and we are learning as we go, but please bear with us 
   :titleLines="2"
   :excerptLines="3"
 />
+
+## Read another recent announcement
+
+<VpvArticleList
+  :renderDrafts="false"
+  :maxCards=2
+  format="vertical"
+  sortOrder="descending"
+  postsDataKey="enPostsData"
+  authorsDataKey="enAuthors"
+  :excludeURLs="[
+    '/en/announcements/2025-06-06_piefed-launch'
+  ]"
+/>

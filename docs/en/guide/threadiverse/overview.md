@@ -1,3 +1,10 @@
+---
+prev:
+  text: 'Fedecan F.A.Q.'
+next:
+  text: 'Threadiverse Detailed Overview'
+---
+
 # Threadiverse
 
 The "Threadiverse" is a collection of social media platforms that follow a forum format, similar to platforms like Reddit or Hacker News. You can share and discuss links, text, and images, and use upvotes/downvotes to decide on what content rises to the top.
@@ -82,7 +89,7 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
   title="Finding Communities"
   excerpt="Some tips and links that can help you find communities that you might like."
   image="/guide/threadiverse/detailed-overview/fediverse.png"
-  url="/en/guide/lemmy/for-users/how-to-find-communities"
+  url="/en/guide/threadiverse/finding-communities"
   :hideCategory="true"
   :hideAuthor="true"
 />
@@ -90,7 +97,7 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
   title="Mobile Apps"
   excerpt="Around 85% of our users access Lemmy on mobile. See this page for info on mobile apps."
   image="/img/screenshots/promo-mobile.png"
-  url="/en/guide/lemmy/for-users/mobile-apps"
+  url="/en/guide/threadiverse/apps"
   :hideCategory="true"
   :hideAuthor="true"
 />
@@ -98,7 +105,7 @@ If you think of any other questions, you can ask them in either the `NewToLemmy@
   title="Alternative UIs"
   excerpt="Don't like how Lemmy looks? There are a variety of different themes and interfaces that you can switch to."
   image="/img/screenshots/desktop/lemmy-photon-dark.png"
-  url="/en/guide/lemmy/for-users/alternative-uis"
+  url="/en/guide/threadiverse/alternative-uis"
   :hideCategory="true"
   :hideAuthor="true"
 />

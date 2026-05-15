@@ -1,5 +1,8 @@
 ---
 aside: false
+
+next:
+  text: 'Overview for Moderators on Lemmy'
 ---
 
 # Privacy on Lemmy
