@@ -36,15 +36,19 @@ head:
 
 Don't like how the website looks? There are a variety of different themes and interfaces that you can switch to. These "alternative UIs" are built by the community and give the platform a whole new look and feel!
 
-::: info Worried about your personal data?
+**Worried about your personal data?**
 
 Some providers go a step further and run the alternative UIs themselves. This way you only have to trust the provider you made an account with, and not the developers of each alternative UI.
 
 For example, we run alternative UIs for `lemmy.ca` on pages such as `photon.lemmy.ca`, or `old.lemmy.ca`. You can check them out by using the links below.
 
+::: warning 💡 Check project maintenance status
+
+Each UI below includes a "Last Commit" badge. If a project hasn't been updated in many months, it may be unmaintained. Unmaintained UIs may not work correctly with current Lemmy/Piefed versions, and may have unresolved security vulnerabilities.
+
 :::
 
-::: tip 💡 TIP: See the screenshots in both light and dark mode
+::: info 💡 See the screenshots in both light and dark mode
 
 You can toggle the site theme in order to see the screenshots in both light and dark mode. Flip the toggle in the top right area of this website.
 
@@ -90,6 +94,27 @@ This is what you will see by default when you access [piefed.ca](https://piefed.
   <img src="https://img.shields.io/gitea/last-commit/rimu/pyfedi?gitea_url=https://codeberg.org&style=flat-square" alt="Last commit to rimu/pyfedi">
 </div>
 
+## Alexandrite
+
+Alexandrite is a highly customizable Lemmy client with a variety of layout options and customizable theme hues.
+
+Alexandrite supports **Lemmy** only. You can try it out on our instance at [alex.lemmy.ca](https://alex.lemmy.ca).
+
+<VpvImage
+  :imageConfig="{
+    image: '/img/screenshots/desktop/lemmy-alexandrite-light.jpg',
+    image_dark: '/img/screenshots/desktop/lemmy-alexandrite-dark.jpg',
+    alt: 'Screenshot of the Alexandrite alternative UI.',
+    description: 'Screenshot of the Alexandrite alternative UI.'
+  }"
+  enableZoom
+/>
+
+<div class="badge-container">
+  <a href="https://github.com/sheodox/alexandrite"><img src="https://img.shields.io/badge/Source-github.com/sheodox/alexandrite-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
+  <img src="https://img.shields.io/github/last-commit/sheodox/alexandrite?style=flat-square" alt="Last Commit">
+</div>
+
 ## Blorp
 
 While Blorp is newer than some of the other alternative UIs on this page, it has seen rapid development and packs many features. You can download app versions on iOS, Android, and macOS.
@@ -110,6 +135,27 @@ Blorp was built to support BOTH **Lemmy** and **Piefed** instances. You can try 
 <div class="badge-container">
   <a href="https://github.com/Blorp-Labs/blorp"><img src="https://img.shields.io/badge/Source-github.com/Blorp--Labs/blorp-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
   <img src="https://img.shields.io/github/last-commit/Blorp-Labs/blorp?style=flat-square" alt="Last Commit">
+</div>
+
+## Mlymym
+
+Mlymym is a retro UI for Lemmy, which was designed to be reminiscent of old Reddit. It is best used on a desktop, and is not recommended for mobile users.
+
+Mlymym supports **Lemmy** only. You can try it out on our instance at [old.lemmy.ca](https://old.lemmy.ca).
+
+<VpvImage
+  :imageConfig="{
+    image: '/img/screenshots/desktop/lemmy-old-light.png',
+    image_dark: '/img/screenshots/desktop/lemmy-old-dark.png',
+    alt: 'Screenshot of the Mlymym alternative UI.',
+    description: 'Screenshot of the Mlymym alternative UI.'
+  }"
+  enableZoom
+/>
+
+<div class="badge-container">
+  <a href="https://github.com/rystaf/mlmym"><img src="https://img.shields.io/badge/Source-github.com/rystaf/mlmym-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
+  <img src="https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square" alt="Last Commit">
 </div>
 
 ## Photon
@@ -134,88 +180,7 @@ Photon supports BOTH **Lemmy** and **Piefed** instances. You can try it out on o
   <img src="https://img.shields.io/github/last-commit/Xyphyn/photon?style=flat-square" alt="Last Commit">
 </div>
 
-## Voyager
-
-Voyager is a mobile-first web client. It boasts gestures, iOS and Android based themes, and lots of customizations. You can also download an app version on both iOS and Android.
-
-Voyager supports BOTH **Lemmy** and **Piefed** instances. You can try it out on our instances at [voyager.lemmy.ca](https://voyager.lemmy.ca) or [voyager.piefed.ca](https://voyager.piefed.ca).
-
-<VpvImage
-  :imageConfig="{
-    image: '/img/screenshots/promo-voyager.webp',
-    alt: 'Promo for the Voyager client',
-    description: 'Promo for the Voyager client (source: github.com/aeharding/voyager)'
-  }"
-  enableZoom
-  enableBorder
-/>
-
-<div class="badge-container">
-  <a href="https://github.com/aeharding/voyager"><img src="https://img.shields.io/badge/Source-github.com/aeharding/voyager-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
-  <img src="https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square" alt="Last Commit">
-</div>
-
-## Alexandrite
-
-::: warning ⚠️ This project may not be actively maintained.
-
-While we have kept this entry in the guide, an unmaintained project may not work as expected, and may have unresolved security vulnerabilities.
-
-:::
-
-Alexandrite is a highly customizable Lemmy client with a variety of layout options and customizable theme hues.
-
-Alexandrite supports **Lemmy** only. You can try it out on our instance at [alex.lemmy.ca](https://alex.lemmy.ca).
-
-<VpvImage
-  :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-alexandrite-light.jpg',
-    image_dark: '/img/screenshots/desktop/lemmy-alexandrite-dark.jpg',
-    alt: 'Screenshot of the Alexandrite alternative UI.',
-    description: 'Screenshot of the Alexandrite alternative UI.'
-  }"
-  enableZoom
-/>
-
-<div class="badge-container">
-  <a href="https://github.com/sheodox/alexandrite"><img src="https://img.shields.io/badge/Source-github.com/sheodox/alexandrite-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
-  <img src="https://img.shields.io/github/last-commit/sheodox/alexandrite?style=flat-square" alt="Last Commit">
-</div>
-
-## Mlymym
-
-::: warning ⚠️ This project may not be actively maintained.
-
-While we have kept this entry in the guide, an unmaintained project may not work as expected, and may have unresolved security vulnerabilities.
-
-:::
-
-Mlymym is a retro UI for Lemmy, which was designed to be reminiscent of old Reddit. It is best used on a desktop, and is not recommended for mobile users.
-
-Mlymym supports **Lemmy** only. You can try it out on our instance at [old.lemmy.ca](https://old.lemmy.ca).
-
-<VpvImage
-  :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-old-light.png',
-    image_dark: '/img/screenshots/desktop/lemmy-old-dark.png',
-    alt: 'Screenshot of the Mlymym alternative UI.',
-    description: 'Screenshot of the Mlymym alternative UI.'
-  }"
-  enableZoom
-/>
-
-<div class="badge-container">
-  <a href="https://github.com/rystaf/mlmym"><img src="https://img.shields.io/badge/Source-github.com/rystaf/mlmym-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
-  <img src="https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square" alt="Last Commit">
-</div>
-
 ## Tesseract
-
-::: warning ⚠️ This project may not be actively maintained.
-
-While we have kept this entry in the guide, an unmaintained project may not work as expected, and may have unresolved security vulnerabilities.
-
-:::
 
 Tesseract was designed to be a client for Lemmy and Sublinks. It boasts media support in the feed and in posts for common sources (ex. Tidal, Loops, Peertube, Spotify, YouTube, etc.), tools for community discovery, and more.
 
@@ -235,6 +200,27 @@ Tesseract supports **Lemmy** only. You can try it out on our instance at [tess.l
 <div class="badge-container">
   <a href="https://github.com/asimons04/tesseract"><img src="https://img.shields.io/badge/Source-github.com/asimons04/tesseract-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
   <img src="https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square" alt="Last Commit">
+</div>
+
+## Voyager
+
+Voyager is a mobile-first web client. It boasts gestures, iOS and Android based themes, and lots of customizations. You can also download an app version on both iOS and Android.
+
+Voyager supports BOTH **Lemmy** and **Piefed** instances. You can try it out on our instances at [voyager.lemmy.ca](https://voyager.lemmy.ca) or [voyager.piefed.ca](https://voyager.piefed.ca).
+
+<VpvImage
+  :imageConfig="{
+    image: '/img/screenshots/promo-voyager.webp',
+    alt: 'Promo for the Voyager client',
+    description: 'Promo for the Voyager client (source: github.com/aeharding/voyager)'
+  }"
+  enableZoom
+  enableBorder
+/>
+
+<div class="badge-container">
+  <a href="https://github.com/aeharding/voyager"><img src="https://img.shields.io/badge/Source-github.com/aeharding/voyager-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
+  <img src="https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square" alt="Last Commit">
 </div>
 
 <style>
