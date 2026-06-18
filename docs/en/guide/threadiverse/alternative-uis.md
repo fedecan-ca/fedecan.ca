@@ -54,6 +54,145 @@ You can toggle the site theme in order to see the screenshots in both light and 
 
 :::
 
+## Summary
+
+<VpvTableJSON
+  :sortable="true"
+  defaultSortField="name"
+  :jsonDataProp="alternativeUIsSummary"
+  :columns="[
+    {
+      key: 'name',
+      title: 'UI',
+      format: 'text'
+    },
+    {
+      key: 'source',
+      title: 'Source',
+      format: 'link',
+      options: {
+        externalIcon: 'mdi:open-in-new',
+        externalHoverText: 'View source code'
+      }
+    },
+    {
+      key: 'lemmy',
+      title: 'Lemmy',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'ic:twotone-check-circle',
+          'basic': 'mdi:circle-slice-4',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Good support',
+          'basic': 'Basic support',
+          'none': 'Not supported'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'piefed',
+      title: 'PieFed',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'ic:twotone-check-circle',
+          'basic': 'mdi:circle-slice-4',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Good support',
+          'basic': 'Basic support',
+          'none': 'Not supported'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'desktop',
+      title: 'Desktop',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'mdi:monitor',
+          'basic': 'mdi:monitor',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Works well on desktop',
+          'basic': 'Usable on desktop',
+          'none': 'Not recommended on desktop'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'mobile',
+      title: 'Mobile',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'mdi:cellphone',
+          'basic': 'mdi:cellphone',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Works well on mobile',
+          'basic': 'Usable on mobile',
+          'none': 'Not recommended on mobile'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    // {
+    //   key: 'lastCommit',
+    //   title: 'Last Commit',
+    //   format: 'image',
+    //   options: {
+    //     width: 'auto',
+    //     height: '20px'
+    //   }
+    // },
+    // {
+    //   key: 'license',
+    //   title: 'License',
+    //   format: 'tags',
+    //   options: {
+    //     tagColors: {
+    //       'AGPL-3.0': '#9E9E9E'
+    //     }
+    //   }
+    // }
+  ]"
+/>
+
 ## Default UI (Lemmy)
 
 This is what you will see by default when you access [lemmy.ca](https://lemmy.ca) or [sh.itjust.works](https://sh.itjust.works). This is the official UI built by the main developers of Lemmy, and so it is generally the most stable and reliable UI available.
@@ -222,6 +361,91 @@ Voyager supports BOTH **Lemmy** and **Piefed** instances. You can try it out on 
   <a href="https://github.com/aeharding/voyager"><img src="https://img.shields.io/badge/Source-github.com/aeharding/voyager-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
   <img src="https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square" alt="Last Commit">
 </div>
+
+<script setup>
+const alternativeUIsSummary = [
+  {
+    name: 'Alexandrite',
+    source: 'https://github.com/sheodox/alexandrite',
+    lemmy: 'full',
+    piefed: 'none',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/sheodox/alexandrite?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Blorp',
+    source: 'https://github.com/Blorp-Labs/blorp',
+    lemmy: 'full',
+    piefed: 'full',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/Blorp-Labs/blorp?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Default (Lemmy)',
+    source: 'https://github.com/LemmyNet/lemmy-ui',
+    lemmy: 'full',
+    piefed: 'none',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/LemmyNet/lemmy-ui?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Default (PieFed)',
+    source: 'https://codeberg.org/rimu/pyfedi',
+    lemmy: 'none',
+    piefed: 'full',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/gitea/last-commit/rimu/pyfedi?gitea_url=https://codeberg.org&style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Mlymym',
+    source: 'https://github.com/rystaf/mlmym',
+    lemmy: 'full',
+    piefed: 'none',
+    desktop: 'basic',
+    mobile: 'none',
+    lastCommit: 'https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Photon',
+    source: 'https://github.com/Xyphyn/photon',
+    lemmy: 'full',
+    piefed: 'full',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/Xyphyn/photon?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Tesseract',
+    source: 'https://github.com/asimons04/tesseract',
+    lemmy: 'full',
+    piefed: 'none',
+    desktop: 'full',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+  {
+    name: 'Voyager',
+    source: 'https://github.com/aeharding/voyager',
+    lemmy: 'full',
+    piefed: 'full',
+    desktop: 'basic',
+    mobile: 'full',
+    lastCommit: 'https://img.shields.io/github/last-commit/aeharding/voyager?style=flat-square',
+    license: ['AGPL-3.0']
+  },
+]
+</script>
 
 <style>
 
