@@ -34,8 +34,8 @@ The third tier provides **optional** template rules that community moderators ca
 
 <VpvImage 
   :imageConfig="{ 
-    image: 'guidelines-tiers-light.png',
-    image_dark: 'guidelines-tiers-dark.png'
+    image: '/guidelines/guidelines-tiers-light.png',
+    image_dark: '/guidelines/guidelines-tiers-dark.png'
   }"
   enableZoom
 />
