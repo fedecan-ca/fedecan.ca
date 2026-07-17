@@ -9,9 +9,9 @@ export const en = defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/en/' },
-      { text: 'Guides & Resources', link: '/en/guide/get-started' },
+      { text: 'Guides', link: '/en/guide/get-started' },
       { text: 'Announcements', link: '/en/announcements' },
+      { text: 'Guidelines', link: '/en/guidelines' },
       { text: 'Contact', link: '/en/contact' },
       { text: '❤️ Donate', link: '/en/donate' },
     ],
@@ -177,6 +177,59 @@ export const en = defineConfig({
               ],
             },
           ],
+        },
+      ],
+      '/en/guidelines/': [
+        {
+          text: 'Fedecan Guidelines',
+          link: '/en/guidelines/',
+        },
+        {
+          text: 'Tier 1: Fedecan Rules',
+          items: [
+            {
+              text: 'Internal Conduct',
+              link: '/en/guidelines/1-internal-conduct',
+            },
+            {
+              text: 'Universal Rules',
+              link: '/en/guidelines/1-universal-rules',
+            },
+          ],
+        },
+        {
+          text: 'Tier 2: Platform-Specific',
+          items: [
+            {
+              text: 'lemmy.ca',
+              link: '/en/guidelines/2-lemmy-ca',
+            },
+            {
+              text: 'piefed.ca',
+              link: '/en/guidelines/2-piefed-ca',
+            },
+            {
+              text: 'pixelfed.ca',
+              link: '/en/guidelines/2-pixelfed-ca',
+            },
+            {
+              text: 'sh.itjust.works',
+              link: '/en/guidelines/2-sh-itjust-works',
+            },
+          ],
+        },
+        {
+          text: 'Tier 3: Community Templates',
+          items: [
+            {
+              text: 'Post Title Standards',
+              link: '/en/guidelines/3-post-title-standards',
+            },
+          ],
+        },
+        {
+          text: 'Changelog',
+          link: '/en/guidelines/changelog',
         },
       ],
     },
