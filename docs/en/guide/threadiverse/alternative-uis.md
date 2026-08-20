@@ -292,9 +292,27 @@ Mlymym supports **Lemmy** only. You can try it out on our instance at [old.lemmy
   enableZoom
 />
 
+**Note for anyone that is looking for the code:**
+
+The original mlymym project became unmaintained a while back. Since then, other people have forked the project to add new features and fixes. You can find the well known forks below, along with the last commit dates.
+
+<div class="badge-group">
+
+<div class="badge-container">
+  <a href="https://code.mschae23.de/mschae23/mlmym"><img src="https://img.shields.io/badge/Source-code.mschae23.de/mschae23/mlmym-blue?style=flat-square&logo=codeberg" alt="Source code on Gitea"></a>
+  <img src="https://img.shields.io/gitea/last-commit/mschae23/mlmym?gitea_url=https://code.mschae23.de&style=flat-square" alt="Last Commit">
+</div>
+
+<div class="badge-container">
+  <a href="https://github.com/fedihosting-foundation-forks/mlmym"><img src="https://img.shields.io/badge/Source-github.com/fedihosting--foundation--forks/mlmym-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
+  <img src="https://img.shields.io/github/last-commit/fedihosting-foundation-forks/mlmym?style=flat-square" alt="Last Commit">
+</div>
+
 <div class="badge-container">
   <a href="https://github.com/rystaf/mlmym"><img src="https://img.shields.io/badge/Source-github.com/rystaf/mlmym-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
   <img src="https://img.shields.io/github/last-commit/rystaf/mlmym?style=flat-square" alt="Last Commit">
+</div>
+
 </div>
 
 ## Photon
@@ -321,25 +339,7 @@ Photon supports BOTH **Lemmy** and **Piefed** instances. You can try it out on o
 
 ## Tesseract
 
-Tesseract was designed to be a client for Lemmy and Sublinks. It boasts media support in the feed and in posts for common sources (ex. Tidal, Loops, Peertube, Spotify, YouTube, etc.), tools for community discovery, and more.
-
-Tesseract supports **Lemmy** only. You can try it out on our instance at [tess.lemmy.ca](https://tess.lemmy.ca).
-
-<VpvImage
-  :imageConfig="{
-    image: '/img/screenshots/desktop/lemmy-tesseract-light.jpg',
-    image_dark: '/img/screenshots/desktop/lemmy-tesseract-dark.jpg',
-    alt: 'Screenshot of the Tesseract alternative UI.',
-    description: 'Screenshot of the Tesseract alternative UI.'
-  }"
-  enableZoom
-  enableBorder
-/>
-
-<div class="badge-container">
-  <a href="https://github.com/asimons04/tesseract"><img src="https://img.shields.io/badge/Source-github.com/asimons04/tesseract-blue?style=flat-square&logo=github" alt="Source code on GitHub"></a>
-  <img src="https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square" alt="Last Commit">
-</div>
+Tesseract was a client for Lemmy and Sublinks. The project was shut down by the maintainers, and it has been removed from this page as a result.
 
 ## Voyager
 
@@ -448,6 +448,18 @@ const alternativeUIsSummary = [
 </script>
 
 <style>
+
+.badge-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.badge-group .badge-container {
+  justify-content: flex-start;
+}
 
 .badge-container {
   display: flex;
