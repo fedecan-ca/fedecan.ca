@@ -424,16 +424,16 @@ const alternativeUIsSummary = [
     lastCommit: 'https://img.shields.io/github/last-commit/Xyphyn/photon?style=flat-square',
     license: ['AGPL-3.0']
   },
-  {
-    name: 'Tesseract',
-    source: 'https://github.com/asimons04/tesseract',
-    lemmy: 'full',
-    piefed: 'none',
-    desktop: 'full',
-    mobile: 'full',
-    lastCommit: 'https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square',
-    license: ['AGPL-3.0']
-  },
+  // {
+  //   name: 'Tesseract',
+  //   source: 'https://github.com/asimons04/tesseract',
+  //   lemmy: 'full',
+  //   piefed: 'none',
+  //   desktop: 'full',
+  //   mobile: 'full',
+  //   lastCommit: 'https://img.shields.io/github/last-commit/asimons04/tesseract?style=flat-square',
+  //   license: ['AGPL-3.0']
+  // },
   {
     name: 'Voyager',
     source: 'https://github.com/aeharding/voyager',
