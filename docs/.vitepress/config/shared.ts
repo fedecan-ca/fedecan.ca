@@ -52,7 +52,7 @@ export const shared = defineConfig({
     // ],
   ],
   transformPageData(pageData) {
-    const canonicalUrl = `https://fedecan.ca${pageData.relativePath}`
+    const canonicalUrl = `https://fedecan.ca/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '')
 

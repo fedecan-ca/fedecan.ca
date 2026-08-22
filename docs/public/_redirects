@@ -1,14 +1,83 @@
-/en/guide/lemmy/for-users/alternative-uis    /en/guide/threadiverse/alternative-uis    301
-/en/guide/lemmy/for-users                    /en/guide/threadiverse/overview           301
-/en/guide/piefed/overview                    /en/guide/threadiverse/overview           301
-/en/guide/lemmy/for-users/how-to-block       /en/guide/threadiverse/how-to-block       301
-/en/guide/lemmy/for-users/how-to-handle-inappropriate-content    /en/guide/threadiverse/how-to-deal-with-inappropriate-content    301
-/en/guide/lemmy/for-users/privacy-security   /en/guide/threadiverse/privacy-lemmy      301
-/en/guide/lemmy/for-users/how-to-find-communities    /en/guide/threadiverse/finding-communities   301
-/en/guide/lemmy/for-users/how-to-open-in-my-instance /en/guide/threadiverse/how-to-open-in-my-instance   301
-/en/guide/lemmy/for-users/mobile-apps         /en/guide/threadiverse/apps              301
-/en/guide/lemmy/for-users/markdown            /en/guide/threadiverse/formatting-posts  301
+# --- 2026-08: crawl artifacts ---
+/en/guide/lemmy/for-users/how-to-find-communities]         /en/guide/threadiverse/finding-communities              301
 
-/*  /fr/*  302  Language=fr
-/*  /en/*  302  Language=en
-/     /en/  302
+# --- 2026-05: lemmy -> threadiverse restructure ---
+/en/guide/lemmy/for-users/alternative-uis                  /en/guide/threadiverse/alternative-uis                  301
+/en/guide/lemmy/for-users                                  /en/guide/threadiverse/overview                         301
+/en/guide/lemmy/for-users/how-to-block                     /en/guide/threadiverse/how-to-block                     301
+/en/guide/lemmy/for-users/how-to-find-communities          /en/guide/threadiverse/finding-communities              301
+/en/guide/lemmy/for-users/how-to-handle-inappropriate-content    /en/guide/threadiverse/how-to-deal-with-inappropriate-content    301
+/en/guide/lemmy/for-users/how-to-open-in-my-instance       /en/guide/threadiverse/how-to-open-in-my-instance        301
+/en/guide/lemmy/for-users/markdown                         /en/guide/threadiverse/formatting-posts                 301
+/en/guide/lemmy/for-users/mobile-apps                      /en/guide/threadiverse/apps                             301
+/en/guide/lemmy/for-users/privacy-security                 /en/guide/threadiverse/privacy-lemmy                    301
+/en/guide/lemmy/for-users/detailed-overview                /en/guide/threadiverse/detailed-overview                301
+/en/guide/lemmy/markdown                                   /en/guide/threadiverse/formatting-posts                 301
+/en/guide/lemmy/overview                                   /en/guide/threadiverse/overview                         301
+/en/guide/lemmy/for-developers                             /en/guide/lemmy/automation                              301
+/en/guide/piefed/overview                                  /en/guide/threadiverse/overview                         301
+
+# --- pre-i18n roots -> English ---
+/contact                                                   /en/contact                                             301
+/donate                                                    /en/donate                                              301
+/donate-private                                            /en/donate-private                                      301
+/guide/get-started                                         /en/guide/get-started                                   301
+/guide/fedecan/faq                                         /en/guide/fedecan/faq                                   301
+/en/guide/                                                 /en/guide/get-started                                   301
+/fr/guide/                                                 /en/guide/get-started                                   301
+/en/canadian                                               /en/guide/threadiverse/finding-communities             301
+
+# --- French -> English equivalents, to be removed as pages are translated ---
+/fr/announcements/2025-06-06_piefed-launch                 /en/announcements/2025-06-06_piefed-launch               301
+/fr/announcements/2025-07-05_fedecan_update                /en/announcements/2025-07-05_fedecan_update              301
+/fr/announcements/2026-05-01_lemmyvision-2025              /en/announcements/2026-05-01_lemmyvision-2025            301
+/fr/announcements/2024-02-10_censusResults                 /en/announcements/2024-02-10_censusResults               301
+/fr/announcements/2024-04-08_incorporated                  /en/announcements/2024-04-08_incorporated                301
+/fr/announcements/2024-04-08_lemmyvision-2024              /en/announcements/2024-04-08_lemmyvision-2024            301
+/fr/announcements/2024-07-15_canvas-2024                   /en/announcements/2024-07-15_canvas-2024                 301
+/fr/announcements/2025-01-18_update-finances-new-server    /en/announcements/2025-01-18_update-finances-new-server  301
+/fr/announcements/2025-02-19-pixelfed_launch               /en/announcements/2025-02-19-pixelfed_launch             301
+/fr/announcements/2025-04-10_lemmyvision-2025              /en/announcements/2025-04-10_lemmyvision-2025            301
+/fr/announcements/2026-04-03_censusResults                 /en/announcements/2026-04-03_censusResults               301
+/fr/guidelines/                                            /en/guidelines/                                          301
+/fr/guidelines/1-internal-conduct                          /en/guidelines/1-internal-conduct                        301
+/fr/guidelines/1-universal-rules                           /en/guidelines/1-universal-rules                         301
+/fr/guidelines/2-lemmy-ca                                  /en/guidelines/2-lemmy-ca                                301
+/fr/guidelines/2-piefed-ca                                 /en/guidelines/2-piefed-ca                               301
+/fr/guidelines/2-pixelfed-ca                              /en/guidelines/2-pixelfed-ca                             301
+/fr/guidelines/2-sh-itjust-works                           /en/guidelines/2-sh-itjust-works                         301
+/fr/guidelines/3-post-title-standards                      /en/guidelines/3-post-title-standards                    301
+/fr/guidelines/changelog                                   /en/guidelines/changelog                                 301
+/fr/guide/credits                                          /en/guide/credits                                        301
+/fr/guide/data/lemmy/comments                              /en/guide/data/lemmy/comments                            301
+/fr/guide/data/lemmy/communities                           /en/guide/data/lemmy/communities                         301
+/fr/guide/data/lemmy/instances                             /en/guide/data/lemmy/instances                           301
+/fr/guide/data/lemmy/posts                                 /en/guide/data/lemmy/posts                               301
+/fr/guide/data/lemmy/users                                 /en/guide/data/lemmy/users                               301
+/fr/guide/fedecan/                                         /en/guide/fedecan/                                       301
+/fr/guide/fedecan/faq                                      /en/guide/fedecan/faq                                    301
+/fr/guide/fedecan/our-platforms                            /en/guide/fedecan/our-platforms                          301
+/fr/guide/lemmy/automation                                 /en/guide/lemmy/automation                               301
+/fr/guide/lemmy/for-admins/                                /en/guide/lemmy/for-admins/                              301
+/fr/guide/lemmy/for-admins/infrastructure/firewall         /en/guide/lemmy/for-admins/infrastructure/firewall       301
+/fr/guide/lemmy/for-admins/infrastructure/security         /en/guide/lemmy/for-admins/infrastructure/security       301
+/fr/guide/lemmy/for-admins/infrastructure/ssh/configuring  /en/guide/lemmy/for-admins/infrastructure/ssh/configuring  301
+/fr/guide/lemmy/for-admins/infrastructure/ssh/hardening    /en/guide/lemmy/for-admins/infrastructure/ssh/hardening  301
+/fr/guide/lemmy/for-admins/infrastructure/ssh/overview     /en/guide/lemmy/for-admins/infrastructure/ssh/overview   301
+/fr/guide/lemmy/for-moderators                             /en/guide/lemmy/for-moderators                           301
+/fr/guide/lemmy/for-users                                  /en/guide/threadiverse/overview                          301
+/fr/guide/lemmy/for-users/how-to-handle-inappropriate-content    /en/guide/threadiverse/how-to-deal-with-inappropriate-content    301
+/fr/guide/pixelfed/overview                                /en/guide/pixelfed/overview                              301
+/fr/guide/threadiverse/alternative-uis                     /en/guide/threadiverse/alternative-uis                   301
+/fr/guide/threadiverse/apps                                /en/guide/threadiverse/apps                              301
+/fr/guide/threadiverse/detailed-overview                   /en/guide/threadiverse/detailed-overview                 301
+/fr/guide/threadiverse/finding-communities                 /en/guide/threadiverse/finding-communities               301
+/fr/guide/threadiverse/formatting-posts                    /en/guide/threadiverse/formatting-posts                  301
+/fr/guide/threadiverse/how-to-block                        /en/guide/threadiverse/how-to-block                      301
+/fr/guide/threadiverse/how-to-deal-with-inappropriate-content    /en/guide/threadiverse/how-to-deal-with-inappropriate-content    301
+/fr/guide/threadiverse/how-to-open-in-my-instance          /en/guide/threadiverse/how-to-open-in-my-instance        301
+/fr/guide/threadiverse/overview                            /en/guide/threadiverse/overview                          301
+/fr/guide/threadiverse/privacy-lemmy                       /en/guide/threadiverse/privacy-lemmy                     301
+
+# --- root fallback ---
+/                                                          /en/                                                     302
