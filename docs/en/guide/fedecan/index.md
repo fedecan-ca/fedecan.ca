@@ -58,4 +58,4 @@ If you are interested in supporting this work, check out our [donation page](../
 
 ## Still have questions or feedback?
 
-You can ask us publicly on our [main community on Lemmy](https://lemmy.ca/c/main), or send us an email at [support@fedecan.org](mailto:support@fedecan.org).
+You can ask us publicly on our [main community on Lemmy](https://lemmy.ca/c/main), or send us an email at [support@fedecan.ca](mailto:support@fedecan.ca).

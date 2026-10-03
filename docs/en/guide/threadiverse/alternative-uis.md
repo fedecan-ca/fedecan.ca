@@ -276,31 +276,36 @@ Blorp was built to support BOTH **Lemmy** and **Piefed** instances. You can try 
   <img src="https://img.shields.io/github/last-commit/Blorp-Labs/blorp?style=flat-square" alt="Last Commit">
 </div>
 
-## Mlymym
+## Mlmym
 
-Mlymym is a retro UI for Lemmy, which was designed to be reminiscent of old Reddit. It is best used on a desktop, and is not recommended for mobile users.
+Mlmym is a retro UI for Lemmy, which was designed to be reminiscent of old Reddit. It is best used on a desktop, and is not recommended for mobile users.
 
-Mlymym supports **Lemmy** only. You can try it out on our instance at [old.lemmy.ca](https://old.lemmy.ca).
+Mlmym supports **Lemmy** only. You can try it out on our instance at [old.lemmy.ca](https://old.lemmy.ca).
 
 <VpvImage
   :imageConfig="{
     image: '/img/screenshots/desktop/lemmy-old-light.png',
     image_dark: '/img/screenshots/desktop/lemmy-old-dark.png',
-    alt: 'Screenshot of the Mlymym alternative UI.',
-    description: 'Screenshot of the Mlymym alternative UI.'
+    alt: 'Screenshot of the Mlmym alternative UI.',
+    description: 'Screenshot of the Mlmym alternative UI.'
   }"
   enableZoom
 />
 
 **Note for anyone that is looking for the code:**
 
-The original mlymym project became unmaintained a while back. Since then, other people have forked the project to add new features and fixes. You can find the well known forks below, along with the last commit dates.
+The original Mlmym project became unmaintained a while back. Since then, other people have forked the project to add new features and fixes. You can find the well known forks below, along with the last commit dates.
 
 <div class="badge-group">
 
 <div class="badge-container">
-  <a href="https://code.mschae23.de/mschae23/mlmym"><img src="https://img.shields.io/badge/Source-code.mschae23.de/mschae23/mlmym-blue?style=flat-square&logo=codeberg" alt="Source code on Gitea"></a>
+  <a href="https://code.mschae23.de/mschae23/mlmym"><img src="https://img.shields.io/badge/Source-code.mschae23.de/mschae23/mlmym-blue?style=flat-square&logo=forgejo" alt="Source code on Forgejo"></a>
   <img src="https://img.shields.io/gitea/last-commit/mschae23/mlmym?gitea_url=https://code.mschae23.de&style=flat-square" alt="Last Commit">
+</div>
+
+<div class="badge-container">
+  <a href="https://git.dotzip.ltd/demigodrick/mlmym"><img src="https://img.shields.io/badge/Source-git.dotzip.ltd/demigodrick/mlmym-blue?style=flat-square&logo=forgejo" alt="Source code on Forgejo"></a>
+  <img src="https://img.shields.io/gitea/last-commit/demigodrick/mlmym?gitea_url=https://git.dotzip.ltd&style=flat-square" alt="Last Commit">
 </div>
 
 <div class="badge-container">
@@ -405,7 +410,7 @@ const alternativeUIsSummary = [
     license: ['AGPL-3.0']
   },
   {
-    name: 'Mlymym',
+    name: 'Mlmym',
     source: 'https://github.com/rystaf/mlmym',
     lemmy: 'full',
     piefed: 'none',
