@@ -1,11 +1,5 @@
 # Mobile Apps
 
-::: danger 🛠️ Help Needed
-
-The Piefed section of this guide page is incomplete. If you are familiar with Piefed, please consider contributing to this guide page.
-
-:::
-
 According to our recent surveys ([instance census 2023](/en/announcements/2024-02-10_censusResults) and [instance census 2025](/en/announcements/2026-04-03_censusResults)), the **vast majority** of users access the Threadiverse from a mobile app or mobile web browser.
 
 Thankfully, there are a wide variety of mobile apps out there that you can use. Since the platforms encourage a healthy ecosystem of third party apps and tools, there are many different options for you to choose from.
@@ -26,6 +20,85 @@ To compare the different apps available, you can check out the website below. It
 </VpvContainerVertical>
 
 You can also see another version of this list on [join-lemmy.org/apps](https://join-lemmy.org/apps). If you want to learn about new apps or updates over time, you can subscribe to the [!lemmyapps@lemmy.world](https://lemmy.ca/c/lemmyapps@lemmy.world) community.
+
+### Apps for a PieFed Instance
+
+To compare the different apps available and a broad idea of the extent of the PieFed support, you can check out the table below. All of the apps that support PieFed also support Lemmy, though the reverse is not necessarily true.
+
+<VpvTableJSON
+  :sortable="true"
+  defaultSortField="name"
+  :jsonDataProp="piefedAppSummary"
+  :columns="[
+    {
+      key: 'name',
+      title: 'App Name',
+      format: 'text'
+    },
+    {
+      key: 'platforms',
+      title: 'Platform(s)',
+      format: 'text'
+    },
+    {
+      key: 'source',
+      title: 'Source',
+      format: 'link',
+      options: {
+        externalIcon: 'mdi:open-in-new',
+        externalHoverText: 'View source code'
+      }
+    },
+    {
+      key: 'browsing',
+      title: 'General Browsing',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'ic:twotone-check-circle',
+          'basic': 'mdi:circle-slice-4',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Good support',
+          'basic': 'Basic support',
+          'none': 'Not supported'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    },
+    {
+      key: 'moderating',
+      title: 'Moderation Tools',
+      format: 'icon',
+      options: {
+        iconMap: {
+          'full': 'ic:twotone-check-circle',
+          'basic': 'mdi:circle-slice-4',
+          'none': 'mdi:circle-outline'
+        },
+        iconColorMap: {
+          'full': '#4CAF50',
+          'basic': '#FF9800',
+          'none': '#9E9E9E'
+        },
+        hoverTextMap: {
+          'full': 'Good support',
+          'basic': 'Basic support',
+          'none': 'Not supported'
+        },
+        width: '1.6em',
+        height: '1.6em'
+      }
+    }
+  ]"
+/>
 
 ## Which App Should I Use?
 
@@ -54,3 +127,57 @@ If you are on a Lemmy instance, a good place to start is to go on [lemmyapps.com
 
 If you want to be able to open any Threadiverse link in your app of choice, you can set up deep linking. Check out the [zachable/MastodonRedirect](https://github.com/zacharee/MastodonRedirect) repository on GitHub for more information.
 :::
+
+<script setup>
+const piefedAppSummary = [
+  {
+    name: 'Blorp',
+    platforms: 'iOS, Android, MacOS, Web',
+    source: 'https://github.com/Blorp-Labs/blorp',
+    browsing: 'full',
+    moderating: 'basic'
+  },
+  {
+    name: 'Boost',
+    platforms: 'Android',
+    source: '',
+    browsing: 'full',
+    moderating: 'full'
+  },
+  {
+    name: 'Interstellar',
+    platforms: 'Android, Linux, Windows',
+    source: 'https://github.com/interstellar-app/interstellar',
+    browsing: 'full',
+    moderating: 'full'
+  },
+  {
+    name: 'Mlem',
+    platforms: 'iOS',
+    source: 'https://github.com/mlemgroup/mlem',
+    browsing: 'full',
+    moderating: 'full'
+  },
+  {
+    name: 'Summit',
+    platforms: 'Android',
+    source: 'https://github.com/idunnololz/summit',
+    browsing: 'full',
+    moderating: 'basic'
+  },
+  {
+    name: 'Thunder',
+    platforms: 'iOS, Android',
+    source: 'https://github.com/thunder-app/thunder',
+    browsing: 'full',
+    moderating: 'basic'
+  },
+  {
+    name: 'Voyager',
+    platforms: 'iOS, Android, Linux, Web',
+    source: 'https://github.com/aeharding/voyager',
+    browsing: 'full',
+    moderating: 'full'
+  }
+]
+</script>

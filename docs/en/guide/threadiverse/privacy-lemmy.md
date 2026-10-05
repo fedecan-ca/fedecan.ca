@@ -2,7 +2,7 @@
 aside: false
 
 next:
-  text: 'Overview for Moderators on Lemmy'
+  text: 'Privacy on PieFed'
 ---
 
 # Privacy on Lemmy

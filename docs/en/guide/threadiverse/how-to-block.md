@@ -39,6 +39,41 @@ You can still see posts from blocked users if you go to a post over a direct lin
 
 :::
 
+### PieFed
+
+To block a user on PieFed, you can do it one of three ways. The first is very similar to how it is done on Lemmy; navigate to the user's profile page, select the "More" dropdown to the right of the username, and select the Block option.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-user-profile-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-user-profile-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+Another way to block a user is to open the three dot menu on a post or comment that user has made and select the Block option.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-user-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-user-post-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+The final way is to navigate to your user settings by clicking the gear in the upper right and selecting the Blocks & Filters tab. Then, scrolling down, you can manage all your blocks in one place, users being one of the tabs there. You can both add and remove blocks from this page.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-user-settings-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-user-settings-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
+
 ## Blocking a community
 
 ### Lemmy
@@ -60,6 +95,30 @@ To block a community on Lemmy, open the community page and select the "Block com
 When you block a community, you will no longer see their posts or comments. Even if you are going to a user's profile page, you will not see their posts or comments if they are from a blocked community. You will also not be able to see the community.
 
 :::
+
+### PieFed
+
+Similar to blocking users in PieFed, there are two ways to block a community. First is that you can open the three dot menu on a post in your timeline and choose the appropriate Block option.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-community-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-community-post-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+The second option is to add a block from your user settings on the Blocks & Filters tab. Select the Communities tab in the Blocks section and then add and/or remove blocks as you wish.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-community-settings-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-community-settings-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
 
 ## Blocking an instance
 
@@ -88,6 +147,30 @@ When you block an instance, you will no longer see their posts or comments. You 
 You can not block your own instance.
 
 :::
+
+### PieFed
+
+Similar to blocking communities in PieFed, there are two ways to block an instance. First is that you can open the three dot menu on a post in your timeline and choose the appropriate Block option.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-instance-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-instance-post-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+The second option is to add a block from your user settings on the Blocks & Filters tab. Select the Instances tab in the Blocks section and then add and/or remove blocks as you wish.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-block-instance-settings-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-block-instance-settings-dark.png'
+    }"
+    enableZoom
+    enableBorder
+  />
 
 ## Hide single posts
 
@@ -139,6 +222,47 @@ When the toggle is set to this other option, it will display all posts including
       image: '/guide/threadiverse/how-to-block/show-hidden-true-light.png',
       image_dark: '/guide/threadiverse/how-to-block/show-hidden-true-dark.png',
       description: 'Display all posts, including hidden posts'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+### PieFed
+
+To hide a single post, use the three dots button on the post and select "Hide this post from me".
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-hide-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-hide-post-dark.png',
+      description: 'Hide a post on PieFed'
+    }"
+    enableZoom
+    enableBorder
+  />
+
+#### Unhiding posts
+
+To unhide a post in PieFed, expand the Account menu at the top of the screen and select "Hidden Posts" to see a feed of all the posts you have opted to hide.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-browse-hidden-posts-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-browse-hidden-posts-dark.png',
+      description: 'View your hidden posts on PieFed'
+    }"
+    width="250px"
+    enableZoom
+    enableBorder
+  />
+
+Then, you can unhide the posts using the three dots menu, this time selecting "Stop hiding this post from me"
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-block/piefed-unhide-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-block/piefed-unhide-post-dark.png',
+      description: 'Unhide a post on PieFed'
     }"
     enableZoom
     enableBorder
