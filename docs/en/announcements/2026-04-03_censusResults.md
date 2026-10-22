@@ -1288,7 +1288,7 @@ As expected, the vast majority of responses are from instances operated by us. W
     }"
 />
 
-#### 3.1.02: If you moderate any communities, how many?
+#### 3.1.03: If you moderate any communities, how many?
 
 <ChartCard
   data-url="/announcements/2026-04-03_censusResults/3.1.03-moderated.json"
@@ -1317,7 +1317,7 @@ As expected, the vast majority of responses are from instances operated by us. W
     }"
 />
 
-#### 3.1.02: What new or existing communities do you want to see more people using?
+#### 3.1.04: What new or existing communities do you want to see more people using?
 
 Below you can find responses from users that consented to their responses being shared. We have taken note of the other responses without sharing them publicly.
 
