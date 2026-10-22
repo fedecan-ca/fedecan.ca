@@ -49,7 +49,7 @@ If you are having a hard time picking, you're not alone.
 
 You are likely new to this and you don't know which provider is best for you. With so many options, you might feel like you're at an ice cream shop with way too many flavours to try.
 
-Remember, **you can always try one out, and then move when you learn about something better**! Most instances are interconnected, so you will be able to access the same communities from a variety of different .
+Remember, **you can always try one out, and then move when you learn about something better**! Most instances are interconnected, so you will be able to access the same communities from a variety of different providers.
 :::
 
 We are a provider called **Fedecan**, and we currently run **three** of these platforms, with unique features and functionality.

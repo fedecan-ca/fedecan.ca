@@ -6,7 +6,7 @@ There are 2 categories of inappropriate content that you may encounter:
 
 **Rule breaking content**
 
-- Content may break the **rules of the entire instance**. This varies, but generally includes things like hate speech, harassment, and spam. You can find the rules for your instance in the sidebar on the homepage, or by using special links such as 'Legal' at the bottom of any page.
+- Content may break the **rules of the entire instance**. This varies, but generally includes things like hate speech, harassment, and spam. You can find the rules for your instance in the sidebar on the homepage, or by using special links such as 'Legal' or 'About' at the bottom of any page.
 - Content may break the **rules of a community** that you are using. You can find the rules for a community in the sidebar on the community page.
 
 If you are unsure, you can always reach out to the moderators or admins for clarification.
@@ -51,6 +51,45 @@ It is important to add a valid Reason for the report, as this will help the mode
 
 The moderators or admins may not be able to see the whole context of the post or comment without investigating your report manually if you dont provide enough of a reason or evidence.
 :::
+
+### PieFed
+
+To report a post on PieFed, you can use the three dots menu for the post in the feed or from the post's page.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-post-light.png',
+      image_dark: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-post-dark.png',
+      description: 'Reporting a post on PieFed from the post\'s page'
+    }"
+    enableBorder
+    enableZoom
+   />
+
+Similarly, the three dots menu can be used to report a comment.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-comment-light.png',
+      image_dark: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-comment-dark.png',
+      description: 'Reporting a comment on PieFed'
+    }"
+    enableBorder
+    enableZoom
+   />
+
+When you report something, you will be presented with a form to select a reason or reasons that you are making the report. There is also a text field where you can add additional information to help the moderators and admins properly assess and deal with the content.
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-form-light.png',
+      image_dark: '/guide/threadiverse/how-to-deal-with-inappropriate-content/piefed-report-form-dark.png',
+      description: 'Add additional information to help evaluate the report'
+    }"
+    width="300px"
+    enableBorder
+    enableZoom
+   />
 
 ### Urgent Issues
 

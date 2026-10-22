@@ -81,6 +81,10 @@ export const en = defineConfig({
                   text: 'Privacy on Lemmy',
                   link: '/en/guide/threadiverse/privacy-lemmy',
                 },
+                {
+                  text: 'Privacy on PieFed',
+                  link: '/en/guide/threadiverse/privacy-piefed',
+                },
               ],
             },
             {

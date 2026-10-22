@@ -22,9 +22,9 @@ head:
       content: Guides - Lemmy Markdown
 ---
 
-# How to format posts on Lemmy using Markdown
+# How to format posts using Markdown
 
-Lemmy uses markdown-it for rendering markdown. This means that you can use the same markdown syntax that you would use on Lemmy and it follows the [CommonMark spec](https://commonmark.org/). Here are some examples of markdown that you can use on Lemmy:
+Both Lemmy and PieFed use markdown to format the content of posts (and comments). This means that you can use the same markdown syntax that is used on many different software platforms and broadly conforms to the [CommonMark spec](https://commonmark.org/). Here are some examples of markdown that you can use on Lemmy/PieFed:
 
 ## Headers
 
@@ -44,7 +44,7 @@ If you enter the following text:
 ###### Header 6
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -66,7 +66,7 @@ _italic_
 ~~strikethrough~~
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -93,7 +93,7 @@ If you enter the following text:
 3. Ordered list item 3
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -114,7 +114,7 @@ If you enter the following text:
 ![The fedecan Logo](https://fedecan.ca/img/icons/maple-leaf.svg 'Maple Leaf')
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -134,7 +134,7 @@ If you enter the following text:
 > -quote
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -158,7 +158,7 @@ def hello():
 ```
 ````
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -181,7 +181,7 @@ If you enter the following text:
 | Row 3    | Row 3    | Row 3    |
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -191,12 +191,6 @@ Lemmy will render it as:
     }"
     enableZoom
   />
-
-::: info Note
-
-Tables are not officially documented by Lemmy, but they are supported by the frontend.
-
-:::
 
 ## Horizontal Rule
 
@@ -210,7 +204,7 @@ Some text.
 Some more text.
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -231,7 +225,7 @@ Spoiler Content
 :::
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 
@@ -255,7 +249,47 @@ The user can then toggle the spoiler to show the content:
 
 ::: warning This is not supported by all apps
 
-Some apps may not support this spoiler notation. In that case, the spoiler will be rendered as a regular blockquote.
+Some apps may not support this spoiler notation. In that case, the spoiler will be rendered as a regular block of text.
+
+:::
+
+### Inline Spoilers (PieFed Only)
+
+In addition to the spoiler block above, PieFed also allows for inline spoilers without being set apart in a new block of text. This hides a piece of text until the mouse hovers over it (or is tapped on a mobile device).
+
+If you enter the following text:
+
+```markdown
+The treasure is || in the closet ||.
+
+The key is >! in the desk !<.
+```
+
+It will render as:
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/piefed-inline-spoiler-hidden-light.png',
+      image_dark: '/guide/threadiverse/markdown/piefed-inline-spoiler-hidden-dark.png',
+      description: 'Inline Spoilers (hidden)'
+    }"
+    enableZoom
+  />
+
+If the mouse hovers over an inline spoiler, then it is displayed:
+
+<VpvImage 
+    :imageConfig="{ 
+      image: '/guide/threadiverse/markdown/piefed-inline-spoiler-shown-light.png',
+      image_dark: '/guide/threadiverse/markdown/piefed-inline-spoiler-shown-dark.png',
+      description: 'Displaying an inline spoiler by hovering over it'
+    }"
+    enableZoom
+  />
+
+::: warning This is not supported by all apps
+
+Like spoiler blocks, inline spoilers are not supported by all apps. Most significantly, inline spoilers are not supported by the default web interface of Lemmy. So, inline spoilers will just display as normal text to most users on Lemmy instances.
 
 :::
 
@@ -269,7 +303,7 @@ H~2~O
 H^2^O
 ```
 
-Lemmy will render it as:
+It will render as:
 
 <VpvImage 
     :imageConfig="{ 

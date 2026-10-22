@@ -14,7 +14,9 @@ This means that you can have a more active and conscious role in finding the com
 
 ::: tip ❓ I found a community on a different instance, how do I join it?
 
-The easiest way is to open your usual instance, and search for the community in the search bar.
+If you are on a Lemmy instance, then simply paste the url of the community into the search bar.
+
+On a PieFed instance, click the "Communities" dropdown and then select "Add Remote Community".
 
 For more information or other methods, please see the guide section on [how to open something in your instance](./how-to-open-in-my-instance).
 :::
@@ -34,7 +36,7 @@ Subscribing to one of these will help you find out about more communities over t
 
 ## 2) Lemmyverse.net Search Engine
 
-If you already know what you are looking for, you can search for it with [lemmyverse.net](https://lemmyverse.net/communities).
+If you already know what you are looking for, you can search for it with [lemmyverse.net](https://lemmyverse.net/communities). Make sure to use the dropdown in the upper left to also check for communities that might be on a PieFed or Mbin instance. A community on any of these platforms can be used by users of any of the other platforms.
 
 ::: tip 🏠 Set your Home Instance First
 
